@@ -61,7 +61,7 @@
     - name: Azure API Management compute platform
       url: "https://learn.microsoft.com/ja-jp/azure/api-management/compute-infrastructure"
 
-- description: API Management サービスで運用ワークロードの自動スケーリングを有効にするEnable auto-scale for production workloads on API Management services
+- description: API Management サービスで運用ワークロードの自動スケーリングを有効にする
   aprlGuid: c79680ea-de85-44fa-a596-f31fa17a952f
   recommendationTypeId: null
   recommendationControl: High Availability
