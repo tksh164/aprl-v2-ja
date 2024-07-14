@@ -1,4 +1,4 @@
-- description: Configure Diagnostic Settings for all network security groups
+- description: すべてのネットワーク セキュリティ グループの診断設定を構成する
   aprlGuid: d2976d3e-294b-4b49-a1f0-c42566a3758f
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
   longDescription: |
-    Resource Logs are not collected and stored until you create a diagnostic setting and route them to one or more locations.
+    リソース ログは、診断設定を作成して 1 つ以上の場所にルーティングするまで収集および保存されません。
   potentialBenefits: Enhanced monitoring and security insights
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Diagnostic settings in Azure Monitor
       url: "https://learn.microsoft.com/azure/azure-monitor/essentials/diagnostic-settings"
 
-- description: Monitor changes in Network Security Groups with Azure Monitor
+- description: Azure Monitor を使用してネットワーク セキュリティ グループの変更を監視する
   aprlGuid: 8bb4a57b-55e4-d24e-9c19-2679d8bc779f
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
   longDescription: |
-    Create Alerts with Azure Monitor for operations like creating or updating Network Security Group rules to catch unauthorized/undesired changes to resources and spot attempts to bypass firewalls or access resources from the outside.
+    Azure Monitor を使用して、ネットワーク セキュリティ グループ ルールの作成や更新などの操作に対してアラートを作成し、リソースに対する承認されていない変更や望ましくない変更をキャッチし、ファイアウォールのバイパスや外部からのリソースへのアクセスの試行を特定します。
   potentialBenefits: Enhanced security and change monitoring
   pgVerified: true
   publishedToLearn: false
@@ -36,7 +36,7 @@
     - name: Azure Monitor activity log
       url: "https://learn.microsoft.com/azure/azure-monitor/essentials/activity-log?tabs=powershell"
 
-- description: Configure locks for Network Security Groups to avoid accidental changes and/or deletion
+- description: ネットワーク セキュリティ グループのロックを構成して、偶発的な変更や削除を防止します
   aprlGuid: 52ac35e8-9c3e-f84d-8ce8-2fab955333d3
   recommendationTypeId: null
   recommendationControl: Governance
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
   longDescription: |
-    As an administrator, you can lock an Azure subscription, resource group, or resource to protect them from accidental deletions and modifications. The lock overrides user permissions. Locks can prevent either deletions or modifications and are known as Delete and Read-only in the portal.
+    管理者は、Azure サブスクリプション、リソース グループ、またはリソースをロックして、誤って削除や変更されないように保護できます。ロックは、ユーザーのアクセス許可よりも優先されます。ロックは、削除または変更を防ぐことができ、ポータルでは 削除 と 読み取り専用 と呼ばれます。
   potentialBenefits: Prevents accidental edits/deletions
   pgVerified: true
   publishedToLearn: false
@@ -55,7 +55,7 @@
     - name: Lock your resources to protect your infrastructure
       url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?toc=%2Fazure%2Fvirtual-network%2Ftoc.json&tabs=json"
 
-- description: Configure NSG Flow Logs
+- description: NSG フロー ログの構成
   aprlGuid: da1a3c06-d1d5-a940-9a99-fcc05966fe7c
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
   longDescription: |
-    Monitoring, managing, and understanding your network is crucial for protection and optimization. Knowing the current state, who and from where connections are made, open internet ports, expected and irregular behavior, and traffic spikes is essential.
+    ネットワークを監視、管理、および理解することは、保護と最適化に不可欠です。現在の状態、接続先と接続先、開いているインターネット ポート、予想される動作と不規則な動作、トラフィックの急増を把握することが不可欠です。
   potentialBenefits: Enhances security and optimizes network
   pgVerified: true
   publishedToLearn: false
@@ -74,7 +74,7 @@
     - name: Flow logging for network security groups
       url: "https://learn.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview"
 
-- description: The NSG only has Default Security Rules, make sure to configure the necessary rules
+- description: NSG には既定のセキュリティ規則しかないため、必要な規則を構成してください
   aprlGuid: 8291c1fa-650c-b44b-b008-4deb7465919d
   recommendationTypeId: null
   recommendationControl: Security
@@ -82,7 +82,7 @@
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
   longDescription: |
-    Azure network security groups filter network traffic between resources in a virtual network, using security rules to allow or deny inbound or outbound traffic based on source, destination, port, and protocol.
+    Azure ネットワーク セキュリティ グループは、セキュリティ規則を使用して、送信元、宛先、ポート、プロトコルに基づいて受信トラフィックまたは送信トラフィックを許可または拒否し、仮想ネットワーク内のリソース間のネットワーク トラフィックをフィルター処理します。
   potentialBenefits: Enhanced traffic control and security
   pgVerified: true
   publishedToLearn: false

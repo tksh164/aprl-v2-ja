@@ -1,4 +1,4 @@
-- description: Deploy AKS cluster across availability zones
+- description: 可用性ゾーン間で AKS クラスターをデプロイする
   aprlGuid: 4f63619f-5001-439c-bacb-8de891287727
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Azure Availability Zones ensure high availability by offering independent locations within regions, equipped with their own power, cooling, and networking to ensure applications and data are protected from datacenter-level failures.
+    Azure Availability Zones は、アプリケーションとデータをデータセンター レベルの障害から確実に保護するために、独自の電源、冷却手段、ネットワークを備えたリージョン内の独立した場所を提供することで、高可用性を確保します。
   potentialBenefits: Enhanced fault tolerance for AKS
   pgVerified: true
   publishedToLearn: false
@@ -15,11 +15,11 @@
   tags: null
   learnMoreLink:
     - name: AKS Availability Zones
-      url: "https://learn.microsoft.com/en-us/azure/aks/availability-zones"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/availability-zones"
     - name: Zone Balancing
-      url: "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones#zone-balancing"
+      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones#zone-balancing"
 
-- description: Isolate system and application pods
+- description: システムポッドとアプリケーションポッドの分離
   aprlGuid: 5ee083cd-6ac3-4a83-8913-9549dd36cf56
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -27,7 +27,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    AKS assigns the kubernetes.azure.com/mode: system label to nodes in system node pools signaling the preference for system pods should be scheduled there. The CriticalAddonsOnly=true:NoSchedule taint can be added to your system nodes to prohibit application pods from being scheduled on them.
+    AKS は、システム ノード プール内のノードに kubernetes.azure.com/mode: システム ラベルを割り当て、システム ポッドの優先設定をそこでスケジュールする必要があることを示します。CriticalAddonsOnly=true:NoSchedule テイントをシステムノードに追加して、アプリケーションポッドのスケジュールを禁止できます。
   potentialBenefits: Enhanced reliability via pod isolation
   pgVerified: false
   publishedToLearn: false
@@ -36,9 +36,9 @@
   tags: null
   learnMoreLink:
     - name: System and user node pools
-      url: "https://learn.microsoft.com/en-us/azure/aks/use-system-pools?tabs=azure-cli#system-and-user-node-pools"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/use-system-pools?tabs=azure-cli#system-and-user-node-pools"
 
-- description: Disable local accounts
+- description: ローカルアカウントを無効にする
   aprlGuid: ca324d71-54b0-4a3e-b9e4-10e767daa9fc
   recommendationTypeId: null
   recommendationControl: Security
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Local Kubernetes accounts in AKS, being non-auditable and legacy, are discouraged. Microsoft Entra's integration offers centralized management, multi-factor authentication, RBAC for detailed access, and a secure, scalable authentication system compatible with Azure and external identity providers.
+    AKS のローカル Kubernetes アカウントは、監査不可能でレガシであるため、推奨されません。Microsoft Entraの統合により、一元管理、多要素認証、詳細なアクセスのためのRBAC、Azureおよび外部IDプロバイダーと互換性のある安全でスケーラブルな認証システムが提供されます。
   potentialBenefits: Enhanced security and access control
   pgVerified: false
   publishedToLearn: false
@@ -55,13 +55,13 @@
   tags: null
   learnMoreLink:
     - name: Entra integration
-      url: "https://learn.microsoft.com/en-us/azure/aks/concepts-identity#azure-ad-integration"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/concepts-identity#azure-ad-integration"
     - name: Use Azure role-based access control for AKS
-      url: "https://learn.microsoft.com/en-us/azure/aks/manage-azure-rbac?source=recommendations"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/manage-azure-rbac?source=recommendations"
     - name: Manage AKS local accounts
-      url: "https://learn.microsoft.com/en-us/azure/aks/manage-local-accounts-managed-azure-ad?source=recommendations"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/manage-local-accounts-managed-azure-ad?source=recommendations"
 
-- description: Configure Azure CNI networking for dynamic allocation of IPs
+- description: IP の動的割り当てのための Azure CNI ネットワークの構成
   aprlGuid: c22db132-399b-4e7c-995d-577a60881be8
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -69,7 +69,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Azure CNI enhances cluster IP and network management, allowing dynamic IP allocation, scalable subnets, direct pod-VNET connectivity, and supports diverse network policies for pods and nodes with Azure Network Policies and Calico, optimizing network efficiency and security
+    Azure CNI は、クラスター IP とネットワークの管理を強化し、動的 IP 割り当て、スケーラブルなサブネット、ポッドと VNET の直接接続を可能にし、Azure ネットワーク ポリシーと Calico を使用してポッドとノードの多様なネットワーク ポリシーをサポートし、ネットワークの効率とセキュリティを最適化します
   potentialBenefits: Dynamic IP allocation, scalable subnets, direct VNET access
   pgVerified: false
   publishedToLearn: false
@@ -78,11 +78,11 @@
   tags: null
   learnMoreLink:
     - name: Configure Azure CNI networking
-      url: "https://learn.microsoft.com/en-us/azure/aks/configure-azure-cni-dynamic-ip-allocation"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/configure-azure-cni-dynamic-ip-allocation"
     - name: Configure Azure CNI Overlay networking
-      url: "https://learn.microsoft.com/en-us/azure/aks/azure-cni-overlay"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/azure-cni-overlay"
 
-- description: Enable the cluster auto-scaler on an existing cluster
+- description: 既存のクラスターでクラスター オートスケーラーを有効にする
   aprlGuid: 902c82ff-4910-4b61-942d-0d6ef7f39b67
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -90,7 +90,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    The cluster auto-scaler in AKS adjusts node counts based on pod resource needs and available capacity, enabling scaling as per demand to prevent outages.
+    AKS のクラスター自動スケーラーは、ポッド リソースのニーズと使用可能な容量に基づいてノード数を調整し、需要に応じてスケーリングして停止を防ぎます。
   potentialBenefits: Optimizes scaling and prevents outages
   pgVerified: true
   publishedToLearn: false
@@ -107,7 +107,7 @@
     - name: Best practices for basic scheduler features
       url: "https://learn.microsoft.com/azure/aks/operator-best-practices-scheduler"
 
-- description: Back up Azure Kubernetes Service
+- description: Azure Kubernetes Service のバックアップ
   aprlGuid: 269a9f1a-6675-460a-831e-b05a887a8c4b
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -115,7 +115,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    AKS, popular for stateful apps needing backups, can now use Azure Backup to secure clusters and attached volumes through an installed Backup Extension, enabling backup and restore operations via a Backup Vault.
+    バックアップを必要とするステートフル アプリで人気のある AKS は、Azure Backup を使用して、インストールされたバックアップ拡張機能を介してクラスターとアタッチされたボリュームをセキュリティで保護し、バックアップ コンテナーを介したバックアップと復元の操作を可能にするようになりました。
   potentialBenefits: Ensures data safety for AKS
   pgVerified: true
   publishedToLearn: false
@@ -124,11 +124,11 @@
   tags: null
   learnMoreLink:
     - name: AKS Backups
-      url: "https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-cluster-backup"
+      url: "https://learn.microsoft.com/ja-jp/azure/backup/azure-kubernetes-service-cluster-backup"
     - name: Best Practices for AKS Backups
-      url: "https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-storage"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/operator-best-practices-storage"
 
-- description: Use zone-redundant storage for persistent volumes when running multi-zone AKS
+- description: マルチゾーン AKS を実行するときに永続ボリュームにゾーン冗長ストレージを使用する
   aprlGuid: d3111036-355d-431b-ab49-8ddad042800b
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -136,7 +136,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    ZRS ensures data replication across three zones, protecting against zonal outages. It's available for Azure Disks, Container Storage, Files, and Blob by setting the SKU to ZRS in storage classes, enhancing multi-zone AKS clusters from v1.29.
+    ZRS は、3 つのゾーン間でのデータ レプリケーションを保証し、ゾーンの停止から保護します。ストレージ クラスで SKU を ZRS に設定することで、Azure Disks、Container Storage、Files、Blob で使用でき、v1.29 からマルチゾーン AKS クラスターが強化されます。
   potentialBenefits: Increases data durability and availability
   pgVerified: true
   publishedToLearn: false
@@ -155,7 +155,7 @@
     - name: Enable multi-zone storage redundancy in Azure Container Storage
       url: "https://learn.microsoft.com/azure/storage/container-storage/enable-multi-zone-redundancy"
 
-- description: Upgrade Persistent Volumes using in-tree drivers to Azure CSI drivers
+- description: ツリー内ドライバーを使用した永続ボリュームを Azure CSI ドライバーにアップグレードする
   aprlGuid: b002c030-72e6-4a37-8217-1cb276c43169
   recommendationTypeId: null
   recommendationControl: Governance
@@ -163,7 +163,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    From Kubernetes 1.26, Azure Disk and Azure File in-tree drivers are deprecated in favor of CSI drivers. Existing deployments remain operational but untested; users should switch to CSI drivers for new features and SKUs.
+    Kubernetes 1.26 以降、Azure Disk と Azure File のツリー内ドライバーは非推奨となり、CSI ドライバーが優先されます。既存の展開は引き続き運用可能ですが、テストは行われていません。ユーザーは、新機能と SKU のために CSI ドライバーに切り替える必要があります。
   potentialBenefits: Ensures future compatibility
   pgVerified: true
   publishedToLearn: false
@@ -176,7 +176,7 @@
     - name: CSI Migrate in Tree Volumes
       url: "https://learn.microsoft.com/azure/aks/csi-migrate-in-tree-volumes"
 
-- description: Implement Resource Quota to ensure that Kubernetes resources do not exceed hard resource limits
+- description: リソースクォータを実装して、Kubernetesリソースがハードリソース制限を超えないようにします
   aprlGuid: 9a1c17e5-c9a0-43db-b920-adaf54d1bcb7
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -184,7 +184,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    A ResourceQuota object sets limits on resource use per namespace, controlling the number and type of objects created, and the total compute resources available.
+    ResourceQuota オブジェクトは、名前空間ごとのリソース使用の制限を設定し、作成されるオブジェクトの数と種類、および使用可能なコンピューティング リソースの合計を制御します。
   potentialBenefits: Limits AKS resource usage per namespace
   pgVerified: false
   publishedToLearn: false
@@ -195,7 +195,7 @@
     - name: Resource Quotas
       url: "https://kubernetes.io/docs/concepts/policy/resource-quotas/"
 
-- description: Attach Virtual Nodes (ACI) to the AKS cluster
+- description: 仮想ノード (ACI) を AKS クラスターに接続する
   aprlGuid: b4639ca7-6308-429a-8b98-92f0bf9bf813
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -203,7 +203,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    To rapidly scale AKS workloads, utilize virtual nodes for quick pod provisioning, unlike Kubernetes auto-scaler. For clusters with availability zones, ensure one nodepool per AZ due to persistent volumes not working across AZs, preventing auto-scaler pod creation failures if lacking access.
+    AKS ワークロードを迅速にスケーリングするには、Kubernetes Auto-scaler とは異なり、ポッドのプロビジョニングを迅速に行うために仮想ノードを利用します。アベイラビリティーゾーンを持つクラスターの場合は、永続ボリュームが AZ 間で機能しないため、AZ ごとに 1 つのノードプールを確保し、アクセス権がない場合に自動スケーラーポッドの作成に失敗するのを防ぎます。
   potentialBenefits: Faster scaling with virtual nodes
   pgVerified: false
   publishedToLearn: false
@@ -216,7 +216,7 @@
     - name: Azure Container Instances
       url: "https://learn.microsoft.com/azure/container-instances/container-instances-overview"
 
-- description: Update AKS tier to Standard
+- description: AKS レベルを Standard に更新する
   aprlGuid: 0611251f-e70f-4243-8ddd-cfe894bec2e7
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -224,7 +224,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Production AKS clusters require the Standard tier for a financially backed SLA and enhanced node scalability, as the free service lacks these features.
+    運用 AKS クラスターでは、無料サービスにはこれらの機能がないため、返金制度のある SLA と強化されたノードのスケーラビリティのために Standard レベルが必要です。
   potentialBenefits: SLA guarantee and better scalability
   pgVerified: true
   publishedToLearn: false
@@ -233,11 +233,11 @@
   tags: null
   learnMoreLink:
     - name: Pricing Tiers
-      url: "https://learn.microsoft.com/en-us/azure/aks/free-standard-pricing-tiers"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/free-standard-pricing-tiers"
     - name: AKS Baseline Architecture
-      url: "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#kubernetes-api-server-sla"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/reference-architectures/containers/aks/baseline-aks?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#kubernetes-api-server-sla"
 
-- description: Enable AKS Monitoring
+- description: AKS 監視を有効にする
   aprlGuid: dcaf8128-94bd-4d53-9235-3a0371df6b74
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -245,7 +245,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Azure Monitor enables real-time health and performance insights for AKS by collecting events, capturing container logs, and gathering CPU/Memory data from the Metrics API. It allows data visualization using Azure Monitor Container Insights, Prometheus, Grafana, or others.
+    Azure Monitor を使用すると、イベントの収集、コンテナー ログのキャプチャ、Metrics API からの CPU/メモリ データの収集により、AKS の正常性とパフォーマンスに関するリアルタイムの分析情報が得られます。これにより、Azure Monitor Container Insights、Prometheus、Grafana などを使用してデータを視覚化できます。
   potentialBenefits: Real-time AKS health/performance insights
   pgVerified: true
   publishedToLearn: false
@@ -256,7 +256,7 @@
     - name: Monitor AKS
       url: "https://learn.microsoft.com/azure/aks/monitor-aks"
 
-- description: Use Ephemeral OS disks on AKS clusters
+- description: AKS クラスターでエフェメラル OS ディスクを使用する
   aprlGuid: a7bfcc18-b0d8-4d37-81f3-8131ed8bead5
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -264,7 +264,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Ephemeral OS disks on AKS offer lower read/write latency due to local attachment, eliminating the need for replication seen with managed disks. This enhances performance and speeds up cluster operations such as scaling or upgrading due to quicker re-imaging and boot times.
+    AKS 上のエフェメラル OS ディスクでは、ローカル接続による読み取り/書き込みの待機時間が短くなり、マネージド ディスクで見られるレプリケーションが不要になります。これにより、パフォーマンスが向上し、再イメージ化と起動時間が短縮されるため、スケーリングやアップグレードなどのクラスター操作が高速化されます。
   potentialBenefits: Lower latency, faster re-imaging and booting
   pgVerified: true
   publishedToLearn: false
@@ -279,7 +279,7 @@
     - name: Everything you want to know about ephemeral OS disks and AKS
       url: "https://learn.microsoft.com/samples/azure-samples/aks-ephemeral-os-disk/aks-ephemeral-os-disk/"
 
-- description: Enable and remediate Azure Policies configured for AKS
+- description: AKS 用に構成された Azure ポリシーを有効にして修復する
   aprlGuid: 26ebaf1f-c70d-4ebd-8641-4b60a0ce0094
   recommendationTypeId: null
   recommendationControl: Governance
@@ -287,7 +287,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Azure Policies in AKS clusters help enforce governance best practices concerning security, authentication, provisioning, networking, and more, ensuring a robust and secure environment for operations.
+    AKS クラスターの Azure ポリシーは、セキュリティ、認証、プロビジョニング、ネットワークなどに関するガバナンスのベスト プラクティスを適用し、運用のための堅牢で安全な環境を確保するのに役立ちます。
   potentialBenefits: Enhanced AKS governance and security
   pgVerified: false
   publishedToLearn: false
@@ -296,11 +296,11 @@
   tags: null
   learnMoreLink:
     - name: AKS Baseline - Policy Management
-      url: "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#policy-management"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/reference-architectures/containers/aks/baseline-aks?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Faks%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#policy-management"
     - name: Built-in Policy Definitions for AKS
-      url: "https://learn.microsoft.com/en-us/azure/aks/policy-reference"
+      url: "https://learn.microsoft.com/ja-jp/azure/aks/policy-reference"
 
-- description: Enable GitOps when using DevOps frameworks
+- description: DevOps フレームワークの使用時に GitOps を有効にする
   aprlGuid: 5f3cbd68-692a-4121-988c-9770914859a9
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -308,7 +308,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    GitOps, an operating model for cloud-native apps, uses Git for storing application and infrastructure code as a source of truth for continuous delivery.
+    クラウドネイティブ アプリの運用モデルである GitOps は、継続的デリバリーの信頼できる情報源として、アプリケーションとインフラストラクチャ コードを格納するために Git を使用します。
   potentialBenefits: Ensures AKS config consistency
   pgVerified: false
   publishedToLearn: false
@@ -317,11 +317,11 @@
   tags: null
   learnMoreLink:
     - name: GitOps with AKS
-      url: "https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-cicd-github-actions-and-gitops"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/guide/aks/aks-cicd-github-actions-and-gitops"
     - name: GitOps for AKS - Reference Architecture
-      url: "https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks"
 
-- description: Use pod topology spread constraints to ensure that pods are spread across different nodes or zones
+- description: ポッド トポロジの分散制約を使用して、ポッドが異なるノードまたはゾーンに分散されるようにします
   aprlGuid: 928fcc6f-5e9a-42d9-9bd4-260af42de2e5
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -329,7 +329,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Enhance availability and reliability by using pod topology spread constraints to control pod distribution based on node or zone topology, ensuring pods are spread across your cluster.
+    ポッド トポロジの分散制約を使用してノードまたはゾーン トポロジに基づいてポッドの分散を制御し、ポッドがクラスター全体に分散されるようにすることで、可用性と信頼性を向上させます。
   potentialBenefits: Ensures high availability and efficient use
   pgVerified: true
   publishedToLearn: false
@@ -342,7 +342,7 @@
     - name: Assign Pod Node
       url: "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/"
 
-- description: Configures Pods Liveness, Readiness, and Startup Probes
+- description: Pod の Liveness、Readiness、および Startup プローブを設定します
   aprlGuid: cd6791b1-c60e-4b37-ac98-9897b1e6f4b8
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -350,7 +350,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    AKS kubelet controller uses liveness probes to validate containers and applications health, ensuring the system knows when to restart a container based on its health status.
+    AKS kubelet コントローラーでは、活性プローブを使用してコンテナーとアプリケーションの正常性を検証し、正常性状態に基づいてコンテナーを再起動するタイミングをシステムが認識できるようにします。
   potentialBenefits: Enhances container health monitoring
   pgVerified: true
   publishedToLearn: false
@@ -363,7 +363,7 @@
     - name: Assign Pod Node
       url: "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/"
 
-- description: Use deployments with multiple replicas in production applications to guarantee availability
+- description: 本番アプリケーションで複数のレプリカを含むデプロイを使用して可用性を保証
   aprlGuid: bcfe71f1-ebed-49e5-a84a-193b81ad5d27
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -371,7 +371,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Configuring multiple replicas in Pod or Deployment manifests stabilizes the number of replica Pods, ensuring that a specified number of identical Pods are always available, thereby guaranteeing their availability.
+    Pod または Deployment マニフェストで複数のレプリカを設定すると、レプリカ Pod の数が安定し、指定された数の同一の Pod が常に利用可能になり、可用性が保証されます。
   potentialBenefits: Ensures stable pod availability
   pgVerified: true
   publishedToLearn: false
@@ -382,7 +382,7 @@
     - name: Replica Sets
       url: "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
 
-- description: Configure system nodepool count
+- description: システム ノードプール数の構成
   aprlGuid: 7f7ae535-a5ba-4665-b7e0-c451dbdda01f
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -390,7 +390,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    The system node pool should be configured with a minimum node count of two to ensure critical system pods are resilient to node outages.
+    システム ノード プールは、重要なシステム ポッドがノードの停止に対して回復力を持つように、最小ノード数を 2 に設定する必要があります。
   potentialBenefits: Ensures pod resilience
   pgVerified: true
   publishedToLearn: false
@@ -401,7 +401,7 @@
     - name: System nodepools
       url: "https://learn.microsoft.com/azure/aks/use-system-pools?tabs=azure-cli"
 
-- description: Configure user nodepool count
+- description: ユーザー ノードプール数を構成する
   aprlGuid: 005ccbbd-aeab-46ef-80bd-9bd4479412ec
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -409,7 +409,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Configuring the user node pool with at least two nodes is essential for applications needing high availability, ensuring they remain operational and accessible without interruption.
+    少なくとも 2 つのノードでユーザー ノード プールを構成することは、高可用性を必要とするアプリケーションにとって不可欠であり、中断することなく運用とアクセスを維持できます。
   potentialBenefits: Ensures high app availability
   pgVerified: true
   publishedToLearn: false
@@ -420,7 +420,7 @@
     - name: Azure Well-Architected Framework review for Azure Kubernetes Service (AKS)
       url: "https://learn.microsoft.com/azure/well-architected/service-guides/azure-kubernetes-service#design-checklist"
 
-- description: Configure pod disruption budgets (PDBs)
+- description: ポッド中断バジェット(PDB)の構成
   aprlGuid: a08a06a0-e41a-4b99-83bb-69ce8bca54cb
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -428,7 +428,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    A Pod Disruption Budget is a Kubernetes resource configuring the minimum number or percentage of pods that should remain available during disruptions like maintenance or scaling, ensuring a minimum number of pods are always available in the cluster.
+    Pod Disruption Budgetは、メンテナンスやスケーリングなどの中断時に利用可能なPodの最小数または割合を設定するKubernetesリソースであり、最小数のPodがクラスターで常に利用可能であることを保証します。
   potentialBenefits: Ensures cluster resiliency during disruptions
   pgVerified: true
   publishedToLearn: false
@@ -441,7 +441,7 @@
     - name: Plan availability using PDBs
       url: "https://learn.microsoft.com/azure/aks/operator-best-practices-scheduler#plan-for-availability-using-pod-disruption-budgets"
 
-- description: Nodepool subnet size needs to accommodate maximum auto-scale settings
+- description: ノードプール サブネットのサイズは、最大自動スケール設定に対応する必要があります
   aprlGuid: e620fa98-7a40-41a0-bfc9-b4407297fb58
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -449,7 +449,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Nodepool subnets sized for max auto-scale settings enable AKS to efficiently scale out nodes, meeting increased demand while reducing resource constraints and potential service disruptions.
+    最大自動スケール設定用にサイズ設定されたノードプール サブネットを使用すると、AKS はノードを効率的にスケールアウトし、リソースの制約と潜在的なサービスの中断を減らしながら、需要の増加に対応できます。
   potentialBenefits: Efficient scaling, reduced disruptions
   pgVerified: false
   publishedToLearn: false
@@ -460,7 +460,7 @@
     - name: Azure CNI Dynamic IP Allocation
       url: "https://learn.microsoft.com/azure/aks/configure-azure-cni-dynamic-ip-allocation"
 
-- description: Node pool auto-scale settings should not exceed subscription core quota
+- description: ノード プールの自動スケール設定は、サブスクリプション コア クォータを超えないようにする必要があります
   aprlGuid: a01afc4c-7439-4919-b2da-3565992ea2a7
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -468,7 +468,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Node pool settings should not exceed the subscription core quota to ensure AKS can scale out nodes efficiently, meeting increased demand while reducing resource constraints and potential service disruptions.
+    ノード プールの設定は、AKS がノードを効率的にスケールアウトし、リソースの制約と潜在的なサービスの中断を減らしながら需要の増加に対応できるようにするために、サブスクリプション コア クォータを超えないようにする必要があります。
   potentialBenefits: Reduced disruptions
   pgVerified: false
   publishedToLearn: false
@@ -479,7 +479,7 @@
     - name: Azure Quotas
       url: "https://learn.microsoft.com/azure/quotas/quotas-overview"
 
-- description: Use Azure Linux for Linux nodepools
+- description: Azure Linux for Linux ノードプールを使用する
   aprlGuid: f46b0d1d-56ef-4795-b98a-f6ee00cb341a
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -487,7 +487,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Azure Linux on AKS boosts resiliency with a native image using validated, source-built components. It's lightweight, reducing the attack surface and maintenance. A Microsoft-hardened kernel, optimized for Azure, enhances stability and security for container workloads.
+    Azure Linux on AKS では、検証済みのソースビルド コンポーネントを使用して、ネイティブ イメージで回復性が向上します。軽量で、攻撃対象領域とメンテナンスを削減します。Azure 用に最適化された Microsoft で強化されたカーネルにより、コンテナー ワークロードの安定性とセキュリティが強化されます。
   potentialBenefits: Reduced disruptions
   pgVerified: false
   publishedToLearn: false
@@ -498,7 +498,7 @@
     - name: Azure Linux
       url: "https://learn.microsoft.com/azure/aks/use-azure-linux"
 
-- description: Deploy at least two replicas of your application
+- description: アプリケーションのレプリカを少なくとも 2 つデプロイします
   aprlGuid: 9200aca6-0e83-4749-a5eb-e3939367bdc2
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -506,7 +506,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    Deploying at least two replicas of your application ensures that your application is highly available and can tolerate node failures.
+    アプリケーションのレプリカを少なくとも 2 つデプロイすると、アプリケーションの可用性が高くなり、ノードの障害を許容できるようになります。
   potentialBenefits: Ensures high app availability
   pgVerified: false
   publishedToLearn: false

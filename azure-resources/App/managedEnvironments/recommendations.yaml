@@ -1,4 +1,4 @@
-- description: Deploy zone redundant Container app environments
+- description: ゾーン冗長コンテナー アプリ環境をデプロイする
   aprlGuid: f4201965-a88d-449d-b3b4-021394719eb2
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.App/managedenvironments
   recommendationMetadataState: Active
   longDescription: |
-    To take advantage of availability zones, you must enable zone redundancy when you create a Container Apps environment. The environment must include a virtual network with an available subnet. To ensure proper distribution of replicas, set your app's minimum replica count to three.
+    可用性ゾーンを利用するには、Container Apps 環境を作成するときにゾーン冗長を有効にする必要があります。環境には、使用可能なサブネットを持つ仮想ネットワークが含まれている必要があります。レプリカを適切に分散するには、アプリの最小レプリカ数を 3 に設定します。
   potentialBenefits: Enhances app resiliency and reliability
   pgVerified: false
   publishedToLearn: false
@@ -15,5 +15,5 @@
   tags: null
   learnMoreLink:
     - name: Reliability in Azure Container Apps
-      url: "https://learn.microsoft.com/en-us/azure/reliability/reliability-azure-container-apps"
+      url: "https://learn.microsoft.com/ja-jp/azure/reliability/reliability-azure-container-apps"
 

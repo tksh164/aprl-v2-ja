@@ -1,4 +1,4 @@
-- description: Create a validation host pool for testing of planned updates
+- description: 計画された更新プログラムをテストするための検証ホスト プールを作成する
   aprlGuid: 013ac34e-7c4b-425f-9e0c-216f0cc06181
   recommendationTypeId: null
   recommendationControl: Governance
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    Create a Validation Pool for early issue detection with planned AVD updates. Adjust limits based on needs. Scale by adding multiple host pools for more users. Regularly test updates on host pools. Validate changes before applying to main environment to avoid downtime.
+    計画された AVD の更新で問題を早期に検出するための検証プールを作成します。必要に応じて制限を調整します。より多くのユーザーのために複数のホスト プールを追加することでスケーリングします。ホスト プールの更新プログラムを定期的にテストします。メイン環境に適用する前に変更を検証して、ダウンタイムを回避します。
   potentialBenefits: Enhanced environment stability
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Learn More
       url: "https://learn.microsoft.com/azure/virtual-desktop/configure-validation-environment?tabs=azure-portal"
 
-- description: Configure host pool scheduled agent updates
+- description: ホスト プールのスケジュールされたエージェントの更新を構成する
   aprlGuid: 979ff8be-5f3a-4d8e-9aa3-407ecdd6d6f7
   recommendationTypeId: null
   recommendationControl: Governance
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    Create maintenance schedules for AVD agent updates to avoid disruptions. Use Scheduled Agent Updates to set maintenance windows for updating Azure Virtual Desktop agent, side-by-side stack, and Geneva Monitoring agent.
+    AVD エージェントの更新のメンテナンススケジュールを作成して、中断を回避します。スケジュールされたエージェントの更新を使用して、Azure Virtual Desktop エージェント、サイド バイ サイド スタック、Geneva Monitoring エージェントを更新するためのメンテナンス期間を設定します。
   potentialBenefits: Enhanced environment stability
   pgVerified: true
   publishedToLearn: false
@@ -36,7 +36,7 @@
     - name: Learn More
       url: "https://learn.microsoft.com/azure/virtual-desktop/scheduled-agent-updates"
 
-- description: Ensure a unique OU is used when deploying host pools with domain joined session hosts
+- description: ドメインに参加しているセッション ホストを含むホスト プールを展開するときに一意の OU が使用されていることを確認する
   aprlGuid: 939cb85c-102a-4e0a-ab82-5c92116d3778
   recommendationTypeId: null
   recommendationControl: Governance
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    For optimized AVD configuration, place Hybrid VMs in unique OUs. Segregate Prod and DR units for environment-specific settings. This ensures targeted configurations for session hosts, including Fslogix, timeouts, and session controls.
+    AVD 構成を最適化するには、ハイブリッド VM を一意の OU に配置します。環境固有の設定のために製品ユニットとDRユニットを分離します。これにより、Fslogix、タイムアウト、セッション制御など、セッションホストのターゲット設定が保証されます。
   potentialBenefits: Improved AVD hostpool config & segmentation
   pgVerified: true
   publishedToLearn: false
@@ -53,9 +53,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/virtual-dc/adds-on-azure-vm#configure-the-vms-and-install-active-directory-domain-services"
+      url: "https://learn.microsoft.com/ja-jp/windows-server/identity/ad-ds/deploy/virtual-dc/adds-on-azure-vm#configure-the-vms-and-install-active-directory-domain-services"
 
-- description: Use Azure Site Recovery or backups to protect VMs supporting personal desktops
+- description: Azure Site Recovery またはバックアップを使用して、個人用デスクトップをサポートする VM を保護する
   aprlGuid: 38721758-2cc2-4d6b-b7b7-8b47dadbf7df
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    Implement Azure Site Recovery (ASR) or Azure Backup for personal host pools to enable seamless failover and failback. This replicates VMs supporting personal desktops to a secondary Azure region, ensuring recovery from a known state in case of a disaster or outage.
+    個人用ホスト プールに Azure Site Recovery (ASR) または Azure Backup を実装して、シームレスなフェールオーバーとフェールバックを有効にします。これにより、個人用デスクトップをサポートする VM がセカンダリ Azure リージョンにレプリケートされ、障害や停止が発生した場合に既知の状態から確実に回復できます。
   potentialBenefits: Ensures VM recovery & failover
   pgVerified: true
   publishedToLearn: false
@@ -72,4 +72,4 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview"
+      url: "https://learn.microsoft.com/ja-jp/azure/site-recovery/site-recovery-overview"

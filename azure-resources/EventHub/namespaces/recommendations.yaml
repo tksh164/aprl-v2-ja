@@ -1,4 +1,4 @@
-- description: Ensure zone redundancy is enabled in supported regions
+- description: サポートされているリージョンでゾーン冗長が有効になっていることを確認する
   aprlGuid: 84636c6c-b317-4722-b603-7b1ffc16384b
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.EventHub/namespaces
   recommendationMetadataState: Active
   longDescription: |
-    When using the Azure portal, zone redundancy is automatically enabled. However, some Infrastructure as Code (IaC) tools may default this to false. To ensure replication of metadata and events across data centers in an availability zone, always verify that zone redundancy is enabled.
+    Azure portal を使用すると、ゾーン冗長が自動的に有効になります。ただし、一部のコードとしてのインフラストラクチャ (IaC) ツールでは、これを既定で false にしている場合があります。可用性ゾーン内のデータ センター間でメタデータとイベントを確実にレプリケートするには、ゾーン冗長が有効になっていることを常に確認してください。
   potentialBenefits: Enhanced fault tolerance for Event Hub
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Azure Event Hubs - Geo-disaster recovery
       url: "https://learn.microsoft.com/azure/event-hubs/event-hubs-geo-dr?tabs=portal#availability-zones"
 
-- description: Enable auto-inflate on Event Hub Standard tier
+- description: Event Hub Standard レベルで自動インフレを有効にする
   aprlGuid: fbfef3df-04a5-41b2-a8fd-b8541eb04956
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.EventHub/namespaces
   recommendationMetadataState: Active
   longDescription: |
-    Enable auto-inflate on Event Hub Standard tier namespaces to automatically scale up TUs, meeting usage needs and preventing data ingress or egress throttle scenarios by adjusting to allowed rates.
+    Event Hub Standard レベルの名前空間で自動インフレを有効にすると、TU が自動的にスケールアップされ、使用ニーズを満たし、許可されたレートに調整することでデータのイングレスまたはエグレス スロットルのシナリオが防止されます。
   potentialBenefits: Prevents throttling by autoscaling TUs
   pgVerified: true
   publishedToLearn: false

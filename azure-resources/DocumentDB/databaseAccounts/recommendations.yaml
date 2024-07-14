@@ -1,4 +1,4 @@
-- description: Configure at least two regions for high availability
+- description: 高可用性のために少なくとも 2 つのリージョンを構成する
   aprlGuid: 43663217-a1d3-844b-80ea-571a2ce37c6c
   recommendationTypeId: b57f7a29-dcc8-43de-86fa-18d3f9d3764d
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Enable a secondary region in Cosmos DB for higher SLA without downtime. Simple as pinning a location on a map. For Strong consistency, configure at least three regions for write availability in case of failure.
+    Cosmos DB でセカンダリ リージョンを有効にして、ダウンタイムなしで SLA を向上させます。地図上に場所をピン留めするだけの簡単。厳密な整合性の場合は、障害が発生した場合の書き込み可用性のために少なくとも 3 つのリージョンを構成します。
   potentialBenefits: Enhances SLA and resilience
   pgVerified: true
   publishedToLearn: false
@@ -19,7 +19,7 @@
     - name: Tips for building highly available applications | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/high-availability#tips-for-building-highly-available-applications"
 
-- description: Enable service-managed failover for multi-region accounts with single write region
+- description: 単一の書き込みリージョンを持つマルチリージョンアカウントのサービスマネージドフェイルオーバーを有効にする
   aprlGuid: 9cabded7-a1fc-6e4a-944b-d7dd98ea31a2
   recommendationTypeId: 5de9f2e6-087e-40da-863a-34b7943beed4
   recommendationControl: Disaster Recovery
@@ -27,7 +27,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Cosmos DB boasts high uptime and resiliency. Even so, issues may arise. With Service-Managed failover, if a region is down, Cosmos DB automatically switches to the next available region, requiring no user action.
+    Cosmos DB は、高いアップタイムと回復性を誇っています。それでも、問題が発生する可能性があります。サービスマネージド フェールオーバーでは、リージョンがダウンしている場合、Cosmos DB は次に使用可能なリージョンに自動的に切り替わり、ユーザーの操作は必要ありません。
   potentialBenefits: Auto failover for high uptime
   pgVerified: true
   publishedToLearn: false
@@ -38,7 +38,7 @@
     - name: Manage an Azure Cosmos DB account by using the Azure portal | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/how-to-manage-database-account#automatic-failover"
 
-- description: Evaluate multi-region write capability
+- description: 複数リージョンの書き込み機能を評価する
   aprlGuid: 9ce78192-74a0-104c-b5bb-9a443f941649
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Multi-region write capability allows for designing applications that are highly available across multiple regions, though it demands careful attention to consistency requirements and conflict resolution. Improper setup may decrease availability and cause data corruption due to unhandled conflicts.
+    複数リージョンの書き込み機能を使用すると、複数のリージョン間で可用性の高いアプリケーションを設計できますが、一貫性の要件と競合の解決には細心の注意を払う必要があります。不適切な設定を行うと、可用性が低下し、未処理の競合によりデータが破損する可能性があります。
   potentialBenefits: Enhances high availability
   pgVerified: true
   publishedToLearn: false
@@ -59,7 +59,7 @@
     - name: Conflict resolution types and resolution policies in Azure Cosmos DB | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/conflict-resolution-policies"
 
-- description: Configure continuous backup mode
+- description: 継続的バックアップ モードを構成する
   aprlGuid: e544520b-8505-7841-9e77-1f1974ee86ec
   recommendationTypeId: 52fef986-5897-4359-8b92-0f22749f0d73
   recommendationControl: Disaster Recovery
@@ -67,7 +67,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Cosmos DB's backup is always on, offering protection against data mishaps. Continuous mode allows for self-serve restoration to a pre-mishap point, unlike periodic mode which requires contacting Microsoft support, leading to longer restore times.
+    Cosmos DB のバックアップは常にオンであり、データの事故に対する保護を提供します。継続的モードでは、Microsoft サポートへの連絡が必要な定期モードとは異なり、事故前の時点へのセルフサービス復元が可能になり、復元時間が長くなります。
   potentialBenefits: Faster self-serve data restore
   pgVerified: true
   publishedToLearn: false
@@ -78,7 +78,7 @@
     - name: Continuous backup with point in time restore feature in Azure Cosmos DB | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/continuous-backup-restore-introduction"
 
-- description: Ensure query results are fully drained
+- description: クエリ結果が完全に排出されていることを確認する
   aprlGuid: c006604a-0d29-684c-99f0-9729cb40dac5
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -86,7 +86,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Cosmos DB has a 4 MB response limit, leading to paginated results for large or partition-spanning queries. Each page shows availability and provides a continuation token for the next. A while loop in code is necessary to traverse all pages until completion.
+    Cosmos DB には 4 MB の応答制限があり、大規模なクエリやパーティションにまたがるクエリでは、結果がページ分割されます。各ページには空き状況が表示され、次のページのための継続トークンが提供されます。コード内のwhileループは、完了するまですべてのページをトラバースするために必要です。
   potentialBenefits: Maximizes data retrieval efficiency
   pgVerified: true
   publishedToLearn: false
@@ -97,7 +97,7 @@
     - name: Pagination in Azure Cosmos DB | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/nosql/query/pagination#handling-multiple-pages-of-results"
 
-- description: Maintain singleton pattern in your client
+- description: クライアントでシングルトンパターンを維持する
   aprlGuid: 7eb32cf9-9a42-1540-acf8-597cbba8a418
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -105,7 +105,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Using a single instance of the SDK client for each account and application is crucial as connections are tied to the client. Compute environments have a limit on open connections, affecting connectivity when exceeded.
+    接続はクライアントに関連付けられているため、アカウントとアプリケーションごとに SDK クライアントの 1 つのインスタンスを使用することが重要です。コンピューティング環境では、開いている接続に制限があり、超過すると接続に影響します。
   potentialBenefits: Optimizes connections and efficiency
   pgVerified: true
   publishedToLearn: false
@@ -116,7 +116,7 @@
     - name: Designing resilient applications with Azure Cosmos DB SDKs | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/nosql/conceptual-resilient-sdk-applications"
 
-- description: Implement retry logic in your client
+- description: クライアントに再試行ロジックを実装する
   aprlGuid: fa6ac22f-0584-bb4b-80e4-80f4755d1a97
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -124,7 +124,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Cosmos DB SDKs automatically manage many transient errors through retries. Despite this, it's crucial for applications to implement additional retry policies targeting specific cases that the SDKs can't generically address, ensuring more robust error handling.
+    Cosmos DB SDK では、再試行によって多くの一時的なエラーが自動的に管理されます。それにもかかわらず、SDK が一般的に対処できない特定のケースを対象とする追加の再試行ポリシーをアプリケーションで実装し、より堅牢なエラー処理を確保することが重要です。
   potentialBenefits: Enhances error handling resilience
   pgVerified: true
   publishedToLearn: false
@@ -135,7 +135,7 @@
     - name: Designing resilient applications with Azure Cosmos DB SDKs | Microsoft Learn
       url: "https://learn.microsoft.com/azure/cosmos-db/nosql/conceptual-resilient-sdk-applications"
 
-- description: Monitor Cosmos DB health and set up alerts
+- description: Cosmos DB の正常性を監視し、アラートを設定する
   aprlGuid: deaea200-013c-414b-ac9f-bfa7a7fb13f0
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -143,7 +143,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Monitoring the availability and responsiveness of Azure Cosmos DB resources and having alerts set up for your workload is a good practice. This ensures you stay proactive in handling unforeseen events.
+    Azure Cosmos DB リソースの可用性と応答性を監視し、ワークロードに対してアラートを設定することをお勧めします。これにより、予期しないイベントに積極的に対処できます。
   potentialBenefits: Proactive issue management
   pgVerified: true
   publishedToLearn: false

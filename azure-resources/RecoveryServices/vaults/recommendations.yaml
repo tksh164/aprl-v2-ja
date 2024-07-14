@@ -1,4 +1,4 @@
-- description: Ensure static IP addresses in Site Recovery VM failover settings are available in failover subnet
+- description: Site Recovery VM のフェールオーバー設定の静的 IP アドレスがフェールオーバー サブネットで使用できることを確認する
   aprlGuid: e93bb813-b356-48f3-9bdf-a06a0a6ba039
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    Ensure VM failover settings' static IP addresses are available in the failover subnet to maintain consistent IP assignment during failover, with the target VM receiving the same static IP if it's available or the next available IP otherwise. IP adjustments can be made in VM Network settings.
+    フェールオーバー中に一貫した IP 割り当てを維持するために、フェールオーバー サブネットで VM フェールオーバー設定の静的 IP アドレスが使用可能であることを確認し、ターゲット VM は同じ静的 IP (使用可能な場合) または 次に使用可能な IP を受け取ります。IP の調整は、VM ネットワーク設定で行うことができます。
   potentialBenefits: Smooth failover IP management
   pgVerified: true
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Setup network mapping for site recovery
-      url: "https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-network-mapping#set-up-ip-addressing-for-target-vms"
+      url: "https://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-network-mapping#set-up-ip-addressing-for-target-vms"
 
-- description: Validate VM functionality with a Site Recovery test failover to check performance at target
+- description: Site Recovery テスト フェールオーバーを使用して VM の機能を検証し、ターゲットでのパフォーマンスを確認する
   aprlGuid: 17e877f7-3a89-4205-8a24-0670de54ddcd
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    Perform a test failover to validate your BCDR strategy and ensure that your applications are functioning correctly in the target region without impacting your production environment. Test your Disaster Recovery plan periodically without any data loss or downtime, using test failovers.
+    テスト フェールオーバーを実行して BCDR 戦略を検証し、運用環境に影響を与えることなく、アプリケーションがターゲット リージョンで正しく機能していることを確認します。テスト フェールオーバーを使用して、データの損失やダウンタイムなしでディザスター リカバリー計画を定期的にテストします。
   potentialBenefits: Ensures BCDR plan accuracy and VM performance
   pgVerified: true
   publishedToLearn: false
@@ -34,9 +34,9 @@
   tags: null
   learnMoreLink:
     - name: Run a test failover
-      url: "https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-dr-drill#run-a-test-failover"
+      url: "https://learn.microsoft.com/ja-jp/azure/site-recovery/azure-to-azure-tutorial-dr-drill#run-a-test-failover"
 
-- description: Migrate from classic alerts to built-in Azure Monitor alerts for Azure Recovery Services Vaults
+- description: クラシック アラートから Azure Recovery Services コンテナーの組み込みの Azure Monitor アラートに移行する
   aprlGuid: 2912472d-0198-4bdc-aa90-37f145790edc
   recommendationTypeId: 06578866-1877-41e6-9d22-3ea5122e8048
   recommendationControl: Monitoring and Alerting
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    Classic alerts for Recovery Services vaults in Azure Backup will be retired on 31 March 2026.
+    Azure Backup の Recovery Services コンテナーのクラシック アラートは、2026 年 3 月 31 日に廃止されます。
   potentialBenefits: Enhanced, scalable, and consistent alerting.
   pgVerified: true
   publishedToLearn: false
@@ -57,7 +57,7 @@
     - name: Classic alerts retirement announcement
       url: "https://azure.microsoft.com/updates/transition-to-builtin-azure-monitor-alerts-for-recovery-services-vaults-in-azure-backup-by-31-march-2026/"
 
-- description: Enable Cross Region Restore for your GRS Recovery Services Vault
+- description: GRS Recovery Services コンテナーのリージョン間復元を有効にする
   aprlGuid: 1549b91f-2ea0-4d4f-ba2a-4596becbe3de
   recommendationTypeId: 9b1308f1-4c25-4347-a061-7cc5cd6a44ab
   recommendationControl: Disaster Recovery
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    Cross Region Restore enables the restoration of Azure VMs in a secondary, Azure paired region, facilitating drills for audit or compliance and allowing recovery of VMs or disks in the event of a primary region disaster. It is an opt-in feature available exclusively for GRS vaults.
+    リージョン間の復元を使用すると、セカンダリの Azure ペア リージョンで Azure VM を復元できるため、監査やコンプライアンスの訓練が容易になり、プライマリ リージョンで障害が発生した場合に VM またはディスクを復旧できます。これは、GRS Vault でのみ利用可能なオプトイン機能です。
   potentialBenefits: Enhances disaster recovery capabilities
   pgVerified: true
   publishedToLearn: false
@@ -82,7 +82,7 @@
     - name: Recovery Services Vault
       url: "https://learn.microsoft.com/azure/backup/backup-azure-arm-vms-prepare"
 
-- description: Enable Soft Delete for Recovery Services Vaults in Azure Backup
+- description: Azure Backup で Recovery Services コンテナーの論理的な削除を有効にするEnable soft delete for Recovery Services vaults in Azure Backup
   aprlGuid: 9e39919b-78af-4a0b-b70f-c548dae97c25
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -90,7 +90,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    With soft delete, if backup data is deleted, the backup data is retained for 14 additional days, allowing the recovery of that backup item with no data loss with no cost to you. Soft delete is enabled by default. Disabling this feature isn't recommended.
+    論理的な削除では、バックアップ データが削除された場合、バックアップ データはさらに 14 日間保持されるため、データを失うことなく、コストをかけずにそのバックアップ項目を回復できます。論理的な削除は既定で有効になっています。この機能を無効にすることはお勧めしません。
   potentialBenefits: Enhances disaster recovery capabilities
   pgVerified: false
   publishedToLearn: false

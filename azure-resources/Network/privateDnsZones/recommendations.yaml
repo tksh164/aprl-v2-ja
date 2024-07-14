@@ -1,4 +1,4 @@
-- description: Protect private DNS zones and records
+- description: プライベート DNS ゾーンとレコードを保護する
   aprlGuid: 2820f6d6-a23c-7a40-aec5-506f3bd1aeb6
   recommendationTypeId: null
   recommendationControl: Security
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    Private DNS zones and records are critical and their deletion can cause service outages. To protect against unauthorized or accidental changes, the Private DNS Zone Contributor role, a built-in role for managing these resources, should be assigned to specific users or groups.
+    プライベート DNS ゾーンとレコードは重要であり、それらを削除するとサービスが停止する可能性があります。承認されていない変更や偶発的な変更から保護するには、これらのリソースを管理するための組み込みロールであるプライベート DNS ゾーン共同作成者ロールを特定のユーザーまたはグループに割り当てる必要があります。
   potentialBenefits: Prevents DNS outages
   pgVerified: true
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Protecting private DNS Zones and Records - Azure DNS
-      url: "https://learn.microsoft.com/en-us/azure/dns/dns-protect-private-zones-recordsets"
+      url: "https://learn.microsoft.com/ja-jp/azure/dns/dns-protect-private-zones-recordsets"
 
-- description: Monitor Private DNS Zones health and set up alerts
+- description: プライベート DNS ゾーンの正常性を監視し、アラートを設定する
   aprlGuid: ab896e8c-49b9-2c44-adec-98339aff7821
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    The records in a private DNS zone are only resolvable from linked virtual networks. You can link a private DNS zone to multiple networks and enable autoregistration to manage DNS records for virtual machines automatically.
+    プライベート DNS ゾーン内のレコードは、リンクされた仮想ネットワークからのみ解決できます。プライベート DNS ゾーンを複数のネットワークにリンクし、自動登録を有効にして、仮想マシンの DNS レコードを自動的に管理できます。
   potentialBenefits: Enhanced DNS reliability and alerting
   pgVerified: true
   publishedToLearn: false
@@ -34,9 +34,9 @@
   tags: null
   learnMoreLink:
     - name: Supported metrics for Microsoft.Network/privateDnsZones
-      url: "https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-network-privatednszones-metrics"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/supported-metrics/microsoft-network-privatednszones-metrics"
 
-- description: Align Production and DR zones with identical workload and resource failover entries
+- description: 運用ゾーンと DR ゾーンを、同じワークロードとリソースのフェールオーバー エントリに合わせる
   aprlGuid: 1e02335c-1f90-fd4e-a5a5-d359c7b22d70
   recommendationTypeId: null
   recommendationControl: Governance
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    Azure Private DNS offers a reliable, secure way to handle domain names within virtual networks, using custom domains instead of default Azure names. Records in these zones aren't internet-accessible, only resolvable within linked virtual networks.
+    Azure プライベート DNS は、既定の Azure 名の代わりにカスタム ドメインを使用して、仮想ネットワーク内のドメイン名を処理するための信頼性が高く安全な方法を提供します。これらのゾーン内のレコードはインターネットにアクセスできず、リンクされた仮想ネットワーク内でのみ解決できます。
   potentialBenefits: Ensures seamless failover for DNS
   pgVerified: true
   publishedToLearn: false
@@ -53,4 +53,4 @@
   tags: null
   learnMoreLink:
     - name: Scenarios for Azure Private DNS zones
-      url: "https://learn.microsoft.com/en-us/azure/dns/private-dns-scenarios"
+      url: "https://learn.microsoft.com/ja-jp/azure/dns/private-dns-scenarios"

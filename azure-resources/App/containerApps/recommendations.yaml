@@ -1,4 +1,4 @@
-- description: Enable container health probes
+- description: コンテナーの正常性プローブを有効にする
   aprlGuid: 8dbcd94b-0948-4df3-b608-1946726c3abf
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.App/containerApps
   recommendationMetadataState: Active
   longDescription: |
-    Enable container health probes to monitor the health of your container apps and ensure that unhealthy containers are restarted automatically.
+    コンテナー正常性プローブを有効にして、コンテナー アプリの正常性を監視し、異常なコンテナーが自動的に再起動されるようにします。
   potentialBenefits: Enhanced availability and resilience
   pgVerified: false
   publishedToLearn: false

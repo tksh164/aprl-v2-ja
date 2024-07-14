@@ -1,4 +1,4 @@
-- description: Migrate App Service to availability Zone Support
+- description: App Service を可用性ゾーンのサポートに移行する
   aprlGuid: 88cb90c2-3b99-814b-9820-821a63f600dd
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    Azure's feature of deploying App Service plans across availability zones enhances resiliency and reliability by ensuring operation during datacenter failures, providing redundancy without needing different regions, thus minimizing downtime and maintaining uninterrupted services.
+    可用性ゾーン全体に App Service プランをデプロイする Azure の機能は、データセンターの障害時の運用を保証し、異なるリージョンを必要とせずに冗長性を提供することで、ダウンタイムを最小限に抑え、中断のないサービスを維持することで、回復性と信頼性を向上させます。
   potentialBenefits: Enhances app resiliency and reliability
   pgVerified: false
   publishedToLearn: false
@@ -15,11 +15,11 @@
   tags: null
   learnMoreLink:
     - name: Migrate App Service to availability zone support
-      url: "https://learn.microsoft.com/en-us/azure/reliability/migrate-app-service"
+      url: "https://learn.microsoft.com/ja-jp/azure/reliability/migrate-app-service"
     - name: High availability enterprise deployment using App Service Environment
-      url: "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/enterprise-integration/ase-high-availability-deployment"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/reference-architectures/enterprise-integration/ase-high-availability-deployment"
 
-- description: Use Standard or Premium tier
+- description: Standard または Premium レベルを使用する
   aprlGuid: b2113023-a553-2e41-9789-597e2fb54c31
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -27,7 +27,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    Choose Standard/Premium Azure App Service Plan for robust apps with advanced scaling, high availability, better performance, and multiple slots, ensuring resilience and continuous operation.
+    Standard/Premium Azure App Service プランを選択すると、高度なスケーリング、高可用性、パフォーマンスの向上、複数のスロットを備えた堅牢なアプリが提供され、回復性と継続的な運用が確保されます。
   potentialBenefits: Enhanced scaling and reliability
   pgVerified: false
   publishedToLearn: false
@@ -36,9 +36,9 @@
   tags: null
   learnMoreLink:
     - name: Resiliency checklist for specific Azure services
-      url: "https://learn.microsoft.com/en-us/azure/architecture/checklist/resiliency-per-service#app-service"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: Avoid scaling up or down
+- description: スケールアップやスケールダウンを避ける
   aprlGuid: 07243659-4643-d44c-a1c6-07ac21635072
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    Avoid frequent scaling up/down of Azure App Service instances to prevent service disruptions. Choose the right tier and size for the workload and scale out for traffic changes, as scaling adjustments can trigger application restarts.
+    サービスの中断を防ぐために、Azure App Service インスタンスの頻繁なスケールアップ/スケールダウンを回避します。ワークロードに適したレベルとサイズを選択し、スケーリングの調整によってアプリケーションの再起動がトリガーされる可能性があるため、トラフィックの変化に合わせてスケールアウトします。
   potentialBenefits: Minimizes restarts, enhances stability
   pgVerified: false
   publishedToLearn: false
@@ -55,9 +55,9 @@
   tags: null
   learnMoreLink:
     - name: Resiliency checklist for specific Azure services
-      url: "https://learn.microsoft.com/en-us/azure/architecture/checklist/resiliency-per-service#app-service"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: Create separate App Service plans for production and test
+- description: 運用用とテスト用に個別の App Service プランを作成する
   aprlGuid: dbe3fd66-fb2a-9d46-b162-1791e21da236
   recommendationTypeId: null
   recommendationControl: Governance
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    It is strongly recommended to create separate App Service plans for production and test environments to avoid using slots within your production deployment for testing purposes.
+    運用環境とテスト環境用に別々の App Service プランを作成して、運用環境デプロイ内のスロットをテスト目的で使用しないようにすることを強くお勧めします。
   potentialBenefits: Protects prod performance; avoids test impact
   pgVerified: false
   publishedToLearn: false
@@ -74,9 +74,9 @@
   tags: null
   learnMoreLink:
     - name: Resiliency checklist for specific Azure services
-      url: "https://learn.microsoft.com/en-us/azure/architecture/checklist/resiliency-per-service#app-service"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: Enable Autoscale/Automatic scaling to ensure adequate resources are available to service requests
+- description: 自動スケーリング/自動スケーリングを有効にして、サービス要求に十分なリソースを使用できるようにします
   aprlGuid: 6320abf6-f917-1843-b2ae-4779c35985ae
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    Enabling Autoscale/Automatic Scaling for your Azure App Service ensures sufficient resources for incoming requests. Autoscaling is rule-based, whereas Automatic Scaling, a newer feature, automatically adjusts resources based on HTTP traffic.
+    Azure App Service の自動スケーリング/自動スケーリングを有効にすると、受信要求に十分なリソースが確保されます。自動スケーリングはルールベースですが、新しい機能である自動スケーリングは、HTTP トラフィックに基づいてリソースを自動的に調整します。
   potentialBenefits: Optimizes resources for traffic
   pgVerified: false
   publishedToLearn: false
@@ -93,6 +93,6 @@
   tags: null
   learnMoreLink:
     - name: Automatic scaling in Azure App Service
-      url: "https://learn.microsoft.com/en-us/azure/app-service/manage-automatic-scaling?tabs=azure-portal"
+      url: "https://learn.microsoft.com/ja-jp/azure/app-service/manage-automatic-scaling?tabs=azure-portal"
     - name: Auto Scale Web Apps
-      url: "https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-get-started"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-monitor/autoscale/autoscale-get-started"

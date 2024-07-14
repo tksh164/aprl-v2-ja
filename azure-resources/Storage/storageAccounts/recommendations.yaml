@@ -1,4 +1,4 @@
-- description: Ensure that storage accounts are zone or region redundant
+- description: ストレージ アカウントがゾーンまたはリージョンの冗長であることを確認する
   aprlGuid: e6c7e1cc-2f47-264d-aa50-1da421314472
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Redundancy ensures storage accounts meet availability and durability targets amidst failures, weighing lower costs against higher availability. Locally redundant storage offers the least durability at the lowest cost.
+    冗長性により、ストレージ アカウントは障害発生時に可用性と持続性の目標を確実に満たし、低コストと高可用性を比較検討できます。ローカル冗長ストレージは、最小のコストで最小の耐久性を提供します。
   potentialBenefits: High availability and durability for storage
   pgVerified: true
   publishedToLearn: false
@@ -19,7 +19,7 @@
     - name: Change the redundancy configuration for a storage account
       url: "https://learn.microsoft.com/azure/storage/common/redundancy-migration"
 
-- description: Classic Storage Accounts must be migrated to new Azure Resource Manager resources
+- description: クラシック ストレージ アカウントを新しい Azure Resource Manager リソースに移行する必要がある
   aprlGuid: 63ad027e-611c-294b-acc5-8e3234db9a40
   recommendationTypeId: 47bb383c-8e25-95f0-c2aa-437add1d87d3
   recommendationControl: Service Upgrade and Retirement
@@ -27,7 +27,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Classic storage accounts will be fully retired on August 31, 2024. If you have classic storage accounts, start planning your migration now.
+    クラシック ストレージ アカウントは、2024 年 8 月 31 日に完全に廃止されます。クラシック ストレージ アカウントをお持ちの場合は、今すぐ移行の計画を開始してください。
   potentialBenefits: Avoids service retirement issues
   pgVerified: true
   publishedToLearn: false
@@ -40,7 +40,7 @@
     - name: Migrate your classic storage accounts to Azure Resource Manager
       url: "https://learn.microsoft.com/azure/storage/common/classic-account-migration-overview"
 
-- description: Use premium performance block blob storage for high performance workloads
+- description: 高パフォーマンスのワークロードに Premium パフォーマンスのブロック BLOB ストレージを使用する
   aprlGuid: 5587ef77-7a05-a74d-9c6e-449547a12f27
   recommendationTypeId: c6b94711-f1f5-4e7e-9c89-c17ed4190969
   recommendationControl: Scalability
@@ -48,7 +48,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Use premium performance block blob storage instead of standard performance storage for workloads that require fast storage response times and/or high transaction rates.
+    高速なストレージ応答時間や高いトランザクション レートを必要とするワークロードには、Standard パフォーマンス ストレージではなく Premium パフォーマンス ブロック BLOB ストレージを使用します。
   potentialBenefits: Optimized cost and performance
   pgVerified: true
   publishedToLearn: false
@@ -67,7 +67,7 @@
     - name: Premium block blob storage accounts
       url: "https://learn.microsoft.com/azure/storage/blobs/storage-blob-block-blob-premium"
 
-- description: Enable Soft Delete to protect your data
+- description: 論理的な削除を有効にしてデータを保護する
   aprlGuid: 03263c57-c869-3841-9e0a-3dbb9ef3e28d
   recommendationTypeId: 42dbf883-9e4b-4f84-9da4-232b87c4b5e9
   recommendationControl: Disaster Recovery
@@ -75,7 +75,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    The soft delete option enables data recovery if mistakenly deleted, while the Lock feature prevents the accidental deletion of the storage account itself, ensuring additional security and data integrity measures.
+    論理的な削除オプションを使用すると、誤って削除された場合にデータを回復でき、ロック機能を使用すると、ストレージ アカウント自体が誤って削除されるのを防ぎ、セキュリティとデータ整合性の対策が強化されます。
   potentialBenefits: Prevents accidental data/account loss
   pgVerified: true
   publishedToLearn: false
@@ -86,7 +86,7 @@
     - name: Soft delete detail docs
       url: "https://learn.microsoft.com//azure/storage/blobs/soft-delete-blob-enable?tabs=azure-portal "
 
-- description: Enable versioning for accidental modification and keep the number of versions below 1000
+- description: 誤って変更した場合のバージョン管理を有効にし、バージョン数を 1000 未満に維持します。
   aprlGuid: 8ebda7c0-e0e1-ed45-af59-2d7ea9a1c05d
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -94,7 +94,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Consider enabling versioning for Azure Storage Accounts to recover from accidental modifications or deletions and manage blob operation latency. Microsoft advises maintaining fewer than 1000 versions per blob to optimize performance. Lifecycle management can help delete old versions automatically.
+    Azure Storage アカウントのバージョン管理を有効にして、誤った変更や削除から回復し、BLOB 操作の待機時間を管理することを検討してください。Microsoft では、パフォーマンスを最適化するために、BLOB ごとに 1000 未満のバージョンを維持することをお勧めします。ライフサイクル管理は、古いバージョンを自動的に削除するのに役立ちます。
   potentialBenefits: Recover data, manage latency
   pgVerified: true
   publishedToLearn: false
@@ -105,7 +105,7 @@
     - name: Blob versioning
       url: "https://learn.microsoft.com/azure/storage/blobs/versioning-overview "
 
-- description: Enable point-in-time restore for GPv2 accounts to safeguard against data loss
+- description: GPv2 アカウントのポイントインタイム リストアを有効にして、データ損失から保護する
   aprlGuid: 1b965cb9-7629-214e-b682-6bf6e450a100
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -113,7 +113,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Consider enabling point-in-time restore for standard general purpose v2 accounts with flat namespace to protect against accidental deletion or corruption by restoring block blob data to an earlier state.
+    ブロック BLOB データを以前の状態に復元することで、偶発的な削除や破損から保護するために、フラット名前空間を持つ標準の汎用 v2 アカウントに対してポイントインタイム リストアを有効にすることを検討してください。
   potentialBenefits: Protects data from loss/corruption
   pgVerified: true
   publishedToLearn: false
@@ -126,7 +126,7 @@
     - name: Perform a point-in-time restore on block blob data
       url: "https://learn.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal"
 
-- description: Monitor all blob storage accounts
+- description: すべての BLOB ストレージ アカウントを監視する
   aprlGuid: 96cb8331-6b06-8242-8ce8-4e2f665dc679
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -134,7 +134,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    For critical applications and business processes relying on Azure, monitoring and alerts are crucial. Resource logs are only stored after creating a diagnostic setting to route logs to specified locations, requiring selection of log categories to collect.
+    Azure に依存する重要なアプリケーションやビジネス プロセスでは、監視とアラートが不可欠です。リソース ログは、ログを指定した場所にルーティングする診断設定を作成した後にのみ格納され、収集するログ カテゴリを選択する必要があります。
   potentialBenefits: Enhanced alerting and log analysis
   pgVerified: true
   publishedToLearn: false
@@ -147,7 +147,7 @@
     - name: Best practices for monitoring Azure Blob Storage
       url: "https://learn.microsoft.com/azure/storage/blobs/blob-storage-monitoring-scenarios"
 
-- description: Consider upgrading legacy storage accounts to v2 storage accounts
+- description: レガシ ストレージ アカウントを v2 ストレージ アカウントにアップグレードすることを検討する
   aprlGuid: 2ad78dec-5a4d-4a30-8fd1-8584335ad781
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -155,7 +155,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    General-purpose v2 accounts are recommended for most storage scenarios offering the latest features or the lowest per-gigabyte pricing. Legacy accounts like Standard general-purpose v1 and Blob Storage aren't advised by Microsoft but may fit specific scenarios.
+    汎用 v2 アカウントは、最新の機能を提供するほとんどのストレージ シナリオ、またはギガバイトあたりの最低価格を提供する場合に推奨されます。Standard 汎用 v1 や Blob Storage などのレガシ アカウントは、Microsoft から推奨されていませんが、特定のシナリオに適している場合があります。
   potentialBenefits: Latest features, lowest cost
   pgVerified: true
   publishedToLearn: false
@@ -168,7 +168,7 @@
     - name: Upgrade to a general-purpose v2 storage account
       url: "https://learn.microsoft.com/azure/storage/common/storage-account-upgrade"
 
-- description: Enable Azure Private Link service for storage accounts
+- description: ストレージ アカウントに対して Azure Private Link サービスを有効にする
   aprlGuid: dc55be60-6f8c-461e-a9d5-a3c7686ed94e
   recommendationTypeId: null
   recommendationControl: Security
@@ -176,7 +176,7 @@
   recommendationResourceType: Microsoft.Storage/storageAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Leverage Azure Private Link Service for secure access to Azure Storage and services via Private Endpoint in your VNet. Eliminate the need for public IPs, ensuring data privacy. Enjoy granular access control for enhanced security.
+    Azure Private Link サービスを利用して、VNet 内のプライベート エンドポイント経由で Azure Storage とサービスに安全にアクセスできます。パブリック IP の必要性を排除し、データのプライバシーを確保します。きめ細かなアクセス制御により、セキュリティを強化できます。
   potentialBenefits: Secure, private access to storage with no public IPs
   pgVerified: true
   publishedToLearn: false
@@ -185,6 +185,6 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop#azure-virtual-desktop-limitations"
+      url: "https://learn.microsoft.com/ja-jp/azure/architecture/example-scenario/wvd/windows-virtual-desktop#azure-virtual-desktop-limitations"
     - name: Private Link
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-virtual-desktop/networking#private-endpoints-private-link"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-virtual-desktop/networking#private-endpoints-private-link"

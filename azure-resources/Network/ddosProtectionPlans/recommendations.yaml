@@ -1,4 +1,4 @@
-- description: Monitor Azure DDoS Protection Plan metrics
+- description: Azure DDoS Protection プランのメトリックを監視する
   aprlGuid: ae054bf2-aefa-cf4a-8282-741194cef8da
   recommendationTypeId: null
   recommendationControl: Security
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/ddosProtectionPlans
   recommendationMetadataState: Active
   longDescription: |
-    Azure DDoS Plan metrics differentiate packets and bytes by tags: Dropped (packets scrubbed by DDoS), Forwarded (packets to VIP not filtered), and No tag (total packets, sum of dropped and forwarded).
+    Azure DDoS プランのメトリックでは、パケットとバイトがタグ別に区別されます: ドロップ (DDoS によってスクラブされたパケット)、転送済み (VIP へのパケットはフィルター処理されません)、タグなし (パケットの合計、ドロップされたパケットと転送されたパケットの合計)。
   potentialBenefits: Enhanced security and traffic insight
   pgVerified: true
   publishedToLearn: false
@@ -15,4 +15,4 @@
   tags: null
   learnMoreLink:
     - name: Monitoring Azure DDoS Protection
-      url: "https://learn.microsoft.com/en-us/azure/ddos-protection/monitor-ddos-protection-reference"
+      url: "https://learn.microsoft.com/ja-jp/azure/ddos-protection/monitor-ddos-protection-reference"

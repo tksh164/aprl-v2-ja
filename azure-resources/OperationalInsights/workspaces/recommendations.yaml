@@ -1,4 +1,4 @@
-﻿- description: Enable Log Analytics data export to GRS or GZRS
+- description: GRS または GZRS への Log Analytics データのエクスポートを有効にする
   aprlGuid: b36fd2ac-dd83-664a-ab48-ff7b8d3b189d
   recommendationTypeId: null
   recommendationControl: Governance
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.OperationalInsights/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Data export in a Log Analytics workspace to an Azure Storage account enhances data protection against regional failures by using geo-redundant (GRS) or geo-zone-redundant storage (GZRS), mainly for compliance and integration with other Azure services and tools.
+    Log Analytics ワークスペースから Azure Storage アカウントへのデータのエクスポートでは、主に他の Azure サービスやツールとのコンプライアンスと統合のために、geo 冗長 (GRS) または geo ゾーン冗長ストレージ (GZRS) を使用して、リージョンの障害に対するデータ保護が強化されます。
   potentialBenefits: Enhances compliance and regional fault tolerance
   pgVerified: true
   publishedToLearn: false
@@ -19,7 +19,7 @@
     - name: Azure Monitor configuration recommendations
       url: "https://learn.microsoft.com/azure/azure-monitor/best-practices-logs#configuration-recommendations"
 
-- description: Create a health status alert rule for your Log Analytics workspace
+- description: Log Analytics ワークスペースの正常性状態アラート ルールを作成する
   aprlGuid: 4b77191c-cc3c-8c4e-844b-0f56d0927890
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -27,7 +27,7 @@
   recommendationResourceType: Microsoft.OperationalInsights/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    A health status alert will proactively notify you if a workspace becomes unavailable because of a datacenter or regional failure.
+    正常性状態アラートは、データセンターまたはリージョンの障害が原因でワークスペースが使用できなくなった場合に、事前に通知されます。
   potentialBenefits: Early alert for workspace failure
   pgVerified: true
   publishedToLearn: false

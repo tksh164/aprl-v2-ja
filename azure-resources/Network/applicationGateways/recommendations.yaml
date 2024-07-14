@@ -1,4 +1,4 @@
-- description: Ensure Autoscale feature has been enabled
+- description: 自動スケーリング機能が有効になっていることを確認する
   aprlGuid: 823b0cff-05c0-2e4e-a1e7-9965e1cfa16f
   recommendationTypeId: c9c9750b-9ddb-436f-b19a-9c725539a0b5
   recommendationControl: Scalability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Azure Application Gateways v2 are always deployed in a highly available fashion with multiple instances by default. Enabling autoscale ensures the service is not reliant on manual intervention for scaling.
+    Azure Application Gateways v2 は、既定で常に複数のインスタンスを使用して高可用性の方法でデプロイされます。自動スケーリングを有効にすると、サービスがスケーリングの手動介入に依存しなくなります。
   potentialBenefits: Enhances uptime and enables autoscaling
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Application Gateway Autoscaling Zone-Redundant
       url: "https://learn.microsoft.com/azure/application-gateway/application-gateway-autoscaling-zone-redundant#autoscaling-and-high-availability"
 
-- description: Secure all incoming connections with SSL
+- description: すべての着信接続をSSLで保護
   aprlGuid: 233a7008-71e9-e745-923e-1a1c7a0b92f3
   recommendationTypeId: null
   recommendationControl: Security
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Secure all incoming connections using HTTPS for production services with end-to-end SSL/TLS or SSL/TLS termination at the Application Gateway to protect against attacks and ensure data remains private and encrypted between the web server and browsers.
+    Application Gateway でのエンドツーエンドの SSL/TLS または SSL/TLS 終端により、運用サービスに HTTPS を使用してすべての着信接続をセキュリティで保護し、攻撃から保護し、Web サーバーとブラウザー間でデータのプライバシーと暗号化が維持されるようにします。
   potentialBenefits: Enhanced security and privacy
   pgVerified: true
   publishedToLearn: false
@@ -44,7 +44,7 @@
     - name: Application Gateway SSL Cert Management
       url: "https://learn.microsoft.com/azure/application-gateway/ssl-certificate-management"
 
-- description: Enable Web Application Firewall policies
+- description: Web アプリケーション ファイアウォール ポリシーを有効にする
   aprlGuid: 8d9223c4-730d-ca47-af88-a9a024c37270
   recommendationTypeId: efe75f01-6fff-5d9d-08e6-092b98d3fb3f
   recommendationControl: Security
@@ -52,7 +52,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Use Application Gateway with Web Application Firewall (WAF) in an application virtual network to safeguard inbound HTTP/S internet traffic. WAF offers centralized defense against potential exploits through OWASP core rule sets-based rules.
+    アプリケーション仮想ネットワークで Application Gateway と Web アプリケーション ファイアウォール (WAF) を使用して、受信 HTTP/S インターネット トラフィックを保護します。WAFは、OWASPコアルールセットベースのルールを通じて、潜在的なエクスプロイトに対する一元的な防御を提供します。
   potentialBenefits: Enhanced security for HTTP/S traffic
   pgVerified: true
   publishedToLearn: false
@@ -65,7 +65,7 @@
     - name: Application Gateway - Web Application Firewall
       url: "https://learn.microsoft.com/azure/application-gateway/features#web-application-firewall"
 
-- description: Migrate to Application Gateway v2
+- description: Application Gateway v2 に移行する
   aprlGuid: 7893f0b3-8622-1d47-beed-4b50a19f7895
   recommendationTypeId: 0e19257e-dcef-4d00-8de1-5fe1ae0fd948
   recommendationControl: Scalability
@@ -73,7 +73,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Use Application Gateway v2 for built-in features like autoscaling, static VIPs, Azure KeyVault integration for better traffic management and performance, unless v1 is necessary.
+    v1 が必要でない限り、自動スケーリング、静的 VIP、Azure KeyVault 統合などの組み込み機能に Application Gateway v2 を使用して、トラフィック管理とパフォーマンスを向上させます。
   potentialBenefits: Better performance, autoscaling, more features
   pgVerified: true
   publishedToLearn: false
@@ -88,7 +88,7 @@
     - name: Application Gateway V1 Retirement
       url: "https://azure.microsoft.com/updates/application-gateway-v1-will-be-retired-on-28-april-2026-transition-to-application-gateway-v2/"
 
-- description: Monitor and Log the configurations and traffic
+- description: 設定とトラフィックの監視とログ記録
   aprlGuid: 5d035919-898d-a047-8d5d-454e199692e5
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -96,7 +96,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Enable logging in storage accounts, Log Analytics, and monitoring services for auditing and insights. If using NSGs, enable NSG flow logs to be stored, providing in-depth traffic analysis into Azure Cloud.
+    ストレージ アカウント、Log Analytics、および監査と分析情報の監視サービスでのログ記録を有効にします。NSG を使用している場合は、NSG フロー ログを格納できるようにして、Azure Cloud への詳細なトラフィック分析を提供します。
   potentialBenefits: Enhanced traffic insight and audit
   pgVerified: true
   publishedToLearn: false
@@ -109,7 +109,7 @@
     - name: Application Gateway Diagnostics
       url: "https://learn.microsoft.com/azure/application-gateway/application-gateway-diagnostics"
 
-- description: Use Health Probes to detect backend availability
+- description: 正常性プローブを使用してバックエンドの可用性を検出する
   aprlGuid: 847a8d88-21c4-bc48-a94e-562206edd767
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -117,7 +117,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Using custom health probes enhances understanding of backend availability and facilitates monitoring of backend services for any impact.
+    カスタム正常性プローブを使用すると、バックエンドの可用性の理解が深まり、バックエンド サービスの影響の監視が容易になります。
   potentialBenefits: Ensures backend uptime monitoring.
   pgVerified: true
   publishedToLearn: false
@@ -130,7 +130,7 @@
     - name: Well-Architected Framework Application Gateway Overview
       url: "https://learn.microsoft.com/azure/well-architected/services/networking/azure-application-gateway"
 
-- description: Deploy Application Gateway in a zone-redundant configuration
+- description: Application Gateway をゾーン冗長構成にデプロイする
   aprlGuid: c9c00f2a-3888-714b-a72b-b4c9e8fcffb2
   recommendationTypeId: 5c488377-be3e-4365-92e8-09d1e8d9038c
   recommendationControl: High Availability
@@ -138,7 +138,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Deploying Application Gateway in a zone-aware configuration ensures continued customer access to services even if a specific zone goes down, as services in other zones remain available.
+    ゾーン対応構成で Application Gateway をデプロイすると、他のゾーンのサービスが引き続き利用できるため、特定のゾーンがダウンした場合でも、顧客がサービスに引き続きアクセスできるようになります。
   potentialBenefits: Enhanced uptime and customer access
   pgVerified: true
   publishedToLearn: false
@@ -151,7 +151,7 @@
     - name: Application Gateway V2 Overview
       url: "https://learn.microsoft.com/azure/application-gateway/overview-v2"
 
-- description: Plan for backend maintenance by using connection draining
+- description: 接続ドレインを使用したバックエンドのメンテナンスを計画する
   aprlGuid: 10f02bc6-e2e7-004d-a2c2-f9bf9f16b915
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -159,7 +159,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Using connection draining for backend maintenance ensures graceful removal of backend pool members during updates or health issues. It's enabled via Backend Setting and applies to all members during rule creation.
+    バックエンドのメンテナンスにコネクションドレインを使用すると、更新時やヘルスの問題時にバックエンドプールメンバーが正常に削除されます。これは [バックエンド設定] で有効にされ、ルールの作成時にすべてのメンバーに適用されます。
   potentialBenefits: Smooth updates, no dropped users
   pgVerified: true
   publishedToLearn: false
@@ -172,7 +172,7 @@
     - name: Application Gateway Connection Draining HTTP Settings
       url: "https://learn.microsoft.com/azure/application-gateway/configuration-http-settings#connection-draining"
 
-- description: Ensure Application Gateway Subnet is using a /24 subnet mask
+- description: Application Gateway サブネットが /24 サブネット マスクを使用していることを確認する
   aprlGuid: 8364fd0a-7c0e-e240-9d95-4bf965aec243
   recommendationTypeId: ef4da732-f541-4109-bc0e-465c68b6c7eb
   recommendationControl: Other Best Practices
@@ -180,7 +180,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Application Gateway v2 (Standard_v2 or WAF_v2 SKU) can support up to 125 instances. A /24 subnet isn't mandatory for deployment but is advised to provide enough space for autoscaling and maintenance upgrades.
+    Application Gateway v2 (Standard_v2 または WAF_v2 SKU) では、最大 125 個のインスタンスをサポートできます。/24 サブネットはデプロイに必須ではありませんが、自動スケーリングとメンテナンスのアップグレードに十分な領域を提供することをお勧めします。
   potentialBenefits: Allows autoscaling and maintenance
   pgVerified: true
   publishedToLearn: false
@@ -189,4 +189,4 @@
   tags: null
   learnMoreLink:
     - name: Azure Application Gateway infrastructure configuration | Microsoft Learn
-      url: "https://learn.microsoft.com/en-us/azure/application-gateway/configuration-infrastructure#size-of-the-subnet"
+      url: "https://learn.microsoft.com/ja-jp/azure/application-gateway/configuration-infrastructure#size-of-the-subnet"

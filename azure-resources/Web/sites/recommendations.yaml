@@ -1,4 +1,4 @@
-- description: Enable diagnostics logging
+- description: 診断ログを有効にする
   aprlGuid: 493f6079-3bb6-4a56-96ba-ab3248474cb1
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Enabling diagnostics logging for your Azure App Service is crucial for monitoring and diagnostics, including both application logging and web server logging.
+    Azure App Service の診断ログを有効にすることは、アプリケーション ログと Web サーバー ログの両方を含む監視と診断にとって重要です。
   potentialBenefits: Monitoring and Alerting
   pgVerified: false
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Enable diagnostics logging for apps in Azure App Service
       url: "https://learn.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs"
 
-- description: Monitor Performance
+- description: パフォーマンスの監視
   aprlGuid: a7e8bb3d-8ceb-442d-b26f-007cd63f9ffc
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Use Application Insights to monitor app performance and load behavior, offering real-time insights, issue diagnosis, and root-cause analysis. It supports ASP.NET, ASP.NET Core, Java, and Node.js on Azure App Service, now with built-in monitoring.
+    Application Insights を使用して、アプリのパフォーマンスと負荷の動作を監視し、リアルタイムの分析情報、問題の診断、根本原因の分析を提供します。Azure App Service で ASP.NET、ASP.NET Core、Java、Node.js をサポートし、監視機能が組み込まれました。
   potentialBenefits: Real-time insights and issue diagnosis
   pgVerified: false
   publishedToLearn: false
@@ -38,7 +38,7 @@
     - name: Application monitoring for Azure App Service
       url: "https://learn.microsoft.com/azure/azure-monitor/app/azure-web-apps"
 
-- description: Separate web apps from web APIs
+- description: Web アプリを Web API から分離する
   aprlGuid: 78a5c033-ff51-4332-8a71-83464c34494b
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    If your solution includes both a web front end and a web API, decomposing them into separate App Service apps facilitates solution decomposition by workload, allowing for independent scaling. Initially, you can deploy both in the same plan and separate them for independent scaling when necessary.
+    ソリューションに Web フロントエンドと Web API の両方が含まれている場合は、それらを個別の App Service アプリに分解すると、ワークロードによるソリューションの分解が容易になり、独立したスケーリングが可能になります。最初は、両方を同じプランにデプロイし、必要に応じて個別にスケーリングするために分離できます。
   potentialBenefits: Independent scaling, easier management
   pgVerified: false
   publishedToLearn: false
@@ -57,7 +57,7 @@
     - name: Resiliency checklist for specific Azure services
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: Create a separate storage account for logs
+- description: ログ用に別のストレージ アカウントを作成する
   aprlGuid: 3f9ddb59-0bb3-4acb-9c9b-99aa1776f0ab
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Creating a separate storage account for logs and not using the same one for application data prevents logging activities from reducing application performance by ensuring that the resources dedicated to handling application data are not burdened by logging processes.
+    ログ用に別のストレージ アカウントを作成し、アプリケーション データに同じストレージ アカウントを使用しないと、アプリケーション データの処理専用のリソースがログ プロセスによって負荷をかけられないようにすることで、ログ アクティビティによってアプリケーションのパフォーマンスが低下するのを防ぐことができます。
   potentialBenefits: Improves app performance
   pgVerified: false
   publishedToLearn: false
@@ -76,7 +76,7 @@
     - name: Resiliency checklist
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: Deploy to a staging slot
+- description: ステージングスロットへのデプロイ
   aprlGuid: a1d91661-32d4-430b-b3b6-5adeb0975df7
   recommendationTypeId: 1d3b5a51-62d4-4b77-96f6-40ed0a3aa21f
   recommendationControl: Governance
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Create a deployment slot for staging to deploy updates, verify them, and ensure all instances are warmed up before production swap, reducing bad update chances. An LKG slot allows easy rollback to a previous good deployment if issues arise later, enhancing reliability.
+    ステージング用のデプロイスロットを作成して、更新をデプロイし、検証し、本番スワップの前にすべてのインスタンスがウォームアップされるようにして、不適切な更新の可能性を減らします。LKG スロットを使用すると、後で問題が発生した場合に、以前の正常な展開に簡単にロールバックできるため、信頼性が向上します。
   potentialBenefits: Safer updates and easy rollback
   pgVerified: false
   publishedToLearn: false
@@ -95,7 +95,7 @@
     - name: Set up staging environments in Azure App Service
       url: "https://learn.microsoft.com/azure/app-service-web/web-sites-staged-publishing"
 
-- description: Store configuration as app settings
+- description: アプリを設定として保存する
   aprlGuid: 0b80b67c-afbe-4988-ad58-a85a146b681e
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -103,7 +103,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Use app settings for configuration and define them in Resource Manager templates or via PowerShell to facilitate part of an automated deployment/update process for improved reliability.
+    構成にアプリ設定を使用し、Resource Manager テンプレートまたは PowerShell を使用して定義することで、自動デプロイ/更新プロセスの一部を容易にし、信頼性を向上させることができます。
   potentialBenefits: Enhanced reliability via automation
   pgVerified: false
   publishedToLearn: false
@@ -114,7 +114,7 @@
     - name: Configure web apps in Azure App Service
       url: "https://learn.microsoft.com/azure/app-service-web/web-sites-configure"
 
-- description: Enable Health check for App Services
+- description: App Services の正常性チェックを有効にする
   aprlGuid: fd049c28-ae6d-48f0-a641-cc3ba1a3fe1d
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -122,7 +122,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Use Health Check for production workloads. Health check increases your application's availability by rerouting requests away from unhealthy instances, and replacing instances if they remain unhealthy. The Health check path should check critical components of your application.
+    稼働ワークロードにはヘルスチェックを使用します。ヘルスチェックは、異常なインスタンスからリクエストを再ルーティングし、異常なままのインスタンスを置き換えることで、アプリケーションの可用性を向上させます。ヘルスチェックパスでは、アプリケーションの重要なコンポーネントをチェックする必要があります。
   potentialBenefits: Enhanced reliability via automation
   pgVerified: false
   publishedToLearn: false
@@ -131,9 +131,9 @@
   tags: null
   learnMoreLink:
     - name: Monitor the health of App Service instances
-      url: "https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?tabs=dotnet#enable-health-check"
+      url: "https://learn.microsoft.com/ja-jp/azure/app-service/monitor-instances-health-check?tabs=dotnet#enable-health-check"
 
-- description: Configure network access restrictions
+- description: ネットワーク アクセス制限を構成する
   aprlGuid: aab6b4a4-9981-43a4-8728-35c7ecbb746d
   recommendationTypeId: null
   recommendationControl: Governance
@@ -141,7 +141,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Use network access restrictions to define a priority-ordered allow/deny list that controls network access to your app. Web application firewalls, such as the one available in Application Gateway, are recommended for protection of public-facing web applications.
+    ネットワーク アクセス制限を使用して、アプリへのネットワーク アクセスを制御する優先順位の高い許可/拒否リストを定義します。Application Gateway で使用できるような Web アプリケーション ファイアウォールは、一般向けの Web アプリケーションの保護に推奨されます。
   potentialBenefits: Enhanced security
   pgVerified: false
   publishedToLearn: false
@@ -150,9 +150,9 @@
   tags: null
   learnMoreLink:
     - name: Set up Azure App Service access restrictions
-      url: "https://learn.microsoft.com/en-us/azure/app-service/app-service-ip-restrictions?tabs=azurecli"
+      url: "https://learn.microsoft.com/ja-jp/azure/app-service/app-service-ip-restrictions?tabs=azurecli"
 
-- description: Set minimum instance count to 2 for app service
+- description: App Service の最小インスタンス数を 2 に設定する
   aprlGuid: 9e6682ac-31bc-4635-9959-ab74b52454e6
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -160,7 +160,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    App Service should be configured with a minimum of two instances for production workloads. If apps have a longer warmup time a minimum of three instances should be used.
+    App Service は、運用ワークロード用に少なくとも 2 つのインスタンスで構成する必要があります。アプリのウォームアップ時間が長い場合は、少なくとも 3 つのインスタンスを使用する必要があります。
   potentialBenefits: Improves app performace
   pgVerified: false
   publishedToLearn: false
@@ -171,7 +171,7 @@
     - name: Ultimate guide to running healthy apps in the cloud
       url: "https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html"
 
-- description: Enable auto heal for Functions App
+- description: Functions アプリの自動修復を有効にする
   aprlGuid: c6c4b962-5af4-447a-9d74-7b9c53a5dff5
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -179,7 +179,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Auto Heal allows you to mitigate your apps when it runs into unexpected situations like HTTP server errors, resource exhaustion, etc. You can configure different triggers based on your need and choose to recycle the app to recover it from a bad state.
+    Auto Heal を使用すると、HTTP サーバー エラーやリソースの枯渇などの予期しない状況が発生した場合に、アプリを軽減できます。必要に応じてさまざまなトリガーを構成し、アプリをリサイクルして不適切な状態から回復することを選択できます。
   potentialBenefits: Improved app availability
   pgVerified: false
   publishedToLearn: false
@@ -190,7 +190,7 @@
     - name: Announcing the New Auto Healing Experience in App Service Diagnostics - Azure App Service
       url: "https://azure.github.io/AppService/2018/09/10/Announcing-the-New-Auto-Healing-Experience-in-App-Service-Diagnostics.html"
 
-- description: No warmup trigger added to Function App
+- description: ウォームアップ トリガーが関数アプリに追加されていない
   aprlGuid: 52f368ee-1d77-4b34-92db-64be269642d0
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -198,7 +198,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Add a warmup trigger to pre-load custom dependencies during the pre-warming process so that your functions are ready to start processing requests immediately.
+    ウォームアップトリガーを追加して、事前ウォーミングプロセス中にカスタム依存関係をプリロードして、関数がリクエストの処理をすぐに開始できるようにします。
   potentialBenefits: Improved app availability
   pgVerified: false
   publishedToLearn: false
@@ -207,9 +207,9 @@
   tags: null
   learnMoreLink:
     - name: Azure Functions Warmup Trigger
-      url: "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-warmup?tabs=in-process%2Cnodejs-v4&pivots=programming-language-csharp#trigger"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-warmup?tabs=in-process%2Cnodejs-v4&pivots=programming-language-csharp#trigger"
 
-- description: Ensure unique hostid set for Function App
+- description: Function App に一意の hostid が設定されていることを確認する
   aprlGuid: 0b06a688-0dd6-4d73-9f72-6666ff853ca9
   recommendationTypeId: null
   recommendationControl: Governance
@@ -217,7 +217,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    A host ID must be between 1 and 32 characters, contain only lowercase letters, numbers, and dashes, not start or end with a dash, and not contain consecutive dashes. The host ID value should be unique for all apps/slots you're running.
+    ホスト ID は 1 から 32 文字で、小文字、数字、およびダッシュのみを含み、ダッシュで開始または終了することはできず、連続するダッシュを含めることはできません。ホスト ID の値は、実行しているすべてのアプリ/スロットで一意である必要があります。
   potentialBenefits: Easier management
   pgVerified: false
   publishedToLearn: false
@@ -226,9 +226,9 @@
   tags: null
   learnMoreLink:
     - name: Resource naming restrictions - Azure Resource Manager
-      url: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/resource-name-rules"
 
-- description: Ensure Function App runs a supported version
+- description: Function App でサポートされているバージョンが実行されていることを確認する
   aprlGuid: c9a278b7-024b-454b-bd54-41587c512b74
   recommendationTypeId: null
   recommendationControl: Governance
@@ -236,7 +236,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    Beginning on December 13, 2022, function apps running on versions 2.x and 3.x of the Azure Functions runtime have reached the end of life (EOL) of extended support. We highly recommend you migrating your function apps to version 4.x of the Functions runtime.
+    2022 年 12 月 13 日以降、Azure Functions ランタイムのバージョン 2.x および 3.x で実行されている関数アプリは、延長サポートのサポート終了 (EOL) に達しました。関数アプリを Functions ランタイムのバージョン 4.x に移行することを強くお勧めします。
   potentialBenefits: Better governance
   pgVerified: false
   publishedToLearn: false
@@ -245,9 +245,9 @@
   tags: null
   learnMoreLink:
     - name: Migrate version 3.x to 4.x
-      url: "https://learn.microsoft.com/en-us/azure/azure-functions/migrate-version-3-version-4?tabs=net6-in-proc%2Cazure-cli%2Cwindows&pivots=programming-language-csharp"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-functions/migrate-version-3-version-4?tabs=net6-in-proc%2Cazure-cli%2Cwindows&pivots=programming-language-csharp"
 
-- description: Ensure FUNCTIONS_WORKER_RUNTIME is set properly
+- description: FUNCTIONS_WORKER_RUNTIMEが正しく設定されているか確認する
   aprlGuid: 7c608f46-46b2-4cc0-bbd6-1d457c16671c
   recommendationTypeId: null
   recommendationControl: Governance
@@ -255,7 +255,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    The FUNCTIONS_WORKER_RUNTIME setting in the Function App configuration should be set to the appropriate value based on the language you are using. This setting is used to determine the language worker that will be used to execute your functions.
+    関数アプリ構成の FUNCTIONS_WORKER_RUNTIME 設定は、使用している言語に基づいて適切な値に設定する必要があります。この設定は、関数の実行に使用される言語ワーカーを決定するために使用されます。
   potentialBenefits: Better governance
   pgVerified: false
   publishedToLearn: false
@@ -264,4 +264,4 @@
   tags: null
   learnMoreLink:
     - name: FUNCTIONS_WORKER_RUNTIME
-      url: "https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings#functions_worker_runtime"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-app-settings#functions_worker_runtime"
