@@ -87,7 +87,7 @@ $Script:Runtime = Measure-Command -Expression {
 
     if ($PSCmdlet.ShouldProcess('')) {
       # Clone the GitHub repository to a temporary folder
-      $repoUrl = 'https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2'
+      $repoUrl = 'https://github.com/tksh164/aprl-v2-ja'
 
       # Define script path as the default path to save files
       $workingFolderPath = $PSScriptRoot
