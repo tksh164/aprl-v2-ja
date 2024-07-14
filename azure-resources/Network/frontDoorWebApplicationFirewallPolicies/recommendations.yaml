@@ -1,4 +1,4 @@
-- description: Inspect Azure Front Door WAF logs for wrongfully blocked legitimate requests
+- description: Azure Front Door WAF ログを調べて、誤ってブロックされた正当な要求を確認する
   aprlGuid: d0cfe47f-686b-5043-bf83-5a3868acb80a
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/frontdoorWebApplicationFirewallPolicies
   recommendationMetadataState: Active
   longDescription: |
-    WAF may mistakenly block legitimate requests (false positives). These can be identified by examining the last 24 hours of blocked requests in Log Analytics.
+    WAF は、正当な要求 (誤検知) を誤ってブロックする可能性があります。これらは、Log Analytics でブロックされた要求の過去 24 時間を調べることで特定できます。
   potentialBenefits: Reduces false positives, improves access
   pgVerified: true
   publishedToLearn: false
@@ -23,7 +23,7 @@
     - name: Fixing a false positive
       url: "https://learn.microsoft.com/azure/web-application-firewall/ag/web-application-firewall-troubleshoot#fixing-false-positives"
 
-- description: Check Azure Application Gateway WAF logs for mistakenly blocked valid requests
+- description: Azure Application Gateway WAF ログで、誤ってブロックされた有効な要求を確認する
   aprlGuid: 537b4d94-edd1-4041-b13d-8217dfa485f0
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -31,7 +31,7 @@
   recommendationResourceType: Microsoft.Network/frontdoorWebApplicationFirewallPolicies
   recommendationMetadataState: Active
   longDescription: |
-    WAF may block legitimate requests as false positives. Identifying blocked requests within the last 24 hours through Log Analytics can help manage and mitigate these incorrect blockages efficiently.
+    WAF は、正当な要求を誤検知としてブロックする場合があります。Log Analytics を使用して過去 24 時間以内にブロックされた要求を特定すると、これらの不適切なブロックを効率的に管理および軽減するのに役立ちます。
   potentialBenefits: Improve false positive identification
   pgVerified: true
   publishedToLearn: false
@@ -44,7 +44,7 @@
     - name: Diagnostic logs
       url: "https://learn.microsoft.com/azure/web-application-firewall/ag/web-application-firewall-logs#diagnostic-logs"
 
-- description: Monitor Web Application Firewall
+- description: Webアプリケーションファイアウォールの監視
   aprlGuid: 5357ae22-0f52-1a49-9fd4-1f00ace6add0
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -52,7 +52,7 @@
   recommendationResourceType: Microsoft.Network/frontdoorWebApplicationFirewallPolicies
   recommendationMetadataState: Active
   longDescription: |
-    Monitoring the health of your Web Application Firewall and the applications it protects is crucial. This can be achieved through integration with Microsoft Defender for Cloud, Azure Monitor, and Azure Monitor logs, ensuring optimal performance and security.
+    Web Application Firewall とそれが保護するアプリケーションの正常性を監視することは非常に重要です。これは、Microsoft Defender for Cloud、Azure Monitor、Azure Monitor ログとの統合によって実現され、最適なパフォーマンスとセキュリティが確保されます。
   potentialBenefits: Enhanced security and health insight
   pgVerified: false
   publishedToLearn: false

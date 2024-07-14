@@ -1,4 +1,4 @@
-- description: Use at least the Enterprise SKU
+- description: 少なくとも Enterprise SKU を使用する
   aprlGuid: bb6deb9d-24fa-4ee8-bc23-ac3ebc7fdf8e
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.AAD/domainServices
   recommendationMetadataState: Active
   longDescription: |
-    You need to use a minimum of Enterprise SKU for your managed domain to support replica sets.
+    レプリカ セットをサポートするには、マネージド ドメインに少なくとも Enterprise SKU を使用する必要があります。
   potentialBenefits: The Enterprise SKU enables creation of replica sets.
   pgVerified: false
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Create and use replica sets for resiliency or geolocation in Microsoft Entra Domain Services
-      url: "https://learn.microsoft.com/en-us/entra/identity/domain-services/tutorial-create-replica-set"
+      url: "https://learn.microsoft.com/ja-jp/entra/identity/domain-services/tutorial-create-replica-set"
 
-- description: Use replica sets for resiliency or geolocation in Microsoft Entra Domain Services
+- description: レプリカ セットを使用して、Microsoft Entra Domain Services の回復性または位置情報を取得する
   aprlGuid: a3058909-fcf8-4450-88b5-499f57449178
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.AAD/domainServices
   recommendationMetadataState: Active
   longDescription: |
-    To improve the resiliency of a Microsoft Entra Domain Services managed domain, or deploy to additional geographic locations close to your applications, you can use replica sets.
+    Microsoft Entra Domain Services マネージド ドメインの回復性を向上させる場合や、アプリケーションに近い追加の地理的な場所にデプロイする場合は、レプリカ セットを使用できます。
     You can add a replica set to any peered virtual network in any Azure region that supports Domain Services.
   potentialBenefits: The replica sets provide geographical resiliency.
   pgVerified: false
@@ -35,4 +35,4 @@
   tags: null
   learnMoreLink:
     - name: Create and use replica sets for resiliency or geolocation in Microsoft Entra Domain Services
-      url: "https://learn.microsoft.com/en-us/entra/identity/domain-services/tutorial-create-replica-set"
+      url: "https://learn.microsoft.com/ja-jp/entra/identity/domain-services/tutorial-create-replica-set"

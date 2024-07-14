@@ -1,4 +1,4 @@
-- description: Enable Purge protection for Azure App Configuration
+- description: Azure App Configuration の消去保護を有効にする
   aprlGuid: bb4c8db4-f821-475b-b1ea-16e95358665e
   recommendationTypeId: null
   recommendationControl: Governance
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.AppConfiguration/configurationStores
   recommendationMetadataState: Active
   longDescription: |
-    With Purge protection enabled, soft deleted stores can't be purged in the retention period. If disabled, the soft deleted store can be purged before the retention period expires.
+    消去保護を有効にすると、論理的に削除されたストアを保持期間中に消去することはできません。無効にすると、保存期間が終了する前に、論理的に削除されたストアを削除できます。
   potentialBenefits: Prevent accidental deletion of configuration stores.
   pgVerified: false
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Purge protection
-      url: "https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-soft-delete#purge-protection"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-app-configuration/concept-soft-delete#purge-protection"
 
-- description: Upgrade to App Configuration Standard tier
+- description: App Configuration Standard レベルにアップグレードする
   aprlGuid: 2102a57a-a056-4d5e-afe5-9df9f92177ca
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.AppConfiguration/configurationStores
   recommendationMetadataState: Active
   longDescription: |
-    SLA is not available for Free tier. Upgrade to the Standard tier to get an SLA of 99.9%
+    SLA は Free レベルでは使用できません。Standard レベルにアップグレードして 99.9% の SLA を取得
   potentialBenefits: High availability, more storage, higher request quota.
   pgVerified: false
   publishedToLearn: false
@@ -34,4 +34,4 @@
   tags: null
   learnMoreLink:
     - name: Choose App Configuration tier
-      url: "https://learn.microsoft.com/en-us/azure/azure-app-configuration/faq#which-app-configuration-tier-should-i-use"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-app-configuration/faq#which-app-configuration-tier-should-i-use"

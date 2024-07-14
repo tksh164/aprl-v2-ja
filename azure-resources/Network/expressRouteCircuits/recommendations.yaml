@@ -1,4 +1,4 @@
-- description: Connect on-prem networks to Azure critical workloads via multiple ExpressRoutes
+- description: オンプレミス ネットワークを複数の ExpressRoute 経由で Azure の重要なワークロードに接続する
   aprlGuid: 4d703025-dafc-f840-a183-5dc440456134
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    Connecting each ExpressRoute Gateway to a minimum of two circuits in different peering locations enhances redundancy and reliability by ensuring alternate pathways for data in case one circuit fails.
+    各 ExpressRoute ゲートウェイを異なるピアリングの場所にある少なくとも 2 つの回線に接続すると、1 つの回線で障害が発生した場合にデータの代替経路が確保されるため、冗長性と信頼性が向上します。
   potentialBenefits: Enhanced reliability and redundancy
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Designing for disaster recovery with ExpressRoute private peering
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-disaster-recovery-with-expressroute-privatepeering"
 
-- description: Ensure ExpressRoute's physical links connect to distinct network edge devices
+- description: ExpressRoute の物理リンクが個別のネットワーク エッジ デバイスに接続されていることを確認する
   aprlGuid: 0e19cc41-8274-1342-b0db-0e4146eacef8
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    Microsoft or the ExpressRoute provider always ensures physical redundancy in their services. It's essential to maintain this level of physical redundancy (two devices, two links) from the ExpressRoute peering location to your network for optimal performance and reliability.
+    Microsoft または ExpressRoute プロバイダーは、サービスの物理的な冗長性を常に確保します。最適なパフォーマンスと信頼性を得るには、ExpressRoute ピアリングの場所からネットワークへのこのレベルの物理冗長性 (2 つのデバイス、2 つのリンク) を維持することが不可欠です。
   potentialBenefits: Enhanced reliability and fault tolerance
   pgVerified: true
   publishedToLearn: false
@@ -34,11 +34,11 @@
   tags: null
   learnMoreLink:
     - name: Designing for high availability with ExpressRoute
-      url: "https://learn.microsoft.com/en-us/azure/expressroute/designing-for-high-availability-with-expressroute"
+      url: "https://learn.microsoft.com/ja-jp/azure/expressroute/designing-for-high-availability-with-expressroute"
     - name: Azure Well-Architected Framework review - Azure ExpressRoute - Design Checklist
       url: "https://learn.microsoft.com/azure/well-architected/services/networking/azure-expressroute#recommendations"
 
-- description: Ensure both connections of an ExpressRoute circuit are configured in active-active mode
+- description: ExpressRoute 回線の両方の接続がアクティブ/アクティブ モードで構成されていることを確認する
   aprlGuid: f06a2bbe-5839-d447-9f39-fc3d20562d88
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    Operating both connections of an ExpressRoute circuit in active-active mode enhances high availability as the Microsoft network will load balance the traffic across the connections on a per-flow basis.
+    ExpressRoute 回線の両方の接続をアクティブ/アクティブ モードで運用すると、Microsoft ネットワークがフローごとに接続間でトラフィックの負荷を分散するため、高可用性が向上します。
   potentialBenefits: Improved high availability and load balancing
   pgVerified: true
   publishedToLearn: false
@@ -57,7 +57,7 @@
     - name: Designing for high availability with ExpressRoute - Active-active connections
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-high-availability-with-expressroute#active-active-connections"
 
-- description: Activate Bidirectional Forwarding Detection on edge devices for faster failover
+- description: エッジデバイスで双方向フォワーディング検出を有効にして、フェイルオーバーを高速化します
   aprlGuid: 2a5bf650-586d-db4c-a292-d922be7d3e0e
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    Enabling BFD over ExpressRoute speeds up link failure detection between MSEE devices and routers configured for ExpressRoute (CE/PE), applicable over both customer and Partner Edge routing devices with managed Layer 3 service.
+    ExpressRoute 経由で BFD を有効にすると、MSEE デバイスと ExpressRoute 用に構成されたルーター (CE/PE) 間のリンク障害検出が高速化され、マネージド レイヤー 3 サービスを使用する顧客とパートナー エッジの両方のルーティング デバイスに適用できます。
   potentialBenefits: Faster link failure detection
   pgVerified: true
   publishedToLearn: false
@@ -76,7 +76,7 @@
     - name: Configure BFD over ExpressRoute
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-bfd"
 
-- description: Configure monitoring and alerting for ExpressRoute circuits
+- description: ExpressRoute 回線の監視とアラートを構成する
   aprlGuid: 9771a435-d031-814e-9827-9b5fdafc0f87
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    Use Network Insights for monitoring ExpressRoute circuit availability, QoS, and throughput. Set alerts based on Azure Monitor Baseline Alerts for availability, QoS metrics, and throughput metrics exceeding specific thresholds.
+    Network Insights を使用して、ExpressRoute 回線の可用性、QoS、スループットを監視します。Azure Monitor ベースライン アラートに基づいて、可用性、QoS メトリック、および特定のしきい値を超えるスループット メトリックに関するアラートを設定します。
   potentialBenefits: Enhanced network performance and health
   pgVerified: true
   publishedToLearn: false
@@ -95,7 +95,7 @@
     - name: Azure Monitor Baseline Alerts - expressRouteCircuits
       url: "https://azure.github.io/azure-monitor-baseline-alerts/services/Network/expressRouteCircuits/"
 
-- description: Configure service health to receive ExpressRoute circuit maintenance notification
+- description: ExpressRoute 回線のメンテナンス通知を受信するようにサービス正常性を構成する
   aprlGuid: 26cb547f-aabc-dc40-be02-d0a9b6b04b1a
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -103,7 +103,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    ExpressRoute leverages service health for notifications on both planned and unplanned maintenance, ensuring users are informed about any changes to their ExpressRoute circuits.
+    ExpressRoute は、計画メンテナンスと計画外メンテナンスの両方の通知にサービス正常性を活用し、ExpressRoute 回線への変更についてユーザーに確実に通知します。
   potentialBenefits: Stay informed on circuit updates
   pgVerified: true
   publishedToLearn: false
@@ -114,7 +114,7 @@
     - name: How to view and configure alerts for Azure ExpressRoute circuit maintenance
       url: "https://learn.microsoft.com/azure/expressroute/maintenance-alerts"
 
-- description: Use a site-to-site VPN as an interim backup solution for a single ExpressRoute circuit
+- description: サイト間 VPN を 1 つの ExpressRoute 回線の中間バックアップ ソリューションとして使用する
   aprlGuid: f902cf86-2b53-2942-abc2-781f4fb62be6
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -122,7 +122,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    If you haven't added a second ExpressRoute circuit, use a site-to-site VPN as a temporary solution until the second circuit is available. This ensures network reliability and continuity of service.
+    2 番目の ExpressRoute 回線を追加していない場合は、2 番目の回線が使用可能になるまで、サイト間 VPN を一時的な解決策として使用します。これにより、ネットワークの信頼性とサービスの継続性が確保されます。
   potentialBenefits: Ensures continuity and reliability
   pgVerified: true
   publishedToLearn: false
@@ -133,7 +133,7 @@
     - name: Using S2S VPN as a backup for ExpressRoute private peering
       url: "https://learn.microsoft.com/azure/expressroute/use-s2s-vpn-as-backup-for-expressroute-privatepeering"
 
-- description: Implement rate-limiting across ExpressRoute Direct Circuits to optimize network flow
+- description: ExpressRoute Direct Circuits 全体にレート制限を実装してネットワーク フローを最適化する
   aprlGuid: d40c769d-2f08-4980-8d8f-a386946276e6
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -141,7 +141,7 @@
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
   recommendationMetadataState: Active
   longDescription: |
-    Rate limiting controls traffic volume between on-premises networks and Azure via ExpressRoute Direct, applying to private or Microsoft peering. It distributes port bandwidth, ensures stability, and prevents congestion, with steps outlined for enabling on circuits.
+    レート制限は、オンプレミス ネットワークと ExpressRoute Direct を介して Azure 間のトラフィック量を制御し、プライベートまたは Microsoft ピアリングに適用されます。ポート帯域幅を分散し、安定性を確保し、輻輳を防止し、回線で有効にするための手順を概説します。
   potentialBenefits: Optimizes network, prevents congestion
   pgVerified: true
   publishedToLearn: false
@@ -150,4 +150,4 @@
   tags: null
   learnMoreLink:
     - name: Rate limiting for ExpressRoute Direct circuits (Preview)
-      url: "https://learn.microsoft.com/en-us/azure/expressroute/rate-limit"
+      url: "https://learn.microsoft.com/ja-jp/azure/expressroute/rate-limit"

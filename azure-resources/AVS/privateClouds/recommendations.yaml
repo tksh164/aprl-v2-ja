@@ -1,4 +1,4 @@
-- description: Configure Azure Service Health notifications and alerts for Azure VMware Solution
+- description: Azure VMware Solution の Azure Service Health 通知とアラートを構成する
   aprlGuid: 74fcb9f2-9a25-49a6-8c42-d32851c4afb7
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Ensure Azure Service Health notifications are set for Azure VMware Solution across all used regions and subscriptions. This communicates service/security issues and maintenance activities like host replacements and upgrades, reducing service request submissions.
+    Azure Service Health 通知が、使用されているすべてのリージョンとサブスクリプションで Azure VMware Solution に設定されていることを確認します。これにより、サービス/セキュリティの問題と、ホストの交換やアップグレードなどのメンテナンスアクティビティが伝達され、サービスリクエストの送信が削減されます。
   potentialBenefits: Prompt mitigation of issues.
   pgVerified: true
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-management-and-monitoring#design-recommendations"
+      url: "https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-management-and-monitoring#design-recommendations"
 
-- description: Monitor when Azure VMware Solution Private Cloud is reaching the capacity limit
+- description: Azure VMware Solution プライベート クラウドが容量制限に達しているタイミングを監視する
   aprlGuid: 29d7a115-dfb6-4df1-9205-04824109548f
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Set an alert for when the node count in Azure VMware Solution Private Cloud hits or exceeds 90 hosts, enabling timely planning for a new private cloud.
+    Azure VMware Solution プライベート クラウドのノード数が 90 ホストに達したとき、またはそれを超えたときのアラートを設定し、新しいプライベート クラウドのタイムリーな計画を可能にします。
   potentialBenefits: Proactive capacity planning
   pgVerified: true
   publishedToLearn: false
@@ -34,9 +34,9 @@
   tags: null
   learnMoreLink:
     - name: Configure and streamline alerts
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
-- description: Monitor when Azure VMware Solution Cluster Size is approaching the host limit
+- description: Azure VMware Solution クラスター サイズがホストの制限に近づいているタイミングを監視する
   aprlGuid: f86355e3-de7c-4dad-8080-1b0b411e66c8
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Alert when the cluster size reaches 14 hosts. Set up periodic alerts for planning new clusters or datastores due to growth, especially from storage needs. Beyond 14 hosts, trigger alerts for each new host addition for proactive resource monitoring.
+    クラスタサイズが14ホストに達したときにアラートを出します。特にストレージのニーズの増加による新しいクラスタまたはデータストアを計画するための定期的なアラートを設定します。ホスト数が14を超えると、新しいホストが追加されるたびにアラートがトリガーされ、プロアクティブなリソース監視が可能になります。
   potentialBenefits: Proactive resource management
   pgVerified: true
   publishedToLearn: false
@@ -53,9 +53,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
-- description: Enable Stretched Clusters for Multi-AZ Availability of the vSAN Datastore
+- description: ストレッチクラスターを有効にして、vSAN データストアのマルチ AZ 可用性を実現
   aprlGuid: 9ec5b4c8-3dd8-473a-86ee-3273290331b9
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    For Azure VMware Solution, enabling Stretched Clusters offers 99.99% SLA, synchronous storage replication (RPO=0), and spreads vSAN datastore across two AZs. Must be done at initial setup, needing double quota due to extension across AZs.
+    Azure VMware Solution の場合、ストレッチ クラスターを有効にすると、99.99% の SLA、同期ストレージ レプリケーション (RPO=0) が提供され、vSAN データストアが 2 つの AZ に分散されます。初期設定時に行う必要があり、AZ 間での拡張のために二重のクォータが必要です。
   potentialBenefits: 99.99% SLA, 0 RPO, Multi-AZ
   pgVerified: true
   publishedToLearn: false
@@ -72,11 +72,11 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-vmware/infrastructure#implement-high-availability"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/infrastructure#implement-high-availability"
     - name: Stretched Clusters
-      url: "https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-vsan-stretched-clusters"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/deploy-vsan-stretched-clusters"
 
-- description: Configure Azure Monitor Alert warning thresholds for vSAN datastore utilization
+- description: vSAN データストア使用率の Azure Monitor アラート警告しきい値を構成する
   aprlGuid: 4232eb32-3241-4049-9e14-9b8005817b56
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Ensure VMware vSAN datastore slack space is maintained for SLA by monitoring storage utilization and setting alerts at 70% and 75% utilization to allow for capacity planning. To expand, add hosts or external storage like Azure Elastic SAN, Azure NetApp Files, if CPU and RAM requirements are met.
+    ストレージ使用率を監視し、70%と75%の使用率でアラートを設定してキャパシティプランニングを可能にすることで、VMware vSANデータストアのスラック領域がSLA用に維持されるようにします。拡張するには、CPU と RAM の要件が満たされている場合は、ホストまたは外部ストレージ (Azure Elastic SAN、Azure NetApp Files など) を追加します。
   potentialBenefits: Optimized capacity planning for vSAN
   pgVerified: true
   publishedToLearn: false
@@ -93,9 +93,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/azure-vmware/configure-alerts-for-azure-vmware-solution#supported-metrics-and-activities"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-alerts-for-azure-vmware-solution#supported-metrics-and-activities"
 
-- description: Configure Syslog in Diagnostic Settings for Azure VMware Solution
+- description: Azure VMware Solution の診断設定で Syslog を構成する
   aprlGuid: fa4ab927-bced-429a-971a-53350de7f14b
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -103,7 +103,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Ensure Diagnostic Settings are configured for each private cloud to send syslogs to external sources for analysis and/or archiving. Azure VMware Solution Syslogs contain data for troubleshooting and performance, aiding quicker issue resolution and early detection of issues.
+    各プライベート クラウドに対して診断設定が構成され、分析やアーカイブのために外部ソースに syslog が送信されていることを確認します。Azure VMware Solution Syslog には、トラブルシューティングとパフォーマンスのためのデータが含まれており、問題の迅速な解決と問題の早期検出に役立ちます。
   potentialBenefits: Faster issue resolution, early detection
   pgVerified: true
   publishedToLearn: false
@@ -112,9 +112,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-vmware/monitoring#manage-logs-and-archives"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#manage-logs-and-archives"
 
-- description: Monitor CPU Utilization to ensure sufficient resources for workloads
+- description: CPU 使用率を監視して、ワークロードに十分なリソースを確保する
   aprlGuid: 4ee5d535-c47b-470a-9557-4a3dd297d62f
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -122,7 +122,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Ensure sufficient compute resources to avoid host resource exhaustion in Azure VMware Solution, which utilizes vSphere DRS and HA for dynamic workload resource management. However, sustained CPU utilization over 95% may increase CPU Ready times, impacting workloads.
+    動的なワークロード リソース管理に vSphere DRS と HA を利用する Azure VMware Solution で、ホスト リソースの枯渇を回避するために十分なコンピューティング リソースを確保します。ただし、CPU 使用率が 95% を超えると、CPU の準備時間が長くなり、ワークロードに影響を与える可能性があります。
   potentialBenefits: Avoids resource exhaustion, optimizes performance
   pgVerified: true
   publishedToLearn: false
@@ -131,9 +131,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
-- description: Monitor Memory Utilization to ensure sufficient resources for workloads
+- description: メモリ使用率を監視して、ワークロードに十分なリソースを確保する
   aprlGuid: 029208c8-5186-4a76-8ee8-6e3445fef4dd
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -141,7 +141,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Ensure sufficient memory resources to prevent host resource exhaustion in Azure VMware Solution. It uses vSphere DRS and vSphere HA for dynamic workload management. Yet, continuous memory use over 95% leads to disk swapping, affecting workloads.
+    Azure VMware Solution でのホスト リソースの枯渇を防ぐために、十分なメモリ リソースを確保します。動的なワークロード管理には、vSphere DRS と vSphere HA を使用します。しかし、95%を超える継続的なメモリ使用量はディスクスワッピングにつながり、ワークロードに影響を与えます。
   potentialBenefits: Avoids host exhaustion and swapping
   pgVerified: true
   publishedToLearn: false
@@ -150,9 +150,9 @@
   tags: null
   learnMoreLink:
     - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
-- description: Apply Resource delete lock on the resource group hosting the private cloud
+- description: プライベート クラウドをホストしているリソース グループに対するリソース削除ロックの適用
   aprlGuid: a5ef7c05-c611-4842-9af5-11efdc99123a
   recommendationTypeId: null
   recommendationControl: Governance
@@ -160,7 +160,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Applying a resource delete lock to the Azure VMware Solution Private Cloud resource group prevents unauthorized or accidental deletion by anyone with contributor access, ensuring the protection and reliability of the Azure VMware Solution Private Cloud.
+    Azure VMware Solution プライベート クラウド リソース グループにリソース削除ロックを適用すると、共同作成者アクセス権を持つユーザーによる承認されていない削除や偶発的な削除が防止され、Azure VMware Solution プライベート クラウドの保護と信頼性が確保されます。
   potentialBenefits: Prevents accidental deletion
   pgVerified: true
   publishedToLearn: false
@@ -169,9 +169,9 @@
   tags: null
   learnMoreLink:
     - name: Lock your resources to protect your infrastructure
-      url: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources"
 
-- description: Use key autorotation for vSAN datastore customer-managed keys
+- description: vSAN データストアの顧客管理キーにキーの自動ローテーションを使用する
   aprlGuid: e0ac2f57-c8c0-4b8c-a7c8-19e5797828b5
   recommendationTypeId: null
   recommendationControl: Security
@@ -179,7 +179,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    When using customer-managed keys for encrypting vSAN datastores, leveraging Azure Key Vault for central management and accessing them via a managed identity linked to the private cloud is advised. The expiration of these keys can render the vSAN datastore and its associated workloads inaccessible.
+    vSAN データストアの暗号化にカスタマー マネージド キーを使用する場合は、Azure Key Vault を一元管理に利用し、プライベート クラウドにリンクされたマネージド ID を介してアクセスすることをお勧めします。これらのキーの有効期限が切れると、vSAN データストアとそれに関連するワークロードにアクセスできなくなる可能性があります。
   potentialBenefits: Avoid outages with key auto-rotation
   pgVerified: true
   publishedToLearn: false
@@ -188,9 +188,9 @@
   tags: null
   learnMoreLink:
     - name: Configure Customer Managed Keys
-      url: "https://learn.microsoft.com/en-us/azure/azure-vmware/configure-customer-managed-keys?tabs=azure-portal"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-customer-managed-keys?tabs=azure-portal"
 
-- description: Use multiple DNS servers per private FQDN zone
+- description: プライベート FQDN ゾーンごとに複数の DNS サーバーを使用する
   aprlGuid: fcc2e257-23af-4c68-aac8-9cc03033c939
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -198,7 +198,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Azure VMware Solution private clouds support up to three DNS servers for a single FQDN, preventing a single DNS server from becoming a point of failure. It's crucial to use multiple DNS servers for on-premises FQDN resolution from each private cloud.
+    Azure VMware Solution プライベート クラウドでは、1 つの FQDN に対して最大 3 つの DNS サーバーがサポートされるため、1 つの DNS サーバーが障害点になるのを防ぎます。各プライベート クラウドからのオンプレミスの FQDN 解決には、複数の DNS サーバーを使用することが重要です。
   potentialBenefits: Enhances reliability and avoids failure
   pgVerified: true
   publishedToLearn: false
@@ -207,4 +207,4 @@
   tags: null
   learnMoreLink:
     - name: Configure DNS forwarder
-      url: "https://learn.microsoft.com/en-us/azure/azure-vmware/configure-dns-azure-vmware-solution#configure-dns-forwarder"
+      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-dns-azure-vmware-solution#configure-dns-forwarder"

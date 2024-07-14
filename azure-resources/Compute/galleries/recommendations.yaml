@@ -1,4 +1,4 @@
-- description: A minimum of three replicas should be kept for production image versions
+- description: 本番イメージ・バージョン用に少なくとも3つのレプリカを保持する必要があります
   aprlGuid: b49a39fd-f431-4b61-9062-f2157849d845
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Compute/galleries
   recommendationMetadataState: Active
   longDescription: |
-    Keeping a minimum of 3 replicas for production images in Azure's Compute Gallery ensures scalability and prevents throttling in multi-VM deployments by distributing VM deployments across different replicas. This reduces the risk of overloading a single replica.
+    Azure のコンピューティング ギャラリーに運用イメージ用に少なくとも 3 つのレプリカを保持すると、スケーラビリティが確保され、VM デプロイを異なるレプリカに分散することで、マルチ VM デプロイでの調整が防止されます。これにより、1 つのレプリカが過負荷になるリスクが軽減されます。
   potentialBenefits: Enhances scalability and avoids throttling
   pgVerified: true
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Compute Gallery best practices
-      url: "https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery#best-practices"
+      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/azure-compute-gallery#best-practices"
 
-- description: Zone redundant storage should be used for image versions
+- description: ゾーン冗長ストレージはイメージ バージョンに使用する必要がある
   aprlGuid: 488dcc8b-f2e3-40ce-bf95-73deb2db095f
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Compute/galleries
   recommendationMetadataState: Active
   longDescription: |
-    Use ZRS for high availability when creating image/VM versions in Azure Compute Gallery, offering resilience against Availability Zone failures. ZRS accounts are advisable in regions with Availability Zones, with the choice of Standard_ZRS recommended over Standard_LRS for these regions.
+    Azure Compute Gallery でイメージ/VM バージョンを作成するときは、高可用性のために ZRS を使用し、可用性ゾーンの障害に対する回復性を提供します。ZRS アカウントは、Availability Zones のあるリージョンで推奨され、これらのリージョンでは Standard_LRS よりも推奨されるStandard_ZRSを選択できます。
   potentialBenefits: Enhances image version availability
   pgVerified: true
   publishedToLearn: false
@@ -34,11 +34,11 @@
   tags: null
   learnMoreLink:
     - name: Compute Gallery best practices
-      url: "https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery#best-practices"
+      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/azure-compute-gallery#best-practices"
     - name: Zone-redundant storage
-      url: "https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#zone-redundant-storage"
+      url: "https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy#zone-redundant-storage"
 
-- description: Consider creating TrustedLaunchSupported images where possible
+- description: 可能な場合は、TrustedLaunchSupported イメージの作成を検討してください
   aprlGuid: 1c5e1e58-4e56-491c-8529-10f37af9d4ed
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Compute/galleries
   recommendationMetadataState: Active
   longDescription: |
-    We recommend creating Trusted Launch Supported Images for benefits like Secure Boot, vTPM, trusted launch VMs, large boot volume. These are Gen 2 Images by default and you cannot change a VM's generation after creation, so review the considerations first.
+    セキュアブート、vTPM、トラステッド起動VM、大容量ブートボリュームなどのメリットを得るために、トラステッド起動対応イメージを作成することをお勧めします。これらは既定で Gen 2 イメージであり、作成後に VM の世代を変更することはできないため、最初に考慮事項を確認してください。
   potentialBenefits: Enhances VM security and features
   pgVerified: true
   publishedToLearn: false
@@ -55,8 +55,8 @@
   tags: null
   learnMoreLink:
     - name: Compute Gallery best practices
-      url: "https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery#best-practices"
+      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/azure-compute-gallery#best-practices"
     - name: Generation 1 vs Generation 2 in Hyper-V
-      url: "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/plan/should-i-create-a-generation-1-or-2-virtual-machine-in-hyper-v"
+      url: "https://learn.microsoft.com/ja-jp/windows-server/virtualization/hyper-v/plan/should-i-create-a-generation-1-or-2-virtual-machine-in-hyper-v"
     - name: Images in Compute gallery
-      url: "https://learn.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries?tabs=azure-cli"
+      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/shared-image-galleries?tabs=azure-cli"

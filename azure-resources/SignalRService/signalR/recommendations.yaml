@@ -1,4 +1,4 @@
-- description: Enable zone redundancy for SignalR
+- description: SignalR のゾーン冗長を有効にする
   aprlGuid: 6a8b3db9-5773-413a-a127-4f7032f34bbd
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.SignalRService/SignalR
   recommendationMetadataState: Active
   longDescription: |
-    Use SignalR with zone redundancy for production to improve uptime. This feature, available in the Premium tier, is activated upon creating or upgrading to Premium. Standard can upgrade to Premium without downtime.
+    運用環境にゾーン冗長で SignalR を使用して、稼働時間を向上させます。この機能は Premium レベルで利用可能で、Premium の作成時またはアップグレード時に有効になります。Standard は、ダウンタイムなしで Premium にアップグレードできます。
   potentialBenefits: Enhances reliability and uptime
   pgVerified: false
   publishedToLearn: false

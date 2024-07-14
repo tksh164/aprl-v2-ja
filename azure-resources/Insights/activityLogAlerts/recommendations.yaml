@@ -1,4 +1,4 @@
-- description: Configure Resource Health Alerts
+- description: Resource Health アラートの構成
   aprlGuid: be448849-0d7d-49ba-9c94-9573ee533d5d
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Insights/activityLogAlerts
   recommendationMetadataState: Active
   longDescription: |
-    Configure Resource Health Alerts for all applicable resources to stay informed about the current and historical health status of your Azure resources. They notify you when these resources have a change in their health status.
+    該当するすべてのリソースに対して Resource Health アラートを構成して、Azure リソースの現在および過去の正常性状態を常に把握します。これらのリソースの正常性状態が変更されると、通知されます。
   potentialBenefits: Stay informed on resource status
   pgVerified: true
   publishedToLearn: false
@@ -15,13 +15,13 @@
   tags: null
   learnMoreLink:
     - name: Resource Health
-      url: "https://learn.microsoft.com/en-us/azure/service-health/resource-health-overview"
+      url: "https://learn.microsoft.com/ja-jp/azure/service-health/resource-health-overview"
     - name: Configure Resource Health alerts in the Azure portal
-      url: "https://learn.microsoft.com/en-us/azure/service-health/resource-health-alert-monitor-guide#create-a-resource-health-alert-rule-in-the-azure-portal"
+      url: "https://learn.microsoft.com/ja-jp/azure/service-health/resource-health-alert-monitor-guide#create-a-resource-health-alert-rule-in-the-azure-portal"
     - name: Alerts Health
-      url: "https://learn.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal"
+      url: "https://learn.microsoft.com/ja-jp/azure/service-health/alerts-activity-log-service-notifications-portal"
 
-- description: Configure Service Health Alerts
+- description: サービス正常性アラートの構成
   aprlGuid: 9729c89d-8118-41b4-a39b-e12468fa872b
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -29,7 +29,7 @@
   recommendationResourceType: Microsoft.Insights/activityLogAlerts
   recommendationMetadataState: Active
   longDescription: |
-    Service health gives a personalized health view of Azure services and regions used, offering the best place for notifications on outages, planned maintenance, and health advisories by knowing the services used.
+    サービス正常性は、使用されている Azure サービスとリージョンのパーソナライズされた正常性ビューを提供し、使用されているサービスを把握することで、停止、計画メンテナンス、正常性アドバイザリに関する通知に最適な場所を提供します。
   potentialBenefits: Proactive outage and maintenance alerts
   pgVerified: true
   publishedToLearn: false

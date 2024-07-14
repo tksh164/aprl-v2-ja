@@ -1,4 +1,4 @@
-- description: Configure Diagnostic Settings for all Azure Event Grid resources
+- description: すべての Azure Event Grid リソースの診断設定を構成する
   aprlGuid: 54c3191b-b535-1946-bba9-b754f44060f6
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.EventGrid/topics
   recommendationMetadataState: Active
   longDescription: |
-    Enabling diagnostic settings on Azure Event Grid resources like custom topics, system topics, and domains lets you capture and view diagnostic information to troubleshoot failures effectively.
+    カスタム トピック、システム トピック、ドメインなどの Azure Event Grid リソースで診断設定を有効にすると、診断情報をキャプチャして表示し、エラーのトラブルシューティングを効果的に行うことができます。
   potentialBenefits: Enhanced troubleshooting for Event Grid
   pgVerified: false
   publishedToLearn: false
@@ -15,9 +15,9 @@
   tags: null
   learnMoreLink:
     - name: Azure Event Grid - Enable diagnostic logs for Event Grid resources
-      url: "https://learn.microsoft.com/en-us/azure/event-grid/enable-diagnostic-logs-topic"
+      url: "https://learn.microsoft.com/ja-jp/azure/event-grid/enable-diagnostic-logs-topic"
 
-- description: Configure Dead-letter to save events that cannot be delivered
+- description: 配信不能なイベントを保存するための配信不能の設定
   aprlGuid: 92162eb5-4323-3145-8a6c-525ce2f0700e
   recommendationTypeId: null
   recommendationControl: Personalized
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.EventGrid/topics
   recommendationMetadataState: Active
   longDescription: |
-    Event Grid may not deliver an event within a specific time or after several attempts, leading to dead-lettering where undelivered events are sent to a storage account.
+    Event Grid は、特定の時間内または数回の試行後にイベントを配信しない場合があり、配信不能のイベントがストレージ アカウントに送信される配信不能が発生します。
   potentialBenefits: Saves undelivered events
   pgVerified: false
   publishedToLearn: false
@@ -34,9 +34,9 @@
   tags: null
   learnMoreLink:
     - name: Azure Event Grid delivery and retry
-      url: "https://learn.microsoft.com/en-us/azure/event-grid/delivery-and-retry#dead-letter-events"
+      url: "https://learn.microsoft.com/ja-jp/azure/event-grid/delivery-and-retry#dead-letter-events"
 
-- description: Azure Event Grid topics should use Private Link Private Endpoints
+- description: Azure Event Grid のトピックでは、Private Link プライベート エンドポイントを使用する必要がある
   aprlGuid: b2069f64-4741-3d4a-a71d-50c8b03f5ab7
   recommendationTypeId: bdac9c7b-b9b8-f572-0450-f161c430861c
   recommendationControl: Security
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.EventGrid/topics
   recommendationMetadataState: Active
   longDescription: |
-    Use private endpoints for secure event ingress to custom topics/domains via a private link, avoiding the public internet. It employs an IP from the VNet space for your topic/domain.
+    プライベート エンドポイントを使用して、プライベート リンク経由でカスタム トピック/ドメインへの安全なイベント イングレスを行い、パブリック インターネットを回避します。トピック/ドメインの VNet 空間の IP が使用されます。
   potentialBenefits: Secure, private VNet ingress
   pgVerified: false
   publishedToLearn: false
@@ -53,4 +53,4 @@
   tags: null
   learnMoreLink:
     - name: Configure private endpoints for Azure Event Grid topics or domains
-      url: "https://learn.microsoft.com/en-us/azure/event-grid/configure-private-endpoints"
+      url: "https://learn.microsoft.com/ja-jp/azure/event-grid/configure-private-endpoints"
