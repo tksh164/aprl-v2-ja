@@ -82,7 +82,7 @@
     - name: Recovery Services Vault
       url: "https://learn.microsoft.com/azure/backup/backup-azure-arm-vms-prepare"
 
-- description: Azure Backup で Recovery Services コンテナーの論理的な削除を有効にするEnable soft delete for Recovery Services vaults in Azure Backup
+- description: Azure Backup で Recovery Services コンテナーの論理的な削除を有効にする
   aprlGuid: 9e39919b-78af-4a0b-b70f-c548dae97c25
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
