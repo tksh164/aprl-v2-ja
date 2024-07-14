@@ -137,7 +137,7 @@
     - name: Update scale set to add availability zones
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones?tabs=cli-1%2Cportal-2#update-scale-set-to-add-availability-zones"
 
-- description: [パッチ オーケストレーション オプション] を [Azure で調整] に設定します
+- description: パッチのオーケストレーション オプションを Azure-orchestrated に設定する
   aprlGuid: e4ffd7b0-ba24-c84e-9352-ba4819f908c0
   recommendationTypeId: null
   recommendationControl: Other Best Practices
