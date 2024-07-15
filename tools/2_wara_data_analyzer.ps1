@@ -332,18 +332,18 @@ $Script:Runtime = Measure-Command -Expression {
     function Add-ImpactedResource {
       ####################    Creates the first sheet (ImpactedResources)
       $Styles1 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -Bold -BackgroundColor 'DarkSlateGray' -AutoSize -Range 'A1:S1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'A:B'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -Width 100 -WrapText -NumberFormat '0' -Range 'C:C'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'D:I'
-        New-ExcelStyle -HorizontalAlignment Left -FontName 'Calibri' -FontSize 11 -Width 80 -Range 'J:J'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'K:S'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -Bold -BackgroundColor 'DarkSlateGray' -AutoSize -Range 'A1:S1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'A:B'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -Width 100 -WrapText -NumberFormat '0' -Range 'C:C'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'D:I'
+        New-ExcelStyle -HorizontalAlignment Left -FontName 'Yu Gothic UI' -FontSize 11 -Width 80 -Range 'J:J'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'K:S'
       )
 
       $Styles2 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -Bold -BackgroundColor 'DarkSlateGray' -AutoSize -Range 'A1:G1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'A:F'
-        New-ExcelStyle -HorizontalAlignment Left -FontName 'Calibri' -FontSize 11 -Width 80 -Range 'G:G'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -Bold -BackgroundColor 'DarkSlateGray' -AutoSize -Range 'A1:G1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'A:F'
+        New-ExcelStyle -HorizontalAlignment Left -FontName 'Yu Gothic UI' -FontSize 11 -Width 80 -Range 'G:G'
       )
 
       $cond = @()
@@ -402,8 +402,8 @@ $Script:Runtime = Measure-Command -Expression {
       $ResourceTypeSheet.Add('Notes')
 
       $TypeStyle = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -Bold -BackgroundColor 'DarkSlateGray' -AutoSize -Range 'A1:F1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'A:F'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -Bold -BackgroundColor 'DarkSlateGray' -AutoSize -Range 'A1:F1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -AutoSize -NumberFormat '0' -Range 'A:F'
       )
 
       $Script:AllResourceTypesOrdered | ForEach-Object { [PSCustomObject]$_ } | Select-Object $ResourceTypeSheet |
@@ -446,14 +446,14 @@ $Script:Runtime = Measure-Command -Expression {
 
 
       $Styles3 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 14 -Range 'A1:B1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 18 -Range 'C1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'D1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 55 -Range 'E1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'F1:I1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 25 -Range 'J1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 80 -Range 'K1:O1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:O'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 14 -Range 'A1:B1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 18 -Range 'C1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'D1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 55 -Range 'E1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'F1:I1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 25 -Range 'J1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 80 -Range 'K1:O1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:O'
       )
 
       # Configure the array of fields to be used in the Recommendations sheet
@@ -516,13 +516,13 @@ $Script:Runtime = Measure-Command -Expression {
       }
 
       $Styles4 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 50 -Range 'A1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 25 -Range 'B1:E1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 30 -Range 'F1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 70 -Range 'G1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 80 -Range 'H1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 90 -Range 'I1:J1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:J'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 50 -Range 'A1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 25 -Range 'B1:E1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 30 -Range 'F1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 70 -Range 'G1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 80 -Range 'H1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 90 -Range 'I1:J1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:J'
       )
 
       # Configure the array of fields to be used in the Retirement sheet
@@ -565,13 +565,13 @@ $Script:Runtime = Measure-Command -Expression {
       }
 
       $Styles5 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'A1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 15 -Range 'B1:C1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -Range 'D1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'E1:F1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 50 -Range 'G1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 120 -Range 'H1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:G'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'A1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 15 -Range 'B1:C1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -Range 'D1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'E1:F1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 50 -Range 'G1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 120 -Range 'H1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:G'
       )
 
       # Configure the array of fields to be used in the Tickets sheet
@@ -622,10 +622,10 @@ $Script:Runtime = Measure-Command -Expression {
       }
 
       $Styles6 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 25 -NumberFormat '0' -Range 'A1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 15 -NumberFormat '0' -Range 'B1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -NumberFormat '0' -Range 'C1:G1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -VerticalAlignment Center -WrapText -NumberFormat '0' -Range 'A:G'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 25 -NumberFormat '0' -Range 'A1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 15 -NumberFormat '0' -Range 'B1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -NumberFormat '0' -Range 'C1:G1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -VerticalAlignment Center -WrapText -NumberFormat '0' -Range 'A:G'
       )
 
       # Configure the array of fields to be used in the Tickets sheet
@@ -724,18 +724,18 @@ $Script:Runtime = Measure-Command -Expression {
       }
 
       $Styles2 = @(
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 14 -Range 'A1:B1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 18 -Range 'C1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'D1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -Range 'E1:F1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'G1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 55 -Range 'H1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 10 -Range 'I1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 90 -Range 'J1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 45 -Range 'K1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -Range 'L1:M1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 45 -Range 'N1'
-        New-ExcelStyle -HorizontalAlignment Center -FontName 'Calibri' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:N'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 14 -Range 'A1:B1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 18 -Range 'C1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'D1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -Range 'E1:F1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 20 -Range 'G1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 55 -Range 'H1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 10 -Range 'I1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 90 -Range 'J1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 45 -Range 'K1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 35 -Range 'L1:M1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -FontColor 'White' -VerticalAlignment Center -Bold -WrapText -BackgroundColor 'DarkSlateGray' -Width 45 -Range 'N1'
+        New-ExcelStyle -HorizontalAlignment Center -FontName 'Yu Gothic UI' -FontSize 11 -VerticalAlignment Center -WrapText -Range 'A:N'
       )
 
       # Configure the array of fields to be used in the Recommendations sheet
