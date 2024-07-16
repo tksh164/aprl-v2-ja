@@ -306,7 +306,7 @@ $Global:Runtime = Measure-Command -Expression {
                 if ($Heavy) {Start-Sleep -Milliseconds 100}
 
                 if ($CoreDebugging) { ('PPT_Thread - ' + (get-date -Format 'yyyy-MM-dd HH:mm:ss') + ' - Info - Editing Slide 12 - Adding Workload name: ' + $WorkloadName) | Out-File -FilePath $LogFile -Append }
-                ($Slide12.Shapes | Where-Object { $_.Id -eq 3 }).TextFrame.TextRange.Text = ('本エンゲージメントではワークロード ' + $WorkloadName + ' をレビューしました。このソリューションは 2 つの Azure リージョンでホストされ、主に IaaS リソースと、一部 PaaS リソースを実行します。以下に限定されませんが、次のものを含みます')
+                ($Slide12.Shapes | Where-Object { $_.Id -eq 3 }).TextFrame.TextRange.Text = ('本エンゲージメントではワークロード ' + $WorkloadName + ' を確認しました。このソリューションは 2 つの Azure リージョンでホストされ、主に IaaS リソースと、一部 PaaS リソースを実行します。以下に限定されませんが、次のものを含みます')
 
                 $loop = 1
                 foreach ($ResourcesType in $ResourcesTypes)
