@@ -263,7 +263,7 @@ $Global:Runtime = Measure-Command -Expression {
         {
           param($ResourcesTypes, $HighImpact, $MediumImpact, $LowImpact, $ServiceHighImpact, $WAFHighImpact, $ExcelContent, $Outages, $SupportTickets, $ServiceHealth, $Retirements, $Ex, $CustomerName, $WorkloadName, $ExcelCore, $PPTTemplateFile, $PPTFinalFile, $CoreDebugging, $Logfile, $Heavy)
 
-          $Global:AUTOMESSAGE = 'AUTOMATICALLY MODIFIED (Please Review)'
+          $Global:AUTOMESSAGE = '自動的に変更しました (内容をレビューしてください)'
 
           if ($CoreDebugging) { ('PPT_Thread - ' + (get-date -Format 'yyyy-MM-dd HH:mm:ss') + ' - Info - Starting PPT Thread..') | Out-File -FilePath $LogFile -Append }
 
@@ -306,7 +306,7 @@ $Global:Runtime = Measure-Command -Expression {
                 if ($Heavy) {Start-Sleep -Milliseconds 100}
 
                 if ($CoreDebugging) { ('PPT_Thread - ' + (get-date -Format 'yyyy-MM-dd HH:mm:ss') + ' - Info - Editing Slide 12 - Adding Workload name: ' + $WorkloadName) | Out-File -FilePath $LogFile -Append }
-                ($Slide12.Shapes | Where-Object { $_.Id -eq 3 }).TextFrame.TextRange.Text = ('During the engagement, the Workload ' + $WorkloadName + ' has been reviewed. The solution is hosted in two Azure regions, and runs mainly IaaS resources, with some PaaS resources, which includes but is not limited to:')
+                ($Slide12.Shapes | Where-Object { $_.Id -eq 3 }).TextFrame.TextRange.Text = ('本エンゲージメントではワークロード ' + $WorkloadName + ' をレビューしました。このソリューションは 2 つの Azure リージョンでホストされ、主に IaaS リソースと、一部 PaaS リソースを実行します。以下に限定されませんが、次のものを含みます')
 
                 $loop = 1
                 foreach ($ResourcesType in $ResourcesTypes)
