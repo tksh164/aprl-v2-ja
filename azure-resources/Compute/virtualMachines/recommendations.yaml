@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    可用性セットはまもなく廃止されます。ワークロードをVMからVMSS Flexに移行して、ゾーン間または異なるフォルトドメイン(FD)および更新ドメイン(UD)間で同じゾーン内に導入して、信頼性を向上させます。
+    可用性セットはすぐに廃止される予定はありませんが、将来的には廃止される予定です。VM から VMSS Flex にワークロードを移行し、ゾーンをまたいだり、同じゾーン内で異なる障害ドメイン (FD) や更新ドメイン (UD) に展開することで、信頼性を高めます。
   potentialBenefits: Enhances reliability and future-proofs VMs
   pgVerified: true
   publishedToLearn: false
