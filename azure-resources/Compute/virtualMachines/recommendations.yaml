@@ -38,7 +38,7 @@
     - name: Create virtual machines in an availability zone using the Azure portal
       url: "https://learn.microsoft.com/azure/virtual-machines/create-portal-availability-zone?tabs=standard"
 
-- description: 可用性セットを使用して VM を VMSS Flex に移行する
+- description: 可用性セットを使用している VM を VMSS Flex に移行する
   aprlGuid: a8d25876-7951-b646-b4e8-880c9031596b
   recommendationTypeId: null
   recommendationControl: High Availability
