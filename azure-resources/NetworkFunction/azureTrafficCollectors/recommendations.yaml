@@ -1,4 +1,4 @@
-- description: ExpressRoute Traffic Collector が ExpressRoute Direct 回線に対して有効になっていることと構成されていることを確認します
+- description: Direct やプロバイダー回線で ExpressRoute Traffic Collector が有効に構成されていることを確認する
   aprlGuid: 1ceea4b5-1d8b-4be0-9bbe-9594557be51a
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.NetworkFunction/azureTrafficCollectors
   recommendationMetadataState: Active
   longDescription: |
-    ExpressRoute Traffic Collector は、ExpressRoute Direct 回線経由のネットワーク フローをサンプリングし、分析のためにフロー ログを Log Analytics ワークスペースに送信したり、視覚化ツール/SIEM にエクスポートしたりします。
+    Traffic Collector は、ExpressRoute Direct やサービス プロバイダー ベースの回線上のネットワーク フローをサンプリングし、フロー ログを Log Analytics ワークスペースに送信して分析したり、可視化ツールや SIEM にエクスポートしたりできます。
   potentialBenefits: Enhanced network flow analysis and DR readiness
   pgVerified: true
   publishedToLearn: false
