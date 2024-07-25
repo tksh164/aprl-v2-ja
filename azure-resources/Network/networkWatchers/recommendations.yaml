@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |
-    Azure Network Watcher には、IaaS リソースの監視、診断、メトリックの表示、ログの管理を行うためのツールが用意されています。VM、VNet、アプリケーション ゲートウェイ、ロード バランサーの正常性を維持するのに役立ちますが、PaaS や Web 分析の正常性を維持することはできません。
+    Azure Network Watcher には、IaaS リソースの監視、診断、メトリックの表示、ログの管理を行うためのツールが用意されています。VM、仮想ネットワーク、アプリケーション ゲートウェイ、ロード バランサーの正常性を維持するのに役立ちますが、PaaS や Web 分析の正常性を維持することはできません。
   potentialBenefits: Enhanced monitoring and diagnostics for Azure IaaS
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: What is Azure Network Watcher?
       url: "https://learn.microsoft.com/azure/network-watcher/network-watcher-overview"
 
-- description: 失敗状態または無効ステータスのフローログ設定を修正します
+- description: 失敗状態または無効ステータスのフロー ログ設定を修正する
   aprlGuid: 22a769ed-0ecb-8b49-bafe-8f52e6373d9c
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |
-    ネットワーク セキュリティ グループ フロー ログは、ネットワーク セキュリティ グループを介して IP トラフィック情報をログに記録する Azure Network Watcher の機能です。失敗状態の場合、関連するリソースからのモニタリングデータは収集されません。
+    ネットワーク セキュリティ グループ フロー ログは、ネットワーク セキュリティ グループを介して IP トラフィック情報をログに記録する Azure Network Watcher の機能です。失敗状態の場合、関連するリソースからの監視データは収集されません。
   potentialBenefits: Ensures IP traffic logging
   pgVerified: true
   publishedToLearn: false
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |
-    Azure および ハイブリッド接続の監視を向上させます。
+    Azure や ハイブリッド接続の監視を改善します。
   potentialBenefits: Improves monitoring for Azure and Hybrid connectivity
   pgVerified: true
   publishedToLearn: false
@@ -55,7 +55,7 @@
     - name: 接続の監視の概要
       url: "https://learn.microsoft.com/ja-jp/azure/network-watcher/connection-monitor-overview"
 
-- description: Enable Network Security Group and Virtual Network Flow Logs
+- description: ネットワーク セキュリティ グループと仮想ネットワーク フロー ログを有効にする
   aprlGuid: a1317a0b-402d-4604-be40-a25a004ba171
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |
-    Improves monitoring and security for Azure and Hybrid connectivity
+    Azure や ハイブリッド接続の監視を改善します。
   potentialBenefits: Improves monitoring and security for Azure connectivity
   pgVerified: true
   publishedToLearn: false
@@ -71,10 +71,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: NSG and VNET Flow logs
-      url: "https://learn.microsoft.com/en-us/azure/network-watcher/nsg-flow-logs-overview"
+    - name: NSG と仮想ネットワーク フロー ログ
+      url: "https://learn.microsoft.com/azure/network-watcher/nsg-flow-logs-overview"
 
-- description: Enable traffic analytics in Network Security Group and Virtual Network Flow Logs configuration.
+- description: ネットワーク セキュリティ グループと仮想ネットワーク フロー ログの設定でトラフィック解析を有効にする
   aprlGuid: bf0b7dbd-016d-458c-af99-70fcb03ad451
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -82,7 +82,7 @@
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |
-    Improves monitoring, security and troubleshooting for Azure and Hybrid connectivity
+    Azure や ハイブリッド接続の監視、セキュリティ、トラブルシューティングを改善します。
   potentialBenefits: Improves monitoring, security and troubleshooting.
   pgVerified: true
   publishedToLearn: false
@@ -90,5 +90,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Network watcher traffic analytics
-      url: "https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics"
+    - name: Network Watcher のトラフィック分析
+      url: "https://learn.microsoft.com/azure/network-watcher/traffic-analytics"
