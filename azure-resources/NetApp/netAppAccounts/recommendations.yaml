@@ -1,4 +1,4 @@
-- description: 予想されるパフォーマンスレベルに対して正しいサービスレベルとボリュームクォータサイズを使用します
+- description: 予想されるパフォーマンス レベルに対して正しいサービス レベルとボリューム クォータ サイズを使用する
   aprlGuid: af426a99-62a6-6b4c-9662-42d220b413b8
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
   recommendationMetadataState: Active
   longDescription: |
-    容量プール属性の一部であるサービス レベルによって、Azure NetApp Files のボリューム クォータあたりの最大スループットが決まります。読み取り速度と書き込み速度を兼ね備えており、Standard(1TiBあたり16MiB/秒)、Premium(1TiBあたり64MiB/秒)、Ultra(1TiBあたり128MiB/秒)の3つのレベルを提供します。
+    容量プール属性の一部であるサービス レベルによって、Azure NetApp Files のボリューム クォータあたりの最大スループットが決まります。読み取り速度と書き込み速度を兼ね備えており、Standard (1TiB あたり 16MiB/秒)、Premium (1TiB あたり 64MiB/秒)、Ultra (1TiB あたり 128MiB/秒) の 3 つのレベルを提供します。
   potentialBenefits: Optimized performance and cost efficiency
   pgVerified: true
   publishedToLearn: false
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
   recommendationMetadataState: Active
   longDescription: |
-    可用性ゾーンは、ローカルの障害に耐えるための Azure リージョン内の個別の場所です。ワークロードを複数の可用性ゾーンにデプロイし、アプリケーションベースのレプリケーションまたは Azure NetApp Files のクロスゾーン レプリケーションを使用して高可用性を実現します。フェイルオーバーは手動のプロセスであることに注意してください。
+    可用性ゾーンは、ローカルの障害に耐えるための Azure リージョン内の個別の場所です。ワークロードを複数の可用性ゾーンにデプロイし、アプリケーションベースのレプリケーションや Azure NetApp Files のクロスゾーン レプリケーションを使用して高可用性を実現します。フェールオーバーは手動のプロセスであることに注意してください。
   potentialBenefits: High Availability across availability zones
   pgVerified: true
   publishedToLearn: false
@@ -55,7 +55,7 @@
     - name: Use availability zones for high availability in Azure NetApp Files | Microsoft Learn
       url: "https://learn.microsoft.com/azure/azure-netapp-files/use-availability-zones"
 
-- description: ANF ボリュームを Azure コンピューティングやその他のサービスと同じ可用性ゾーンにデプロイします
+- description: ANF ボリュームを Azure コンピューティングやその他のサービスと同じ可用性ゾーンにデプロイする
   aprlGuid: 8bb690e8-64d5-4838-8703-9ee3dbac688f
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -120,7 +120,7 @@
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Azure NetApp Files レプリケーションは、リージョンの障害が発生した場合に、アプリケーションのフェールオーバーのために非同期のリージョン間ボリューム レプリケーションを許可することで、データ保護を提供します。ボリュームは、リージョン間でレプリケートできますが、クロスゾーンレプリケーションと同時にレプリケートすることはできません。フェイルオーバーは手動のプロセスであることに注意してください。
+    Azure NetApp Files レプリケーションは、リージョンの障害が発生した場合に、アプリケーションのフェールオーバーのために非同期のリージョン間ボリューム レプリケーションを許可することで、データ保護を提供します。ボリュームは、リージョン間でレプリケートできますが、クロスゾーンレプリケーションと同時にレプリケートすることはできません。フェールオーバーは手動のプロセスであることに注意してください。
   potentialBenefits: Enhanced data protection and disaster recovery
   pgVerified: true
   publishedToLearn: false
@@ -139,7 +139,7 @@
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
   recommendationMetadataState: Active
   longDescription: |
-    ゾーン間レプリケーション (CZR) 機能を使用すると、異なる可用性ゾーン間で Azure NetApp Files ボリューム間で非同期データ レプリケーションが可能になり、ゾーン全体の障害が発生した場合にデータ保護と重要なアプリケーションのフェールオーバーが保証されます。フェイルオーバーは手動のプロセスであることに注意してください。
+    ゾーン間レプリケーション (CZR) 機能を使用すると、異なる可用性ゾーン間で Azure NetApp Files ボリューム間で非同期データ レプリケーションが可能になり、ゾーン全体の障害が発生した場合にデータ保護と重要なアプリケーションのフェールオーバーが保証されます。フェールオーバーは手動のプロセスであることに注意してください。
   potentialBenefits: Enhances disaster recovery across availability zones
   pgVerified: true
   publishedToLearn: false
@@ -177,7 +177,7 @@
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Azure NetApp Files では、組み込みのポリシー定義を使用するか、組織の標準とコンプライアンスを維持するためのカスタムポリシー定義を作成することで、Azure ポリシーの統合がサポートされています。
+    Azure NetApp Files では、組み込みのポリシー定義を使用するか、組織の標準とコンプライアンスを維持するためのカスタム ポリシー定義を作成することで、Azure ポリシーの統合がサポートされています。
   potentialBenefits: Enforce standards and assess compliance
   pgVerified: true
   publishedToLearn: false
@@ -236,7 +236,7 @@
     - name: Do I need to take special precautions for SMB-based applications? | Microsoft Learn
       url: "https://learn.microsoft.com/azure/azure-netapp-files/faq-application-resilience#do-i-need-to-take-special-precautions-for-smb-based-applications"
 
-- description: サービスメンテナンスイベントに対するアプリケーションの回復力を確保
+- description: サービス メンテナンス イベントに対するアプリケーションの回復力を確保する
   aprlGuid: 60f36f9b-fac9-4160-bbf5-57af04da4f53
   recommendationTypeId: null
   recommendationControl: High Availability

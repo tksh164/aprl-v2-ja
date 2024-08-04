@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.DBforMySQL/flexibleServers
   recommendationMetadataState: Active
   longDescription: |
-    フレキシブル サーバー インスタンスでゾーン冗長を使用して HA を有効にして、スタンバイ レプリカを別のゾーンにデプロイし、信頼性とディザスター リカバリーを向上させるための自動フェールオーバー機能を提供します。
+    フレキシブル サーバー インスタンスでゾーン冗長を使用した HA を有効にして、スタンバイ レプリカを別のゾーンにデプロイし、信頼性とディザスター リカバリーを向上させるための自動フェールオーバー機能を提供します。
   potentialBenefits: Enhanced uptime and data protection
   pgVerified: true
   publishedToLearn: false
@@ -14,7 +14,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: High availability concepts in Azure Database for MySQL - Flexible Server
+    - name: Azure Database for MySQL フレキシブル サーバーでの高可用性の概念
       url: "https://learn.microsoft.com/azure/mysql/flexible-server/concepts-high-availability"
 
 - description: カスタム メンテナンス スケジュールを有効にする
@@ -33,7 +33,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Scheduled maintenance in Azure Database for MySQL - Flexible Server
+    - name: Azure Database for MySQL - フレキシブル サーバーでの予定メンテナンス
       url: "https://learn.microsoft.com/azure/mysql/flexible-server/concepts-maintenance"
 
 - description: geo 冗長バックアップ ストレージを構成する
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.DBforMySQL/flexibleServers
   recommendationMetadataState: Active
   longDescription: |
-    障害や災害が発生した場合でも、データベースの可用性と持続性の目標を確実に満たすように GRS を構成します。
+    障害や災害が発生した場合でも、データベースの可用性と耐久性の目標を確実に満たすように GRS を構成します。
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
@@ -52,8 +52,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Backup and restore in Azure Database for MySQL - Flexible Server
-      url: "https://learn.microsoft.com/ja-jp/azure/mysql/flexible-server/concepts-backup-restore"
+    - name: Azure Database for MySQL - フレキシブル サーバーでのバックアップと復元
+      url: "https://learn.microsoft.com/azure/mysql/flexible-server/concepts-backup-restore"
 
 - description: 1 つ以上の読み取りレプリカを構成する
   aprlGuid: b49a8653-cc43-48c9-8513-a2d2e3f14dd1
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.DBforMySQL/flexibleServers
   recommendationMetadataState: Active
   longDescription: |
-    1 つ以上の読み取りレプリカを構成して、障害や障害が発生した場合でもデータベースの可用性と持続性の目標を確実に満たすようにします。
+    1 つ以上の読み取りレプリカを構成して、障害や障害が発生した場合でもデータベースの可用性と耐久性の目標を確実に満たすようにします。
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
@@ -71,8 +71,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Read replicas in Azure Database for MySQL - Flexible Server
-      url: "https://learn.microsoft.com/ja-jp/azure/mysql/flexible-server/concepts-read-replicas"
+    - name: Azure Database for MySQL - フレキシブル サーバーでの読み取りレプリカ
+      url: "https://learn.microsoft.com/azure/mysql/flexible-server/concepts-read-replicas"
 
 - description: ストレージの自動拡張を構成する
   aprlGuid: 8176a79d-8645-4e52-96be-a10fc0204fe5
@@ -91,4 +91,4 @@
   tags: null
   learnMoreLink:
     - name: Azure Database for MySQL - Flexible Server service tiers - Storage auto grow
-      url: "https://learn.microsoft.com/ja-jp/azure/mysql/flexible-server/concepts-service-tiers-storage#storage-auto-grow"
+      url: "https://learn.microsoft.com/azure/mysql/flexible-server/concepts-service-tiers-storage#storage-autogrow"

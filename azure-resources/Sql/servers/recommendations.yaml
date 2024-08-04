@@ -17,7 +17,7 @@
     - name: Active Geo Replication
       url: "https://learn.microsoft.com/ja-jp/azure/azure-sql/database/active-geo-replication-overview"
 
-- description: 自動フェールオーバー グループには、通常同じアプリで使用される 1 つまたは複数のデータベースを含めることができます。
+- description: 自動フェールオーバー グループには、通常同じアプリで使用される 1 つまたは複数のデータベースを含めることができる
   aprlGuid: 943c168a-2ec2-a94c-8015-85732a1b4859
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Sql/servers
   recommendationMetadataState: Active
   longDescription: |
-    既定では、Azure SQL Database Premium レベルでは、同じリージョン内に複数のコピーがプロビジョニングされます。geo 冗長性の場合、データベースをゾーン冗長として設定し、Azure Availability Zones 間でコピーを分散して、リージョンの停止中の可用性を維持できます。
+    既定では、Azure SQL Database Premium レベルでは、同じリージョン内に複数のコピーがプロビジョニングされます。geo 冗長性の場合、データベースをゾーン冗長として設定し、Azure 可用性ゾーン間でコピーを分散して、リージョンの停止中の可用性を維持できます。
   potentialBenefits: Enhanced reliability, no extra cost
   pgVerified: true
   publishedToLearn: false
@@ -57,7 +57,7 @@
     - name: Zone Redundant Databases
       url: "https://learn.microsoft.com/ja-jp/azure/azure-sql/database/high-availability-sla"
 
-- description: 再試行ロジックの実装
+- description: 再試行ロジックを実装する
   aprlGuid: cbb17a29-64fb-c943-95d0-8df814a37c40
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Sql/servers
   recommendationMetadataState: Active
   longDescription: |
-    一時的な障害発生時には、アプリケーションは Azure SQL Database を使用して接続の再試行を効果的に処理する必要があります。データベースレイヤーの設定は必要ありません。代わりに、正常な再試行を行うようにアプリケーションを設定する必要があります。
+    一時的な障害発生時には、アプリケーションは Azure SQL Database を使用して接続の再試行を効果的に処理する必要があります。データベース レイヤーの設定は必要ありません。代わりに、正常な再試行を行うようにアプリケーションを設定する必要があります。
   potentialBenefits: Enhanced connectivity stability
   pgVerified: true
   publishedToLearn: false
@@ -99,7 +99,7 @@
     - name: Monitoring SQL Database Reference
       url: "https://learn.microsoft.com/ja-jp/azure/azure-sql/database/monitoring-sql-database-azure-monitor-reference"
 
-- description: キーのバックアップ
+- description: キーをバックアップする
   aprlGuid: d6ef87aa-574e-584e-a955-3e6bb8b5425b
   recommendationTypeId: null
   recommendationControl: Disaster Recovery

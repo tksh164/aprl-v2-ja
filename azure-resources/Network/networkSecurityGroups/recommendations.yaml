@@ -36,7 +36,7 @@
     - name: Azure Monitor activity log
       url: "https://learn.microsoft.com/azure/azure-monitor/essentials/activity-log?tabs=powershell"
 
-- description: ネットワーク セキュリティ グループのロックを構成して、偶発的な変更や削除を防止します
+- description: ネットワーク セキュリティ グループのロックを構成して、偶発的な変更や削除を防止する
   aprlGuid: 52ac35e8-9c3e-f84d-8ce8-2fab955333d3
   recommendationTypeId: null
   recommendationControl: Governance
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
   longDescription: |
-    管理者は、Azure サブスクリプション、リソース グループ、またはリソースをロックして、誤って削除や変更されないように保護できます。ロックは、ユーザーのアクセス許可よりも優先されます。ロックは、削除または変更を防ぐことができ、ポータルでは 削除 と 読み取り専用 と呼ばれます。
+    管理者は、Azure サブスクリプション、リソース グループ、またはリソースをロックして、誤って削除や変更されないように保護できます。ロックは、ユーザーのアクセス許可よりも優先されます。ロックは、削除または変更を防ぐことができ、ポータルでは "削除" と "読み取り専用" と呼ばれます。
   potentialBenefits: Prevents accidental edits/deletions
   pgVerified: true
   publishedToLearn: false
@@ -55,7 +55,7 @@
     - name: Lock your resources to protect your infrastructure
       url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?toc=%2Fazure%2Fvirtual-network%2Ftoc.json&tabs=json"
 
-- description: NSG フロー ログの構成
+- description: NSG フロー ログを構成する
   aprlGuid: da1a3c06-d1d5-a940-9a99-fcc05966fe7c
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -74,7 +74,7 @@
     - name: Flow logging for network security groups
       url: "https://learn.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview"
 
-- description: NSG には既定のセキュリティ規則しかないため、必要な規則を構成してください
+- description: NSG には既定のセキュリティ規則しかないため、必要な規則を構成する
   aprlGuid: 8291c1fa-650c-b44b-b008-4deb7465919d
   recommendationTypeId: null
   recommendationControl: Security

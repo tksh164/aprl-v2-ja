@@ -1,4 +1,4 @@
-- description: キー コンテナーで論理的な削除が有効になっている必要がある
+- description: Key Vault で論理的な削除が有効になっている必要がある
   aprlGuid: 1cca00d2-d9ab-8e42-a788-5d40f49405cb
   recommendationTypeId: 78211c00-15a9-336e-17c4-0b48613dadf4
   recommendationControl: Disaster Recovery
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.KeyVault/vaults
   recommendationMetadataState: Active
   longDescription: |
-    Key Vault の論理的な削除機能を使用すると、削除されたコンテナーと、キー、シークレット、証明書などのオブジェクトを回復できます。有効にすると、マークされたリソースは 90 日間保持され、復元が可能になり、基本的に削除が取り消されます。
+    Key Vault の論理的な削除機能を使用すると、削除された Key Vault と、キー、シークレット、証明書などのオブジェクトを回復できます。有効にすると、マークされたリソースは 90 日間保持され、復元が可能になり、基本的に削除が取り消されます。
   potentialBenefits: Enables recovery of deleted items
   pgVerified: false
   publishedToLearn: false
@@ -14,10 +14,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Key Vault soft-delete overview
+    - name: Azure Key Vault の論理的な削除の概要
       url: "https://learn.microsoft.com/azure/key-vault/general/soft-delete-overview"
 
-- description: キー コンテナーで消去保護が有効になっている必要がある
+- description: Key Vault で消去保護が有効になっている必要がある
   aprlGuid: 70fcfe6d-00e9-5544-a63a-fff42b9f2edb
   recommendationTypeId: 4ed62ae4-5072-f9e7-8d94-51c76c48159a
   recommendationControl: Disaster Recovery
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.KeyVault/vaults
   recommendationMetadataState: Active
   longDescription: |
-    消去保護は、論理的に削除されたキー コンテナーの保持期間を適用することで悪意のある削除から保護し、この期間中に Insider や Microsoft であっても誰もキー コンテナーを消去できないようにし、永続的なデータ損失を防ぎます。
+    消去保護は、論理的に削除された Key Vault の保持期間を適用することで悪意のある削除から保護し、この期間中に内部関係者や Microsoft であっても誰も Key Vault を消去できないようにし、永続的なデータ損失を防ぎます。
   potentialBenefits: Protects from insider attacks, avoids data loss
   pgVerified: false
   publishedToLearn: false
@@ -33,7 +33,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Key Vault purge-protection overview
+    - name: Azure Key Vault 消去保護の概要
       url: "https://learn.microsoft.com/azure/key-vault/general/soft-delete-overview#purge-protection"
 
 - description: プライベート エンドポイントを Key Vault 用に構成する必要がある
@@ -52,10 +52,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Key Vault Private Link Service overview
+    - name: Azure Key Vault Private Link サービスの概要
       url: "https://learn.microsoft.com/azure/key-vault/general/security-features#network-security"
 
-- description: 環境ごとにアプリケーションごとに個別のキー コンテナーを使用する
+- description: 環境ごとにアプリケーションごとに個別の Key Vault を使用する
   aprlGuid: e7091145-3642-bd41-bb58-66502e64d2cd
   recommendationTypeId: null
   recommendationControl: Governance
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.KeyVault/vaults
   recommendationMetadataState: Active
   longDescription: |
-    キー コンテナーは、シークレット ストレージのセキュリティ境界です。シークレットをグループ化すると、攻撃が複数のシークレットにアクセスする可能性があるため、セキュリティ イベント中のリスクが高まります。
+    Key Vault は、シークレット ストレージのセキュリティ境界です。シークレットをグループ化すると、攻撃者が複数のシークレットにアクセスする可能性があるため、セキュリティ イベント中のリスクが高まります。
   potentialBenefits: Enhanced security, Reduced risk
   pgVerified: false
   publishedToLearn: false
@@ -71,7 +71,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Azure Key Vault best practices overview
+    - name: Azure Key Vault を使用するためのベスト プラクティス
       url: "https://learn.microsoft.com/azure/key-vault/general/best-practices#why-we-recommend-separate-key-vaults"
 
 - description: Key Vault の診断ログを有効にする必要がある
@@ -82,7 +82,7 @@
   recommendationResourceType: Microsoft.KeyVault/vaults
   recommendationMetadataState: Active
   longDescription: |
-    ログを有効にし、アラートを設定し、保持要件に準拠して、Key Vault アクセスの監視とセキュリティを強化し、ユーザーの頻度と ID を詳しく説明します。
+    ログを有効にし、アラートを設定し、保持要件に準拠して、Key Vault アクセスの監視とセキュリティを強化し、ユーザーのアクセス頻度と ID を詳しく把握します。
   potentialBenefits: Enhanced monitoring and security compliance
   pgVerified: false
   publishedToLearn: false
@@ -90,5 +90,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Azure Key Vault logging overview
+    - name: Azure Key Vault のログ記録
       url: "https://learn.microsoft.com/azure/key-vault/general/logging?tabs=Vault"

@@ -57,7 +57,7 @@
     - name: Designing for high availability with ExpressRoute - Active-active connections
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-high-availability-with-expressroute#active-active-connections"
 
-- description: エッジデバイスで双方向フォワーディング検出を有効にして、フェイルオーバーを高速化します
+- description: エッジ デバイスで双方向フォワーディング検出を有効にして、フェイルオーバーを高速化する
   aprlGuid: 2a5bf650-586d-db4c-a292-d922be7d3e0e
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -133,7 +133,7 @@
     - name: Using S2S VPN as a backup for ExpressRoute private peering
       url: "https://learn.microsoft.com/azure/expressroute/use-s2s-vpn-as-backup-for-expressroute-privatepeering"
 
-- description: ExpressRoute Direct Circuits 全体にレート制限を実装してネットワーク フローを最適化する
+- description: ExpressRoute Direct 回線全体にレート制限を実装してネットワーク フローを最適化する
   aprlGuid: d40c769d-2f08-4980-8d8f-a386946276e6
   recommendationTypeId: null
   recommendationControl: Scalability

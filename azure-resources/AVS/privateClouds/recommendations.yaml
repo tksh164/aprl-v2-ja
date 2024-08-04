@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Azure Service Health 通知が、使用されているすべてのリージョンとサブスクリプションで Azure VMware Solution に設定されていることを確認します。これにより、サービス/セキュリティの問題と、ホストの交換やアップグレードなどのメンテナンスアクティビティが伝達され、サービスリクエストの送信が削減されます。
+    Azure Service Health 通知が、使用されているすべてのリージョンとサブスクリプションで Azure VMware Solution に設定されていることを確認します。これにより、サービス/セキュリティの問題と、ホストの交換やアップグレードなどのメンテナンス アクティビティが伝達され、サービス リクエストの送信が削減されます。
   potentialBenefits: Prompt mitigation of issues.
   pgVerified: true
   publishedToLearn: false
@@ -14,8 +14,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-management-and-monitoring#design-recommendations"
+    - name: 詳細情報
+      url: "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-management-and-monitoring#design-recommendations"
 
 - description: Azure VMware Solution プライベート クラウドが容量制限に達しているタイミングを監視する
   aprlGuid: 29d7a115-dfb6-4df1-9205-04824109548f
@@ -33,8 +33,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Configure and streamline alerts
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+    - name: アラートの構成と合理化
+      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
 - description: Azure VMware Solution クラスター サイズがホストの制限に近づいているタイミングを監視する
   aprlGuid: f86355e3-de7c-4dad-8080-1b0b411e66c8
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    クラスタサイズが14ホストに達したときにアラートを出します。特にストレージのニーズの増加による新しいクラスタまたはデータストアを計画するための定期的なアラートを設定します。ホスト数が14を超えると、新しいホストが追加されるたびにアラートがトリガーされ、プロアクティブなリソース監視が可能になります。
+    クラスター サイズが 14 ホストに達したときにアラートを出します。特にストレージ ニーズの増加による新しいクラスターやデータストアを計画するための定期的なアラートを設定します。ホスト数が 14 を超えると、新しいホストが追加されるたびにアラートがトリガーされ、プロアクティブなリソース監視が可能になります。
   potentialBenefits: Proactive resource management
   pgVerified: true
   publishedToLearn: false
@@ -52,10 +52,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+    - name: 詳細情報
+      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
-- description: ストレッチクラスターを有効にして、vSAN データストアのマルチ AZ 可用性を実現
+- description: ストレッチ クラスターを有効にして、vSAN データストアのマルチ AZ 可用性を実現する
   aprlGuid: 9ec5b4c8-3dd8-473a-86ee-3273290331b9
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    Azure VMware Solution の場合、ストレッチ クラスターを有効にすると、99.99% の SLA、同期ストレージ レプリケーション (RPO=0) が提供され、vSAN データストアが 2 つの AZ に分散されます。初期設定時に行う必要があり、AZ 間での拡張のために二重のクォータが必要です。
+    Azure VMware Solution の場合、ストレッチ クラスターを有効にすると、99.99% の SLA、同期ストレージ レプリケーション (RPO = 0) が提供され、vSAN データストアが 2 つの AZ に分散されます。初期設定時に行う必要があり、AZ 間での拡張のために二重のクォータが必要です。
   potentialBenefits: 99.99% SLA, 0 RPO, Multi-AZ
   pgVerified: true
   publishedToLearn: false
@@ -71,12 +71,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/infrastructure#implement-high-availability"
-    - name: Stretched Clusters
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/deploy-vsan-stretched-clusters"
+    - name: 詳細情報
+      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/infrastructure#implement-high-availability"
+    - name: ストレッチ クラスター
+      url: "https://learn.microsoft.com/azure/azure-vmware/deploy-vsan-stretched-clusters"
 
-- description: vSAN データストア使用率の Azure Monitor アラート警告しきい値を構成する
+- description: vSAN データストア使用率の Azure Monitor アラートで警告しきい値を構成する
   aprlGuid: 4232eb32-3241-4049-9e14-9b8005817b56
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
   longDescription: |
-    ストレージ使用率を監視し、70%と75%の使用率でアラートを設定してキャパシティプランニングを可能にすることで、VMware vSANデータストアのスラック領域がSLA用に維持されるようにします。拡張するには、CPU と RAM の要件が満たされている場合は、ホストまたは外部ストレージ (Azure Elastic SAN、Azure NetApp Files など) を追加します。
+    ストレージ使用率を監視し、70% と 75% の使用率でアラートを設定してキャパシティ プランニングを可能にすることで、VMware vSAN データストアのスラック領域が SLA 用に維持されるようにします。拡張するには、CPU と RAM の要件が満たされている場合は、ホストや外部ストレージ (Azure Elastic SAN、Azure NetApp Files など) を追加します。
   potentialBenefits: Optimized capacity planning for vSAN
   pgVerified: true
   publishedToLearn: false
@@ -92,8 +92,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-alerts-for-azure-vmware-solution#supported-metrics-and-activities"
+    - name: 詳細情報
+      url: "https://learn.microsoft.com/azure/azure-vmware/configure-alerts-for-azure-vmware-solution#supported-metrics-and-activities"
 
 - description: Azure VMware Solution の診断設定で Syslog を構成する
   aprlGuid: fa4ab927-bced-429a-971a-53350de7f14b
@@ -111,8 +111,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#manage-logs-and-archives"
+    - name: 詳細情報
+      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#manage-logs-and-archives"
 
 - description: CPU 使用率を監視して、ワークロードに十分なリソースを確保する
   aprlGuid: 4ee5d535-c47b-470a-9557-4a3dd297d62f
@@ -130,8 +130,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+    - name: アラートの構成と合理化
+      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
 - description: メモリ使用率を監視して、ワークロードに十分なリソースを確保する
   aprlGuid: 029208c8-5186-4a76-8ee8-6e3445fef4dd
@@ -149,10 +149,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
+    - name: アラートの構成と合理化
+      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
-- description: プライベート クラウドをホストしているリソース グループに対するリソース削除ロックの適用
+- description: プライベート クラウドをホストしているリソース グループに対してリソース削除ロックを適用する
   aprlGuid: a5ef7c05-c611-4842-9af5-11efdc99123a
   recommendationTypeId: null
   recommendationControl: Governance
@@ -168,10 +168,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Lock your resources to protect your infrastructure
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources"
+    - name: リソースをロックしてインフラストラクチャを保護する
+      url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources"
 
-- description: vSAN データストアの顧客管理キーにキーの自動ローテーションを使用する
+- description: vSAN データストアのカスタマー マネージド キーにキーの自動ローテーションを使用する
   aprlGuid: e0ac2f57-c8c0-4b8c-a7c8-19e5797828b5
   recommendationTypeId: null
   recommendationControl: Security
@@ -187,8 +187,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Configure Customer Managed Keys
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-customer-managed-keys?tabs=azure-portal"
+    - name: カスタマー マネージド キーを構成する
+      url: "https://learn.microsoft.com/azure/azure-vmware/configure-customer-managed-keys?tabs=azure-portal"
 
 - description: プライベート FQDN ゾーンごとに複数の DNS サーバーを使用する
   aprlGuid: fcc2e257-23af-4c68-aac8-9cc03033c939
@@ -206,5 +206,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Configure DNS forwarder
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-dns-azure-vmware-solution#configure-dns-forwarder"
+    - name: DNS フォワーダーを構成する
+      url: "https://learn.microsoft.com/azure/azure-vmware/configure-dns-azure-vmware-solution#configure-dns-forwarder"

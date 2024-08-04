@@ -14,7 +14,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Event Hubs - Geo-disaster recovery
+    - name: Azure Event Hubs - geo ディザスター リカバリー
       url: "https://learn.microsoft.com/azure/event-hubs/event-hubs-geo-dr?tabs=portal#availability-zones"
 
 - description: Event Hub Standard レベルで自動インフレを有効にする
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.EventHub/namespaces
   recommendationMetadataState: Active
   longDescription: |
-    Event Hub Standard レベルの名前空間で自動インフレを有効にすると、TU が自動的にスケールアップされ、使用ニーズを満たし、許可されたレートに調整することでデータのイングレスまたはエグレス スロットルのシナリオが防止されます。
+    Event Hub Standard レベルの名前空間で自動インフレを有効にすると、スループット ユニット (TU) が自動的にスケールアップされ、使用量のニーズを満たし、許可されたレートに調整することでデータのイングレスやエグレスのスロットリング シナリオが防止されます。
   potentialBenefits: Prevents throttling by autoscaling TUs
   pgVerified: true
   publishedToLearn: false
@@ -33,5 +33,5 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Event Hubs - Automatically scale throughput units
+    - name: Azure Event Hubs のスループット ユニットを自動的にスケールアップする
       url: "https://learn.microsoft.com/azure/event-hubs/event-hubs-auto-inflate"

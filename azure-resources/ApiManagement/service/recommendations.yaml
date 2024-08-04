@@ -14,10 +14,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Change your API Management service tier
-      url: "https://learn.microsoft.com/ja-jp/azure/api-management/upgrade-and-scale#change-your-api-management-service-tier"
-    - name: Migrate Azure API Management to availability zone support
-      url: "https://learn.microsoft.com/ja-jp/azure/reliability/migrate-api-mgt"
+    - name: API Management サービス レベルを変更する
+      url: "https://learn.microsoft.com/azure/api-management/upgrade-and-scale#change-your-api-management-service-tier"
+    - name: Azure API Management を可用性ゾーンに移行する
+      url: "https://learn.microsoft.com/azure/reliability/migrate-api-mgt"
 
 - description: Premium API Management インスタンスで可用性ゾーンを有効にする
   aprlGuid: 740f2c1c-8857-4648-80eb-47d2c56d5a50
@@ -35,12 +35,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Ensure API Management availability and reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/api-management/high-availability#availability-zones"
-    - name: Migrate Azure API Management to availability zone support
-      url: "https://learn.microsoft.com/ja-jp/azure/reliability/migrate-api-mgt"
+    - name: API Management の可用性と信頼性を確保する
+      url: "https://learn.microsoft.com/azure/api-management/high-availability#availability-zones"
+    - name: Azure API Management を可用性ゾーンに移行する
+      url: "https://learn.microsoft.com/azure/reliability/migrate-api-mgt"
 
-- description: Azure API Management プラットフォームのバージョンは stv2 である必要があります
+- description: Azure API Management プラットフォームのバージョンは stv2 である必要がある
   aprlGuid: e35cf148-8eee-49d1-a1c9-956160f99e0b
   recommendationTypeId: e5f60ef8-3fcc-4fb5-bee7-7aaeb44c1509
   recommendationControl: High Availability
@@ -56,10 +56,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure API Management - stv1 platform retirement (August 2024)
-      url: "https://learn.microsoft.com/ja-jp/azure/api-management/breaking-changes/stv1-platform-retirement-august-2024"
-    - name: Azure API Management compute platform
-      url: "https://learn.microsoft.com/ja-jp/azure/api-management/compute-infrastructure"
+    - name: Azure API Management - stv1 プラットフォームの廃止 (2024 年 8 月)
+      url: "https://learn.microsoft.com/azure/api-management/breaking-changes/stv1-platform-retirement-august-2024"
+    - name: Azure API Management のコンピューティング プラットフォーム
+      url: "https://learn.microsoft.com/azure/api-management/compute-infrastructure"
 
 - description: API Management サービスで運用ワークロードの自動スケーリングを有効にする
   aprlGuid: c79680ea-de85-44fa-a596-f31fa17a952f
@@ -77,5 +77,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Setting up auto-scale for Azure API Management
+    - name: Azure API Management の自動スケールを設定する
       url: "https://learn.microsoft.com/azure/api-management/api-management-howto-autoscale"

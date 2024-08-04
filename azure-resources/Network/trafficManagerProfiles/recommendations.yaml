@@ -1,4 +1,4 @@
-- description: Traffic Manager の監視状態はオンラインである必要があります
+- description: Traffic Manager の監視状態はオンラインである必要がある
   aprlGuid: f05a3e6d-49db-2740-88e2-2b13706c1f67
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/trafficManagerProfiles
   recommendationMetadataState: Active
   longDescription: |
-    監視ステータスは、アプリケーションワークロードのフェイルオーバーを確実にするためにオンラインにする必要があります。Traffic Manager の正常性が [低下] と表示される場合は、1 つ以上のエンドポイントも低下している可能性があります。
+    監視状態は、アプリケーション ワークロードのフェールオーバーを確実にするためにオンラインにする必要があります。Traffic Manager の正常性が "低下" と表示される場合は、1 つ以上のエンドポイントが低下している可能性があります。
   potentialBenefits: Ensures failover functionality
   pgVerified: true
   publishedToLearn: false
@@ -21,7 +21,7 @@
     - name: Troubleshooting degraded state on Azure Traffic Manager
       url: "https://learn.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded"
 
-- description: Traffic Manager プロファイルには複数のエンドポイントが必要
+- description: Traffic Manager プロファイルには複数のエンドポイントが必要である
   aprlGuid: 5b422a7f-8caa-3d48-becb-511599e5bba9
   recommendationTypeId: 6cd70072-c45c-4716-bf7b-b35c18e46e72
   recommendationControl: High Availability
@@ -67,7 +67,7 @@
   recommendationResourceType: Microsoft.Network/trafficManagerProfiles
   recommendationMetadataState: Active
   longDescription: |
-    地理的ルーティングの場合、トラフィックは特定のリージョンに基づいてエンドポイントに転送されます。事前定義されたフェイルオーバーなしでリージョンに障害が発生した場合、地理的プロファイルのエンドポイントを「すべて(ワールド)」に構成すると、トラフィックのブラックホールを防ぎ、サービスを引き続き利用できます。
+    地理的ルーティングの場合、トラフィックは特定のリージョンに基づいてエンドポイントに転送されます。事前定義されたフェールオーバーなしでリージョンに障害が発生した場合、地理的プロファイルのエンドポイントを "すべて (ワールド)" に構成すると、トラフィックのブラック ホールを防ぎ、サービスを引き続き利用できます。
   potentialBenefits: Avoids traffic black holing, ensures availability
   pgVerified: true
   publishedToLearn: false

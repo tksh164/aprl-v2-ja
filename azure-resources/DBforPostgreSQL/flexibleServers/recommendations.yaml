@@ -14,7 +14,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Overview of high availability with Azure Database for PostgreSQL
+    - name: Azure Database for PostgreSQL - フレキシブル サーバーでの高可用性 (信頼性)
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-high-availability"
 
 - description: カスタム メンテナンス スケジュールを有効にする
@@ -33,7 +33,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Scheduled maintenance in Azure Database for PostgreSQL - Flexible Server
+    - name: Azure Database for PostgreSQL - フレキシブル サーバーでの予定メンテナンス
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-maintenance"
 
 - description: geo 冗長バックアップ ストレージを構成する
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.DBforPostgreSQL/flexibleServers
   recommendationMetadataState: Active
   longDescription: |
-    障害や災害が発生した場合でも、データベースの可用性と持続性の目標を確実に満たすように GRS を構成します。
+    障害や災害が発生した場合でも、データベースの可用性と耐久性の目標を確実に満たすように GRS を構成します。
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
@@ -52,8 +52,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Backup and restore in Azure Database for PostgreSQL - Flexible Server
-      url: "https://learn.microsoft.com/ja-jp/azure/postgresql/flexible-server/concepts-backup-restore"
+    - name: Azure Database for PostgreSQL (フレキシブル サーバー) でのバックアップと復元
+      url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore"
 
 - description: 1 つ以上の読み取りレプリカを構成する
   aprlGuid: 2ab85a67-26be-4ed2-a0bb-101b2513ec63
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.DBforPostgreSQL/flexibleServers
   recommendationMetadataState: Active
   longDescription: |
-    1 つ以上の読み取りレプリカを構成して、障害や障害が発生した場合でもデータベースの可用性と持続性の目標を確実に満たすようにします。
+    1 つ以上の読み取りレプリカを構成して、障害や障害が発生した場合でもデータベースの可用性と耐久性の目標を確実に満たすようにします。
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
@@ -71,8 +71,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Read replicas in Azure Database for PostgreSQL - Flexible Server
-      url: "https://learn.microsoft.com/ja-jp/azure/postgresql/flexible-server/concepts-read-replicas"
+    - name: Azure Database for PostgreSQL - フレキシブル サーバーの読み取りレプリカ
+      url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-read-replicas"
 
 - description: ストレージの自動拡張を構成する
   aprlGuid: 6293a3cc-6b4a-4c0f-9ea7-b8ae8d7dd3d5
@@ -90,5 +90,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Storage autogrow using Azure portal in Azure Database for PostgreSQL - Flexible Server
-      url: "https://learn.microsoft.com/ja-jp/azure/postgresql/flexible-server/how-to-auto-grow-storage-portal"
+    - name: Azure Database for PostgreSQL - フレキシブル サーバーでの Azure portal を使用したストレージの自動拡張
+      url: "https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-auto-grow-storage-portal"

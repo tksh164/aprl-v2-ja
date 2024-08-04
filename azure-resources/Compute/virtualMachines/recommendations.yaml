@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    本番VMワークロードは、複数のVMにデプロイし、VMSS Flexインスタンスにグループ化して、プラットフォーム全体にインテリジェントに分散し、プラットフォームの障害や更新の影響を最小限に抑える必要があります。
+    本番 VM ワークロードは、複数の VM にデプロイし、VMSS Flex インスタンスにグループ化して、プラットフォーム全体にインテリジェントに分散し、プラットフォームの障害や更新の影響を最小限に抑える必要があります。
   potentialBenefits: Enhanced fault/update resilience
   pgVerified: true
   publishedToLearn: false
@@ -14,12 +14,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: What has changed with Flexible orchestration mode
+    - name: フレキシブル オーケストレーション モードの変更点
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-orchestration-modes#what-has-changed-with-flexible-orchestration-mode"
-    - name: Attach or detach a Virtual Machine to or from a Virtual Machine Scale Set
+    - name: 仮想マシンを仮想マシン スケール セットにアタッチする、または仮想マシン スケール セットからデタッチする
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-attach-detach-vm?branch=main&tabs=portal-1%2Cportal-2%2Cportal-3"
 
-- description: Availability Zones 間での VM のデプロイ
+- description: 可用性ゾーン間での VM のデプロイ
   aprlGuid: 2bd0be95-a825-6f47-a8c6-3db1fb5eb387
   recommendationTypeId: 066a047a-9ace-45f4-ac50-6325840a6b00
   recommendationControl: High Availability
@@ -27,7 +27,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    各 Azure リージョン内の Azure Availability Zones は、ローカルの障害に対して耐性があり、物理的に分離することで、データセンターの予期しない障害からアプリケーションとデータを保護します。
+    各 Azure リージョン内の可用性ゾーンは、ローカルの障害に対して耐性があり、物理的に分離することで、データセンターの予期しない障害からアプリケーションとデータを保護します。
   potentialBenefits: Enhanced VM resilience to failures
   pgVerified: true
   publishedToLearn: false
@@ -35,7 +35,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Create virtual machines in an availability zone using the Azure portal
+    - name: Azure portal を使用して可用性ゾーン内に仮想マシンを作成する
       url: "https://learn.microsoft.com/azure/virtual-machines/create-portal-availability-zone?tabs=standard"
 
 - description: 可用性セットを使用している VM を VMSS Flex に移行する
@@ -54,7 +54,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Migrate deployments and resources to Virtual Machine Scale Sets in Flexible orchestration
+    - name: フレキシブル オーケストレーションでデプロイとリソースを Virtual Machine Scale Sets に移行する
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/flexible-virtual-machine-scale-sets-migration-resources"
 
 - description: Azure Site Recovery を使用して VM をレプリケートする
@@ -73,9 +73,9 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Resiliency checklist for Virtual Machines
+    - name: Virtual Machines の回復性のチェックリスト
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#virtual-machines"
-    - name: Run a test failover (disaster recovery drill) to Azure
+    - name: Azure へのテスト フェールオーバー (ディザスター リカバリー訓練) を実行する
       url: "https://learn.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure"
 
 - description: VM ディスクにマネージド ディスクを使用する
@@ -94,14 +94,14 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Migrate your Azure unmanaged disks by Sep 30, 2025
+    - name: 2025 年 9 月 30 日までに Azure アンマネージド ディスクを移行してください
       url: "https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
-    - name: Migrate Windows VM from unmanaged disks to managed disks
+    - name: Windows 仮想マシンをアンマネージド ディスクからマネージド ディスクに移行する
       url: "https://learn.microsoft.com/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks"
-    - name: Migrate Linux VM from unmanaged disks to managed disks
+    - name: Linux 仮想マシンをアンマネージド ディスクからマネージド ディスクに移行する
       url: "https://learn.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks"
 
-- description: データディスク上のホストデータベースデータ
+- description: データベース データをデータ ディスクでホストする
   aprlGuid: 4ea2878f-0d69-8d4a-b715-afc10d1e538e
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -109,7 +109,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    データ ディスクは、データベースやその他の重要なデータを格納するために仮想マシンにアタッチされたマネージド ディスクです。これらのディスクは、選択ごとにラベル付けされたSCSIドライブです。
+    データ ディスクは、データベースやその他の重要なデータを格納するために仮想マシンに接続されたマネージド ディスクです。これらのディスクは、選択ごとにラベル付けされた SCSI ドライブです。
   potentialBenefits: Enhances performance, recovery, migration flexibility
   pgVerified: true
   publishedToLearn: false
@@ -117,12 +117,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Introduction to Azure managed disks - Data disks
+    - name: Azure マネージド ディスクの概要 - データ ディスク
       url: "https://learn.microsoft.com/azure/virtual-machines/managed-disks-overview#data-disk"
-    - name: Azure managed disk types
+    - name: Azure マネージド ディスクの種類
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-types"
 
-- description: Azure Backup サービスを使用した VM のバックアップ
+- description: Azure Backup サービスを使用して VM をバックアップする
   aprlGuid: 1981f704-97b9-b645-9c57-33f8ded9261a
   recommendationTypeId: 651c7925-17a3-42e5-85cd-73bd095cf27f
   recommendationControl: Disaster Recovery
@@ -138,7 +138,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: What is the Azure Backup service?
+    - name: Azure Backup サービスとは
       url: "https://learn.microsoft.com/azure/backup/backup-overview"
 
 - description: 停止状態の VM を確認する
@@ -157,10 +157,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: States and billing status of Azure Virtual Machines
+    - name: Azure 仮想マシンの電源の状態と課金
       url: "https://learn.microsoft.com/azure/virtual-machines/states-billing?context=%2Ftroubleshoot%2Fazure%2Fvirtual-machines%2Fcontext%2Fcontext#power-states-and-billing"
 
-- description: 高速ネットワークの有効化 (AccelNet)
+- description: 高速ネットワーク (AccelNet) を有効化する
   aprlGuid: dfedbeb1-1519-fc47-86a5-52f96cf07105
   recommendationTypeId: 3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4
   recommendationControl: Scalability
@@ -176,10 +176,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Accelerated Networking (AccelNet) overview
+    - name: 高速ネットワークの概要
       url: "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview"
 
-- description: AccelNet が有効になっている場合は、GuestOS NIC ドライバを手動で更新する必要があります
+- description: 高速ネットワーク (AccelNet) が有効になっている場合は、Guest OS NIC ドライバーを手動で更新する必要がある
   aprlGuid: 73d1bb04-7d3e-0d47-bc0d-63afe773b5fe
   recommendationTypeId: null
   recommendationControl: Governance
@@ -187,7 +187,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    高速ネットワークを有効にすると、GuestOS の既定の Azure VNet インターフェイスが Mellanox に交換され、そのドライバーはサード パーティから提供されます。Marketplace イメージには最新の Mellanox ドライバーが含まれていますが、デプロイ後のドライバーの更新はユーザーの責任です。
+    高速ネットワークを有効にすると、Guest OS の既定の Azure VNet インターフェイスが Mellanox に交換され、そのドライバーはサード パーティから提供されます。Marketplace イメージには最新の Mellanox ドライバーが含まれていますが、デプロイ後のドライバーの更新はユーザーの責任です。
   potentialBenefits: Enhanced VM network efficiency
   pgVerified: true
   publishedToLearn: false
@@ -195,10 +195,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Accelerated Networking (AccelNet) overview
+    - name: 高速ネットワークの概要
       url: "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview"
 
-- description: VM にはパブリック IP を直接関連付けることはできません
+- description: VM にパブリック IP を直接関連付けるべきではない
   aprlGuid: 1f629a30-c9d0-d241-82ee-6f2eb9d42cb4
   recommendationTypeId: null
   recommendationControl: Security
@@ -206,7 +206,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    Virtual Machines の送信インターネット接続では、高可用性と SNAT ポートのおかげで、セキュリティとサービスの回復性を強化するために、NAT Gateway または Azure Firewall を使用することをお勧めします。
+    仮想マシンの送信インターネット接続には、より高い可用性と SNAT ポート数によって、セキュリティとサービスの回復力を強化するために、NAT Gateway や Azure Firewall を使用することを推奨します。
   potentialBenefits: Enhanced security and service resiliency
   pgVerified: true
   publishedToLearn: false
@@ -214,10 +214,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Use Source Network Address Translation (SNAT) for outbound connections
+    - name: 送信接続での送信元ネットワーク アドレス変換 (SNAT)を使用する
       url: "https://learn.microsoft.com/azure/load-balancer/load-balancer-outbound-connections"
 
-- description: VM ネットワーク インターフェイスと関連するサブネットの両方に、ネットワーク セキュリティ グループが関連付けられています
+- description: VM ネットワーク インターフェイスと関連するサブネットの両方に、ネットワーク セキュリティ グループが関連付けられている
   aprlGuid: 82b3cf6b-9ae2-2e44-b193-10793213f676
   recommendationTypeId: null
   recommendationControl: Security
@@ -225,7 +225,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    特定の理由がない限り、ネットワーク セキュリティ グループをサブネットまたはネットワーク インターフェイスに関連付けて、2 つの関連付け間のルールの競合による予期しない通信の問題やトラブルシューティングを回避することをお勧めします。
+    特別な理由がない限り、ネットワーク セキュリティ グループをサブネットまたはネットワーク インターフェイスに関連付けることをお勧めしますが、2 つの関連付けの間の潜在的なルール競合による予期しない通信の問題やトラブルシューティングを避けるために、両方に関連付けることはお勧めしません。
   potentialBenefits: Reduces communication problems
   pgVerified: true
   publishedToLearn: false
@@ -233,10 +233,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: How network security groups filter network traffic
+    - name: ネットワーク セキュリティ グループによってネットワーク トラフィックをフィルター処理する方法
       url: "https://learn.microsoft.com/azure/virtual-network/network-security-group-how-it-works#intra-subnet-traffic"
 
-- description: IP 転送は、ネットワーク仮想アプライアンスに対してのみ有効にする必要があります
+- description: IP 転送は、ネットワーク仮想アプライアンスに対してのみ有効にする必要がある
   aprlGuid: 41a22a5e-5e08-9647-92d0-2ffe9ef1bdad
   recommendationTypeId: c3b51c94-588b-426b-a892-24696f9e54cc
   recommendationControl: Security
@@ -244,7 +244,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    IP 転送を使用すると、仮想マシンのネットワーク インターフェイスは、割り当てられた IP アドレス宛てまたは割り当てられた IP アドレスから発信されていないネットワーク トラフィックを送受信できます。
+    IP 転送は、仮想マシンのネットワーク インターフェイスが、割り当てられた IP アドレス以外のネットワーク トラフィックを送受信できるようにします。
   potentialBenefits: Enhances network appliance function
   pgVerified: true
   publishedToLearn: false
@@ -252,10 +252,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Enable or disable IP forwarding
+    - name: IP 転送の有効化と無効化
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-network-network-interface?tabs=network-interface-portal#enable-or-disable-ip-forwarding"
 
-- description: 顧客 DNS サーバーは、仮想ネットワーク レベルで構成する必要があります
+- description: 顧客 DNS サーバーは、仮想ネットワーク レベルで構成する必要がある
   aprlGuid: 1cf8fe21-9593-1e4e-966b-779a294c0d30
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -271,10 +271,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Name resolution for resources in Azure virtual networks
+    - name: Azure 仮想ネットワーク内のリソースの名前解決
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances"
 
-- description: 共有ディスクは、クラスタ化されたサーバーでのみ有効にする必要があります
+- description: 共有ディスクは、クラスター化されたサーバーでのみ有効にする必要がある
   aprlGuid: 3263a64a-c256-de48-9818-afd3cbc55c2a
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -282,7 +282,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    Azure 共有ディスクを使用すると、クラスター化されたアプリケーションをデプロイまたは移行するために、ディスクを一度に複数の VM に接続できます (ディスクが VM クラスター メンバー間で共有されている場合にのみ適しています)。
+    Azure 共有ディスクを使用すると、クラスター化されたアプリケーションをデプロイまたは移行するために、ディスクを同時に複数の VM に接続できます (ディスクが VM クラスター メンバー間で共有されている場合にのみ適しています)。
   potentialBenefits: Enhances clustered server performance
   pgVerified: true
   publishedToLearn: false
@@ -290,12 +290,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Shared Disk Introduction
+    - name: Azure 共有ディスクの概要
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared"
-    - name: Enable Shared Disks
+    - name: 共有ディスクを有効にする
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared-enable?tabs=azure-portal"
 
-- description: VM ディスクへのネットワーク アクセスは、 [パブリック アクセスを無効にし、プライベート アクセスを有効にする] に設定する必要があります
+- description: VM ディスクへのネットワーク アクセスは、「パブリック アクセスを無効にし、プライベート アクセスを有効にする」に設定する必要がある
   aprlGuid: 70b1d2be-e6c4-b54e-9959-b1b690f9e485
   recommendationTypeId: null
   recommendationControl: Security
@@ -303,7 +303,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    「パブリックアクセスを無効にし、プライベートアクセスを有効にする」に変更し、プライベートエンドポイントを作成して、直接パブリックアクセスを制限し、接続がプライベートに行われるようにすることでセキュリティを強化し、データ保護を強化し、潜在的な外部の脅威を最小限に抑えることをお勧めします。
+    「パブリックアクセスを無効にし、プライベートアクセスを有効にする」に変更し、プライベート エンドポイントを作成して、直接パブリック アクセスを制限し、接続がプライベートに行われるようにすることでセキュリティを強化し、データ保護を強化し、潜在的な外部の脅威を最小限に抑えることをお勧めします。
   potentialBenefits: Enhances VM security and privacy
   pgVerified: true
   publishedToLearn: false
@@ -311,7 +311,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Restrict import/export access for managed disks using Azure Private Link
+    - name: Azure Private Link を使用してマネージド ディスクに対するインポートおよびエクスポートのアクセスを制限する
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-enable-private-links-for-import-export-portal"
 
 - description: VM が Azure ポリシーに準拠していることを確認する
@@ -330,12 +330,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Policy-driven governance
+    - name: ポリシー主導のガバナンス
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-principles#policy-driven-governance"
-    - name: Azure Policy Regulatory Compliance controls for Azure Virtual Machines
+    - name: Azure 仮想マシンの Azure ポリシー規制コンプライアンス制御
       url: "https://learn.microsoft.com/azure/virtual-machines/security-policy"
 
-- description: Virtual Machines では、Azure Disk Encryption または EncryptionAtHost が有効になっている必要があります
+- description: Virtual Machines では Azure Disk Encryption や「ホストでの暗号化」が有効になっている必要がある
   aprlGuid: f0a97179-133a-6e4f-8a49-8a44da73ffce
   recommendationTypeId: a40cc620-e72c-fdf4-c554-c6ca2cd705c0
   recommendationControl: Security
@@ -343,7 +343,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    DM-Crypt (Linux) または BitLocker (Windows) を使用して Azure VM ディスクを暗号化するには、Azure Disk Encryption (ADE) を有効にすることを検討してください。さらに、データセキュリティを強化するために、ホストでの暗号化と機密ディスクの暗号化を検討してください。
+    DM-Crypt (Linux) や BitLocker (Windows) を使用して Azure VM ディスクを暗号化するには、Azure Disk Encryption (ADE) を有効にすることを検討してください。さらに、データセキュリティを強化するために、ホストでの暗号化と機密ディスクの暗号化を検討してください。
   potentialBenefits: Enhances data security and integrity
   pgVerified: true
   publishedToLearn: false
@@ -351,7 +351,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Overview of managed disk encryption options
+    - name: マネージド ディスク暗号化オプションの概要
       url: "https://learn.microsoft.com/azure/virtual-machines/disk-encryption-overview"
 
 - description: VM Insights を有効にする
@@ -370,10 +370,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Overview of VM insights
+    - name: VM insights の概要
       url: "https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-overview"
-    - name: Did the extension install properly?
-      url: "https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-troubleshoot#did-the-extension-install-properly"
+    - name: 拡張機能は正しくインストールされましたか?
+      url: "https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-troubleshoot#was-the-extension-installed-properly"
 
 - description: すべての Azure Virtual Machines の監視を構成する
   aprlGuid: 4a9d8973-6dba-0042-b3aa-07924877ebd5
@@ -391,8 +391,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Azure Monitor Agent overview
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-monitor/agents/agents-overview"
+    - name: Azure Monitor エージェントの概要
+      url: "https://learn.microsoft.com/azure/azure-monitor/agents/agents-overview"
 
 - description: VM のメンテナンス構成を使用する
   aprlGuid: 52ab9e5c-eec0-3148-8bd7-b6dd9e1be870
@@ -402,7 +402,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    メンテナンス構成設定を使用すると、ユーザーは更新をスケジュールおよび管理して、VM の更新または中断が計画された期間内に実行されるようにすることができます。
+    メンテナンス構成設定を使用すると、ユーザーは更新をスケジュールや管理して、VM の更新や中断が計画された期間内に実行されるようにすることができます。
   potentialBenefits: Scheduled updates for VMs
   pgVerified: true
   publishedToLearn: false
@@ -410,10 +410,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Use maintenance configurations to control and manage the VM updates
+    - name: メンテナンス構成による VM の更新の管理
       url: "https://learn.microsoft.com/azure/virtual-machines/maintenance-configurations"
 
-- description: A または B シリーズの VM を、常にフル CPU パフォーマンスを必要とする運用環境に使用しないでください
+- description: A または B シリーズの VM を常にフル CPU パフォーマンスを必要とする運用環境に使用しない
   aprlGuid: 3201dba8-d1da-4826-98a4-104066545170
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -429,10 +429,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: B-series burstable virtual machine sizes
-      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/sizes-b-series-burstable"
+    - name: B シリーズのバースト可能なマシンのサイズ
+      url: "https://learn.microsoft.com/azure/virtual-machines/sizes-b-series-burstable"
 
-- description: ミッション クリティカルなワークロードでは、Premium または Ultra Disk の使用を検討する必要があります
+- description: ミッション クリティカルなワークロードでは Premium または Ultra Disk の使用を検討する必要がある
   aprlGuid: df0ff862-814d-45a3-95e4-4fad5a244ba6
   recommendationTypeId: 58d6648d-32e8-4346-827c-4f288dd8ca24
   recommendationControl: Scalability
@@ -440,7 +440,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    Standard HDD や SSD と比較して、Premium SSD、SSDv2、Ultra SSD では、パフォーマンスと構成可能性が向上し、単一インスタンス仮想マシンのアップタイム SLA が向上します。仮想マシン上のすべてのディスクの中で最も低い SLA が適用されるため、最高のアップタイム SLA を得るには、Premium または Ultra Disks を使用することをお勧めします。
+    Standard HDD や SSD と比較して、Premium SSD、Premium SSD v2、Ultra Disk では、パフォーマンスと構成可能性が向上し、単一インスタンス仮想マシンのアップタイム SLA が向上します。仮想マシン上のすべてのディスクの中で最も低い SLA が適用されるため、最高のアップタイム SLA を得るには、Premium または Ultra Disks を使用することをお勧めします。
   potentialBenefits: Enhanced performance, cost efficiency, and uptime SLA
   pgVerified: true
   publishedToLearn: false
@@ -448,8 +448,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Disk type comparison and decision tree
-      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/disks-types#disk-type-comparison"
+    - name: ディスクの種類の比較とデシジョン ツリー
+      url: "https://learn.microsoft.com/azure/virtual-machines/disks-types#disk-type-comparison"
 
 - description: メンテナンスの影響を受けやすいワークロードに Azure Boost VM を使用する
   aprlGuid: 9ab499d8-8844-424d-a2d4-8f53690eb8f8
@@ -488,11 +488,11 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Monitor scheduled events for your Azure VMs
+    - name: Azure VM のスケジュールされたイベントを監視する
       url: "https://learn.microsoft.com/azure/virtual-machines/windows/scheduled-event-service"
-    - name: Azure Metadata Service Scheduled Events for Linux VMs
+    - name: Azure Metadata Service - Linux VM の Scheduled Events
       url: "https://learn.microsoft.com/azure/virtual-machines/linux/scheduled-events"
-    - name: Azure Metadata Service Scheduled Events for Windows VMs
+    - name: Azure Metadata Service - Windows VM のScheduled Events
       url: "https://learn.microsoft.com/azure/virtual-machines/windows/scheduled-events"
 
 - description: Azure ディスクとゾーン冗長ストレージを使用して、回復性と可用性を高める
@@ -511,8 +511,8 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Redundancy options for managed disks
-      url: "https://aka.ms/zrsdisksdoc"
+    - name: マネージド ディスクの冗長性オプション
+      url: "https://learn.microsoft.com/azure/virtual-machines/disks-redundancy#zone-redundant-storage-for-managed-disks"
 
 - description: 重要なワークロードのためにコンピューティング容量を予約する
   aprlGuid: 302fda08-ee65-4fbe-a916-6dc0b33169c4
@@ -530,5 +530,5 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: On-demand Capacity Reservation
-      url: "https://aka.ms/on-demand-capacity-reservations-docs"
+    - name: オンデマンド容量予約
+      url: "https://learn.microsoft.com/azure/virtual-machines/capacity-reservation-overview"

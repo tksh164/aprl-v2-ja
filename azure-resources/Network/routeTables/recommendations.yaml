@@ -17,7 +17,7 @@
     - name: Azure activity log - Azure Monitor | Microsoft Learn
       url: "https://learn.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log?tabs=powershell"
 
-- description: ルートテーブルのロックを設定して、偶発的な変更や削除を防止します
+- description: ルート テーブルのロックを設定して、偶発的な変更や削除を防止する
   aprlGuid: 89d1166a-1a20-0f46-acc8-3194387bf127
   recommendationTypeId: null
   recommendationControl: Governance

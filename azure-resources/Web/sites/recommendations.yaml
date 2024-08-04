@@ -17,7 +17,7 @@
     - name: Enable diagnostics logging for apps in Azure App Service
       url: "https://learn.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs"
 
-- description: パフォーマンスの監視
+- description: パフォーマンスを監視する
   aprlGuid: a7e8bb3d-8ceb-442d-b26f-007cd63f9ffc
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -76,7 +76,7 @@
     - name: Resiliency checklist
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: ステージングスロットへのデプロイ
+- description: ステージング スロットにデプロイする
   aprlGuid: a1d91661-32d4-430b-b3b6-5adeb0975df7
   recommendationTypeId: 1d3b5a51-62d4-4b77-96f6-40ed0a3aa21f
   recommendationControl: Governance
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    ステージング用のデプロイスロットを作成して、更新をデプロイし、検証し、本番スワップの前にすべてのインスタンスがウォームアップされるようにして、不適切な更新の可能性を減らします。LKG スロットを使用すると、後で問題が発生した場合に、以前の正常な展開に簡単にロールバックできるため、信頼性が向上します。
+    ステージング用のデプロイ スロットを作成して、更新をデプロイし、検証し、本番スワップの前にすべてのインスタンスがウォームアップされるようにして、不適切な更新の可能性を減らします。LKG スロットを使用すると、後で問題が発生した場合に、以前の正常な展開に簡単にロールバックできるため、信頼性が向上します。
   potentialBenefits: Safer updates and easy rollback
   pgVerified: false
   publishedToLearn: false
@@ -103,7 +103,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    構成にアプリ設定を使用し、Resource Manager テンプレートまたは PowerShell を使用して定義することで、自動デプロイ/更新プロセスの一部を容易にし、信頼性を向上させることができます。
+    構成にアプリ設定を使用し、Resource Manager テンプレートや PowerShell を使用して定義することで、自動デプロイ/更新プロセスの一部を容易にし、信頼性を向上させることができます。
   potentialBenefits: Enhanced reliability via automation
   pgVerified: false
   publishedToLearn: false
@@ -122,7 +122,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    稼働ワークロードにはヘルスチェックを使用します。ヘルスチェックは、異常なインスタンスからリクエストを再ルーティングし、異常なままのインスタンスを置き換えることで、アプリケーションの可用性を向上させます。ヘルスチェックパスでは、アプリケーションの重要なコンポーネントをチェックする必要があります。
+    稼働ワークロードには正常性チェックを使用します。正常性チェックは、異常なインスタンスからリクエストを再ルーティングし、異常なままのインスタンスを置き換えることで、アプリケーションの可用性を向上させます。正常性チェック パスでは、アプリケーションの重要なコンポーネントをチェックする必要があります。
   potentialBenefits: Enhanced reliability via automation
   pgVerified: false
   publishedToLearn: false
@@ -171,7 +171,7 @@
     - name: Ultimate guide to running healthy apps in the cloud
       url: "https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html"
 
-- description: Functions アプリの自動修復を有効にする
+- description: Function App の自動修復を有効にする
   aprlGuid: c6c4b962-5af4-447a-9d74-7b9c53a5dff5
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -190,7 +190,7 @@
     - name: Announcing the New Auto Healing Experience in App Service Diagnostics - Azure App Service
       url: "https://azure.github.io/AppService/2018/09/10/Announcing-the-New-Auto-Healing-Experience-in-App-Service-Diagnostics.html"
 
-- description: ウォームアップ トリガーが関数アプリに追加されていない
+- description: ウォームアップ トリガーを Function App に追加する
   aprlGuid: 52f368ee-1d77-4b34-92db-64be269642d0
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -198,7 +198,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    ウォームアップトリガーを追加して、事前ウォーミングプロセス中にカスタム依存関係をプリロードして、関数がリクエストの処理をすぐに開始できるようにします。
+    ウォームアップ トリガーを追加して、事前ウォーミングプロセス中にカスタム依存関係をプリロードして、関数がリクエストの処理をすぐに開始できるようにします。
   potentialBenefits: Improved app availability
   pgVerified: false
   publishedToLearn: false
@@ -209,7 +209,7 @@
     - name: Azure Functions Warmup Trigger
       url: "https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-warmup?tabs=in-process%2Cnodejs-v4&pivots=programming-language-csharp#trigger"
 
-- description: Function App に一意の hostid が設定されていることを確認する
+- description: Function App に一意のホスト ID が設定されていることを確認する
   aprlGuid: 0b06a688-0dd6-4d73-9f72-6666ff853ca9
   recommendationTypeId: null
   recommendationControl: Governance
@@ -247,7 +247,7 @@
     - name: Migrate version 3.x to 4.x
       url: "https://learn.microsoft.com/ja-jp/azure/azure-functions/migrate-version-3-version-4?tabs=net6-in-proc%2Cazure-cli%2Cwindows&pivots=programming-language-csharp"
 
-- description: FUNCTIONS_WORKER_RUNTIMEが正しく設定されているか確認する
+- description: FUNCTIONS_WORKER_RUNTIME が正しく設定されていることを確認する
   aprlGuid: 7c608f46-46b2-4cc0-bbd6-1d457c16671c
   recommendationTypeId: null
   recommendationControl: Governance
@@ -255,7 +255,7 @@
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
   longDescription: |
-    関数アプリ構成の FUNCTIONS_WORKER_RUNTIME 設定は、使用している言語に基づいて適切な値に設定する必要があります。この設定は、関数の実行に使用される言語ワーカーを決定するために使用されます。
+    Function App 構成の FUNCTIONS_WORKER_RUNTIME 設定は、使用している言語に基づいて適切な値に設定する必要があります。この設定は、関数の実行に使用される言語ワーカーを決定するために使用されます。
   potentialBenefits: Better governance
   pgVerified: false
   publishedToLearn: false

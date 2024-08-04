@@ -1,4 +1,4 @@
-- description: すべてのサブネットには、ネットワーク セキュリティ グループが関連付けられている必要があります
+- description: すべてのサブネットには、ネットワーク セキュリティ グループが関連付けられている必要がある
   aprlGuid: f0bf9ae6-25a5-974d-87d5-025abec73539
   recommendationTypeId: eade5b56-eefd-444f-95c8-23f29e5d93cb
   recommendationControl: Security
@@ -23,7 +23,7 @@
     - name: Are Network Security Groups (NSGs) supported on the AzureFirewallSubnet?
       url: "https://learn.microsoft.com/ja-jp/azure/firewall/firewall-faq#are-network-security-groups--nsgs--supported-on-the-azurefirewallsubnet"
 
-- description: Azure DDoS Standard Protection プランを使用して Azure VNet のパブリック エンドポイントをシールドする
+- description: Azure DDoS Standard Protection プランを使用して Azure VNet のパブリック エンドポイントを保護する
   aprlGuid: 69ea1185-19b7-de40-9da1-9e8493547a5c
   recommendationTypeId: null
   recommendationControl: Security
@@ -42,7 +42,7 @@
     - name: Reliability and Azure Virtual Network - Microsoft Azure Well-Architected Framework | Microsoft Learn
       url: "https://learn.microsoft.com/azure/architecture/framework/services/networking/azure-virtual-network/reliability"
 
-- description: 使用可能な場合は、PaaS サービスのサービス エンドポイントではなくプライベート エンドポイントを使用します
+- description: 使用可能な場合は PaaS サービスのサービス エンドポイントではなくプライベート エンドポイントを使用する
   aprlGuid: 24ae3773-cc2c-3649-88de-c9788e25b463
   recommendationTypeId: null
   recommendationControl: Security

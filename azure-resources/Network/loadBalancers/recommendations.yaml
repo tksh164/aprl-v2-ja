@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/loadBalancers
   recommendationMetadataState: Active
   longDescription: |
-    Standard SKU Load Balancer を選択すると、可用性ゾーンとゾーンの回復性によって信頼性が向上し、デプロイがゾーンとリージョンの障害に耐えられるようになります。Basicとは異なり、グローバル負荷分散をサポートし、SLAを提供します。
+    Standard SKU Load Balancer を選択すると、可用性ゾーンとゾーンの回復性によって信頼性が向上し、デプロイがゾーンとリージョンの障害に耐えられるようになります。Basic とは異なり、グローバル負荷分散をサポートし、SLA を提供します。
   potentialBenefits: Enhanced reliability and SLA support
   pgVerified: true
   publishedToLearn: false
@@ -19,7 +19,7 @@
     - name: Resiliency checklist for specific Azure services- Azure Load Balancer
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#azure-load-balancer"
 
-- description: バックエンド プールに少なくとも 2 つのインスタンスが含まれていることを確認します
+- description: バックエンド プールに少なくとも 2 つのインスタンスが含まれていることを確認する
   aprlGuid: 6d82d042-6d61-ad49-86f0-6a5455398081
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -38,7 +38,7 @@
     - name: Resiliency checklist for specific Azure services- Azure Load Balancer
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#azure-load-balancer"
 
-- description: 本番ワークロードのアウトバウンドルールの代わりにNATゲートウェイを使用する
+- description: 本番ワークロードの送信ルールの代わりに NAT ゲートウェイを使用する
   aprlGuid: 8d319a05-677b-944f-b9b4-ca0fb42e883c
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Network/loadBalancers
   recommendationMetadataState: Active
   longDescription: |
-    Standard Public Load Balancer のアウトバウンド規則では、バックエンド プールのポートを手動で割り当てて、スケーラビリティと SNAT ポートの枯渇のリスクを制限します。NAT ゲートウェイは、動的スケーリングと安全なインターネット接続のために推奨されます。
+    Standard Public Load Balancer の送信規則では、バックエンド プールのポートを手動で割り当てて、スケーラビリティと SNAT ポートの枯渇のリスクを制限します。NAT ゲートウェイは、動的スケーリングと安全なインターネット接続のために推奨されます。
   potentialBenefits: Enhanced scalability and reliability
   pgVerified: true
   publishedToLearn: false
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Network/loadBalancers
   recommendationMetadataState: Active
   longDescription: |
-    Availability Zones があるリージョンでは、ゾーン冗長フロントエンド IP を Standard Load Balancer に割り当てると、1 つの可用性ゾーンに障害が発生した場合でも、他の正常なゾーンとバックエンド インスタンスがトラフィックを受信できる場合、トラフィックの継続的な分散が保証されます。
+    可用性ゾーンがあるリージョンでは、ゾーン冗長フロントエンド IP を Standard Load Balancer に割り当てると、1 つの可用性ゾーンに障害が発生した場合でも、他の正常なゾーンとバックエンド インスタンスがトラフィックを受信できる場合、トラフィックの継続的な分散が保証されます。
   potentialBenefits: Enhances uptime and resilience
   pgVerified: true
   publishedToLearn: false

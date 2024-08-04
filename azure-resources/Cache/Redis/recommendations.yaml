@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Cache/Redis
   recommendationMetadataState: Active
   longDescription: |
-    Azure Cache for Redis では、Premium レベルと Enterprise レベルでゾーン冗長性が提供され、複数の可用性ゾーンにまたがる VM を使用して、回復性と可用性が向上します。
+    Azure Cache for Redis では、Premium レベルと Enterprise レベルでゾーン冗長性が提供され、複数の可用性ゾーンにまたがる VM を使用して、回復性と可用性を向上できます。
   potentialBenefits: Higher resilience and availability
   pgVerified: false
   publishedToLearn: false
@@ -14,7 +14,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Enable zone redundancy for Azure Cache for Redis
+    - name: Azure Cache for Redis のゾーン冗長性を有効にする
       url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-how-to-zone-redundancy"
 - description: メンテナンス期間を設定して更新をスケジュールする
   aprlGuid: cabc1f98-c8a7-44f7-ab24-977982ef3f70
@@ -32,10 +32,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Schedule Redis Updates
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-cache-for-redis/cache-administration#update-channel-and-schedule-updates"
+    - name: Azure Cache for Redis の更新のスケジュール
+      url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-administration#update-channel-and-schedule-updates"
 
-- description: プライベート エンドポイントの設定
+- description: プライベート エンドポイントを設定する
   aprlGuid: c474fc96-4e6a-4fb0-95d0-a26b3f35933c
   recommendationTypeId: null
   recommendationControl: Security
@@ -51,6 +51,6 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Configure private endpoints for Azure Redis Cache
+    - name: Azure Redis Cache でプライベート エンドポイントを構成する
       url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-network-isolation"
 
