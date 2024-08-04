@@ -1,4 +1,4 @@
-- description: ストレージ アカウントがゾーンまたはリージョンの冗長であることを確認する
+- description: ストレージ アカウントがゾーンまたはリージョン冗長であることを確認する
   aprlGuid: e6c7e1cc-2f47-264d-aa50-1da421314472
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -86,7 +86,7 @@
     - name: Soft delete detail docs
       url: "https://learn.microsoft.com//azure/storage/blobs/soft-delete-blob-enable?tabs=azure-portal "
 
-- description: 誤って変更した場合のバージョン管理を有効にし、バージョン数を 1000 未満に維持します。
+- description: 誤って変更した場合のバージョン管理を有効にし、バージョン数を 1000 未満に維持する
   aprlGuid: 8ebda7c0-e0e1-ed45-af59-2d7ea9a1c05d
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -105,7 +105,7 @@
     - name: Blob versioning
       url: "https://learn.microsoft.com/azure/storage/blobs/versioning-overview "
 
-- description: GPv2 アカウントのポイントインタイム リストアを有効にして、データ損失から保護する
+- description: GPv2 アカウントのポイントインタイム リストアを有効にしてデータを損失から保護する
   aprlGuid: 1b965cb9-7629-214e-b682-6bf6e450a100
   recommendationTypeId: null
   recommendationControl: Disaster Recovery

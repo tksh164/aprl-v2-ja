@@ -1,4 +1,4 @@
-- description: デバイス ID はセカンダリ リージョンにエクスポートされます
+- description: デバイス ID はセカンダリ リージョンにエクスポートする
   aprlGuid: 783c6c18-760b-4867-9ced-3010a0bc5aa3
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Devices/IotHubs
   recommendationMetadataState: Active
   longDescription: |
-    デバイス ID は、フェールオーバーが発生した場合の接続を確保するために、すべての IoT デバイスのフェールオーバー リージョン IoT-Hub にコピーする必要があります。別のリージョンへの手動フェールオーバーは、ミッション クリティカルなワークロードに適した高速 (RTO) です。
+    デバイス ID は、フェールオーバーが発生した場合の接続を確保するために、すべての IoT デバイスのフェールオーバー リージョン IoT Hub にコピーする必要があります。別のリージョンへの手動フェールオーバーはミッション クリティカルなワークロードに適しており、より高速 (RTO) です。
   potentialBenefits: Faster failover; Ensures device connectivity
   pgVerified: false
   publishedToLearn: false
@@ -14,10 +14,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Import and export IoT Hub device identities in bulk
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-hub/iot-hub-bulk-identity-mgmt"
-    - name: IoT Hub high availability and disaster recovery
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-hub/iot-hub-ha-dr#manual-failover"
+    - name: IoT Hub デバイス ID の一括でのインポートおよびエクスポート
+      url: "https://learn.microsoft.com/azure/iot-hub/iot-hub-bulk-identity-mgmt"
+    - name: IoT Hub の高可用性とディザスター リカバリー
+      url: "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr#manual-failover"
 
 - description: Free レベルを使用しない
   aprlGuid: eeba3a49-fef0-481f-a471-7ff01139b474
@@ -35,10 +35,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Choose the right IoT Hub tier and size for your solution
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-hub/iot-hub-scaling"
+    - name: ソリューションに適した IoT Hub のレベルとサイズを選択する
+      url: "https://learn.microsoft.com/azure/iot-hub/iot-hub-scaling"
 
-- description: Availability Zones の使用
+- description: 可用性ゾーンを使用する
   aprlGuid: 214cbc46-747e-4354-af6e-6bf0054196a5
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -46,7 +46,7 @@
   recommendationResourceType: Microsoft.Devices/IotHubs
   recommendationMetadataState: Active
   longDescription: |
-    IoT Hub の Availability Zones をサポートするリージョンでは、これらのゾーンを使用すると可用性が向上します。これらは、サポートされている地域の新しい IoT Hub に対して自動的にアクティブ化されます。
+    IoT Hub の可用性ゾーンをサポートするリージョンでは、これらのゾーンを使用すると可用性が向上します。これらは、サポートされているリージョンの新しい IoT Hub に対して自動的にアクティブ化されます。
   potentialBenefits: Boosts IoT Hub availability
   pgVerified: false
   publishedToLearn: false
@@ -54,8 +54,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Azure IoT Hub high availability and disaster recovery
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-hub/iot-hub-ha-dr#availability-zones"
+    - name: IoT Hub の高可用性とディザスター リカバリー
+      url: "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr#availability-zones"
 
 - description: Device Provisioning Service を使用する
   aprlGuid: b1e1378d-4572-4414-bebd-b8872a6d4d1c
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Devices/IotHubs
   recommendationMetadataState: Active
   longDescription: |
-    Device Provisioning Service (DPS) を使用すると、スケーリングと可用性のために IoT デバイスを簡単に再配布できるため、デバイスを再割り当てし、特定の IoT Hub インスタンスにバインドしないようにすることができます。DPS を使用する IoT Hubs 内のデバイスは、DPS 使用率を確認する必要があります。
+    Device Provisioning Service (DPS) を使用すると、スケーリングと可用性のために IoT デバイスを簡単に再配布できるため、デバイスを再割り当てし、特定の IoT Hub インスタンスにバインドしないようにすることができます。DPS を使用する IoT Hub 内のデバイスは、DPS 使用率を確認する必要があります。
   potentialBenefits: Enhances scalability and availability
   pgVerified: false
   publishedToLearn: false
@@ -73,12 +73,12 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: IoT Hub Device Provisioning Service (DPS) terminology
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-dps/concepts-service"
-    - name: Best practices for large-scale IoT device deployments
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-dps/concepts-deploy-at-scale"
-    - name: IoT Hub Device Provisioning Service high availability and disaster recovery
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-dps/iot-dps-ha-dr"
+    - name: IoT Hub Device Provisioning Service (DPS) の用語
+      url: "https://learn.microsoft.com/azure/iot-dps/concepts-service"
+    - name: 大規模な IoT デバイス デプロイのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/iot-dps/concepts-deploy-at-scale"
+    - name: IoT Hub Device Provisioning Service の高可用性とディザスター リカバリー
+      url: "https://learn.microsoft.com/azure/iot-dps/iot-dps-ha-dr"
 
 - description: フェールオーバーのガイドラインを定義する
   aprlGuid: 02568a5d-335e-4e51-9f7c-fe2ada977300
@@ -96,10 +96,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: IoT Hub high availability and disaster recovery
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-hub/iot-hub-ha-dr"
+    - name: IoT Hub の高可用性とディザスター リカバリー
+      url: "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr"
 
-- description: 無効なフォールバック ルート
+- description: フォールバック ルートを無効にする
   aprlGuid: e7dbd21f-b27a-4b8c-a901-cedb1e6d8e1e
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -115,5 +115,5 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Use message routing - Fallback route
-      url: "https://learn.microsoft.com/ja-jp/azure/iot-hub/iot-hub-devguide-messages-d2c#fallback-route"
+    - name: メッセージ ルーティングを使用する - フォールバック ルート
+      url: "https://learn.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c#fallback-route"

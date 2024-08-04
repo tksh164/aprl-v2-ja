@@ -1,4 +1,4 @@
-- description: データ パスのパフォーマンスを向上させるには、ExpressRoute Direct とゲートウェイで FastPath を有効にします
+- description: データ パスのパフォーマンスを向上させるには、ExpressRoute Direct とゲートウェイで FastPath を有効にする
   aprlGuid: f6a14b32-a727-4ace-b5fa-7b1c6bdff402
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -17,7 +17,7 @@
     - name: About ExpressRoute FastPath
       url: "https://learn.microsoft.com/ja-jp/azure/expressroute/about-fastpath"
 
-- description: 接続に Azure Resource Lock を構成して、誤って削除されないようにする
+- description: 接続に Azure リソース ロックを構成して、誤って削除されないようにする
   aprlGuid: a5f3a4bd-4cf1-4196-a3cb-f5a0876198b2
   recommendationTypeId: null
   recommendationControl: High Availability

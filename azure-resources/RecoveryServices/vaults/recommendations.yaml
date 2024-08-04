@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    フェールオーバー中に一貫した IP 割り当てを維持するために、フェールオーバー サブネットで VM フェールオーバー設定の静的 IP アドレスが使用可能であることを確認し、ターゲット VM は同じ静的 IP (使用可能な場合) または 次に使用可能な IP を受け取ります。IP の調整は、VM ネットワーク設定で行うことができます。
+    フェールオーバー中に一貫した IP 割り当てを維持するために、フェールオーバー サブネットで VM フェールオーバー設定の静的 IP アドレスが使用可能であることを確認し、ターゲット VM は同じ静的 IP (使用可能な場合) または次に使用可能な IP を受け取ります。IP の調整は、VM ネットワーク設定で行うことができます。
   potentialBenefits: Smooth failover IP management
   pgVerified: true
   publishedToLearn: false
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.RecoveryServices/vaults
   recommendationMetadataState: Active
   longDescription: |
-    リージョン間の復元を使用すると、セカンダリの Azure ペア リージョンで Azure VM を復元できるため、監査やコンプライアンスの訓練が容易になり、プライマリ リージョンで障害が発生した場合に VM またはディスクを復旧できます。これは、GRS Vault でのみ利用可能なオプトイン機能です。
+    リージョン間の復元を使用すると、セカンダリの Azure ペア リージョンで Azure VM を復元できるため、監査やコンプライアンスの訓練が容易になり、プライマリ リージョンで障害が発生した場合に VM やディスクを復旧できます。これは、GRS Vault でのみ利用可能なオプトイン機能です。
   potentialBenefits: Enhances disaster recovery capabilities
   pgVerified: true
   publishedToLearn: false

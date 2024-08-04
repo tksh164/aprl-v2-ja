@@ -1,4 +1,4 @@
-- description: Databricks ランタイムのバージョンが最新でないか、LTS バージョンではありません
+- description: Databricks ランタイムのバージョンが最新でないか、LTS バージョンではない
   aprlGuid: 0e835cc2-2551-a247-b1f1-3c5f25c9cb70
   recommendationTypeId: null
   recommendationControl: Governance
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Databricks では、安定性とサポートを強化するために、ワークロードを最新バージョンまたは LTS バージョンのランタイムに移行することをお勧めします。Runtime 11.3 LTS 以降を使用している場合は、最新の 12.x バージョンに直接移行します。以下の場合は、まず 11.3 LTS に移行し、次に移行ガイドに従って最新の 12.x バージョンに移行します。
+    Databricks では、安定性とサポートを強化するために、ワークロードを最新バージョンまたは LTS バージョンのランタイムに移行することをお勧めします。Runtime 11.3 LTS 以降を使用している場合は、最新の 12.x バージョンに直接移行します。それ以前の場合は、まず 11.3 LTS に移行し、次に移行ガイドに従って最新の 12.x バージョンに移行します。
   potentialBenefits: Enhanced stability and support
   pgVerified: true
   publishedToLearn: false
@@ -14,8 +14,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Databricks runtime support lifecycles
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/release-notes/runtime/databricks-runtime-ver"
+    - name: Databricks ランタイムのサポート ライフサイクル
+      url: "https://learn.microsoft.com/azure/databricks/release-notes/runtime/databricks-runtime-ver"
 
 - description: Databricks プールを使用する
   aprlGuid: c166602e-0804-e34b-be8f-09b4d56e1fcd
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Databricks プールは VM を事前にプロビジョニングし、クラスターの起動またはスケーリング中のプロビジョニング エラーのリスクを軽減し、信頼性を高めます。
+    Databricks プールは VM を事前にプロビジョニングすることで、クラスターの起動やスケーリング中のプロビジョニング エラーのリスクを軽減し、信頼性を高めます。
   potentialBenefits: Reduces provisioning errors
   pgVerified: true
   publishedToLearn: false
@@ -33,10 +33,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: ワーカー VM の種類とドライバーの種類に SSD でバックアップされた VM を使用する
+- description: ワーカー VM の種類とドライバーの種類に SSD による VM を使用する
   aprlGuid: 5877a510-8444-7a4c-8412-a8dab8662f7e
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Premium VM の HDD を SSD にアップグレードして、速度と信頼性を向上させます。プレミアムSSDは、IO負荷の高いアプリを後押しします。Standard SSD は、コストとパフォーマンスのバランスを取ります。重要なワークロードに最適なアップグレードは、短時間の再起動で接続性を向上させます。重要な VM を検討する
+    Premium VM の HDD を SSD にアップグレードして、速度と信頼性を向上させます。Premium SSD は IO 負荷の高いアプリケーションをブーストします。Standard SSD はコストとパフォーマンスのバランスをとります。重要なワークロードに最適で、アップグレードすると短時間の再起動で接続性が向上します。重要な VM でご検討ください。
   potentialBenefits: Faster, reliable VM performance
   pgVerified: true
   publishedToLearn: false
@@ -52,7 +52,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Azure managed disk types
+    - name: Azure マネージド ディスクの種類
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-types#premium-ssd"
 
 - description: バッチ ワークロードの自動スケーリングを有効にする
@@ -63,7 +63,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    自動スケーリングは、ワークロードの需要に基づいてクラスターサイズを自動的に調整し、コストとパフォーマンスの面で多くのユースケースにメリットをもたらします。これには、自動スケーリングを最適に活用するタイミングと方法に関するガイダンスが含まれています。ストリーミングの場合は、自動スケールを備えた Delta Live Tables をお勧めします。
+    自動スケーリングは、ワークロードの需要に基づいてクラスター サイズを自動的に調整し、コストとパフォーマンスの面で多くのユースケースにメリットをもたらします。これには、自動スケーリングを最適に活用するタイミングと方法に関するガイダンスが含まれています。ストリーミングの場合は、自動スケールを備えた Delta Live Tables をお勧めします。
   potentialBenefits: Cost and performance optimization
   pgVerified: true
   publishedToLearn: false
@@ -71,8 +71,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#enable-autoscaling-for-batch-workloadss"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#enable-autoscaling-for-batch-workloads"
 
 - description: SQL ウェアハウスの自動スケールを有効にする
   aprlGuid: 362ad2b6-b92c-414f-980a-0cf69467ccce
@@ -82,7 +82,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    SQL ウェアハウスのスケーリング パラメーターは、クエリを分散するためのクラスターの最小数と最大数を定義します。デフォルトでは、1に設定されています。クラスター数を増やすと、より多くの同時ユーザーを効果的に収容できます。
+    SQL ウェアハウスのスケーリング パラメーターは、クエリを分散するためのクラスターの最小数と最大数を定義します。既定では、1 に設定されています。クラスター数を増やすと、より多くの同時ユーザーを効果的に収容できます。
   potentialBenefits: Improves concurrency and efficiency
   pgVerified: true
   publishedToLearn: false
@@ -90,8 +90,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#enable-autoscaling-for-sql-warehouse"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#enable-autoscaling-for-sql-warehouse"
 
 - description: Delta Live Tables の強化された自動スケールを使用する
   aprlGuid: cd77db98-9b13-6e4b-bd2b-74c2cb538628
@@ -109,12 +109,12 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
+    - name: 信頼性のためのベスト プラクティス
       url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
-    - name: Databricks enhanced autoscaling
+    - name: Databricks 拡張自動スケーリング
       url: "https://learn.microsoft.com/azure/databricks/delta-live-tables/settings#use-autoscaling-to-increase-efficiency-and-reduce-resource-usage"
 
-- description: 自動ジョブ終了が使用可能になっているので、ユーザー定義のローカル・プロセスがないことを確認してください。
+- description: 自動ジョブ終了が有効で、ユーザー定義のローカル プロセスがないことを確認する
   aprlGuid: 3d3e53b5-ebd1-db42-b43b-d4fad74824ec
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -122,7 +122,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    クラスター・リソースを節約するために、クラスターを終了して、将来の再使用ジョブまたは自動始動ジョブのためにその構成を保管することができます。クラスターは非アクティブになった後に自動終了できますが、これは Spark ジョブのみを追跡し、Spark ジョブが終了した後も実行されている可能性のあるローカル プロセスは追跡しません。
+    クラスター リソースを節約するために、クラスターを終了して、将来の再使用ジョブや自動始動ジョブのためにその構成を保管することができます。クラスターは非アクティブになった後に自動終了できますが、これは Spark ジョブのみを追跡し、Spark ジョブが終了した後も実行されている可能性のあるローカル プロセスは追跡しません。
   potentialBenefits: Saves cluster resources, avoids idle use
   pgVerified: true
   publishedToLearn: false
@@ -130,10 +130,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability?
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: ロギング - クラスタログ配信を有効にする
+- description: ログを有効にする - コンピューティング ログの配信
   aprlGuid: 7fb90127-5364-bb4d-86fa-30778ed713fb
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -141,7 +141,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Databricks クラスターを作成するときに、Spark ドライバー、ワーカー ノード、およびイベントのログ配信場所を設定できます。ログは5分ごとに配信され、1時間ごとにアーカイブされます。クラスターが終了すると、その時点までに生成されたすべてのログが配信されることが保証されます。
+    Databricks クラスターを作成するときに、Spark ドライバー、ワーカー ノード、およびイベントのログ配信場所を設定できます。ログは 5 分ごとに配信され、1 時間ごとにアーカイブされます。クラスターが終了すると、その時点までに生成されたすべてのログが配信されることが保証されます。
   potentialBenefits: Improved troubleshooting and audit
   pgVerified: true
   publishedToLearn: false
@@ -149,8 +149,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Create a cluster
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/clusters/configure#cluster-log-delivery"
+    - name: コンピューティング構成リファレンス
+      url: "https://learn.microsoft.com/azure/databricks/clusters/configure#cluster-log-delivery"
 
 - description: Delta Lake を使用して信頼性を高める
   aprlGuid: da4ea916-4df3-8c4d-8060-17b49da45977
@@ -168,10 +168,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: フォトンアクセラレーションを使用する
+- description: Photon アクセラレーションを使用する
   aprlGuid: 892ca809-e2b5-9a47-924a-71132bf6f902
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -187,10 +187,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#use-apache-spark-or-photon-for-distributed-compute"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#use-apache-spark-or-photon-for-distributed-compute"
 
-- description: Databricks Auto Loader または Delta Live Tables を使用して、無効なデータや不適合なデータを自動的に救出する
+- description: Databricks Auto Loader や Delta Live Tables を使用して、無効なデータや不適合のデータを自動的に復旧する
   aprlGuid: 7e52d64d-8cc0-8548-a593-eb49ab45630d
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -198,7 +198,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    無効または不適合なデータは、特定のデータ形式に依存するワークロードをクラッシュさせる可能性があります。ベスト プラクティスでは、インジェスト時にこのようなデータをフィルター処理してエンドツーエンドの回復性を向上させ、データが失われたり失われたりしないようにすることをお勧めします。
+    無効や不適合なデータは、特定のデータ形式に依存するワークロードをクラッシュさせる可能性があります。ベスト プラクティスでは、インジェスト時にこのようなデータをフィルター処理してエンドツーエンドの回復性を向上させ、データが失われたり失われたりしないようにすることをお勧めします。
   potentialBenefits: Enhanced data resilience and integrity
   pgVerified: true
   publishedToLearn: false
@@ -206,10 +206,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: 自動再試行と終了のためのジョブの構成
+- description: ジョブの自動再試行と終了を構成する
   aprlGuid: 84e44da6-8cd7-b349-b02c-c8bf72cf587c
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -217,7 +217,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Databricks と MLflow を使用して、ジョブのスケジュール設定、再試行、自動スケーリング用の Spark UDF としてモデルをデプロイします。モデルサービングは、スケーラブルなインフラストラクチャを提供し、MLflow を使用してモデルを処理し、Databricks クラウドで管理されるサーバーレスコンピューティングを使用して REST API を介してモデルを提供します。
+    Databricks と MLflow を使用して、ジョブのスケジュール設定、再試行、自動スケーリング用の Spark UDF としてモデルをデプロイします。モデル サービングは、スケーラブルなインフラストラクチャを提供し、MLflow を使用してモデルを処理し、Databricks クラウドで管理されるサーバーレスコンピューティングを使用して REST API を介してモデルを提供します。
   potentialBenefits: Enhanced reliability and autoscaling
   pgVerified: true
   publishedToLearn: false
@@ -225,10 +225,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: インフラストラクチャを提供するスケーラブルな本番グレードのモデルを使用
+- description: スケーラブルな本番環境グレードのモデル サービング インフラストラクチャを使用する
   aprlGuid: 4cbb7744-ff3d-0447-badb-baf068c95696
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -244,10 +244,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: 階層型ストレージアーキテクチャを使用する
+- description: 階層型ストレージ アーキテクチャを使用する
   aprlGuid: 1b0d0893-bf0e-8f4c-9dc6-f18f145c1ecf
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -255,7 +255,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    階層化されたアーキテクチャを作成してデータをキュレーションし、レイヤー全体のデータ品質を向上させます。取り込まれたソース データの生レイヤーから始めて、クレンジングおよび精製されたデータ用のキュレーションされたレイヤーに続き、セキュリティとパフォーマンスに重点を置いたビジネス ニーズに応える最後のレイヤーで終わります。
+    階層化されたアーキテクチャを作成してデータをキュレーションし、レイヤー全体のデータ品質を向上させます。取り込まれたソース データの未加工レイヤーから始めて、クレンジングおよび精製されたデータ用のキュレーションされたレイヤーに続き、セキュリティとパフォーマンスに重点を置いたビジネス ニーズに応える最終レイヤーで終わります。
   potentialBenefits: Enhances data quality and trust
   pgVerified: true
   publishedToLearn: false
@@ -263,10 +263,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: データの冗長性を減らすことでデータの整合性を向上
+- description: データの冗長性を削減することでデータの整合性を向上させる
   aprlGuid: e93fe702-e385-d741-ba37-1f1656482ecd
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -274,7 +274,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    データをコピーすると、冗長性、整合性の喪失、系列、アクセスの問題が発生し、レイクハウスのデータ品質に影響します。一時コピーは、俊敏性とイノベーションに役立ちますが、データのマスターステータスと最新性に疑問を投げかけ、問題のある運用データサイロになる可能性があります。
+    データをコピーすると、冗長性、整合性の喪失、系列、アクセスの問題が発生し、レイクハウスのデータ品質に影響します。一時コピーは、俊敏性とイノベーションに役立ちますが、データのマスター ステータスと最新性に疑問が生じ、問題のある運用データ サイロになる可能性があります。
   potentialBenefits: Enhanced data integrity and quality
   pgVerified: true
   publishedToLearn: false
@@ -282,10 +282,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: スキーマをアクティブに管理する
+- description: スキーマを積極的に管理する
   aprlGuid: b7e1d13f-54c9-1648-8a52-34c0abe8ce16
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -301,10 +301,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: 制約とデータ期待値を使用する
+- description: 制約とデータの期待値を使用する
   aprlGuid: a42297c4-7e4f-8b41-8d4b-114033263f0e
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -312,7 +312,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Delta テーブルでは、SQL 制約を使用してデータ品質が自動的に検証され、違反に対してエラーがトリガーされます。Delta Live Tables は、Python または SQL を使用してデータ品質の期待を定義し、レコード障害のアクションを管理し、データの整合性とコンプライアンスを確保することで、これを強化します。
+    Delta テーブルでは、SQL 制約を使用してデータ品質が自動的に検証され、違反に対してエラーがトリガーされます。Delta Live Tables は、Python や SQL を使用してデータ品質の期待を定義し、レコード障害のアクションを管理し、データの整合性とコンプライアンスを確保することで、これを強化します。
   potentialBenefits: Ensures data quality and integrity
   pgVerified: true
   publishedToLearn: false
@@ -320,8 +320,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#use-constraints-and-data-expectations"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#use-constraints-and-data-expectations"
 
 - description: 定期的なバックアップを作成する
   aprlGuid: 932d45d6-b46d-e341-abfb-d97bce832f1f
@@ -331,7 +331,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    障害からリカバリするには、定期的なバックアップが必要です。Databricks Labs プロジェクトの移行により、管理者は Databricks CLI/API を使用してワークスペース資産をエクスポートすることでバックアップを作成できます。これらのバックアップは、ワークスペースの復元または移行に役立ちます。
+    障害から復旧するには、定期的なバックアップが必要です。Databricks Labs プロジェクトの移行により、管理者は Databricks CLI/API を使用してワークスペース資産をエクスポートすることでバックアップを作成できます。これらのバックアップは、ワークスペースの復元や移行に役立ちます。
   potentialBenefits: Ensures data recovery and migration
   pgVerified: true
   publishedToLearn: false
@@ -339,10 +339,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#create-regular-backups"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#create-regular-backups"
 
-- description: 構造化ストリーミング クエリの失敗からの復旧
+- description: 構造化ストリーミングのクエリ エラーから復旧する
   aprlGuid: 12e9d852-5cdc-2743-bffe-ee21f2ef7781
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -350,7 +350,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    構造化ストリーミングは、ストリーミングクエリのフォールトトレランスとデータの一貫性を保証します。Azure Databricks ワークフローを使用すると、失敗後に自動的に再起動するようにクエリを設定し、中断したところから正確に再開できます。
+    構造化ストリーミングは、ストリーミング クエリのフォールト トレランスとデータの一貫性を保証します。Azure Databricks ワークフローを使用すると、失敗後に自動的に再起動するようにクエリを設定し、中断したところから正確に再開できます。
   potentialBenefits: Fault-tolerance and auto-restart for queries
   pgVerified: true
   publishedToLearn: false
@@ -358,10 +358,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#recover-from-structured-streaming-query-failures"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#recover-from-structured-streaming-query-failures"
 
-- description: デルタタイムトラベルに基づくETLジョブの回復
+- description: Delta タイム トラベルに基づく ETL ジョブの回復
   aprlGuid: a18d60f8-c98c-ba4e-ad6e-2fac72879df1
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -369,7 +369,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    徹底的なテストにもかかわらず、本番ジョブは失敗したり、予期しないデータを生成したりする可能性があります。場合によっては、問題後の識別とパイプラインの修正にジョブを追加することによって修理が行われることがあります。
+    徹底的なテストにもかかわらず、本番ジョブは失敗したり、予期しないデータを生成したりする可能性があります。場合によっては、問題を識別し、パイプライン修正後にジョブを追加することによって修理が行われることがあります。
   potentialBenefits: Easy rollback and fix for ETL jobs
   pgVerified: true
   publishedToLearn: false
@@ -377,8 +377,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices#recover-etl-jobs-based-on-delta-time-travel"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#recover-etl-jobs-based-on-delta-time-travel"
 
 - description: Databricks ワークフローと組み込みの復旧を使用する
   aprlGuid: c0e22580-3819-444d-8546-a80e4ed85c83
@@ -396,10 +396,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for reliability
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/reliability/best-practices"
+    - name: 信頼性のためのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: 障害復旧パターンを構成する
+- description: ディザスター リカバリー パターンを構成する
   aprlGuid: 4fdb7112-4531-6f48-b60e-c917a6068d9b
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -407,9 +407,8 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    ディザスター リカバリー パターンの実装は Azure Databricks にとって不可欠であり、まれなリージョンの停止中でもデータ チームのアクセスを確保します。
-
-    It is important to note that the Azure Databricks service is not entirely zone redudant and does support zonal failover.
+    ディザスター リカバリー パターンの実装は Azure Databricks にとって不可欠であり、まれに発生するリージョン停止時にもデータ チームのアクセスを確保します。
+    Azure Databricks サービスは完全にゾーン冗長ではなく、ゾーン フェールオーバーをサポートしていることに注意することが重要です。
   potentialBenefits: Ensures service continuity during disasters
   pgVerified: false
   publishedToLearn: false
@@ -417,10 +416,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Azure Databricks Best Practices
+    - name: 信頼性のためのベスト プラクティス
       url: "https://github.com/Azure/AzureDatabricksBestPractices/tree/master"
 
-- description: デプロイとワークロードの自動化
+- description: デプロイとワークロードを自動化する
   aprlGuid: 42aedaa8-6151-424d-b782-b8666c779969
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -436,10 +435,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for operational excellence
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/operational-excellence/best-practices#2-automate-deployments-and-workloads"
+    - name: オペレーショナル エクセレンスのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/operational-excellence/best-practices#2-automate-deployments-and-workloads"
 
-- description: 監視、アラート、ログ記録を設定する
+- description: 監視、アラート、ログを設定する
   aprlGuid: 20193ff9-dbcd-a74e-b197-71d7d9d3c1e6
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -455,8 +454,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Best practices for operational excellence
-      url: "https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse-architecture/operational-excellence/best-practices#system-monitoring"
+    - name: オペレーショナル エクセレンスのベスト プラクティス
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/operational-excellence/best-practices#system-monitoring"
 
 - description: ワークスペースを個別のサブスクリプションにデプロイする
   aprlGuid: 397cdebb-9d6e-ab4f-83a1-8c481de0a3a7
@@ -466,7 +465,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    多くの場合、顧客はワークスペースをチームや部門ごとに自然に分割します。ただし、パーティション分割の際には、Azure サブスクリプションと ADB ワークスペースの制限も考慮することが重要です。
+    多くの場合、顧客はワークスペースをチームや部門ごとに自然に分割します。ただし、パーティション分割の際には、Azure サブスクリプションと Azure Databricks ワークスペースの制限も考慮することが重要です。
   potentialBenefits: Enhanced limits management, team separation
   pgVerified: false
   publishedToLearn: false
@@ -477,7 +476,7 @@
     - name: Azure Databricks Best Practices
       url: "https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#deploy-workspaces-in-multiple-subscriptions-to-honor-azure-capacity-limits"
 
-- description: 各ワークスペースを独自の VNet に分離する
+- description: 各ワークスペースを個別の VNet に分離する
   aprlGuid: 5e722c4f-415a-9b4c-bd4c-96b74dce29ad
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -485,7 +484,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    VNet ごとに Databricks ワークスペースを 1 つだけデプロイすることは、ADB の分離モデルと一致します。
+    VNet ごとに Databricks ワークスペースを 1 つだけデプロイすることは Azure Databricks の分離モデルと一致します。
   potentialBenefits: Enhanced security and resource isolation
   pgVerified: false
   publishedToLearn: false
@@ -496,7 +495,7 @@
     - name: Azure Databricks Best Practices
       url: "https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#consider-isolating-each-workspace-in-its-own-vnet"
 
-- description: デフォルトのDBFSフォルダに本番データを格納しない
+- description: 既定のの DBFS フォルダーに本番データを格納しない
   aprlGuid: 14310ba6-77ad-3641-a2db-57a2218b9bc7
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -504,7 +503,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    セキュリティとデータの可用性に関する懸念から、各 Azure Databricks ワークスペースには、運用データ用ではなく、ライブラリや Init スクリプトなどのシステム レベルの成果物用に設計された既定の DBFS が付属しています。
+    セキュリティとデータの可用性に関する懸念によるものです。どのワークスペースにも既定の DBFS が付属しており、主にライブラリや Init スクリプトなどのシステム レベルの構成アーティファクトを格納するように設計されています。運用データ用ではありません。
   potentialBenefits: Enhanced security, data protection
   pgVerified: false
   publishedToLearn: false
@@ -513,7 +512,7 @@
   tags: null
   learnMoreLink:
     - name: Azure Databricks Best Practices
-      url: "https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#do-not-store-any-production-data-in-default-dbfs-foldersr"
+      url: "https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#do-not-store-any-production-data-in-default-dbfs-folders"
 
 - description: 重要な運用ワークロードに Azure スポット VM を使用しない
   aprlGuid: b5af7e26-3939-1b48-8fba-f8d4a475c67a
@@ -531,8 +530,8 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Use Azure Spot Virtual Machines
-      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/spot-vms"
+    - name: Azure Spot Virtual Machines を使用する
+      url: "https://learn.microsoft.com/azure/virtual-machines/spot-vms"
 
 - description: ワークスペースのリージョン分離を評価する
   aprlGuid: 8aa63c34-dd9d-49bd-9582-21ec310dfbdd
@@ -550,11 +549,11 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Azure Databricks control plane addresses
+    - name: Azure Databricks コントロール プレーン アドレス
       url: "https://learn.microsoft.com/azure/databricks/resources/supported-regions#--azure-databricks-control-plane-addresses"
-    - name: Migrate - maintained by Databricks Inc.
+    - name: Migrate - Databricks Inc. によって保守されている
       url: "https://github.com/databrickslabs/migrate"
-    - name: Databricks Terraform Exporter - maintained by Databricks Inc. (Experimental)
+    - name: Databricks Terraform Exporter - Databricks Inc. によって保守されている (実験的)
       url: "https://registry.terraform.io/providers/databricks/databricks/latest/docs/guides/experimental-exporter"
 
 - description: 代替 VM SKU を定義する
@@ -565,7 +564,7 @@
   recommendationResourceType: Microsoft.Databricks/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Azure Databricks の計画には、容量の問題に対する VM SKU スワップ戦略を含める必要があります。VM はリージョンであり、"CLOUD PROVIDER" エラーで示される割り当てエラーが発生する可能性があります。
+    Azure Databricks の計画には、容量の問題に対する VM SKU スワップ戦略を含める必要があります。VM はリージョンごとのリソースであり、"CLOUD PROVIDER" エラーで示される割り当てエラーが発生する可能性があります。
   potentialBenefits: Ensures service availability
   pgVerified: false
   publishedToLearn: false
@@ -573,7 +572,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Compute configuration best practices
+    - name: コンピューティング構成のベスト プラクティス
       url: "https://learn.microsoft.com/azure/databricks/compute/cluster-config-best-practices"
-    - name: GPU-enabled compute
+    - name: GPU 対応コンピューティング
       url: "https://learn.microsoft.com/azure/databricks/compute/gpu"

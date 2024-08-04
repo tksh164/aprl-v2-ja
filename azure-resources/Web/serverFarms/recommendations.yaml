@@ -57,7 +57,7 @@
     - name: Resiliency checklist for specific Azure services
       url: "https://learn.microsoft.com/ja-jp/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: 運用用とテスト用に個別の App Service プランを作成する
+- description: 本番用とテスト用に個別の App Service プランを作成する
   aprlGuid: dbe3fd66-fb2a-9d46-b162-1791e21da236
   recommendationTypeId: null
   recommendationControl: Governance
@@ -65,7 +65,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    運用環境とテスト環境用に別々の App Service プランを作成して、運用環境デプロイ内のスロットをテスト目的で使用しないようにすることを強くお勧めします。
+    本番環境とテスト環境用に別々の App Service プランを作成して、本番環境デプロイ内のスロットをテスト目的で使用しないようにすることを強くお勧めします。
   potentialBenefits: Protects prod performance; avoids test impact
   pgVerified: false
   publishedToLearn: false
@@ -76,7 +76,7 @@
     - name: Resiliency checklist for specific Azure services
       url: "https://learn.microsoft.com/ja-jp/azure/architecture/checklist/resiliency-per-service#app-service"
 
-- description: 自動スケーリング/自動スケーリングを有効にして、サービス要求に十分なリソースを使用できるようにします
+- description: 自動スケール/自動スケーリングを有効にして、サービス要求に十分なリソースを使用できるようにする
   aprlGuid: 6320abf6-f917-1843-b2ae-4779c35985ae
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active
   longDescription: |
-    Azure App Service の自動スケーリング/自動スケーリングを有効にすると、受信要求に十分なリソースが確保されます。自動スケーリングはルールベースですが、新しい機能である自動スケーリングは、HTTP トラフィックに基づいてリソースを自動的に調整します。
+    Azure App Service の自動スケール/自動スケーリングを有効にすると、受信要求に十分なリソースが確保されます。自動スケールはルールベースですが、新しい機能である自動スケーリングは、HTTP トラフィックに基づいてリソースを自動的に調整します。
   potentialBenefits: Optimizes resources for traffic
   pgVerified: false
   publishedToLearn: false

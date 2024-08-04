@@ -17,7 +17,7 @@
     - name: Application Gateway Autoscaling Zone-Redundant
       url: "https://learn.microsoft.com/azure/application-gateway/application-gateway-autoscaling-zone-redundant#autoscaling-and-high-availability"
 
-- description: すべての着信接続をSSLで保護
+- description: すべての着信接続を SSL で保護する
   aprlGuid: 233a7008-71e9-e745-923e-1a1c7a0b92f3
   recommendationTypeId: null
   recommendationControl: Security
@@ -52,7 +52,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    アプリケーション仮想ネットワークで Application Gateway と Web アプリケーション ファイアウォール (WAF) を使用して、受信 HTTP/S インターネット トラフィックを保護します。WAFは、OWASPコアルールセットベースのルールを通じて、潜在的なエクスプロイトに対する一元的な防御を提供します。
+    アプリケーション仮想ネットワークで Application Gateway と Web アプリケーション ファイアウォール (WAF) を使用して、受信 HTTP/S インターネット トラフィックを保護します。WAF は、OWASP コア ルールセット ベースのルールを通じて、潜在的なエクスプロイトに対する一元的な防御を提供します。
   potentialBenefits: Enhanced security for HTTP/S traffic
   pgVerified: true
   publishedToLearn: false
@@ -88,7 +88,7 @@
     - name: Application Gateway V1 Retirement
       url: "https://azure.microsoft.com/updates/application-gateway-v1-will-be-retired-on-28-april-2026-transition-to-application-gateway-v2/"
 
-- description: 設定とトラフィックの監視とログ記録
+- description: トラフィックの監視とログ記録を設定する
   aprlGuid: 5d035919-898d-a047-8d5d-454e199692e5
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -130,7 +130,7 @@
     - name: Well-Architected Framework Application Gateway Overview
       url: "https://learn.microsoft.com/azure/well-architected/services/networking/azure-application-gateway"
 
-- description: Application Gateway をゾーン冗長構成にデプロイする
+- description: Application Gateway をゾーン冗長構成でデプロイする
   aprlGuid: c9c00f2a-3888-714b-a72b-b4c9e8fcffb2
   recommendationTypeId: 5c488377-be3e-4365-92e8-09d1e8d9038c
   recommendationControl: High Availability
@@ -159,7 +159,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    バックエンドのメンテナンスにコネクションドレインを使用すると、更新時やヘルスの問題時にバックエンドプールメンバーが正常に削除されます。これは [バックエンド設定] で有効にされ、ルールの作成時にすべてのメンバーに適用されます。
+    バックエンドのメンテナンスにコネクション ドレインを使用すると、更新時や正常性の問題時にバックエンド プール メンバーが正常に削除されます。これは [バックエンド設定] で有効にされ、ルールの作成時にすべてのメンバーに適用されます。
   potentialBenefits: Smooth updates, no dropped users
   pgVerified: true
   publishedToLearn: false

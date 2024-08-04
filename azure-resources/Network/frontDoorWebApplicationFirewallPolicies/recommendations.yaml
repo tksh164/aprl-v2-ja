@@ -44,7 +44,7 @@
     - name: Diagnostic logs
       url: "https://learn.microsoft.com/azure/web-application-firewall/ag/web-application-firewall-logs#diagnostic-logs"
 
-- description: Webアプリケーションファイアウォールの監視
+- description: Web アプリケーション ファイアウォールを監視する
   aprlGuid: 5357ae22-0f52-1a49-9fd4-1f00ace6add0
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting

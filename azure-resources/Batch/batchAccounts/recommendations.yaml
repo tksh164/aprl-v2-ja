@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Batch/batchAccounts
   recommendationMetadataState: Active
   longDescription: |
-    リージョン間のディザスター リカバリーとビジネス継続性を確保するには、すべての Batch アカウントに適切なクォータを設定して、必要なコア番号を事前に割り当て、実行の中断がクォータ制限に達するのを防ぎます。
+    リージョン間のディザスター リカバリーとビジネス継続性を確保するには、すべての Batch アカウントに適切なクォータを設定して、必要なコア数を事前に割り当て、クォータ制限に達したことで実行が中断されることを防ぎます。
   potentialBenefits: Ensures business continuity
   pgVerified: false
   publishedToLearn: false
@@ -14,10 +14,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: リージョン間のディザスター リカバリーと事業継続
       url: "https://learn.microsoft.com/azure/reliability/reliability-batch#cross-region-disaster-recovery-and-business-continuity"
 
-- description: Availability Zones 間で Azure Batch プールを作成する
+- description: 可用性ゾーン間で Azure Batch プールを作成する
   aprlGuid: 71cfab8f-d588-4742-b175-b6e07ae48dbd
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Batch/batchAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Azure Batch プールに仮想マシン構成を使用する場合、Availability Zones 間でプールを分散することを選択すると、Azure データセンターの障害に対するコンピューティング ノードが強化されます。
+    Azure Batch プールに仮想マシン構成を使用する場合、可用性ゾーン間でプールを分散することを選択すると、Azure データセンターの障害に対してコンピューティング ノードが強化されます。
   potentialBenefits: Enhanced reliability and failure protection
   pgVerified: false
   publishedToLearn: false
@@ -33,5 +33,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: 可用性ゾーン間で Azure Batch プールを作成する
       url: "https://learn.microsoft.com/azure/batch/create-pool-availability-zones"

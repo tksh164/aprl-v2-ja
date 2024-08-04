@@ -67,7 +67,7 @@
   recommendationResourceType: Microsoft.Network/azureFirewalls
   recommendationMetadataState: Active
   longDescription: |
-    Azure Firewall ポリシーは、子ポリシーよりも優先度の高い中央の基本ポリシーを使用して、コンプライアンスを適用するためのルール階層をサポートし、Azure カスタム ロールを使用して基本ポリシーを保護し、サブスクリプションまたはグループ内のアクセスを管理します。
+    Azure Firewall ポリシーは、子ポリシーよりも優先度の高い中央の基本ポリシーを使用して、コンプライアンスを適用するためのルール階層をサポートし、Azure カスタム ロールを使用して基本ポリシーを保護し、サブスクリプションやグループ内のアクセスを管理します。
   potentialBenefits: Enhanced compliance and rule hierarchy
   pgVerified: true
   publishedToLearn: false
@@ -78,7 +78,7 @@
     - name: Azure Firewall Policy hierarchy
       url: "https://learn.microsoft.com/azure/firewall-manager/rule-hierarchy"
 
-- description: SNAT ポート使用率のための 2 〜 4 PIP の設定
+- description: SNAT ポート使用率のための 2 〜 4 つのパブリック IP の設定
   aprlGuid: d2e4a38e-2307-4299-a217-4c0cebc9a7f6
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -86,7 +86,7 @@
   recommendationResourceType: Microsoft.Network/azureFirewalls
   recommendationMetadataState: Active
   longDescription: |
-    SNAT の枯渇を回避するために、Azure Firewall ごとに少なくとも 2 つから 4 つのパブリック IP アドレスを構成します。Azure Firewall では、パブリック IP へのすべての送信トラフィックに対して SNAT が提供され、追加の PIP ごとに 2,496 個の SNAT ポートが提供されます。
+    SNAT の枯渇を回避するために、Azure Firewall ごとに少なくとも 2 つから 4 つのパブリック IP アドレスを構成します。Azure Firewall では、パブリック IP へのすべての送信トラフィックに対して SNAT が提供され、追加のパブリック IP ごとに 2,496 個の SNAT ポートが提供されます。
   potentialBenefits: Avoids SNAT exhaustion.
   pgVerified: false
   publishedToLearn: false
@@ -105,7 +105,7 @@
   recommendationResourceType: Microsoft.Network/azureFirewalls
   recommendationMetadataState: Active
   longDescription: |
-    20 ミリ秒を超えるレイテンシプローブを 30 ミリ秒を超える期間監視する指標を作成すると、ファイアウォールインスタンスの CPU にストレスがかかり、問題を示している可能性があるタイミングを特定できます。
+    20 ミリ秒を超えるレイテンシ プローブを 30 ミリ秒を超える期間監視する指標を作成すると、ファイアウォール インスタンスの CPU にストレスがかかり、問題を示している可能性があるタイミングを特定できます。
   potentialBenefits: Improved CPU stress detection
   pgVerified: false
   publishedToLearn: false

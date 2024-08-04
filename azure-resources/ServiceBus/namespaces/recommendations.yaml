@@ -1,4 +1,4 @@
-- description: Service Bus 名前空間の Availability Zones を有効にする
+- description: Service Bus 名前空間の可用性ゾーンを有効にする
   aprlGuid: 20057905-262c-49fe-a9be-49f423afb359
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.ServiceBus/namespaces
   recommendationMetadataState: Active
   longDescription: |
-    高可用性のために、ゾーン冗長で Service Bus を使用します。Premium SKU では可用性ゾーンがサポートされており、同じリージョン内で確実に分離されます。メッセージングストアの3つのコピーを管理し、同期を維持します。
+    高可用性のためにゾーン冗長で Service Bus を使用します。Premium SKU では可用性ゾーンがサポートされており、同じリージョン内で確実に分離されます。メッセージング ストアの 3 つのコピーを管理し、同期を維持します。
   potentialBenefits: Enhances fault tolerance and uptime
   pgVerified: false
   publishedToLearn: false

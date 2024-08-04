@@ -1,4 +1,4 @@
-- description: サブスクリプションごとに2000を超えるCitrix VDAサーバーを作成しないでください
+- description: サブスクリプションごとに 2,000 を超える Citrix VDA サーバーを作成しない
   aprlGuid: c041d596-6c97-4c5f-b4b3-9cd37628f2e2
   recommendationTypeId: null
   recommendationControl: Governance
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Subscription/Subscriptions
   recommendationMetadataState: Active
   longDescription: |
-    Citrix Managed Azureサブスクリプションは、Cloud Connectorなどの他のマシンを除き、アプリ/デスクトップ配信用のVDAを備えた仮想マシンをサポートします。制限に近づいたら、ダッシュボード通知で通知され、十分なライセンスがある場合は、別のサブスクリプションを要求します。カタログに指定された制限を超えることはできません。
+    Citrix Managed Azure サブスクリプションは、Cloud Connector などの他のマシンを除き、アプリ/デスクトップ配信用の VDA を備えた仮想マシンをサポートします。制限に近づいたら、ダッシュボード通知で通知され、十分なライセンスがある場合は、別のサブスクリプションを要求します。カタログに指定された制限を超えることはできません。
   potentialBenefits: Avoids hitting limit, ensures reliability
   pgVerified: true
   publishedToLearn: false
@@ -17,7 +17,7 @@
     - name: Citrix Limits
       url: "https://docs.citrix.com/ja-jp/citrix-daas-azure/limits"
 
-- description: サブスクリプションは、テナント ルート管理グループの下に配置しないでください
+- description: サブスクリプションをテナント ルート管理グループの下に配置しない
   aprlGuid: 5ada5ffa-7149-4e49-9fbf-e67be7c2594c
   recommendationTypeId: null
   recommendationControl: Governance

@@ -1,4 +1,4 @@
-- description: Resource Health アラートの構成
+- description: リソース正常性アラートを構成する
   aprlGuid: be448849-0d7d-49ba-9c94-9573ee533d5d
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -14,14 +14,14 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Resource Health
-      url: "https://learn.microsoft.com/ja-jp/azure/service-health/resource-health-overview"
-    - name: Configure Resource Health alerts in the Azure portal
-      url: "https://learn.microsoft.com/ja-jp/azure/service-health/resource-health-alert-monitor-guide#create-a-resource-health-alert-rule-in-the-azure-portal"
-    - name: Alerts Health
-      url: "https://learn.microsoft.com/ja-jp/azure/service-health/alerts-activity-log-service-notifications-portal"
+    - name: Resource Health の概要
+      url: "https://learn.microsoft.com/azure/service-health/resource-health-overview"
+    - name: Azure portal で Resource Health アラート ルールを作成する
+      url: "https://learn.microsoft.com/azure/service-health/resource-health-alert-monitor-guide#create-a-resource-health-alert-rule-in-the-azure-portal"
+    - name: 正常性アラート
+      url: "https://learn.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal"
 
-- description: サービス正常性アラートの構成
+- description: サービス正常性アラートを構成する
   aprlGuid: 9729c89d-8118-41b4-a39b-e12468fa872b
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -29,7 +29,7 @@
   recommendationResourceType: Microsoft.Insights/activityLogAlerts
   recommendationMetadataState: Active
   longDescription: |
-    サービス正常性は、使用されている Azure サービスとリージョンのパーソナライズされた正常性ビューを提供し、使用されているサービスを把握することで、停止、計画メンテナンス、正常性アドバイザリに関する通知に最適な場所を提供します。
+    サービス正常性は、使用している Azure サービスとリージョンのパーソナライズされた正常性ビューを提供し、使用しているサービスを把握することで、停止、計画メンテナンス、正常性アドバイザリに関する通知に最適な場所を提供します。
   potentialBenefits: Proactive outage and maintenance alerts
   pgVerified: true
   publishedToLearn: false
@@ -37,7 +37,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: What is Azure Service Health?
+    - name: Azure Service Health とは
       url: "https://learn.microsoft.com/azure/service-health/overview"
-    - name: Configure alerts for service health events
+    - name: サービス正常性イベントのアラートを構成する
       url: "https://learn.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal"

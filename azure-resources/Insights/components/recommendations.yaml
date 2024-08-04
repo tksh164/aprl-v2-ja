@@ -1,4 +1,4 @@
-- description: クラシック展開の変換
+- description: クラシック デプロイメントを変換する
   aprlGuid: dac421ec-2832-4c37-839e-b6dc5a38f2fa
   recommendationTypeId: null
   recommendationControl: Service Upgrade and Retirement
@@ -14,5 +14,5 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Migrate an Application Insights classic resource to a workspace-based resource
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-monitor/app/convert-classic-resource"
+    - name: ワークスペースベースの Application Insights リソースに移行する
+      url: "https://learn.microsoft.com/azure/azure-monitor/app/convert-classic-resource"

@@ -14,6 +14,6 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Reliability in Azure Container Apps
-      url: "https://learn.microsoft.com/ja-jp/azure/reliability/reliability-azure-container-apps"
+    - name: Azure Container Apps の信頼性
+      url: "https://learn.microsoft.com/azure/reliability/reliability-azure-container-apps"
 
