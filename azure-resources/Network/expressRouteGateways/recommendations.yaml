@@ -23,7 +23,7 @@
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/expressRouteGateways
   recommendationMetadataState: Active
-  longDescription: 仮想 WAN の ExpressRoute ゲートウェイの監視とアラートを設定します。パケット/秒の超過、BGP ルート プレフィックス数の超過、ゲートウェイの過剰使用、高いルート変更頻度など、重要なイベントに迅速に対応するためのアラート ルールを作成します。
+  longDescription: 仮想 WAN の ExpressRoute ゲートウェイの監視とアラートを設定します。パケット/秒の超過、BGP ルート プレフィックス数の超過、ゲートウェイの過剰使用、ルート変更の頻度の高さなど、重要なイベントに迅速に対応するためのアラート ルールを作成します。
   potentialBenefits: Detection and mitigation to avoid disruptions.
   pgVerified: false
   publishedToLearn: false
