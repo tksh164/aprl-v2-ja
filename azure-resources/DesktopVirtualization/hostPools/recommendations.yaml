@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    AVD 構成を最適化するには、ハイブリッド VM を一意の OU に配置します。環境固有の設定のために製品ユニットと DR ユニットを分離します。これにより、FSLogix、タイムアウト、セッション制御など、セッションホストのターゲット設定が保証されます。
+    AVD 構成を最適化するには、ハイブリッド VM を一意の OU に配置します。環境固有の設定のために本番ユニットと DR ユニットを分離します。これにより、FSLogix、タイムアウト、セッション制御など、セッション ホストのターゲット設定が確実になります。
   potentialBenefits: Improved AVD hostpool config & segmentation
   pgVerified: true
   publishedToLearn: false
