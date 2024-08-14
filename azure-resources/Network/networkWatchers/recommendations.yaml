@@ -71,8 +71,10 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: NSG と仮想ネットワーク フロー ログ
+    - name: ネットワーク セキュリティ グループのフロー ログ
       url: "https://learn.microsoft.com/azure/network-watcher/nsg-flow-logs-overview"
+    - name: 仮想ネットワーク フロー ログ
+      url: "https://learn.microsoft.com/azure/network-watcher/vnet-flow-logs-overview"
 
 - description: ネットワーク セキュリティ グループと仮想ネットワーク フロー ログの設定でトラフィック解析を有効にする
   aprlGuid: bf0b7dbd-016d-458c-af99-70fcb03ad451
