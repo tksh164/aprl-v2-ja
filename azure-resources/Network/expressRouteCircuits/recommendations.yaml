@@ -120,7 +120,7 @@
   recommendationControl: Disaster Recovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     2 番目の ExpressRoute 回線を追加していない場合は、2 番目の回線が使用可能になるまで、サイト間 VPN を一時的な解決策として使用します。これにより、ネットワークの信頼性とサービスの継続性が確保されます。
   potentialBenefits: Ensures continuity and reliability
