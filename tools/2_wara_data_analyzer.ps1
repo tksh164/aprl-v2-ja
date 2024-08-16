@@ -730,13 +730,13 @@ $Script:Runtime = Measure-Command -Expression {
       }
 
       $columnCommonStyle = @{
-        FontName = 'Calibri'
+        FontName = 'Yu Gothic UI'
         FontSize = 11
         WrapText = $true
       }
 
       $headerCommonStyle = @{
-        FontName            = 'Calibri'
+        FontName            = 'Yu Gothic UI'
         FontSize            = 11
         FontColor           = 'White'
         Bold                = $true
