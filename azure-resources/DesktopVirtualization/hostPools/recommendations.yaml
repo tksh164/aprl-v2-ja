@@ -14,7 +14,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Configure a host pool as a validation environment
       url: "https://learn.microsoft.com/azure/virtual-desktop/configure-validation-environment?tabs=azure-portal"
 
 - description: ホスト プールのスケジュールされたエージェントの更新を構成する
@@ -33,7 +33,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Scheduled Agent Updates for Azure Virtual Desktop host pools
       url: "https://learn.microsoft.com/azure/virtual-desktop/scheduled-agent-updates"
 
 - description: ドメインに参加しているセッション ホストを含むホスト プールを展開するときに一意の OU が使用されていることを確認する
@@ -52,7 +52,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: VM を構成し、Active Directory Domain Services をインストールする
       url: "https://learn.microsoft.com/windows-server/identity/ad-ds/deploy/virtual-dc/adds-on-azure-vm#configure-the-vms-and-install-active-directory-domain-services"
 
 - description: Azure Site Recovery やバックアップを使用して、個人用デスクトップをサポートする VM を保護する
@@ -71,5 +71,5 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Site Recovery について
       url: "https://learn.microsoft.com/azure/site-recovery/site-recovery-overview"
