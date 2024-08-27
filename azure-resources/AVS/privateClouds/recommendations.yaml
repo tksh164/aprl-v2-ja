@@ -14,7 +14,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: 詳細情報
+    - name: Azure Service Health アラートを構成する
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-management-and-monitoring#design-recommendations"
 
 - description: Azure VMware Solution プライベート クラウドが容量制限に達しているタイミングを監視する
@@ -52,7 +52,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: 詳細情報
+    - name: アラートの構成と合理化
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
 
 - description: ストレッチ クラスターを有効にして、vSAN データストアのマルチ AZ 可用性を実現する
@@ -71,7 +71,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: 詳細情報
+    - name: 高可用性を実装する
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/infrastructure#implement-high-availability"
     - name: ストレッチ クラスター
       url: "https://learn.microsoft.com/azure/azure-vmware/deploy-vsan-stretched-clusters"
@@ -92,7 +92,7 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: 詳細情報
+    - name: サポートされているメトリックとアクティビティ
       url: "https://learn.microsoft.com/azure/azure-vmware/configure-alerts-for-azure-vmware-solution#supported-metrics-and-activities"
 
 - description: Azure VMware Solution の診断設定で Syslog を構成する
@@ -111,7 +111,7 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: 詳細情報
+    - name: ログとアーカイブを管理する
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#manage-logs-and-archives"
 
 - description: CPU 使用率を監視して、ワークロードに十分なリソースを確保する
