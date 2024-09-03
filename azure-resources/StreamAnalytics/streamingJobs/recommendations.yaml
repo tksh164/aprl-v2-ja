@@ -1,4 +1,4 @@
-- description: Run jobs in your own dedicated Stream Analytics cluster for increased reliability and security
+- description: 専用の Stream Analytics クラスターでジョブを実行し、信頼性とセキュリティを向上させる
   aprlGuid: e48a7227-5ec7-463a-b955-ee7cb598ded4
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.StreamAnalytics/streamingjobs
   recommendationMetadataState: Active
   longDescription: |
-    Stream Analytics cluster (dedicated) offers more reliable performance guarantees. All the jobs running on your cluster belong only to you. You can also have access to important features like private endpoints, Auto-Scaling, Vnet Support, etc.
+    Stream Analytics クラスター (専用) は、より信頼性の高いパフォーマンス保証を提供します。クラスター上で実行されるジョブはすべてお客様のものです。また、プライベート エンドポイント、自動スケーリング、VNet サポートなどの重要な機能も利用できます。
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
   publishedToLearn: false
@@ -14,10 +14,10 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Overview of Azure Stream Analytics Cluster
+    - name: Azure Stream Analytics クラスターの概要
       url: "https://learn.microsoft.com/azure/stream-analytics/cluster-overview"
 
-- description: Migrate Stream Analytics jobs to StandardV2 SKU
+- description: Stream Analytics ジョブを StandardV2 SKU に移行する
   aprlGuid: 5d40d3d4-179d-4cf5-ac24-901210f512e7
   recommendationTypeId: null
   recommendationControl: High Availability
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.StreamAnalytics/streamingjobs
   recommendationMetadataState: Active
   longDescription: |
-    Configure Autoscale to allow your job to dynamically change the allocated number of Streaming Units (SU) based on load, metrics, and/or schedule.
+    負荷、メトリック、スケジュールに基づいて、割り当てられたストリーミング ユニット (SU) の数をジョブが動的に変更できるように、自動スケールを構成します。
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
   publishedToLearn: false
@@ -33,5 +33,5 @@
   automationAvailable: arg
   tags: null
   learnMoreLink:
-    - name: Understand and adjust streaming units
+    - name: Stream Analytics ストリーミング ユニットの理解と調整
       url: "https://learn.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption"
