@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    プライベート DNS ゾーンとレコードは重要であり、それらを削除するとサービスが停止する可能性があります。承認されていない変更や偶発的な変更から保護するには、これらのリソースを管理するための組み込みロールであるプライベート DNS ゾーン共同作成者ロールを特定のユーザーまたはグループに割り当てる必要があります。
+    Assign the built-in Private DNS Zone Contributor role to specific authorized users, groups, and entities to protect against unauthorized or accidental changes to Private DNS Zones and records. Restrict access by granting Private DNS Zone Contributor permission to all zones.
   potentialBenefits: Prevents DNS outages
   pgVerified: true
   publishedToLearn: false
@@ -25,7 +25,7 @@
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    プライベート DNS ゾーン内のレコードは、リンクされた仮想ネットワークからのみ解決できます。プライベート DNS ゾーンを複数のネットワークにリンクし、自動登録を有効にして、仮想マシンの DNS レコードを自動的に管理できます。
+    Use Azure Monitor to monitor Private DNS Zone query volume, record set count, and capacity metrics for Record Set, Virtual Network Link, and Virtual Network Link with auto-registration. Create alerts based on Azure Monitor Baseline Alerts for these metrics that exceed specific thresholds.
   potentialBenefits: Enhanced DNS reliability and alerting
   pgVerified: true
   publishedToLearn: false
@@ -33,24 +33,24 @@
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Supported metrics for Microsoft.Network/privateDnsZones
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-monitor/reference/supported-metrics/microsoft-network-privatednszones-metrics"
+    - name: Azure Monitor Baseline Alerts - privateDnsZones
+      url: "https://azure.github.io/azure-monitor-baseline-alerts/services/Network/privateDnsZones/"
 
-- description: 運用ゾーンと DR ゾーンを、同じワークロードとリソースのフェールオーバー エントリに合わせる
+- description: Use regional Private DNS Zones when there is a low recovery time objective(RTO) requirement
   aprlGuid: 1e02335c-1f90-fd4e-a5a5-d359c7b22d70
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: Disaster Recovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    Azure プライベート DNS は、既定の Azure 名の代わりにカスタム ドメインを使用して、仮想ネットワーク内のドメイン名を処理するための信頼性が高く安全な方法を提供します。これらのゾーン内のレコードはインターネットにアクセスできず、リンクされた仮想ネットワーク内でのみ解決できます。
-  potentialBenefits: Ensures seamless failover for DNS
+    For business continuity scenarios with a low recovery time objective (RTO), ensure that distinct regional production and disaster recovery (DR) Private DNS Zones are configured and have identical workload and resource DNS entries. This keeps DNS resolution consistent across both zones.
+  potentialBenefits: Ensures seamless failover for DNS during a regional outage
   pgVerified: true
   publishedToLearn: false
   publishedToAdvisor: false
   automationAvailable: no
   tags: null
   learnMoreLink:
-    - name: Scenarios for Azure Private DNS zones
-      url: "https://learn.microsoft.com/ja-jp/azure/dns/private-dns-scenarios"
+    - name: Private Link and DNS integration at scale
+      url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/private-link-and-dns-integration-at-scale"
