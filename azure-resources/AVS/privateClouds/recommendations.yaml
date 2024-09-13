@@ -10,8 +10,7 @@
   potentialBenefits: Prompt mitigation of issues.
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Service Health アラートを構成する
@@ -29,8 +28,7 @@
   potentialBenefits: Proactive capacity planning
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: アラートの構成と合理化
@@ -48,8 +46,7 @@
   potentialBenefits: Proactive resource management
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: アラートの構成と合理化
@@ -67,8 +64,7 @@
   potentialBenefits: 99.99% SLA, 0 RPO, Multi-AZ
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: 高可用性を実装する
@@ -88,8 +84,7 @@
   potentialBenefits: Optimized capacity planning for vSAN
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: サポートされているメトリックとアクティビティ
@@ -107,8 +102,7 @@
   potentialBenefits: Faster issue resolution, early detection
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: ログとアーカイブを管理する
@@ -126,8 +120,7 @@
   potentialBenefits: Avoids resource exhaustion, optimizes performance
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: アラートの構成と合理化
@@ -145,8 +138,7 @@
   potentialBenefits: Avoids host exhaustion and swapping
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: アラートの構成と合理化
@@ -164,8 +156,7 @@
   potentialBenefits: Prevents accidental deletion
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: リソースをロックしてインフラストラクチャを保護する
@@ -183,8 +174,7 @@
   potentialBenefits: Avoid outages with key auto-rotation
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: カスタマー マネージド キーを構成する
@@ -202,8 +192,7 @@
   potentialBenefits: Enhances reliability and avoids failure
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: DNS フォワーダーを構成する

@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced uptime and data protection
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーでの高可用性 (信頼性)
@@ -29,8 +28,7 @@
   potentialBenefits: Control update timings
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーでの予定メンテナンス
@@ -48,8 +46,7 @@
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for PostgreSQL (フレキシブル サーバー) でのバックアップと復元
@@ -67,8 +64,7 @@
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーの読み取りレプリカ
@@ -86,8 +82,7 @@
   potentialBenefits: Scale storage automatically to meet increasing demand
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーでの Azure portal を使用したストレージの自動拡張

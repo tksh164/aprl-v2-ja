@@ -10,8 +10,7 @@
   potentialBenefits: Optimized network routing and security
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: 負荷分散のオプション
@@ -35,8 +34,7 @@
   potentialBenefits: Enhances security and performance
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Front Door の配信元へのトラフィックをセキュリティで保護する
@@ -54,8 +52,7 @@
   potentialBenefits: Enhanced security and features
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: REST API Reference
@@ -77,8 +74,7 @@
   potentialBenefits: Enhanced insights and solution monitoring
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Front Door でのメトリックとログの監視
@@ -100,8 +96,7 @@
   potentialBenefits: Ensures data encryption in transit
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Front Door を使用したエンド ツー エンド TLS
@@ -119,8 +114,7 @@
   potentialBenefits: Enhances security and compliance
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: HTTP から HTTPS へのリダイレクト ルールの作成
@@ -138,8 +132,7 @@
   potentialBenefits: Lowers costs, avoids outages
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure portal を使用して Azure Front Door カスタム ドメインで HTTPS を構成する
@@ -157,8 +150,7 @@
   potentialBenefits: Saves time and automates TLS updates
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: デプロイする Azure Front Door の証明書を選択する
@@ -176,8 +168,7 @@
   potentialBenefits: Improves session/auth handling
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: リバース プロキシとそのバックエンド Web アプリケーションの間で、元の HTTP ホスト名を維持する
@@ -195,8 +186,7 @@
   potentialBenefits: Enhances web app security
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Front Door 上の Web アプリケーション ファイアウォール (WAF)
@@ -214,8 +204,7 @@
   potentialBenefits: Reduces unnecessary origin traffic
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: 正常性プローブ
@@ -233,8 +222,7 @@
   potentialBenefits: Improves traffic routing and uptime
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 正常性エンドポイントの監視パターン
@@ -252,8 +240,7 @@
   potentialBenefits: Reduces traffic load on origins
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 正常性プローブでサポートされている HTTP メソッド
@@ -271,8 +258,7 @@
   potentialBenefits: Enhanced regional access control
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Geo フィルター WAF ポリシー - GeoMatch
@@ -290,8 +276,7 @@
   potentialBenefits: Enhanced security and private connectivity
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Front Door の Private link
@@ -309,8 +294,7 @@
   potentialBenefits: Costs savings and additional supported features
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Front Door レベル間の価格を比較する

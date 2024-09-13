@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced availability and reliability
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: ゾーン冗長による高可用性
@@ -29,8 +28,7 @@
   potentialBenefits: Enhanced availability and reliability
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: バックアップ ストレージの冗長性
@@ -48,8 +46,7 @@
   potentialBenefits: Improved latency and throughput
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 接続の種類
@@ -67,8 +64,7 @@
   potentialBenefits: Ensure seamless service with cross-region failover
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: フェールオーバー グループの概要とベスト プラクティス
@@ -86,8 +82,7 @@
   potentialBenefits: Quick incident detection and response
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure SQL Managed Instance monitoring options
@@ -105,8 +100,7 @@
   potentialBenefits: Enhanced security and data recovery
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Always Encrypted

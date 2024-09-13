@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced availability and resilience
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Container Apps の正常性プローブ
