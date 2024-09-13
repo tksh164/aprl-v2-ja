@@ -10,8 +10,7 @@
   potentialBenefits: Higher scalability and availability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: 仮想マシンではなくスケール セットを使用するケース
@@ -31,8 +30,7 @@
   potentialBenefits: Enhances deployment management and upgrades
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Virtual Machine Scale Sets でアプリケーションの正常性拡張機能を使用する
@@ -50,8 +48,7 @@
   potentialBenefits: Boosts app availability by auto-repair
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Virtual Machine Scale Sets の自動インスタンス修復
@@ -69,8 +66,7 @@
   potentialBenefits: Enhances performance and cost-efficiency
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure での自動スケールの使用
@@ -90,8 +86,7 @@
   potentialBenefits: Optimizes scaling with ML predictions
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Virtual Machine Scale Sets で予測自動スケーリングを使用して負荷が発生する前にスケールアウトする
@@ -109,8 +104,7 @@
   potentialBenefits: Improves scaling, reduces fail attempts
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure 仮想マシン スケール セットでカスタム スケールイン ポリシーを使用する
@@ -128,8 +122,7 @@
   potentialBenefits: Enhances disaster resilience
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: 可用性ゾーンを使用する仮想マシン スケール セットを作成する
@@ -149,8 +142,7 @@
   potentialBenefits: Eases patch management, enhances security
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Virtual Machines とスケール セットのゲストの自動パッチ適用
@@ -170,8 +162,7 @@
   potentialBenefits: Avoid disruptions by updating VMSS images.
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 非推奨の Azure Marketplace イメージ

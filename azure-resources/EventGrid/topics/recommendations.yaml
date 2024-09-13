@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced troubleshooting for Event Grid
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Event Grid リソースについての診断ログを有効にする
@@ -29,8 +28,7 @@
   potentialBenefits: Saves undelivered events
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Event Grid によるメッセージの配信と再試行
@@ -48,8 +46,7 @@
   potentialBenefits: Secure, private VNet ingress
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Event Grid カスタム トピックまたはドメインに対してプライベート エンドポイントを構成する

@@ -9,8 +9,7 @@
   potentialBenefits: Enhance resiliency for Azure Service
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: ExpressRoute プライベート ピアリングを使用したディザスター リカバリーの設計
@@ -27,8 +26,7 @@
   potentialBenefits: Detection and mitigation to avoid disruptions.
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Virtual WAN の監視 - ベスト プラクティス

@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced environment stability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 検証環境としてホスト プールを構成する
@@ -29,8 +28,7 @@
   potentialBenefits: Enhanced environment stability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Virtual Desktop ホスト プールのスケジュール化されたエージェントの更新
@@ -48,8 +46,7 @@
   potentialBenefits: Improved AVD hostpool config & segmentation
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: VM を構成し、Active Directory Domain Services をインストールする
@@ -67,8 +64,7 @@
   potentialBenefits: Ensures VM recovery & failover
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Site Recovery について

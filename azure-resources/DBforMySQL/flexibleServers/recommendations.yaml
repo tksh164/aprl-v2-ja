@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced uptime and data protection
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for MySQL フレキシブル サーバーでの高可用性の概念
@@ -29,8 +28,7 @@
   potentialBenefits: Control update timings
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for MySQL - フレキシブル サーバーでの予定メンテナンス
@@ -48,8 +46,7 @@
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for MySQL - フレキシブル サーバーでのバックアップと復元
@@ -67,8 +64,7 @@
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for MySQL - フレキシブル サーバーでの読み取りレプリカ
@@ -86,8 +82,7 @@
   potentialBenefits: Scale storage automatically to meet increasing demand
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Database for MySQL - Flexible Server service tiers - Storage auto grow

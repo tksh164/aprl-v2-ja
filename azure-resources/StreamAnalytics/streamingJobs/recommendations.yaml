@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Stream Analytics クラスターの概要
@@ -29,8 +28,7 @@
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Stream Analytics ストリーミング ユニットの理解と調整

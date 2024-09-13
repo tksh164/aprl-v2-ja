@@ -10,8 +10,7 @@
   potentialBenefits: Higher resilience and availability
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Cache for Redis のゾーン冗長性を有効にする
@@ -28,8 +27,7 @@
   potentialBenefits: Higher resilience and availability
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure Cache for Redis の更新のスケジュール
@@ -47,8 +45,7 @@
   potentialBenefits: Secure, private VNet ingress, efficient data transfer
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Redis Cache でプライベート エンドポイントを構成する

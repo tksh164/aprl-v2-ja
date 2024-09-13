@@ -10,8 +10,7 @@
   potentialBenefits: Enhanced fault tolerance for AKS
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: AKS の可用性ゾーン
@@ -31,8 +30,7 @@
   potentialBenefits: Enhanced reliability via pod isolation
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: システムおよびユーザー ノード プール
@@ -50,8 +48,7 @@
   potentialBenefits: Enhanced security and access control
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Microsoft Entra の統合
@@ -73,8 +70,7 @@
   potentialBenefits: Dynamic IP allocation, scalable subnets, direct VNET access
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure CNI ネットワークを構成する
@@ -94,8 +90,7 @@
   potentialBenefits: Optimizes scaling and prevents outages
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Kubernetes Service (AKS) でのクラスター オートスケーラーの使用
@@ -119,8 +114,7 @@
   potentialBenefits: Ensures data safety for AKS
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: AKS のバックアップ
@@ -140,8 +134,7 @@
   potentialBenefits: Increases data durability and availability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 可用性ゾーンとは
@@ -167,8 +160,7 @@
   potentialBenefits: Ensures future compatibility
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: CSI ストレージ ドライバー
@@ -188,8 +180,7 @@
   potentialBenefits: Limits AKS resource usage per namespace
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Resource Quotas
@@ -207,8 +198,7 @@
   potentialBenefits: Faster scaling with virtual nodes
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 仮想ノード
@@ -228,8 +218,7 @@
   potentialBenefits: SLA guarantee and better scalability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: 価格レベル
@@ -249,8 +238,7 @@
   potentialBenefits: Real-time AKS health/performance insights
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: AKS を監視する
@@ -268,8 +256,7 @@
   potentialBenefits: Lower latency, faster re-imaging and booting
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: エフェメラル OS ディスク
@@ -291,8 +278,7 @@
   potentialBenefits: Enhanced AKS governance and security
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: AKS ベースライン - ポリシー管理
@@ -312,8 +298,7 @@
   potentialBenefits: Ensures AKS config consistency
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: AKS での GitOps
@@ -333,8 +318,7 @@
   potentialBenefits: Ensures high availability and efficient use
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Topology Spread Constraints
@@ -354,8 +338,7 @@
   potentialBenefits: Enhances container health monitoring
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Configure probes
@@ -375,8 +358,7 @@
   potentialBenefits: Ensures stable pod availability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Replica Sets
@@ -394,8 +376,7 @@
   potentialBenefits: Ensures pod resilience
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: システム ノード プール
@@ -413,8 +394,7 @@
   potentialBenefits: Ensures high app availability
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Well-Architected Framework レビュー - Azure Kubernetes Service (AKS)
@@ -432,8 +412,7 @@
   potentialBenefits: Ensures cluster resiliency during disruptions
   pgVerified: true
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Configure PDBs
@@ -453,8 +432,7 @@
   potentialBenefits: Efficient scaling, reduced disruptions
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure CNI での動的 IP 割り当て
@@ -472,8 +450,7 @@
   potentialBenefits: Reduced disruptions
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Azure クォータ
@@ -491,8 +468,7 @@
   potentialBenefits: Reduced disruptions
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: arg
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Azure Linux
@@ -510,8 +486,7 @@
   potentialBenefits: Ensures high app availability
   pgVerified: false
   publishedToLearn: false
-  publishedToAdvisor: false
-  automationAvailable: no
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: マルチレプリカ アプリケーション
