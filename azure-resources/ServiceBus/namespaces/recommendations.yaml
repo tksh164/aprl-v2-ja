@@ -6,11 +6,11 @@
   recommendationResourceType: Microsoft.ServiceBus/namespaces
   recommendationMetadataState: Active
   longDescription: |
-    高可用性のためにゾーン冗長で Service Bus を使用します。Premium SKU では可用性ゾーンがサポートされており、同じリージョン内で確実に分離されます。メッセージング ストアの 3 つのコピーを管理し、同期を維持します。
+    Availability zones are now enabled by default on new namespaces where possible. Existing namespaces are being migrated to availability zones where possible. The property zoneRedundant might still show as false, even when availability zones has been enabled.
   potentialBenefits: Enhances fault tolerance and uptime
   pgVerified: false
   publishedToLearn: false
-  automationAvailable: true
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Service Bus and reliability
