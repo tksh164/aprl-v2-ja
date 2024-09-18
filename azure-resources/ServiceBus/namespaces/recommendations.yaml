@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.ServiceBus/namespaces
   recommendationMetadataState: Active
   longDescription: |
-    Availability zones are now enabled by default on new namespaces where possible. Existing namespaces are being migrated to availability zones where possible. The property zoneRedundant might still show as false, even when availability zones has been enabled.
+    可用性ゾーンは、新しい名前空間では既定で有効になります。既存の名前空間も可用性ゾーンに移行されます。可用性ゾーンが有効な場合でも、プロパティ zoneRedundant は false と表示される場合があります。
   potentialBenefits: Enhances fault tolerance and uptime
   pgVerified: false
   publishedToLearn: false
