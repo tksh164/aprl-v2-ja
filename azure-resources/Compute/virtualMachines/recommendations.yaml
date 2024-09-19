@@ -436,7 +436,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    Azure Boost は、ホストで Azure メンテナンス アクティビティが発生した場合の顧客への影響を軽減するように設計されており、互換性のある VM サイズの現在の一覧は、以下の最初のリンクに記載されています。
+    If the workload is Maintenance sensitive, consider Azure Boost compatible VMs. Azure Boost is designed to lessen the impact on customers when Azure maintenance activities occur on the host.
   potentialBenefits: Less maintenance impact
   pgVerified: true
   publishedToLearn: false
