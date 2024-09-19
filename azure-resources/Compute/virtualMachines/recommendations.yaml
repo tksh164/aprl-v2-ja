@@ -436,7 +436,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    If the workload is Maintenance sensitive, consider Azure Boost compatible VMs. Azure Boost is designed to lessen the impact on customers when Azure maintenance activities occur on the host.
+    ワークロードがメンテナンスに敏感な場合は、Azure Boost 互換 VM を検討してください。Azure Boost は、ホスト上で Azure のメンテナンス アクティビティが発生した場合に、お客様への影響を軽減するように設計されています。
   potentialBenefits: Less maintenance impact
   pgVerified: true
   publishedToLearn: false
