@@ -108,24 +108,6 @@
     - name: How to view and configure alerts for Azure ExpressRoute circuit maintenance
       url: "https://learn.microsoft.com/azure/expressroute/maintenance-alerts"
 
-- description: サイト間 VPN を 1 つの ExpressRoute 回線の中間バックアップ ソリューションとして使用する
-  aprlGuid: f902cf86-2b53-2942-abc2-781f4fb62be6
-  recommendationTypeId: null
-  recommendationControl: Disaster Recovery
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Network/expressRouteCircuits
-  recommendationMetadataState: Disabled
-  longDescription: |
-    2 番目の ExpressRoute 回線を追加していない場合は、2 番目の回線が使用可能になるまで、サイト間 VPN を一時的な解決策として使用します。これにより、ネットワークの信頼性とサービスの継続性が確保されます。
-  potentialBenefits: Ensures continuity and reliability
-  pgVerified: true
-  publishedToLearn: false
-  automationAvailable: false
-  tags: null
-  learnMoreLink:
-    - name: Using S2S VPN as a backup for ExpressRoute private peering
-      url: "https://learn.microsoft.com/azure/expressroute/use-s2s-vpn-as-backup-for-expressroute-privatepeering"
-
 - description: ExpressRoute Direct 回線全体にレート制限を実装してネットワーク フローを最適化する
   aprlGuid: d40c769d-2f08-4980-8d8f-a386946276e6
   recommendationTypeId: null
