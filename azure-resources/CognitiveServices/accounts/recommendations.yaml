@@ -1,4 +1,4 @@
-- description: Enable diagnostic logging for Azure AI services and send the data to Log Analytics
+- description: Azure AI サービスの診断ログを有効にし、データを Log Analytics に送信する
   aprlGuid: d6d9e18a-9ad2-491e-878d-86d621785453
   recommendationTypeId: null
   recommendationControl: Monitoring and Alerting
@@ -6,12 +6,12 @@
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
   longDescription: |
-    All Logs and Metrics should be configured. These logs provide rich, frequent data about the operation of a resource that are used for issue identification and debugging.
+    すべてのログとメトリックを設定する必要があります。これらのログは、リソースの操作に関する豊富で定期的なデータを提供し、問題の特定とデバッグに使用できます。
   potentialBenefits: Enhanced monitoring and troubleshooting capabilities
   pgVerified: false
   publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Enable diagnostic logging for Azure AI services
-      url: "https://learn.microsoft.com/en-us/azure/ai-services/diagnostic-logging"
+    - name: Azure AI サービスの診断ログを有効にする
+      url: "https://learn.microsoft.com/azure/ai-services/diagnostic-logging"
