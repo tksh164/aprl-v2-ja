@@ -58,7 +58,7 @@
     - name: Azure Compute Gallery におけるイメージ
       url: "https://learn.microsoft.com/azure/virtual-machines/shared-image-galleries?tabs=azure-cli"
 
-- description: Create Image Versions replicas in secondary region
+- description: セカンダリ リージョンにイメージ バージョンのレプリカを作成する
   aprlGuid: b14ee8ed-7d27-447b-b6fb-6472cb5f4b75
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -66,7 +66,7 @@
   recommendationResourceType: Microsoft.Compute/galleries
   recommendationMetadataState: Active
   longDescription: |
-    On multi-region deployments, replicate Image Versions to a secondary region to ensure disaster recovery capability. This ensures that the Image Versions are available in the secondary region in case of a disaster in the primary region.
+    マルチリージョン展開では、ディザスタ リカバリ機能を確保するために、イメージ バージョンをセカンダリ リージョンに複製します。これにより、プライマリ リージョンで災害が発生した場合でも、セカンダリ リージョンでイメージ バージョンを利用できるようになります。
   potentialBenefits: Enhances disaster recovery capability
   pgVerified: true
   publishedToLearn: false
@@ -76,7 +76,7 @@
     - name: Compute Gallery Replication
       url: "https://learn.microsoft.com/azure/virtual-machines/azure-compute-gallery#replication"
 
-- description: Configure Image version replica count per region.
+- description: リージョンごとのイメージ バージョンのレプリカ数を設定する
   aprlGuid: b3c3ba1d-7de6-442d-8c50-023330fbf765
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -84,7 +84,7 @@
   recommendationResourceType: Microsoft.Compute/galleries
   recommendationMetadataState: Active
   longDescription: |
-    You can set a different replica count in each target region, based on the scale needs for the region. For every 20 VMs that you create concurrently, we recommend you keep one replica.
+    各ターゲット リージョンでは、そのリージョンのスケールの必要性に基づいて、異なるレプリカ数を設定できます。同時に作成する VM 20 台ごとに、1 つのレプリカを保持することをお勧めします。
   potentialBenefits: Enhances disaster recovery capability
   pgVerified: true
   publishedToLearn: false
@@ -92,4 +92,4 @@
   tags: null
   learnMoreLink:
     - name: Compute Gallery Scaling
-      url: "https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery#scaling"
+      url: "https://learn.microsoft.com/azure/virtual-machines/azure-compute-gallery#scaling"
