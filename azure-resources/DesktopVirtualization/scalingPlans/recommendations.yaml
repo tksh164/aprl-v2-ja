@@ -1,4 +1,4 @@
-- description: スケーリング プランはリージョンごとに作成するべきであり、リージョンをまたいでスケーリングするべきではない
+- description: スケーリング プランをリージョンごとに作成する
   aprlGuid: 499769ae-67c9-492e-9ca5-cfd4cece5209
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/scalingPlans
   recommendationMetadataState: Active
   longDescription: |
-    各リージョンには、そのリージョン内のホスト プールに割り当てられた独自のスケーリング プランがあります。ただし、これらのプランはリージョン的な障害が発生した場合にアクセスできなくなる可能性があります。このリスクを軽減するために別のリージョンでセカンダリ スケーリング プランを作成することをお勧めします。
+    スケーリング プランは、同じリージョン内のホスト プールにのみ割り当てることができます。マルチリージョン展開シナリオでは、各リージョンが独自のスケーリング プランを持つ必要があります。
   potentialBenefits: Enhanced scaling
   pgVerified: true
   publishedToLearn: false

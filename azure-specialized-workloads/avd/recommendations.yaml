@@ -279,25 +279,6 @@
     - name: Learn More
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing"
 
-- description: ルート テーブルがフェールオーバーに対応していることを確認する
-  aprlGuid: 4b1a45af-d35f-442d-922a-a3e7b6052de1
-  recommendationTypeId: null
-  recommendationControl: Disaster Recovery
-  recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVD
-  recommendationMetadataState: Active
-  longDescription: |
-    FW/NVA へのトンネル トラフィックを強制するルート テーブルには、フェールオーバーに関する考慮事項が評価され、失敗したり、次世代の FW 保護がトリガーされたりしないことを確認します。
-    AVD ワークロードのチームは、ネットワークのような共有インフラを管理する集中管理チームと協力し、本番ワークロードと DR ワークロードの両方が、ルーティングのフェイルオーバーが期待通りに実行されるように、適切なルート テーブルが用意されていることを確認する必要があります。
-  potentialBenefits: Enhanced failover reliability
-  pgVerified: true
-  publishedToLearn: false
-  automationAvailable: false
-  tags:
-  learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-business-continuity-disaster-recovery"
-
 - description: セッション ホストが AVD コントロール プレーン サブネットに直接アクセスするための静的ルートを設定する
   aprlGuid: 1c6c97d7-4d03-4f53-985d-fa239f715173
   recommendationTypeId: null
