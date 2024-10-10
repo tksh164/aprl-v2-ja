@@ -1,4 +1,4 @@
-- description: 計画された更新プログラムをテストするための検証ホスト プールを作成する
+- description: 検証ホスト プールを作成する
   aprlGuid: 013ac34e-7c4b-425f-9e0c-216f0cc06181
   recommendationTypeId: null
   recommendationControl: Governance
@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    計画された AVD の更新で問題を早期に検出するための検証プールを作成します。必要に応じて制限を調整します。より多くのユーザーのために複数のホスト プールを追加することでスケーリングします。ホスト プールの更新プログラムを定期的にテストします。メイン環境に適用する前に変更を検証して、ダウンタイムを回避します。
+    検証ホスト プールでは、サービスが標準環境や非検証環境に更新を適用する前に、サービスの更新を監視できます。
   potentialBenefits: Enhanced environment stability
   pgVerified: true
   publishedToLearn: false
@@ -24,7 +24,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    AVD エージェントの更新のメンテナンス スケジュールを作成して、中断を回避します。スケジュールされたエージェントの更新を使用して、Azure Virtual Desktop エージェント、サイド バイ サイド スタック、Geneva Monitoring エージェントを更新するためのメンテナンス期間を設定します。
+    Azure Virtual Desktop エージェント、サイドバイサイド スタック、および Geneva Monitoring エージェントの更新がピーク ビジネス時間中に行われないように、最大 2 つのメンテナンス ウィンドウを作成します。
   potentialBenefits: Enhanced environment stability
   pgVerified: true
   publishedToLearn: false
@@ -42,7 +42,7 @@
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
   longDescription: |
-    AVD 構成を最適化するには、ハイブリッド VM を一意の OU に配置します。環境固有の設定のために本番ユニットと DR ユニットを分離します。これにより、FSLogix、タイムアウト、セッション制御など、セッション ホストのターゲット設定が確実になります。
+    ドメインに参加したセッション ホスト VM を固有の OU に配置します。環境固有の設定のために、本番ユニットと災害対策ユニットを分離します。これにより、FSLogix やセッション コントロールなど、セッション ホストのための対象を絞った設定を確実にできます。
   potentialBenefits: Improved AVD hostpool config & segmentation
   pgVerified: true
   publishedToLearn: false
@@ -52,7 +52,7 @@
     - name: VM を構成し、Active Directory Domain Services をインストールする
       url: "https://learn.microsoft.com/windows-server/identity/ad-ds/deploy/virtual-dc/adds-on-azure-vm#configure-the-vms-and-install-active-directory-domain-services"
 
-- description: Azure Site Recovery やバックアップを使用して、個人用デスクトップをサポートする VM を保護する
+- description: Azure Site Recovery を使用してステートフル セッション ホストを保護する
   aprlGuid: 38721758-2cc2-4d6b-b7b7-8b47dadbf7df
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
@@ -60,7 +60,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    個人用ホスト プールに Azure Site Recovery (ASR) や Azure Backup を実装して、シームレスなフェールオーバーとフェールバックを有効にします。これにより、個人用デスクトップをサポートする VM がセカンダリ Azure リージョンにレプリケートされ、障害や停止が発生した場合に既知の状態から確実に回復できます。
+    Azure Site Recovery (ASR) を実装して、ステートフルなセッション ホストをレプリケート、またはバックアップします。これは、VM をセカンダリ Azure リージョンや可用性ゾーンにレプリケートし、障害発生時に既知の VM 状態からのリカバリを保証します。
   potentialBenefits: Ensures VM recovery & failover
   pgVerified: true
   publishedToLearn: false
