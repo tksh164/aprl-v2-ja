@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
-    Azure SQL Managed Instance offers built-in availability by deploying multiple replicas in the same zone. For higher availability, use a zone-redundant configuration that spreads replicas across three Azure availability zones, each with independent power, cooling, and networking.
+    Azure SQL Managed Instance は、同じゾーンに複数のレプリカを配置することで、組み込みの可用性を提供します。より高い可用性を得るには、3 つの Azure 可用性ゾーンにレプリカを分散させるゾーン冗長構成を使用します。各可用性ゾーンは独立した電源、冷却設備、ネットワークを備えています。
   potentialBenefits: Enhanced availability and reliability
   pgVerified: false
   publishedToLearn: false
@@ -24,7 +24,7 @@
   recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
-    Configuring zone redundancy option for backups copies your backup file synchronously across three Azure availability zones in the primary region. If Geo is selected, then it copies your data asynchronously three times to a single physical location in the paired secondary region.
+    バックアップのゾーン冗長オプションを構成すると、プライマリリージョン内の 3 つの Azure 可用性ゾーンにまたがってバックアップ ファイルが同期的にコピーされます。Geo を選択した場合は、対になるセカンダ リーリージョン内の 1 つの物理ロケーションに非同期で 3 回データをコピーします。
   potentialBenefits: Enhanced availability and reliability
   pgVerified: false
   publishedToLearn: false
@@ -42,7 +42,7 @@
   recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
-    Redirect mode enables direct connectivity to the instance bypassing the local gateway component and resulting in improved latency and throughput. Redirect mode applies to the VNet-local endpoint only, while the public and private endpoint will always operate in Proxy connection mode.
+    リダイレクト モードでは、ローカル ゲートウェイ コンポーネントをバイパスしてインスタンスに直接接続できるため、レイテンシとスループットが向上します。リダイレクト モードは VNet ローカル エンドポイントのみに適用され、パブリック エンドポイントとプライベート エンドポイントは常にプロキシ接続モードで動作します。
   potentialBenefits: Improved latency and throughput
   pgVerified: false
   publishedToLearn: false
@@ -60,7 +60,7 @@
   recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
-    During an outage on the managed instance, use the failover group to switch all databases to a secondary region, either manually or automatically. Route connections to the failover group’s listener instead of the primary instance to avoid changing the connection string after geo-failover.
+    マネージド インスタンスで障害が発生した場合、フェールオーバー グループを使用して、手動または自動ですべてのデータベースをセカンダリ リージョンに切り替えます。接続をプライマリ インスタンスではなくフェールオーバー グループのリスナーにルーティングし、Geo フェールオーバー後の接続文字列の変更を回避します。
   potentialBenefits: Ensure seamless service with cross-region failover
   pgVerified: false
   publishedToLearn: false
@@ -78,14 +78,14 @@
   recommendationResourceType: Microsoft.Sql/servers
   recommendationMetadataState: Active
   longDescription: |
-    Monitoring and alerting are an important part of database operations. When working with Azure SQL Managed Instance, make use of Azure Monitor and Database watcher to ensure that you capture relevant database metrics.
+    監視とアラートは、データベース運用の重要な要素です。Azure SQL Managed Instance を使用するときは、Azure Monitor と Database Watcher を活用して、関連するデータベース メトリクスを確実に取得します。
   potentialBenefits: Quick incident detection and response
   pgVerified: false
   publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name:  Azure SQL Managed Instance monitoring options
+    - name: Azure SQL Managed Instance の監視
       url: "https://learn.microsoft.com/azure/azure-sql/managed-instance/monitoring-sql-managed-instance-azure-monitor?view=azuresql-mi"
 
 - description: キーをバックアップする
