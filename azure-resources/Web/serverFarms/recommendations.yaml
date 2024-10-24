@@ -9,7 +9,6 @@
     可用性ゾーン全体に App Service プランをデプロイする Azure の機能は、データセンターの障害時の運用を保証し、異なるリージョンを必要とせずに冗長性を提供することで、ダウンタイムを最小限に抑え、中断のないサービスを維持することで、回復性と信頼性を向上させます。
   potentialBenefits: Enhances app resiliency and reliability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     Standard/Premium Azure App Service プランを選択すると、高度なスケーリング、高可用性、パフォーマンスの向上、複数のスロットを備えた堅牢なアプリが提供され、回復性と継続的な運用が確保されます。
   potentialBenefits: Enhanced scaling and reliability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     サービスの中断を防ぐために、Azure App Service インスタンスの頻繁なスケールアップ/スケールダウンを回避します。ワークロードに適したレベルとサイズを選択し、スケーリングの調整によってアプリケーションの再起動がトリガーされる可能性があるため、トラフィックの変化に合わせてスケールアウトします。
   potentialBenefits: Minimizes restarts, enhances stability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     本番環境とテスト環境用に別々の App Service プランを作成して、本番環境デプロイ内のスロットをテスト目的で使用しないようにすることを強くお勧めします。
   potentialBenefits: Protects prod performance; avoids test impact
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -83,7 +79,6 @@
     Azure App Service の自動スケール/自動スケーリングを有効にすると、受信要求に十分なリソースが確保されます。自動スケールはルールベースですが、新しい機能である自動スケーリングは、HTTP トラフィックに基づいてリソースを自動的に調整します。
   potentialBenefits: Optimizes resources for traffic
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

@@ -9,7 +9,6 @@
     カスタム トピック、システム トピック、ドメインなどの Azure Event Grid リソースで診断設定を有効にすると、診断情報をキャプチャして表示し、エラーのトラブルシューティングを効果的に行うことができます。
   potentialBenefits: Enhanced troubleshooting for Event Grid
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Event Grid は、特定の時間内や数回の試行後にイベントを配信できない場合、未配信イベントをストレージ アカウントに送信する配信不能処理につながります。
   potentialBenefits: Saves undelivered events
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     プライベート エンドポイントを使用して、プライベート リンク経由でカスタム トピック/ドメインへの安全なイベント イングレスを行い、パブリック インターネットを回避します。トピック/ドメインの VNet 空間の IP が使用されます。
   potentialBenefits: Secure, private VNet ingress
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

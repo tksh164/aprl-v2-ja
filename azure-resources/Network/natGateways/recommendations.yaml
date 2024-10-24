@@ -9,7 +9,6 @@
     NAT Gateway は、パブリック IP アドレスごとに 64,512 個の SNAT ポートを提供し、最大 16 個のパブリック IP アドレスをサポートします。"合計 SNAT 接続数" メトリックを監視して、NAT Gateway の接続制限に近づいているかどうかを判断します。NAT Gateway は、パブリック IP アドレスを追加することでスケーリングできます。
   potentialBenefits: Enhances reliability and scalability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     NAT Gateway の監視とアラートには、Network Insights を使用します。"合計 SNAT 接続数" メトリックを使用して、NAT Gateway の接続制限に近づいているかどうかを判断します。NAT Gateway の Azure Monitor Baseline Alerts (AMBA) しきい値に基づいてアラートを設定します。
   potentialBenefits: Enhanced network performance and health
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -49,7 +47,6 @@
     NAT Gateway リソースを使用する仮想マシンインスタンスが、NAT Gateway リソースとそのパブリック IP アドレスと同じゾーンにある場合、ゾーン分離シナリオのためのゾーン約束が存在します。ゾーン分離に使用したいパターンは、可用性ゾーンごとに "ゾーン スタック" を作成することです。
   potentialBenefits: Enhances reliability and scalability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

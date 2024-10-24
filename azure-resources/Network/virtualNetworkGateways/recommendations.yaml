@@ -9,7 +9,6 @@
     信頼性を高めるために、各 ExpressRoute ゲートウェイは少なくとも 2 つの回線に接続し、各回線は他の回線とは異なるピアリングの場所から発信され、回復性を強化するための多様な接続パスを確保することをお勧めします。
   potentialBenefits: Enhanced resiliency for Azure service
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure ExpressRoute ゲートウェイでは、単一または複数の可用性ゾーンでのデプロイに基づいて、さまざまな SLA が提供されます。仮想ネットワーク ゲートウェイをゾーン間で自動的にデプロイするには、ゾーン冗長ゲートウェイを使用して、回復性を高めた重要でスケーラブルなサービスにアクセスします。
   potentialBenefits: Enhanced SLA and resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -49,7 +47,6 @@
     ExpressRoute ゲートウェイの Azure リソース ロックを構成すると、管理者が Azure サブスクリプション、リソース グループ、またはリソースをロックできるようにすることで、誤って削除されるのを防ぎ、意図しないユーザーの削除や変更から保護し、すべてのユーザーのアクセス許可をロックします。
   potentialBenefits: Prevents accidental deletions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -67,7 +64,6 @@
     Network Insights を使用して、可用性、パフォーマンス、スケーラビリティなど、ExpressRoute Gateway の正常性を監視します。
   potentialBenefits: Enhanced monitoring and alerting
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -87,7 +83,6 @@
     複数の VNet が同じ ExpressRoute ゲートウェイ経由で接続できますが、Microsoft では、VNet ピアリング、Azure Firewall、NVA、Azure Route Server、サイト間 VPN、仮想 WAN、SD-WAN などの代替手段を使用して、VNet 間通信にネットワークのパフォーマンスと管理を最適化することをお勧めします。
   potentialBenefits: Enhanced VNet integration efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -105,7 +100,6 @@
     ExpressRoute ゲートウェイは、機能、信頼性、パフォーマンス、セキュリティを向上させるために更新されています。顧客制御のメンテナンス構成とスケジューリングにより、更新の影響を最小限に抑え、メンテナンス ウィンドウに合わせて調整します。
   potentialBenefits: Minimizes update impact
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -123,7 +117,6 @@
     Azure VPN ゲートウェイでは、1 つまたは 2 つの可用性ゾーンでのデプロイに基づいて、さまざまな SLA が提供されます。ゾーン冗長仮想ネットワーク ゲートウェイを可用性ゾーンにデプロイすると、ゾーンの回復性が確保され、Azure 上のミッション クリティカルでスケーラブルなサービスへのアクセスが向上します。
   potentialBenefits: Enhanced reliability and scalability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -145,7 +138,6 @@
     アクティブ/アクティブ モードは、Basic を除くすべての SKU で使用でき、2 つのゲートウェイ IP 構成と 2 つのパブリック IP アドレスが可能になり、冗長性とトラフィック処理が強化されます。
   potentialBenefits: Enhanced reliability and network capacity
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -165,7 +157,6 @@
     アクティブ/アクティブ VPN コンセントレーターと Azure VPN ゲートウェイをデプロイすると、4 つの IPSec トンネルを含むフルメッシュ トポロジを使用して、回復性と可用性が最大化されます。
   potentialBenefits: Maximizes resilience and availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -183,7 +174,6 @@
     仮想ネットワーク ゲートウェイの正常性の監視とアラートを設定して、運用効率を確保し、中断に迅速に対応するためのさまざまなメトリックを利用します。
   potentialBenefits: Improved uptime and issue awareness
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -201,7 +191,6 @@
     VPN ゲートウェイは、サービス正常性を活用して、計画メンテナンスと計画外メンテナンスの両方についてユーザーに通知し、VPN 接続の変更についてユーザーに通知されるようにします。
   potentialBenefits: Improves VPN maintenance alerts
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -221,7 +210,6 @@
     ゾーン冗長 VPN ゲートウェイの場合は、常にゾーン冗長 Standard SKU パブリック IP を使用して、すべてのインスタンスが 1 つのゾーンにデプロイされないようにします。これにより、ゲートウェイの信頼性が確保され、アクティブ/パッシブ (シングル IP) とアクティブ/アクティブ (デュアル IP) の両方のセットアップに適用されます。
   potentialBenefits: Enhanced reliability and disaster recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

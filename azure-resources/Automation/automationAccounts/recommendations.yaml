@@ -9,7 +9,6 @@
     Automation アカウントとリソース (モジュール、接続、資格情報、証明書、変数、スケジュールなど) のディザスター リカバリーを設定して、リージョンまたはゾーンの障害に対処します。レプリカ Automation アカウントは、セカンダリ リージョンでフェールオーバーの準備ができている必要があります。
   potentialBenefits: Ensures continuity during outages
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

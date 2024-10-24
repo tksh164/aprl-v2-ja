@@ -9,7 +9,6 @@
     可用性ゾーンを利用するには、Container Apps 環境を作成するときにゾーン冗長を有効にする必要があります。環境には、使用可能なサブネットを持つ仮想ネットワークが含まれている必要があります。レプリカを適切に分散するには、アプリの最小レプリカ数を 3 に設定します。
   potentialBenefits: Enhances app resiliency and reliability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

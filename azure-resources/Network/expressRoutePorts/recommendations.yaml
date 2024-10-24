@@ -9,7 +9,6 @@
     Azure ExpressRoute Direct では、"管理状態" はレイヤー 1 リンクの管理状態を示し、リンクが有効か無効かを示し、物理ポートを効果的にオンまたはオフにします。
   potentialBenefits: Ensures optimal connectivity.
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     10 Gbps または 100 Gbps の ExpressRoute Direct リソースで ExpressRoute 回線を最大 20 Gbps または 200 Gbps までプロビジョニングすることは可能ですが、回復性のためには推奨されません。ExpressRoute Direct ポートに障害が発生し、回線がフル キャパシティを使用している場合、残りのポートは余分な負荷を処理しません。
   potentialBenefits: Improves resilience during port failures
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     Network Insights を使用して、ExpressRoute ポートのライト レベル、ビット/秒の入出力、および回線プロトコルを監視します。Azure Monitor ベースライン アラートに基づいて、特定のしきい値を超えるライト レベル、ビット/秒の入出力、および回線プロトコルに関するアラートを設定します。
   potentialBenefits: Enhanced network performance and health
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

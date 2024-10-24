@@ -9,7 +9,6 @@
     Key Vault の論理的な削除機能を使用すると、削除された Key Vault と、キー、シークレット、証明書などのオブジェクトを回復できます。有効にすると、マークされたリソースは 90 日間保持され、復元が可能になり、基本的に削除が取り消されます。
   potentialBenefits: Enables recovery of deleted items
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     消去保護は、論理的に削除された Key Vault の保持期間を適用することで悪意のある削除から保護し、この期間中に内部関係者や Microsoft であっても誰も Key Vault を消去できないようにし、永続的なデータ損失を防ぎます。
   potentialBenefits: Protects from insider attacks, avoids data loss
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     Azure Private Link サービスを使用すると、プライベート IP を使用して VNet 内のプライベート エンドポイントを介して Azure Key Vault に安全かつプライベートに接続し、パブリック インターネットへの露出を排除できます。
   potentialBenefits: Secure Key Vault with Private Link
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     Key Vault は、シークレット ストレージのセキュリティ境界です。シークレットをグループ化すると、攻撃者が複数のシークレットにアクセスする可能性があるため、セキュリティ イベント中のリスクが高まります。
   potentialBenefits: Enhanced security, Reduced risk
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     ログを有効にし、アラートを設定し、保持要件に準拠して、Key Vault アクセスの監視とセキュリティを強化し、ユーザーのアクセス頻度と ID を詳しく把握します。
   potentialBenefits: Enhanced monitoring and security compliance
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

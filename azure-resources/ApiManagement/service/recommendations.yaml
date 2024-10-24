@@ -9,7 +9,6 @@
     API Management インスタンスを Premium SKU にアップグレードすると、Availability Zones のサポートが追加され、Azure リージョン内の物理的に離れた場所にサービスを分散することで、可用性と回復性が向上します。
   potentialBenefits: Enhanced availability and resilience
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     APIM インスタンスのゾーン冗長により、ゲートウェイとコントロール プレーン (管理 API、開発者ポータル、Git 構成) が物理的に分離されたゾーン内のデータセンター間でレプリケートされ、ゾーン障害に対する回復性が向上します。
   potentialBenefits: Improved resilience to zone failures
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -49,7 +47,6 @@
     stv1 は 2024 年 8 月 31 日に廃止されるため、API Management stv2 へのアップグレードが必要であり、新しいプラットフォーム バージョンで拡張機能が提供されます。
   potentialBenefits: Ensures service continuity
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -69,7 +66,6 @@
     API Management と Auto-Scale を使用して、トラフィック パターンが変動するワークロードで高可用性を実現します。自動スケールにはいくつかの制限があるため、ドキュメントを確認して要件を満たしていることを確認してください。
   potentialBenefits: Enhanced availability and resilience
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

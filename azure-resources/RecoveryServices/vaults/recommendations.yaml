@@ -9,7 +9,6 @@
     フェールオーバー中に一貫した IP 割り当てを維持するために、フェールオーバー サブネットで VM フェールオーバー設定の静的 IP アドレスが使用可能であることを確認し、ターゲット VM は同じ静的 IP (使用可能な場合) または次に使用可能な IP を受け取ります。IP の調整は、VM ネットワーク設定で行うことができます。
   potentialBenefits: Smooth failover IP management
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     テスト フェールオーバーを実行して BCDR 戦略を検証し、運用環境に影響を与えることなく、アプリケーションがターゲット リージョンで正しく機能していることを確認します。テスト フェールオーバーを使用して、データの損失やダウンタイムなしでディザスター リカバリー計画を定期的にテストします。
   potentialBenefits: Ensures BCDR plan accuracy and VM performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     Azure Backup の Recovery Services コンテナーのクラシック アラートは、2026 年 3 月 31 日に廃止されます。
   potentialBenefits: Enhanced, scalable, and consistent alerting.
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     リージョン間の復元を使用すると、セカンダリの Azure ペア リージョンで Azure VM を復元できるため、監査やコンプライアンスの訓練が容易になり、プライマリ リージョンで障害が発生した場合に VM やディスクを復旧できます。これは、GRS Vault でのみ利用可能なオプトイン機能です。
   potentialBenefits: Enhances disaster recovery capabilities
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -89,7 +85,6 @@
     論理的な削除では、バックアップ データが削除された場合、バックアップ データはさらに 14 日間保持されるため、データを失うことなく、コストをかけずにそのバックアップ項目を回復できます。論理的な削除は既定で有効になっています。この機能を無効にすることはお勧めしません。
   potentialBenefits: Enhances disaster recovery capabilities
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

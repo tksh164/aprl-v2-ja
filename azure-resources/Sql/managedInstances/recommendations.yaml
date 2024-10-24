@@ -9,7 +9,6 @@
     Azure SQL Managed Instance は、同じゾーンに複数のレプリカを配置することで、組み込みの可用性を提供します。より高い可用性を得るには、3 つの Azure 可用性ゾーンにレプリカを分散させるゾーン冗長構成を使用します。各可用性ゾーンは独立した電源、冷却設備、ネットワークを備えています。
   potentialBenefits: Enhanced availability and reliability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: True
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     バックアップのゾーン冗長オプションを構成すると、プライマリリージョン内の 3 つの Azure 可用性ゾーンにまたがってバックアップ ファイルが同期的にコピーされます。Geo を選択した場合は、対になるセカンダ リーリージョン内の 1 つの物理ロケーションに非同期で 3 回データをコピーします。
   potentialBenefits: Enhanced availability and reliability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: True
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     リダイレクト モードでは、ローカル ゲートウェイ コンポーネントをバイパスしてインスタンスに直接接続できるため、レイテンシとスループットが向上します。リダイレクト モードは VNet ローカル エンドポイントのみに適用され、パブリック エンドポイントとプライベート エンドポイントは常にプロキシ接続モードで動作します。
   potentialBenefits: Improved latency and throughput
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: True
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     マネージド インスタンスで障害が発生した場合、フェールオーバー グループを使用して、手動または自動ですべてのデータベースをセカンダリ リージョンに切り替えます。接続をプライマリ インスタンスではなくフェールオーバー グループのリスナーにルーティングし、Geo フェールオーバー後の接続文字列の変更を回避します。
   potentialBenefits: Ensure seamless service with cross-region failover
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     監視とアラートは、データベース運用の重要な要素です。Azure SQL Managed Instance を使用するときは、Azure Monitor と Database Watcher を活用して、関連するデータベース メトリクスを確実に取得します。
   potentialBenefits: Quick incident detection and response
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -99,7 +94,6 @@
     Always Encrypted 構成に関連する暗号化キーを格納するために、Azure Key Vault (AKV) を使用することを強く推奨しますが、必須ではありません。AKV を使用しない場合は、キーが適切にバックアップされ、安全な方法で格納されていることを確認します。
   potentialBenefits: Enhanced security and data recovery
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

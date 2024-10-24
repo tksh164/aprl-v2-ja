@@ -9,7 +9,6 @@
     Citrix Managed Azure サブスクリプションは、Cloud Connector などの他のマシンを除き、アプリ/デスクトップ配信用の VDA を備えた仮想マシンをサポートします。制限に近づいたら、ダッシュボード通知で通知され、十分なライセンスがある場合は、別のサブスクリプションを要求します。カタログに指定された制限を超えることはできません。
   potentialBenefits: Avoids hitting limit, ensures reliability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure のルート管理グループは、組織階層用に設計されているため、すべての管理グループとサブスクリプションをそこに折りたたむことができます。
   potentialBenefits: Enhanced security, compliance, and management
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

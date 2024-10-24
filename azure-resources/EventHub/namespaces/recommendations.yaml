@@ -9,7 +9,6 @@
     Azure portal を使用すると、ゾーン冗長が自動的に有効になります。ただし、一部のコードとしてのインフラストラクチャ (IaC) ツールでは、これを既定で false にしている場合があります。可用性ゾーン内のデータ センター間でメタデータとイベントを確実にレプリケートするには、ゾーン冗長が有効になっていることを常に確認してください。
   potentialBenefits: Enhanced fault tolerance for Event Hub
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Event Hub Standard レベルの名前空間で自動インフレを有効にすると、スループット ユニット (TU) が自動的にスケールアップされ、使用量のニーズを満たし、許可されたレートに調整することでデータのイングレスやエグレスのスロットリング シナリオが防止されます。
   potentialBenefits: Prevents throttling by autoscaling TUs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

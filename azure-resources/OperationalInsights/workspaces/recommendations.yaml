@@ -1,4 +1,4 @@
-- description: GRS または GZRS への Log Analytics データのエクスポートを有効にする
+- description: GRS や GZRS への Log Analytics データのエクスポートを有効にする
   aprlGuid: b36fd2ac-dd83-664a-ab48-ff7b8d3b189d
   recommendationTypeId: null
   recommendationControl: Governance
@@ -9,7 +9,6 @@
     Log Analytics ワークスペースから Azure Storage アカウントへのデータのエクスポートでは、主に他の Azure サービスやツールとのコンプライアンスと統合のために、geo 冗長 (GRS) または geo ゾーン冗長ストレージ (GZRS) を使用して、リージョンの障害に対するデータ保護が強化されます。
   potentialBenefits: Enhances compliance and regional fault tolerance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     正常性状態アラートは、データセンターまたはリージョンの障害が原因でワークスペースが使用できなくなった場合に、事前に通知されます。
   potentialBenefits: Early alert for workspace failure
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

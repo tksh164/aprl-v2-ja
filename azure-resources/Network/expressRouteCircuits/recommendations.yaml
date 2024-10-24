@@ -9,7 +9,6 @@
     各 ExpressRoute ゲートウェイを異なるピアリングの場所にある少なくとも 2 つの回線に接続すると、1 つの回線で障害が発生した場合にデータの代替経路が確保されるため、冗長性と信頼性が向上します。
   potentialBenefits: Enhanced reliability and redundancy
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Microsoft または ExpressRoute プロバイダーは、サービスの物理的な冗長性を常に確保します。最適なパフォーマンスと信頼性を得るには、ExpressRoute ピアリングの場所からネットワークへのこのレベルの物理冗長性 (2 つのデバイス、2 つのリンク) を維持することが不可欠です。
   potentialBenefits: Enhanced reliability and fault tolerance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     ExpressRoute 回線の両方の接続をアクティブ/アクティブ モードで運用すると、Microsoft ネットワークがフローごとに接続間でトラフィックの負荷を分散するため、高可用性が向上します。
   potentialBenefits: Improved high availability and load balancing
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     ExpressRoute 経由で BFD を有効にすると、MSEE デバイスと ExpressRoute 用に構成されたルーター (CE/PE) 間のリンク障害検出が高速化され、マネージド レイヤー 3 サービスを使用する顧客とパートナー エッジの両方のルーティング デバイスに適用できます。
   potentialBenefits: Faster link failure detection
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -83,7 +79,6 @@
     Network Insights を使用して、ExpressRoute 回線の可用性、QoS、スループットを監視します。Azure Monitor ベースライン アラートに基づいて、可用性、QoS メトリック、および特定のしきい値を超えるスループット メトリックに関するアラートを設定します。
   potentialBenefits: Enhanced network performance and health
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -101,7 +96,6 @@
     ExpressRoute は、計画メンテナンスと計画外メンテナンスの両方の通知にサービス正常性を活用し、ExpressRoute 回線への変更についてユーザーに確実に通知します。
   potentialBenefits: Stay informed on circuit updates
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -119,7 +113,6 @@
     レート制限は、オンプレミス ネットワークと ExpressRoute Direct を介して Azure 間のトラフィック量を制御し、プライベートまたは Microsoft ピアリングに適用されます。ポート帯域幅を分散し、安定性を確保し、輻輳を防止し、回線で有効にするための手順を概説します。
   potentialBenefits: Optimizes network, prevents congestion
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

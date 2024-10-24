@@ -9,7 +9,6 @@
     デバイス ID は、フェールオーバーが発生した場合の接続を確保するために、すべての IoT デバイスのフェールオーバー リージョン IoT Hub にコピーする必要があります。別のリージョンへの手動フェールオーバーはミッション クリティカルなワークロードに適しており、より高速 (RTO) です。
   potentialBenefits: Faster failover; Ensures device connectivity
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     運用環境のシナリオでは、Free レベルでは必要なサービス レベル アグリーメントが提供されないため、IoT Hub レベルを Free にしないでください。
   potentialBenefits: Ensures SLA for production
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     IoT Hub の可用性ゾーンをサポートするリージョンでは、これらのゾーンを使用すると可用性が向上します。これらは、サポートされているリージョンの新しい IoT Hub に対して自動的にアクティブ化されます。
   potentialBenefits: Boosts IoT Hub availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     Device Provisioning Service (DPS) を使用すると、スケーリングと可用性のために IoT デバイスを簡単に再配布できるため、デバイスを再割り当てし、特定の IoT Hub インスタンスにバインドしないようにすることができます。DPS を使用する IoT Hub 内のデバイスは、DPS 使用率を確認する必要があります。
   potentialBenefits: Enhances scalability and availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -87,7 +83,6 @@
     リージョンで障害が発生した場合、IoT Hub は自動または手動で 2 番目のリージョンにフェールオーバーして、アプリケーションが引き続き動作するようにすることができます。
   potentialBenefits: Ensures business continuity
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -105,7 +100,6 @@
     IoT Hub のカスタム エンドポイントにメッセージ ルーティングを使用すると、特定の条件が満たされていない場合、メッセージがこれらの宛先に到達しない可能性があります。既定のルートでは、すべてのメッセージが確実に受信されますが、このセーフティ ネットを無効にすると、一部のメッセージが配信されないままになるリスクがあります。
   potentialBenefits: Prevents undelivered messages
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

@@ -9,7 +9,6 @@
     該当するすべてのリソースに対して Resource Health アラートを構成して、Azure リソースの現在および過去の正常性状態を常に把握します。これらのリソースの正常性状態が変更されると、通知されます。
   potentialBenefits: Stay informed on resource status
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -31,7 +30,6 @@
     サービス正常性は、使用している Azure サービスとリージョンのパーソナライズされた正常性ビューを提供し、使用しているサービスを把握することで、停止、計画メンテナンス、正常性アドバイザリに関する通知に最適な場所を提供します。
   potentialBenefits: Proactive outage and maintenance alerts
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

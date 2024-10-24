@@ -9,7 +9,6 @@
     検証ホスト プールでは、サービスが標準環境や非検証環境に更新を適用する前に、サービスの更新を監視できます。
   potentialBenefits: Enhanced environment stability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure Virtual Desktop エージェント、サイドバイサイド スタック、および Geneva Monitoring エージェントの更新がピーク ビジネス時間中に行われないように、最大 2 つのメンテナンス ウィンドウを作成します。
   potentialBenefits: Enhanced environment stability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     ドメインに参加したセッション ホスト VM を固有の OU に配置します。環境固有の設定のために、本番ユニットと災害対策ユニットを分離します。これにより、FSLogix やセッション コントロールなど、セッション ホストのための対象を絞った設定を確実にできます。
   potentialBenefits: Improved AVD hostpool config & segmentation
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     Azure Site Recovery (ASR) を実装して、ステートフルなセッション ホストをレプリケート、またはバックアップします。これは、VM をセカンダリ Azure リージョンや可用性ゾーンにレプリケートし、障害発生時に既知の VM 状態からのリカバリを保証します。
   potentialBenefits: Ensures VM recovery & failover
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

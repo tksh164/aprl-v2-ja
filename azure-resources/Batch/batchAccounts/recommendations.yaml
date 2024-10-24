@@ -9,7 +9,6 @@
     リージョン間のディザスター リカバリーとビジネス継続性を確保するには、すべての Batch アカウントに適切なクォータを設定して、必要なコア数を事前に割り当て、クォータ制限に達したことで実行が中断されることを防ぎます。
   potentialBenefits: Ensures business continuity
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure Batch プールに仮想マシン構成を使用する場合、可用性ゾーン間でプールを分散することを選択すると、Azure データセンターの障害に対してコンピューティング ノードが強化されます。
   potentialBenefits: Enhanced reliability and failure protection
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

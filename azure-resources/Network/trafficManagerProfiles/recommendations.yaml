@@ -9,7 +9,6 @@
     監視状態は、アプリケーション ワークロードのフェールオーバーを確実にするためにオンラインにする必要があります。Traffic Manager の正常性が "低下" と表示される場合は、1 つ以上のエンドポイントが低下している可能性があります。
   potentialBenefits: Ensures failover functionality
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -31,7 +30,6 @@
     Azure Traffic Manager を構成するときは、少なくとも 2 つのエンドポイントをプロビジョニングして、ワークロードが別のインスタンスにフェールオーバーできるようにし、信頼性と可用性を向上させます。
   potentialBenefits: Enhances failover capabilities
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -49,7 +47,6 @@
     プロファイルには、エンドポイントに障害が発生した場合の可用性を確保するために、複数のエンドポイントが必要です。また、信頼性を高めるために、これらのエンドポイントを異なるリージョンに分散することもお勧めします。
   potentialBenefits: Enhances availability across regions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -67,7 +64,6 @@
     地理的ルーティングの場合、トラフィックは特定のリージョンに基づいてエンドポイントに転送されます。事前定義されたフェールオーバーなしでリージョンに障害が発生した場合、地理的プロファイルのエンドポイントを "すべて (ワールド)" に構成すると、トラフィックのブラック ホールを防ぎ、サービスを引き続き利用できます。
   potentialBenefits: Avoids traffic black holing, ensures availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

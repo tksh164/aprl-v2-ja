@@ -9,7 +9,6 @@
     Azure App Service の診断ログを有効にすることは、アプリケーション ログと Web サーバー ログの両方を含む監視と診断にとって重要です。
   potentialBenefits: Monitoring and Alerting
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Application Insights を使用して、アプリのパフォーマンスと負荷の動作を監視し、リアルタイムの分析情報、問題の診断、根本原因の分析を提供します。Azure App Service で ASP.NET、ASP.NET Core、Java、Node.js をサポートし、監視機能が組み込まれました。
   potentialBenefits: Real-time insights and issue diagnosis
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     ソリューションに Web フロントエンドと Web API の両方が含まれている場合は、それらを個別の App Service アプリに分解すると、ワークロードによるソリューションの分解が容易になり、独立したスケーリングが可能になります。最初は、両方を同じプランにデプロイし、必要に応じて個別にスケーリングするために分離できます。
   potentialBenefits: Independent scaling, easier management
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     ログ用に別のストレージ アカウントを作成し、アプリケーション データに同じストレージ アカウントを使用しないと、アプリケーション データの処理専用のリソースがログ プロセスによって負荷をかけられないようにすることで、ログ アクティビティによってアプリケーションのパフォーマンスが低下するのを防ぐことができます。
   potentialBenefits: Improves app performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -83,7 +79,6 @@
     ステージング用のデプロイ スロットを作成して、更新をデプロイし、検証し、本番スワップの前にすべてのインスタンスがウォームアップされるようにして、不適切な更新の可能性を減らします。LKG スロットを使用すると、後で問題が発生した場合に、以前の正常な展開に簡単にロールバックできるため、信頼性が向上します。
   potentialBenefits: Safer updates and easy rollback
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -101,7 +96,6 @@
     構成にアプリ設定を使用し、Resource Manager テンプレートや PowerShell を使用して定義することで、自動デプロイ/更新プロセスの一部を容易にし、信頼性を向上させることができます。
   potentialBenefits: Enhanced reliability via automation
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -119,7 +113,6 @@
     稼働ワークロードには正常性チェックを使用します。正常性チェックは、異常なインスタンスからリクエストを再ルーティングし、異常なままのインスタンスを置き換えることで、アプリケーションの可用性を向上させます。正常性チェック パスでは、アプリケーションの重要なコンポーネントをチェックする必要があります。
   potentialBenefits: Enhanced reliability via automation
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -137,7 +130,6 @@
     ネットワーク アクセス制限を使用して、アプリへのネットワーク アクセスを制御する優先順位の高い許可/拒否リストを定義します。Application Gateway で使用できるような Web アプリケーション ファイアウォールは、一般向けの Web アプリケーションの保護に推奨されます。
   potentialBenefits: Enhanced security
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -155,7 +147,6 @@
     App Service は、運用ワークロード用に少なくとも 2 つのインスタンスで構成する必要があります。アプリのウォームアップ時間が長い場合は、少なくとも 3 つのインスタンスを使用する必要があります。
   potentialBenefits: Improves app performace
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -173,7 +164,6 @@
     Auto Heal を使用すると、HTTP サーバー エラーやリソースの枯渇などの予期しない状況が発生した場合に、アプリを軽減できます。必要に応じてさまざまなトリガーを構成し、アプリをリサイクルして不適切な状態から回復することを選択できます。
   potentialBenefits: Improved app availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -191,7 +181,6 @@
     ウォームアップ トリガーを追加して、事前ウォーミングプロセス中にカスタム依存関係をプリロードして、関数がリクエストの処理をすぐに開始できるようにします。
   potentialBenefits: Improved app availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -209,7 +198,6 @@
     ホスト ID は 1 から 32 文字で、小文字、数字、およびダッシュのみを含み、ダッシュで開始または終了することはできず、連続するダッシュを含めることはできません。ホスト ID の値は、実行しているすべてのアプリ/スロットで一意である必要があります。
   potentialBenefits: Easier management
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -227,7 +215,6 @@
     2022 年 12 月 13 日以降、Azure Functions ランタイムのバージョン 2.x および 3.x で実行されている関数アプリは、延長サポートのサポート終了 (EOL) に達しました。関数アプリを Functions ランタイムのバージョン 4.x に移行することを強くお勧めします。
   potentialBenefits: Better governance
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -245,7 +232,6 @@
     Function App 構成の FUNCTIONS_WORKER_RUNTIME 設定は、使用している言語に基づいて適切な値に設定する必要があります。この設定は、関数の実行に使用される言語ワーカーを決定するために使用されます。
   potentialBenefits: Better governance
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

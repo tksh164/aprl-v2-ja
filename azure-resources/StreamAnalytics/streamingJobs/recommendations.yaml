@@ -9,7 +9,6 @@
     Stream Analytics クラスター (専用) は、より信頼性の高いパフォーマンス保証を提供します。クラスター上で実行されるジョブはすべてお客様のものです。また、プライベート エンドポイント、自動スケーリング、VNet サポートなどの重要な機能も利用できます。
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     負荷、メトリック、スケジュールに基づいて、割り当てられたストリーミング ユニット (SU) の数をジョブが動的に変更できるように、自動スケールを構成します。
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

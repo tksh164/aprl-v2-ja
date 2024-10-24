@@ -9,7 +9,6 @@
     コンテナーの正常性プローブを有効にして、コンテナー アプリの正常性を監視し、異常なコンテナーが自動的に再起動されるようにします。
   potentialBenefits: Enhanced availability and resilience
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

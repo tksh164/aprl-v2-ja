@@ -9,7 +9,6 @@
     Azure DDoS プランのメトリックでは、パケットとバイトがタグ別に区別されます: ドロップ (DDoS によってスクラブされたパケット)、転送済み (VIP へのパケットはフィルター処理されません)、タグなし (パケットの合計、ドロップされたパケットと転送されたパケットの合計)。
   potentialBenefits: Enhanced security and traffic insight
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

@@ -9,7 +9,6 @@
     ビジネス目標に合わせてワークロードを設計し、不要な複雑さやオーバーヘッドを回避します。実用的でバランスの取れたアプローチを使用して、望ましい結果をもたらす設計上の決定を下します。設計を必要に応じて封じ込め、非効率性や潜在的な問題を減らします。
   potentialBenefits: Meet business requirements
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     ユーザーとシステムのフローを特定して評価します。ビジネス要件に基づいた重要度スケールを使用して、フローに優先順位を付けます。
   potentialBenefits: Align architecture with reliability goals
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     障害モード分析 (FMA) を使用して、ソリューション コンポーネントの潜在的な障害を特定し、優先順位を付けます。FMA を実行して、各障害モードのリスクと影響を評価します。ワークロードの応答方法と回復方法を決定します。
   potentialBenefits: Reduce risk of unpredicted behavior
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     コンポーネント、フロー、およびソリューション全体の信頼性と回復のターゲットを定義します。定義されたターゲットを使用して、正常性モデルを構築します。正常性モデルは、健康な状態、低下した状態、および異常な状態がどのように見えるかを定義します。
   potentialBenefits: Communicate reliability expectations with stakeholders
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     さまざまなレベルで冗長性を追加します (特に重要なフローの場合)。特定された信頼性のターゲットに従って、コンピューティング、データ、ネットワーク、およびその他のインフラストラクチャ層に冗長性を適用します。
   potentialBenefits: Optimize for resiliency
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -99,7 +94,6 @@
     高可用性は、信頼性を重視した設計の基本原則です。高可用性アーキテクチャは、ダウンタイムを可能な限り回避し、ダウンタイムが発生した場合に効率的に回復するのに役立ちます。
   potentialBenefits: Minimize downtime from regional outages
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -117,7 +111,6 @@
     高可用性は、信頼性を重視した設計の基本原則です。高可用性アーキテクチャは、ダウンタイムを可能な限り回避し、ダウンタイムが発生した場合に効率的に回復するのに役立ちます。
   potentialBenefits: Minimize downtime from zonal outages
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -135,7 +128,6 @@
     データをパーティション分割すると、スケーラビリティが向上し、競合が減少し、パフォーマンスが最適化されます。データ パーティショニングを実装して、使用パターンごとにデータを分割します。
   potentialBenefits: Improve data estate reliability
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -153,7 +145,6 @@
     タイムリーで信頼性の高いスケーリング戦略を、アプリケーション、データ、インフラストラクチャの各レベルで実装します。
   potentialBenefits: Dynamically handle increased load
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -171,7 +162,6 @@
     バックグラウンド ジョブは、アプリケーション UI の負荷を最小限に抑えるのに役立ち、可用性が向上し、対話型の応答時間が短縮されます。
   potentialBenefits: Minimize application load
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -189,7 +179,6 @@
     ワークロードの回復性と復元性を強化するには、自己保存と自己修復の手段を実装します。自己修復機能は、障害検出と自動修正アクションを組み込んでさまざまな障害タイプに対応することで、ダウンタイムを回避するのに役立ちます。
   potentialBenefits: Reduce the likelihood of outages
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -207,7 +196,6 @@
     インフラストラクチャベースの信頼性パターンとソフトウェアベースの設計パターンを使用して、コンポーネントの障害と一時的なエラーを処理することで、ソリューションに機能を組み込みます。
   potentialBenefits: Reduce the likelihood of outages
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -225,7 +213,6 @@
     テスト環境と本番環境でカオス エンジニアリングの原則を適用して、回復性と可用性のシナリオをテストします。テストを使用して、アクティブな誤動作とシミュレートされた負荷テストを実行することにより、グレースフル デグラデーションの実装とスケーリング戦略が効果的であることを確認します。
   potentialBenefits: Validate and optimize workload reliability
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -243,7 +230,6 @@
     復旧目標に沿った、構造化され、テストされ、文書化された事業継続性とディザスター リカバリー (BCDR) 計画を実装します。計画は、すべてのコンポーネントとシステム全体をカバーする必要があります。
   potentialBenefits: Reliable disaster recovery
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -261,7 +247,6 @@
     ソリューションの正常性インジケーターを測定して発行します。ワークロード全体から、また個々のコンポーネントや主要なフローから、稼働時間やその他の信頼性データを継続的に取得します。
   potentialBenefits: Observability into workload health
   pgVerified: true
-  publishedToLearn: true
   automationAvailable: false
   tags: null
   learnMoreLink:
