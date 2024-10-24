@@ -9,7 +9,6 @@
     現在、すべての HPC Pack ARM テンプレートでは、可用性が高くないヘッド ノードの 1 つにクラスター共有が作成されます。
   potentialBenefits: Enhances job metadata availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     HPC Pack クラスターに Azure の "バースト" ノード (Windows と Linux の両方) をデプロイするか、Azure で HPC Pack クラスターを作成することで、クラスターのワークロードに応じて、ノードやコアなどのクラスターのリソースを自動的に拡大または縮小できます。
   potentialBenefits: Efficient, uninterrupted execution
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     少なくとも 2 つのヘッド ノードを持つクラスターを確立します。ヘッド ノードに障害が発生した場合、アクティブな HPC サービスは、影響を受けるヘッド ノードから別の機能しているヘッド ノードに自動的に転送されます。
   potentialBenefits: Enhanced reliability for HPC
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     HPC がドメイン コントローラーへの接続に失敗した場合、管理者とユーザーは HPC サービスに接続できないため、クラスターにジョブを管理して送信することはできません。
   potentialBenefits: Enhanced reliability and job management
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

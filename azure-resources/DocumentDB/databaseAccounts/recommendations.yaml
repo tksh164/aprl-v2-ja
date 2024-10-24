@@ -9,7 +9,6 @@
     Cosmos DB でセカンダリ リージョンを有効にして、ダウンタイムなしで SLA を向上させます。地図上に場所をピン留めするだけです。厳密な整合性の場合は、障害が発生した場合の書き込み可用性のために少なくとも 3 つのリージョンを構成します。
   potentialBenefits: Enhances SLA and resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     Cosmos DB は、高いアップタイムと回復性を誇っています。それでも、問題が発生する可能性があります。サービス マネージド フェールオーバーでは、リージョンがダウンしている場合、Cosmos DB は次に使用可能なリージョンに自動的に切り替わり、ユーザーの操作は必要ありません。
   potentialBenefits: Auto failover for high uptime
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     可用性ゾーンが構成されると、Azure Cosmos DB はデータの 4 つのレプリカをすべての可用性ゾーンにインテリジェントに分散します。これにより、Azure Cosmos DB は、1 つの可用性ゾーンの停止に耐え、全体を通して完全に稼働し続けることができます。
   potentialBenefits: Enhances high availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     複数リージョンの書き込み機能を使用すると、複数のリージョン間で可用性の高いアプリケーションを設計できますが、一貫性の要件と競合の解決には細心の注意を払う必要があります。不適切な設定を行うと、可用性が低下し、未処理の競合によりデータが破損する可能性があります。
   potentialBenefits: Enhances high availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -85,7 +81,6 @@
     Cosmos DB のバックアップは常時稼働しており、データの事故から保護します。Microsoft サポートに連絡する必要があり、リストア時間が長くなる定期モードとは異なり、継続モードでは、災難前のポイントにセルフサービスで復元できます。
   potentialBenefits: Faster self-serve data restore
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -103,7 +98,6 @@
     Cosmos DB には 4 MB の応答制限があり、大規模なクエリやパーティションにまたがるクエリでは、結果がページ分割されます。各ページには空き状況が表示され、次のページのための継続トークンが提供されます。すべてのページを完了までたどるには、コード内に while ループが必要です。
   potentialBenefits: Maximizes data retrieval efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -121,7 +115,6 @@
     接続はクライアントに関連付けられているため、アカウントとアプリケーションごとに SDK クライアントの 1 つのインスタンスを使用することが重要です。コンピューティング環境では、開いている接続に制限があり、超過すると接続に影響します。
   potentialBenefits: Optimizes connections and efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -139,7 +132,6 @@
     Cosmos DB SDK では、再試行によって多くの一時的なエラーが自動的に管理されます。それでも、SDK が一般的に対処できない特定のケースを対象とする追加の再試行ポリシーをアプリケーションで実装し、より堅牢なエラー処理を確保することが重要です。
   potentialBenefits: Enhances error handling resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -157,7 +149,6 @@
     Azure Cosmos DB リソースの可用性と応答性を監視し、ワークロードに対してアラートを設定することをお勧めします。これにより、予期しないイベントに積極的に対処できます。
   potentialBenefits: Proactive issue management
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

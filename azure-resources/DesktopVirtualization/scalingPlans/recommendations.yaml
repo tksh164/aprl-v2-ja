@@ -9,7 +9,6 @@
     スケーリング プランは、同じリージョン内のホスト プールにのみ割り当てることができます。マルチリージョン展開シナリオでは、各リージョンが独自のスケーリング プランを持つ必要があります。
   potentialBenefits: Enhanced scaling
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

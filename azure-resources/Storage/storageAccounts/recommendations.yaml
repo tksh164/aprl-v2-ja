@@ -9,7 +9,6 @@
     冗長性により、ストレージ アカウントは障害発生時に可用性と持続性の目標を確実に満たし、低コストと高可用性を比較検討できます。ローカル冗長ストレージは、最小のコストで最小の耐久性を提供します。
   potentialBenefits: High availability and durability for storage
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     クラシック ストレージ アカウントは、2024 年 8 月 31 日に完全に廃止されます。クラシック ストレージ アカウントをお持ちの場合は、今すぐ移行の計画を開始してください。
   potentialBenefits: Avoids service retirement issues
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -49,7 +47,6 @@
     高速なストレージ応答時間や高いトランザクション レートを必要とするワークロードには、Standard パフォーマンス ストレージではなく Premium パフォーマンス ブロック BLOB ストレージを使用します。
   potentialBenefits: Optimized cost and performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -75,7 +72,6 @@
     論理的な削除オプションを使用すると、誤って削除された場合にデータを回復でき、ロック機能を使用すると、ストレージ アカウント自体が誤って削除されるのを防ぎ、セキュリティとデータ整合性の対策が強化されます。
   potentialBenefits: Prevents accidental data/account loss
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -93,7 +89,6 @@
     Azure Storage アカウントのバージョン管理を有効にして、誤った変更や削除から回復し、BLOB 操作の待機時間を管理することを検討してください。Microsoft では、パフォーマンスを最適化するために、BLOB ごとに 1000 未満のバージョンを維持することをお勧めします。ライフサイクル管理は、古いバージョンを自動的に削除するのに役立ちます。
   potentialBenefits: Recover data, manage latency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -111,7 +106,6 @@
     ブロック BLOB データを以前の状態に復元することで、偶発的な削除や破損から保護するために、フラット名前空間を持つ標準の汎用 v2 アカウントに対してポイントインタイム リストアを有効にすることを検討してください。
   potentialBenefits: Protects data from loss/corruption
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -131,7 +125,6 @@
     Azure に依存する重要なアプリケーションやビジネス プロセスでは、監視とアラートが不可欠です。リソース ログは、ログを指定した場所にルーティングする診断設定を作成した後にのみ格納され、収集するログ カテゴリを選択する必要があります。
   potentialBenefits: Enhanced alerting and log analysis
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -151,7 +144,6 @@
     汎用 v2 アカウントは、最新の機能を提供するほとんどのストレージ シナリオ、またはギガバイトあたりの最低価格を提供する場合に推奨されます。Standard 汎用 v1 や Blob Storage などのレガシ アカウントは、Microsoft から推奨されていませんが、特定のシナリオに適している場合があります。
   potentialBenefits: Latest features, lowest cost
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -171,7 +163,6 @@
     Azure Private Link サービスを利用して、VNet 内のプライベート エンドポイント経由で Azure Storage とサービスに安全にアクセスできます。パブリック IP の必要性を排除し、データのプライバシーを確保します。きめ細かなアクセス制御により、セキュリティを強化できます。
   potentialBenefits: Secure, private access to storage with no public IPs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

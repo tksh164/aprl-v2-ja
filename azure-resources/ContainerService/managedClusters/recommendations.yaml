@@ -9,7 +9,6 @@
     可用性ゾーンは、アプリケーションとデータをデータセンター レベルの障害から確実に保護するために、独自の電源、冷却手段、ネットワークを備えたリージョン内の独立した場所を提供することで、高可用性を確保します。
   potentialBenefits: Enhanced fault tolerance for AKS
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     AKS は、システム ノード プール内のノードに kubernetes.azure.com/mode: システム ラベルを割り当て、システム ポッドが優先的にそこでスケジュールされる必要があることを示します。CriticalAddonsOnly=true:NoSchedule テイントをシステム ノードに追加して、アプリケーション ポッドのスケジュールを禁止できます。
   potentialBenefits: Enhanced reliability via pod isolation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     AKS のローカル Kubernetes アカウントは、監査不可能でレガシーであるため、推奨されません。Microsoft Entra の統合により、一元管理、多要素認証、詳細なアクセスのための RBAC、Azure および外部 ID プロバイダーと互換性のある安全でスケーラブルな認証システムが提供されます。
   potentialBenefits: Enhanced security and access control
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -69,7 +66,6 @@
     Azure CNI は、クラスター IP とネットワークの管理を強化し、動的 IP 割り当て、スケーラブルなサブネット、ポッドと VNet の直接接続を可能にし、Azure ネットワーク ポリシーと Calico を使用してポッドとノードの多様なネットワーク ポリシーをサポートし、ネットワークの効率とセキュリティを最適化します。
   potentialBenefits: Dynamic IP allocation, scalable subnets, direct VNET access
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -89,7 +85,6 @@
     AKS のクラスター オートスケーラーは、ポッド リソースのニーズと使用可能なキャパシティに基づいてノード数を調整し、需要に応じてスケーリングして停止を防ぎます。
   potentialBenefits: Optimizes scaling and prevents outages
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -113,7 +108,6 @@
     バックアップを必要とするステートフル アプリで人気の AKS は、インストールされたバックアップ拡張機能を介して Azure Backup を使用してクラスターとアタッチされたボリュームを保護でき、バックアップ コンテナー経由でバックアップと復元の操作が可能です。
   potentialBenefits: Ensures data safety for AKS
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -133,7 +127,6 @@
     ZRS は、3 つのゾーン間でのデータ レプリケーションを保証し、ゾーンの停止から保護します。ストレージ クラスで SKU を ZRS に設定することで、Azure Disks、Container Storage、Files、Blob で使用でき、v1.29 以降でマルチゾーン AKS クラスターが強化されます。
   potentialBenefits: Increases data durability and availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -159,7 +152,6 @@
     Kubernetes 1.26 以降、Azure Disk と Azure File のツリー内ドライバーは非推奨となり、CSI ドライバーが優先されます。既存の展開は引き続き運用可能ですが、テストは行われていません。ユーザーは、新機能と SKU のために CSI ドライバーに切り替える必要があります。
   potentialBenefits: Ensures future compatibility
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -179,7 +171,6 @@
     ResourceQuota オブジェクトは、名前空間ごとのリソース使用の制限を設定し、作成されるオブジェクトの数と種類、および使用可能なコンピューティング リソースの合計を制御します。
   potentialBenefits: Limits AKS resource usage per namespace
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -197,7 +188,6 @@
     AKS ワークロードを迅速にスケーリングするには、Kubernetes オートスケーラーとは異なり、ポッドのプロビジョニングを迅速に行うために仮想ノードを利用します。可用性ゾーンを持つクラスターの場合は、永続ボリュームが可用性ゾーン間で機能しないため、可用性ゾーンごとに 1 つのノード プールを確保し、アクセス権がない場合にオートスケーラー ポッドの作成に失敗するのを防ぎます。
   potentialBenefits: Faster scaling with virtual nodes
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -217,7 +207,6 @@
     運用 AKS クラスターには、返金制度のある SLA と強化されたノードのスケーラビリティのために Standard または Premium レベルが必要です。無料サービスにはこうした機能はありません。ミッション クリティカルなワークロードには Premium レベルを使用します。
   potentialBenefits: SLA guarantee and better scalability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -237,7 +226,6 @@
     Azure Monitor を使用すると、イベントの収集、コンテナー ログのキャプチャ、Metrics API からの CPU/メモリ データの収集により、AKS の正常性とパフォーマンスに関するリアルタイムの分析情報が得られます。これにより、Azure Monitor Container Insights、Prometheus、Grafana などを使用してデータを視覚化できます。
   potentialBenefits: Real-time AKS health/performance insights
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -255,7 +243,6 @@
     AKS 上のエフェメラル OS ディスクでは、ローカル接続による読み取り/書き込みの待機時間が短くなり、マネージド ディスクで見られるレプリケーションが不要になります。これにより、パフォーマンスが向上し、再イメージ化と起動時間が短縮されるため、スケーリングやアップグレードなどのクラスター操作が高速化されます。
   potentialBenefits: Lower latency, faster re-imaging and booting
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -277,7 +264,6 @@
     AKS クラスターの Azure ポリシーは、セキュリティ、認証、プロビジョニング、ネットワークなどに関するガバナンスのベスト プラクティスを適用し、運用のための堅牢で安全な環境を確保するのに役立ちます。
   potentialBenefits: Enhanced AKS governance and security
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -297,7 +283,6 @@
     クラウド ネイティブ アプリの運用モデルである GitOps は、継続的デリバリーの信頼できる情報源として、アプリケーションとインフラストラクチャ コードを格納するために Git を使用します。
   potentialBenefits: Ensures AKS config consistency
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -317,7 +302,6 @@
     ポッド トポロジの分散制約を使用してノードやゾーン トポロジに基づいてポッドの分散を制御し、ポッドがクラスター全体に分散されるようにすることで、可用性と信頼性を向上させます。
   potentialBenefits: Ensures high availability and efficient use
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -337,7 +321,6 @@
     AKS kubelet コントローラーでは、liveness プローブを使用してコンテナーとアプリケーションの正常性を検証し、正常性状態に基づいてコンテナーを再起動するタイミングをシステムが認識できるようにします。
   potentialBenefits: Enhances container health monitoring
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -357,7 +340,6 @@
     Pod や Deployment マニフェストで複数のレプリカを設定すると、レプリカ Pod の数が安定し、指定された数の同一の Pod が常に利用可能になり、可用性が保証されます。
   potentialBenefits: Ensures stable pod availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -375,7 +357,6 @@
     システム ノード プールは、重要なシステム ポッドがノードの停止に対して回復力を持つように、最小ノード数を 2 に設定する必要があります。
   potentialBenefits: Ensures pod resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -393,7 +374,6 @@
     少なくとも 2 つのノードでユーザー ノード プールを構成することは、高可用性を必要とするアプリケーションにとって不可欠であり、中断することなく運用とアクセスを維持できます。
   potentialBenefits: Ensures high app availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -411,7 +391,6 @@
     ポッド中断バジェット (PDB) は、メンテナンスやスケーリングなどの中断時に利用可能なポッドの最小数または割合を設定する Kubernetes リソースであり、最小数のポッドがクラスターで常に利用可能であることを保証します。
   potentialBenefits: Ensures cluster resiliency during disruptions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -431,7 +410,6 @@
     最大自動スケール設定用にサイズ設定されたノード プール サブネットを使用すると、AKS はノードを効率的にスケールアウトし、リソースの制約と潜在的なサービスの中断を減らしながら、需要の増加に対応できます。
   potentialBenefits: Efficient scaling, reduced disruptions
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -449,7 +427,6 @@
     ノード プールの設定は、AKS がノードを効率的にスケールアウトし、リソースの制約と潜在的なサービスの中断を減らしながら需要の増加に対応できるようにするために、サブスクリプションのコア数クォータを超えないようにする必要があります。
   potentialBenefits: Reduced disruptions
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -467,7 +444,6 @@
     Azure Linux on AKS では、検証済みのソース ビルド コンポーネントを使用して、ネイティブ イメージで回復性が向上します。軽量で、攻撃対象領域とメンテナンスを削減します。Azure 用に最適化された Microsoft で強化されたカーネルにより、コンテナー ワークロードの安定性とセキュリティが強化されます。
   potentialBenefits: Reduced disruptions
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -485,7 +461,6 @@
     アプリケーションのレプリカを少なくとも 2 つデプロイすると、アプリケーションの可用性が高くなり、ノードの障害を許容できるようになります。
   potentialBenefits: Ensures high app availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

@@ -9,7 +9,6 @@
     容量プール属性の一部であるサービス レベルによって、Azure NetApp Files のボリューム クォータあたりの最大スループットが決まります。読み取り速度と書き込み速度を兼ね備えており、Standard (1TiB あたり 16MiB/秒)、Premium (1TiB あたり 64MiB/秒)、Ultra (1TiB あたり 128MiB/秒) の 3 つのレベルを提供します。
   potentialBenefits: Optimized performance and cost efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure NetApp Files の標準ネットワーク機能は、ネットワーク セキュリティ グループ、サブネット上のユーザー定義ルート、さまざまな接続オプションなど、IP 制限と VNet 機能を強化します。
   potentialBenefits: Enhanced connectivity and security
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     可用性ゾーンは、ローカルの障害に耐えるための Azure リージョン内の個別の場所です。ワークロードを複数の可用性ゾーンにデプロイし、アプリケーションベースのレプリケーションや Azure NetApp Files のクロスゾーン レプリケーションを使用して高可用性を実現します。フェールオーバーは手動のプロセスであることに注意してください。
   potentialBenefits: High Availability across availability zones
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     Azure NetApp Files の可用性ゾーン (AZ) ボリューム配置機能を使用すると、Azure コンピューティングやその他のサービスと同じ AZ にボリュームをデプロイして、AZ 内の待機時間を確保し、同じ AZ 障害ドメインを共有できます。
   potentialBenefits: Within AZ latency and tolerate failure of other AZ
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     Azure NetApp Files スナップショット テクノロジにより、パフォーマンスに影響を与えることなく、安定性、スケーラビリティ、迅速なデータ復旧性が確保されます。Azure NetApp Files データのポリシーによる自動スナップショット作成がサポートされています。
   potentialBenefits: Stable, scalable, swift recovery, no perf impact
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -99,7 +94,6 @@
     Azure NetApp Files は、長期的な復旧、アーカイブ、コンプライアンスを強化するフル マネージド バックアップ ソリューションを提供します。
   potentialBenefits: Enhances data recovery and compliance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -117,7 +111,6 @@
     Azure NetApp Files レプリケーションは、リージョンの障害が発生した場合に、アプリケーションのフェールオーバーのために非同期のリージョン間ボリューム レプリケーションを許可することで、データ保護を提供します。ボリュームは、リージョン間でレプリケートできますが、クロスゾーンレプリケーションと同時にレプリケートすることはできません。フェールオーバーは手動のプロセスであることに注意してください。
   potentialBenefits: Enhanced data protection and disaster recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -135,7 +128,6 @@
     ゾーン間レプリケーション (CZR) 機能を使用すると、異なる可用性ゾーン間で Azure NetApp Files ボリューム間で非同期データ レプリケーションが可能になり、ゾーン全体の障害が発生した場合にデータ保護と重要なアプリケーションのフェールオーバーが保証されます。フェールオーバーは手動のプロセスであることに注意してください。
   potentialBenefits: Enhances disaster recovery across availability zones
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -153,7 +145,6 @@
     Azure NetApp Files は、割り当てられたストレージ、実際の使用量、ボリューム IOPS、待機時間などのメトリックを提供し、NetApp アカウントの使用パターンとボリューム パフォーマンスをより深く理解できるようにします。
   potentialBenefits: Optimize usage and performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -171,7 +162,6 @@
     Azure NetApp Files では、組み込みのポリシー定義を使用するか、組織の標準とコンプライアンスを維持するためのカスタム ポリシー定義を作成することで、Azure ポリシーの統合がサポートされています。
   potentialBenefits: Enforce standards and assess compliance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -191,7 +181,6 @@
     委任されたサブネットへのアクセスは、特定の Azure Virtual Network に制限する必要があります。SMB 対応ボリュームの共有アクセス許可は、"すべてのユーザー/フル コントロール" から移動する必要があります。NFS 対応ボリュームのアクセスは、エクスポートポリシーや NFSv4.1 ACL を使用して制御する必要があります。
   potentialBenefits: Enhanced security, Reduced data breach risk
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -217,7 +206,6 @@
     特定の SMB アプリケーションでは、サーバー接続を中断することなくメンテナンスするために SMB 透過フェールオーバーが必要です。Azure NetApp Files は、Citrix App Layering、FSLogix ユーザー/プロファイル コンテナー、Microsoft SQL Server、MSIX アプリのアタッチなどのアプリケーションに対して、SMB 継続的可用性を通じてこれを提供します。
   potentialBenefits: Zero downtime for SMB apps
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -235,7 +223,6 @@
     Azure NetApp Files では、プラットフォームの更新やサービスやソフトウェアのアップグレードなど、計画的なメンテナンスが随時行われる場合があります。これらのストレージ サービスのメンテナンス イベントに対処するために、アプリケーションの回復性設定に注意することが重要です。
   potentialBenefits: Minimizes downtime during maintenance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

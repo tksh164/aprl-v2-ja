@@ -9,7 +9,6 @@
     Azure Monitor を使用して、ルート テーブルの作成や更新などの操作に対してアラートを作成し、運用リソースの未承認または望ましくない変更を特定します。この設定は、ファイアウォールを回避したり、外部からリソースにアクセスしたりするなど、不適切なルーティング変更を特定するのに役立ちます。
   potentialBenefits: Enhanced security and change detection
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     管理者は、ロックを設定することで、Azure サブスクリプション、リソース グループ、またはリソースを偶発的な削除や変更から保護できます。
   potentialBenefits: Prevents accidental edits/deletions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

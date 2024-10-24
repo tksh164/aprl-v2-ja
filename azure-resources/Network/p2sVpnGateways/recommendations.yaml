@@ -8,7 +8,6 @@
   longDescription: ポイント対サイト VPN ゲートウェイの監視とアラートを設定します。ゲートウェイの過剰使用、接続数の上限、ユーザー VPN ルートの上限などの重要なイベントに迅速に対応するためのアラート ルールを作成します。
   potentialBenefits: Detection and mitigation to avoid disruptions.
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

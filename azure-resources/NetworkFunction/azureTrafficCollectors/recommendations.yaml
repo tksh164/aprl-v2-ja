@@ -9,7 +9,6 @@
     Traffic Collector は、ExpressRoute Direct やサービス プロバイダー ベースの回線上のネットワーク フローをサンプリングし、フロー ログを Log Analytics ワークスペースに送信して分析したり、可視化ツールや SIEM にエクスポートしたりできます。
   potentialBenefits: Enhanced network flow analysis and DR readiness
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

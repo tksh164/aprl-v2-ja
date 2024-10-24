@@ -9,7 +9,6 @@
     すべてのログとメトリックを設定する必要があります。これらのログは、リソースの操作に関する豊富で定期的なデータを提供し、問題の特定とデバッグに使用できます。
   potentialBenefits: Enhanced monitoring and troubleshooting capabilities
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

@@ -9,7 +9,6 @@
     レプリカ セットをサポートするには、マネージド ドメインに少なくとも Enterprise SKU を使用する必要があります。
   potentialBenefits: The Enterprise SKU enables creation of replica sets.
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -28,7 +27,6 @@
     Domain Services をサポートする Azure リージョンのピアリングされた仮想ネットワークにレプリカ セットを追加できます。
   potentialBenefits: The replica sets provide geographical resiliency.
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

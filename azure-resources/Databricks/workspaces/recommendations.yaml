@@ -9,7 +9,6 @@
     Databricks では、安定性とサポートを強化するために、ワークロードを最新バージョンまたは LTS バージョンのランタイムに移行することをお勧めします。Runtime 11.3 LTS 以降を使用している場合は、最新の 12.x バージョンに直接移行します。それ以前の場合は、まず 11.3 LTS に移行し、次に移行ガイドに従って最新の 12.x バージョンに移行します。
   potentialBenefits: Enhanced stability and support
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Databricks プールは VM を事前にプロビジョニングすることで、クラスターの起動やスケーリング中のプロビジョニング エラーのリスクを軽減し、信頼性を高めます。
   potentialBenefits: Reduces provisioning errors
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     Premium VM の HDD を SSD にアップグレードして、速度と信頼性を向上させます。Premium SSD は IO 負荷の高いアプリケーションをブーストします。Standard SSD はコストとパフォーマンスのバランスをとります。重要なワークロードに最適で、アップグレードすると短時間の再起動で接続性が向上します。重要な VM でご検討ください。
   potentialBenefits: Faster, reliable VM performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     自動スケーリングは、ワークロードの需要に基づいてクラスター サイズを自動的に調整し、コストとパフォーマンスの面で多くのユースケースにメリットをもたらします。これには、自動スケーリングを最適に活用するタイミングと方法に関するガイダンスが含まれています。ストリーミングの場合は、自動スケールを備えた Delta Live Tables をお勧めします。
   potentialBenefits: Cost and performance optimization
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     SQL ウェアハウスのスケーリング パラメーターは、クエリを分散するためのクラスターの最小数と最大数を定義します。既定では、1 に設定されています。クラスター数を増やすと、より多くの同時ユーザーを効果的に収容できます。
   potentialBenefits: Improves concurrency and efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -99,7 +94,6 @@
     Databricks の拡張自動スケーリングは、パイプラインのデータ処理待機時間への影響を最小限に抑えながら、ワークロードの量に基づいてクラスター リソースを自動的に割り当てることで、クラスターの使用率を最適化します。
   potentialBenefits: Optimized resource use and minimal latency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -119,7 +113,6 @@
     クラスター リソースを節約するために、クラスターを終了して、将来の再使用ジョブや自動始動ジョブのためにその構成を保管することができます。クラスターは非アクティブになった後に自動終了できますが、これは Spark ジョブのみを追跡し、Spark ジョブが終了した後も実行されている可能性のあるローカル プロセスは追跡しません。
   potentialBenefits: Saves cluster resources, avoids idle use
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -137,7 +130,6 @@
     Databricks クラスターを作成するときに、Spark ドライバー、ワーカー ノード、およびイベントのログ配信場所を設定できます。ログは 5 分ごとに配信され、1 時間ごとにアーカイブされます。クラスターが終了すると、その時点までに生成されたすべてのログが配信されることが保証されます。
   potentialBenefits: Improved troubleshooting and audit
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -155,7 +147,6 @@
     Delta Lake は、ACID トランザクション、スキーマの適用、スケーラブルなメタデータ処理により、データ レイクの信頼性を高めるオープン ソースのストレージ形式です。
   potentialBenefits: Enhances data reliability and processing
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -173,7 +164,6 @@
     Databricks レイクハウスの Apache Spark は、失敗したタスクを自動的に再スケジュールすることで、回復力のある分散データ処理を保証し、ネットワークの問題や失効した VM などの外部の問題を克服するのに役立ちます。
   potentialBenefits: Boosts speed and reliability for Spark tasks
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -191,7 +181,6 @@
     無効や不適合なデータは、特定のデータ形式に依存するワークロードをクラッシュさせる可能性があります。ベスト プラクティスでは、インジェスト時にこのようなデータをフィルター処理してエンドツーエンドの回復性を向上させ、データが失われたり失われたりしないようにすることをお勧めします。
   potentialBenefits: Enhanced data resilience and integrity
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -209,7 +198,6 @@
     Databricks と MLflow を使用して、ジョブのスケジュール設定、再試行、自動スケーリング用の Spark UDF としてモデルをデプロイします。モデル サービングは、スケーラブルなインフラストラクチャを提供し、MLflow を使用してモデルを処理し、Databricks クラウドで管理されるサーバーレスコンピューティングを使用して REST API を介してモデルを提供します。
   potentialBenefits: Enhanced reliability and autoscaling
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -227,7 +215,6 @@
     Databricks と MLflow を使用して、モデルを Apache Spark UDF としてデプロイし、ジョブのスケジュール設定、再試行、自動スケーリングなどのメリットを享受します。
   potentialBenefits: Enhances scalability and reliability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -245,7 +232,6 @@
     階層化されたアーキテクチャを作成してデータをキュレーションし、レイヤー全体のデータ品質を向上させます。取り込まれたソース データの未加工レイヤーから始めて、クレンジングおよび精製されたデータ用のキュレーションされたレイヤーに続き、セキュリティとパフォーマンスに重点を置いたビジネス ニーズに応える最終レイヤーで終わります。
   potentialBenefits: Enhances data quality and trust
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -263,7 +249,6 @@
     データをコピーすると、冗長性、整合性の喪失、系列、アクセスの問題が発生し、レイクハウスのデータ品質に影響します。一時コピーは、俊敏性とイノベーションに役立ちますが、データのマスター ステータスと最新性に疑問が生じ、問題のある運用データ サイロになる可能性があります。
   potentialBenefits: Enhanced data integrity and quality
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -281,7 +266,6 @@
     制御されていないスキーマの変更は、無効なデータやジョブの失敗につながる可能性があります。Databricks は、インジェスト中の不良レコードを防ぐ Delta Lake と、新しい列を検出し、データの整合性を維持するためにスキーマの進化をサポートする自動ローダーを使用して、スキーマを検証して適用します。
   potentialBenefits: Prevents invalid data and job failures
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -299,7 +283,6 @@
     Delta テーブルでは、SQL 制約を使用してデータ品質が自動的に検証され、違反に対してエラーがトリガーされます。Delta Live Tables は、Python や SQL を使用してデータ品質の期待を定義し、レコード障害のアクションを管理し、データの整合性とコンプライアンスを確保することで、これを強化します。
   potentialBenefits: Ensures data quality and integrity
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -317,7 +300,6 @@
     障害から復旧するには、定期的なバックアップが必要です。Databricks Labs プロジェクトの移行により、管理者は Databricks CLI/API を使用してワークスペース資産をエクスポートすることでバックアップを作成できます。これらのバックアップは、ワークスペースの復元や移行に役立ちます。
   potentialBenefits: Ensures data recovery and migration
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -335,7 +317,6 @@
     構造化ストリーミングは、ストリーミング クエリのフォールト トレランスとデータの一貫性を保証します。Azure Databricks ワークフローを使用すると、失敗後に自動的に再起動するようにクエリを設定し、中断したところから正確に再開できます。
   potentialBenefits: Fault-tolerance and auto-restart for queries
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -353,7 +334,6 @@
     徹底的なテストにもかかわらず、本番ジョブは失敗したり、予期しないデータを生成したりする可能性があります。場合によっては、問題を識別し、パイプライン修正後にジョブを追加することによって修理が行われることがあります。
   potentialBenefits: Easy rollback and fix for ETL jobs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -371,7 +351,6 @@
     Databricks ワークフローは、問題調査のためのマトリックス ビューを提供することで、マルチタスク ジョブでの効率的なエラー回復を可能にします。修正を適用して、失敗したタスクと依存するタスクのみを対象とした修復の実行を開始し、成功した結果を維持し、時間とコストを節約できます。
   potentialBenefits: Saves time and money with smart recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -390,7 +369,6 @@
     Azure Databricks サービスは完全にゾーン冗長ではなく、ゾーン フェールオーバーをサポートしていることに注意することが重要です。
   potentialBenefits: Ensures service continuity during disasters
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -408,7 +386,6 @@
     Databricks Terraform プロバイダーは、Azure Databricks ワークスペースとクラウド インフラストラクチャを柔軟かつ強力に管理します。
   potentialBenefits: Efficient, reliable automation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -426,7 +403,6 @@
     Databricks Terraform プロバイダーは、Azure Databricks ワークスペースとクラウド インフラストラクチャを管理するための柔軟で強力なツールです。
   potentialBenefits: Enhanced reliability and automation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -444,7 +420,6 @@
     多くの場合、顧客はワークスペースをチームや部門ごとに自然に分割します。ただし、パーティション分割の際には、Azure サブスクリプションと Azure Databricks ワークスペースの制限も考慮することが重要です。
   potentialBenefits: Enhanced limits management, team separation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -462,7 +437,6 @@
     VNet ごとに Databricks ワークスペースを 1 つだけデプロイすることは Azure Databricks の分離モデルと一致します。
   potentialBenefits: Enhanced security and resource isolation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -480,7 +454,6 @@
     セキュリティとデータの可用性に関する懸念によるものです。どのワークスペースにも既定の DBFS が付属しており、主にライブラリや Init スクリプトなどのシステム レベルの構成アーティファクトを格納するように設計されています。運用データ用ではありません。
   potentialBenefits: Enhanced security, data protection
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -498,7 +471,6 @@
     Azure スポット VM は、高可用性と信頼性を必要とする重要な運用ワークロードには適していません。これらはフォールト トレラント タスクを対象としており、Azure で容量が必要な場合は 30 秒前に通知して削除でき、SLA は保証されません。
   potentialBenefits: Ensures high reliability for production
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -516,7 +488,6 @@
     ワークスペースをリージョン内のコントロール プレーンに移動して、リージョンの分離を強化します。ワークスペース URL と nslookup を使用して、現在のコントロール プレーン領域を特定します。CNAME のリージョンがワークスペース リージョンと異なり、リージョン内コントロールを使用できる場合は、以下に示すツールを使用した移行を検討してください。
   potentialBenefits: Improves resilience and data sovereignty
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -538,7 +509,6 @@
     Azure Databricks の計画には、容量の問題に対する VM SKU スワップ戦略を含める必要があります。VM はリージョンごとのリソースであり、"CLOUD PROVIDER" エラーで示される割り当てエラーが発生する可能性があります。
   potentialBenefits: Ensures service availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

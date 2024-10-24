@@ -9,7 +9,6 @@
     アクティブ geo レプリケーションは、読み取り可能なセカンダリ データベース レプリカを利用することで、ビジネス継続性を確保します。プライマリ データベースに障害が発生した場合は、セカンダリ データベースに手動でフェールオーバーします。セカンダリ (最大 4 つ) は、読み取り専用アクセスに使用される同じリージョンまたは異なるリージョンに配置できます。
   potentialBenefits: Enhanced disaster recovery and read scalability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     フェールオーバー グループは、ある論理サーバー上のデータベースが別のリージョンの論理サーバーにレプリケートされるように構成することで、障害復旧を容易にします。これにより、geo レプリケートされたデータベース管理が合理化され、プライマリ サーバーに障害が発生した場合にレプリケートされたデータベースへの接続ルーティングのための単一のエンドポイントが提供されます。
   potentialBenefits: Improves load balancing and disaster recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     既定では、Azure SQL Database Premium レベルでは、同じリージョン内に複数のコピーがプロビジョニングされます。geo 冗長性の場合、データベースをゾーン冗長として設定し、Azure 可用性ゾーン間でコピーを分散して、リージョンの停止中の可用性を維持できます。
   potentialBenefits: Enhanced reliability, no extra cost
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     一時的な障害発生時には、アプリケーションは Azure SQL Database を使用して接続の再試行を効果的に処理する必要があります。データベース レイヤーの設定は必要ありません。代わりに、正常な再試行を行うようにアプリケーションを設定する必要があります。
   potentialBenefits: Enhanced connectivity stability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -83,7 +79,6 @@
     監視とアラートは、データベース操作の重要な部分です。Azure SQL Database を使用する場合は、Azure Monitor と SQL Insights を使用して、関連するデータベース メトリックを確実にキャプチャします。
   potentialBenefits: Quick incident detection and response
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -105,7 +100,6 @@
     Azure Key Vault (AKV) を使用して、Always Encrypted 構成に関連する暗号化キーを格納することを強くお勧めしますが、必須ではありません。AKV を使用していない場合は、キーが適切にバックアップされ、安全な方法で保存されていることを確認してください。
   potentialBenefits: Enhanced security and data recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -125,7 +119,6 @@
     フェールオーバー グループを使用する場合は、個々のデータベースのエンドポイントではなく、フェールオーバー グループのエンドポイントに接続することを推奨します。これにより、フェールオーバー時にセカンダリ データベースへの自動リダイレクトが可能になり、高可用性が確保されます。
   potentialBenefits: Enhanced disaster recovery
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

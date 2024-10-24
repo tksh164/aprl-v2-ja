@@ -9,7 +9,6 @@
     Azure 可用性ゾーンは、各 Azure リージョン内の物理的に分離された場所であり、ローカルの障害に対して耐性があります。可用性ゾーンを使用して、予期しないデータ センターの障害からアプリケーションとデータを保護します。各 SAP 運用システムの各単一障害点が、複数の可用性ゾーンを使用して高可用性で保護されていることを確認します。リージョン内の異なるゾーンにデプロイできない場合は、SAP ワークロードの高可用性デプロイ オプションに関する Microsoft のガイダンスを参照してください。
   potentialBenefits: High availability for SAP systems
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -35,7 +34,6 @@
     柔軟なオーケストレーションで仮想マシン スケール セット (VMSS) を使用して、指定したゾーン間および各ゾーン内で仮想マシンを分散し、ゾーン内の異なる障害ドメイン間で VM をベスト エフォート ベースで分散します。SAP ワークロードに関する Microsoft の推奨事項に従って、適切なモードと正しい設定を使用して VMSS Flex を構成します。現在、SAP アプリケーション サーバーに VMSS Flex を使用しておらず、障害ドメインと更新ドメインの分散で可用性セットも使用していない場合は、VMSS Flex アーキテクチャへの移行を検討して、SAP デプロイの回復性体制を向上させることを検討する必要があります。以下のリンクにある次のブログ記事では、可用性セットまたは可用性ゾーンにデプロイされている既存の SAP ワークロードを FD=1 デプロイ オプションを持つ柔軟なスケール セットに移行するプロセスの詳細について概説しています。
   potentialBenefits: Enhanced resiliency for SAP on Azure
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -59,7 +57,6 @@
     単一インスタンス VM の場合、99.9% の可用性という単一インスタンス SLA を実現するには、OS ディスクとデータ ディスクの両方が Premium SSD または Ultra Disk である必要があります。
   potentialBenefits: Higher SLA of 99.9% with SSDs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -85,7 +82,6 @@
     データベースの高可用性は、データベース ネイティブ レプリケーション テクノロジーを使用して実装し、データはプライマリ データベースからスタンバイ ノードに同期的に、つまり SYNC モードでレプリケートする必要があります。
   potentialBenefits: Ensures high availability for SAP data
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -106,7 +102,6 @@
     Azure File Shares の場合は ZRS (ゾーン冗長ストレージ) を使用し、Azure NetApp Files の場合はボリュームにゾーン レプリケーションを使用することをお勧めします。
   potentialBenefits: Enhanced data availability for SAP
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -125,7 +120,6 @@
     フェールバックは自動または手動でできるようにします。
   potentialBenefits: Ensures SAP Azure's failover reliability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -146,7 +140,6 @@
     このアプローチでは、クラスター内のリソースの移動を制御できるため、クラスター構成の整合性と効率性を維持しながらメンテナンスを容易に行うことができます。
   potentialBenefits: Enhanced maintenance and failover handling
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -165,7 +158,6 @@
     ウォーム スタンバイでは、DR リージョンの VM を稼動させておきます。一方、オンデマンド容量予約では、VM を稼働させることなくコンピュート容量を予約するため、必要なときに VM を起動することができます。DR の VM が不要な場合、予約された容量は、他の顧客に容量を奪われるリスクなしに、他のワークロードを実行するために安全に使用することができます。この戦略により、災害発生時に重要なワークロードのリソースの可用性が保証され、コストと即応性のバランスが取れます。
   potentialBenefits: Guarantees DR region availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -183,7 +175,6 @@
     データベース ベンダーのレプリケーション テクノロジーを使用して、本番データベースを DR ロケーションにレプリケート (ASYNC) します。
   potentialBenefits: Enhanced DR resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -201,7 +192,6 @@
     (A) SCS、アプリケーション サーバー、WebDispatcher などの SAP コンポーネントは、適切なバックアップ ツールや ASR を使用して DR ロケーションにバックアップします。
   potentialBenefits: Ensures SAP data safety and recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -221,7 +211,6 @@
     SAP on Azure の DR の堅牢な監視とアラートを実装することで、その複雑なマルチレイヤー アーキテクチャ全体のカバレッジが保証されます。この戦略は、データベース、サービス、アプリケーション、および共有システムにとって非常に重要です。
   potentialBenefits: Enhances SAP DR oversight
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -239,7 +228,6 @@
     ディザスター リカバリー (DR) インフラストラクチャの構築 (または DR リソースの事前デプロイ) を自動化し、SAP サービスの復元を可能な限り効率化します。
   potentialBenefits: Faster SAP recovery, reduced downtime
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -258,7 +246,6 @@
     リージョンの停電を含む幅広い障害シナリオをテストします。テストでは、DR 戦略が堅牢であること、RPO と RTO の目標値を満たしていること、SAP アーキテクチャのすべてのレイヤーでシームレスなフェールオーバーが可能であることを確認する必要があります。これにより、リージョンの障害に耐え、事業継続性を確保できる包括的で弾力性のある DR 戦略が実現します。
   potentialBenefits: Ensures robust DR, meets RPO/RTO
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -276,7 +263,6 @@
     Azure でホストされている SAP ソリューションの場合、SAP アーキテクチャの各レイヤーの DR を包括的にカバーする堅牢な監視およびアラート ソリューションを実装することが不可欠です。SAP システムは、さまざまなテクノロジと Azure リソースを使用して複数のレイヤーにまたがり、それぞれが異なる DR レプリケーション メカニズムを持つ可能性がある複雑さを考えると、適切な監視戦略が不可欠です。さまざまなレイヤーには、データベース、中央サービス、アプリケーション、および共有ファイル システムが含まれます。
   potentialBenefits: Improved DR oversight and rapid issue response
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -297,7 +283,6 @@
     さらに、予定されたイベントにどのように対応するかの手順を定義することも重要です。
   potentialBenefits: Proactive maintenance awareness
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -317,7 +302,6 @@
     ASCS-Pacemaker (セントラル サーバー インスタンス) の場合は、Pacemaker クラスター構成パラメーターが SAP ASCS 高可用性用に正しく設定されていることを確認します。
   potentialBenefits: Enhances SAP ASCS uptime
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -339,7 +323,6 @@
     ASCS-LB (Central Server Instance) の場合は、ロード バランサーが SAP ASCS の高可用性用に正しく設定されていることを確認します。
   potentialBenefits: Enhanced HA for SAP ASCS
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -361,7 +344,6 @@
     DBHANA-Pacemaker (データベース インスタンス) の場合は、Pacemaker クラスター構成パラメーターが SAP HANA データベースの高可用性用に正しく設定されていることを確認します。
   potentialBenefits: Enhances SAP HANA DB uptime
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -383,7 +365,6 @@
     DBHANA-LB (データベース インスタンス) の場合は、ロード バランサーが SAP HANA データベースの高可用性用に正しく構成されていることを確認します。
   potentialBenefits: Enhanced DB availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -405,7 +386,6 @@
     Azure NetApp Files を使用する SAP の高可用性は、アプリケーションの中断を防ぐための適切なタイムアウト値の設定に依存します。ドキュメントを確認して、構成がドキュメントに記載されているタイムアウト値を満たしていることを確認します。
   potentialBenefits: Improve resiliency and performance of SAP on Azure
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -425,7 +405,6 @@
     SAP on Azure QualityCheck ツールは、Microsoft の推奨設定からの逸脱を迅速かつ大規模に特定するのに役立ちます。
   potentialBenefits: Improve reliability, performance and optimize costs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

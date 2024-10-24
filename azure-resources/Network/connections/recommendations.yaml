@@ -9,7 +9,6 @@
     ExpressRoute ゲートウェイは、ネットワーク トラフィックとルート交換を容易にします。FastPath は、トラフィックを仮想マシンに直接転送し、ゲートウェイをバイパスしてゲートウェイの使用率を低下させることで、オンプレミスから仮想ネットワークへのデータ パスのパフォーマンスを向上させます。
   potentialBenefits: Enhances speed and resiliency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     ゲートウェイ接続リソースの Azure リソース ロックを構成して、誤って削除されないようにし、オンプレミス ネットワークと Azure ワークロード間の接続を維持します。
   potentialBenefits: Prevents accidental deletion of connections
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

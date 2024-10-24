@@ -9,7 +9,6 @@
     WAF は、正当な要求 (誤検知) を誤ってブロックする可能性があります。これらは、Log Analytics でブロックされた要求の過去 24 時間を調べることで特定できます。
   potentialBenefits: Reduces false positives, improves access
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -33,7 +32,6 @@
     WAF は、正当な要求を誤検知としてブロックする場合があります。Log Analytics を使用して過去 24 時間以内にブロックされた要求を特定すると、これらの不適切なブロックを効率的に管理および軽減するのに役立ちます。
   potentialBenefits: Improve false positive identification
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -53,7 +51,6 @@
     Web Application Firewall とそれが保護するアプリケーションの正常性を監視することは非常に重要です。これは、Microsoft Defender for Cloud、Azure Monitor、Azure Monitor ログとの統合によって実現され、最適なパフォーマンスとセキュリティが確保されます。
   potentialBenefits: Enhanced security and health insight
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

@@ -9,7 +9,6 @@
     パフォーマンスのニーズを満たすために、Azure Container Registry のサービス レベルを選択します。Premium は、大規模なデプロイに対して、最大の帯域幅と最高の読み取りおよび書き込み操作レートを提供します。開始するには Basic、運用には Standard、ハイパースケール パフォーマンスと geo レプリケーションには Premium を使用します。
   potentialBenefits: High-volume support and geo-replication
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure Container Registry のオプションのゾーン冗長は、複数のゾーンにリソースを分散することで、特定のリージョン内のレジストリまたはレプリケーション リソースの回復性と高可用性を強化します。
   potentialBenefits: Enhances resiliency and high availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     複数リージョンのデプロイに Azure Container Registry の geo レプリケーションを使用して、レジストリ管理を簡素化し、待機時間を最小限に抑えます。これにより、ローカル データセンターからグローバルな顧客にサービスを提供でき、分散した開発チームをサポートします。リージョン Webhook は、レプリカ内のイベントを通知できます。
   potentialBenefits: Simplifies management, reduces latency
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     リポジトリの名前空間を使用すると、組織内の複数のグループおよびデプロイメント間で単一のレジストリを共有でき、グループ分離のためにネストされた名前空間をサポートできます。ただし、リポジトリは階層的ではなく、独立して管理されます。
   potentialBenefits: Enables sharing and group isolation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -83,7 +79,6 @@
     複数のホストで使用されるコンテナー レジストリは、コンテナー インスタンスが削除されたときにイメージが誤って削除されるのを防ぎ、ホストで実験している間もイメージ コレクションを保持するために、独自のリソース グループに配置する必要があります。
   potentialBenefits: Safeguards image collection
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -101,7 +96,6 @@
     Azure Container Registry のサービス レベルのストレージの制約は、使用シナリオ (初心者向けの Basic、運用環境向けの Standard、大規模なパフォーマンスと geo レプリケーション向けの Premium) に合わせて調整されます。
   potentialBenefits: Reduce costs, optimize storage
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -121,7 +115,6 @@
     既定では、Azure Container Registry では、プッシュ/プル アクションの認証が必要です。匿名プル アクセスを有効にすると、すべてのコンテンツがパブリック読み取りアクションに公開されます。これはすべてのリポジトリに適用され、リポジトリ スコープのトークンが使用されている場合は、無制限のアクセスが許可される可能性があります。
   potentialBenefits: Enhanced security and controlled access
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -139,7 +132,6 @@
     リソース ログは、診断設定を作成して 1 つ以上の場所にルーティングするまで収集および保存されません。
   potentialBenefits: Enhanced tracking and debugging
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -159,7 +151,6 @@
     Azure Monitor を使用して Azure リソースを監視すると、その可用性、パフォーマンス、操作が向上します。フルスタック監視サービスである Azure Container Registry は、Azure やその他のクラウドおよびオンプレミスのリソースに機能を提供します。
   potentialBenefits: Enhanced monitoring and operation
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -179,7 +170,6 @@
     Azure Container Registry (ACR) で論理的な削除を有効にすると、削除された成果物を指定した保持期間で管理できます。ユーザーは、保持後に自動的に消去されるまで、これらの成果物を一覧表示、フィルタリング、復元できます。
   potentialBenefits: Recovery of deleted artifacts
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

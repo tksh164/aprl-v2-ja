@@ -9,7 +9,6 @@
     フレキシブル オーケストレーション モードを使用して単一インスタンスの VM をスケール セットにデプロイすると、アプリケーションのスケーリングと可用性が将来にわたって保証されます。このモードでは、リージョン内または可用性ゾーン内の障害ドメイン間で VM を分散することで、高可用性 (最大 1000 個の VM) が保証されます。
   potentialBenefits: Higher scalability and availability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     Azure Virtual Machine Scale Sets でのアプリケーションの正常性の監視は、デプロイ管理にとって非常に重要です。OS イメージの自動アップグレードや VM ゲストのパッチ適用などのローリング アップグレードをサポートし、アップグレードに正常性監視を活用します。
   potentialBenefits: Enhances deployment management and upgrades
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     Azure Virtual Machine Scale Sets で自動インスタンス修復を有効にすると、継続的な正常性チェックとメンテナンス プロセスを通じてアプリケーションの可用性が向上します。
   potentialBenefits: Boosts app availability by auto-repair
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     メトリックとスケジュールに基づいて VMSS のカスタム自動スケーリングを使用して、パフォーマンスとコスト効率を向上させ、需要の変化に応じてインスタンスを調整します。
   potentialBenefits: Enhances performance and cost-efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -85,7 +81,6 @@
     予測自動スケーリングでは、機械学習を利用して、使用状況の履歴分析を通じて CPU 負荷を予測することで Azure Virtual Machine Scale Sets を効率的に管理およびスケーリングし、需要を満たすためのタイムリーなスケールアウトを保証します。
   potentialBenefits: Optimizes scaling with ML predictions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -103,7 +98,6 @@
     Microsoft は、スケーラビリティと柔軟性を向上させるために、VMSS の可用性ゾーン間で VM インスタンスを厳密に均等に分散させないことを推奨しており、不均等な分散は、回復性の潜在的なトレードオフがあるものの、アプリケーションの負荷需要によりよく対応できる可能性があることに注意してください。
   potentialBenefits: Improves scaling, reduces fail attempts
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -121,7 +115,6 @@
     VMSS を作成するときは、データセンターの障害という稀なイベントに対するアプリケーションとデータの保護手段として可用性ゾーンを実装します。
   potentialBenefits: Enhances disaster resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -141,7 +134,6 @@
     VM ゲストの自動更新プログラムの適用を有効にすると、VM の影響範囲を制限しながら、セキュリティ コンプライアンスを維持するために仮想マシンに安全に自動的に更新プログラムを適用することで、更新管理が容易になります。
   potentialBenefits: Eases patch management, enhances security
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -161,7 +153,6 @@
     イメージ非推奨後の中断を避けるために、現在のバージョンのイメージが使用されていることを確認してください。VM の発行元、オファー、SKU 情報を確認して、サポートされているイメージで実行されていることを確認してください。自動ゲスト パッチ適用またはイメージ アップグレードを有効にして、イメージ非推奨に関する通知を受け取ります。
   potentialBenefits: Avoid disruptions by updating VMSS images.
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

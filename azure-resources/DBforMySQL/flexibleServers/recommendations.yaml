@@ -9,7 +9,6 @@
     フレキシブル サーバー インスタンスでゾーン冗長を使用した HA を有効にして、スタンバイ レプリカを別のゾーンにデプロイし、信頼性とディザスター リカバリーを向上させるための自動フェールオーバー機能を提供します。
   potentialBenefits: Enhanced uptime and data protection
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     フレキシブル サーバー インスタンスでカスタム メンテナンス スケジュールを使用して、サービス更新プログラムを適用する優先時間を選択します。
   potentialBenefits: Control update timings
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     障害や災害が発生した場合でも、データベースの可用性と耐久性の目標を確実に満たすように GRS を構成します。
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     1 つ以上の読み取りレプリカを構成して、障害や障害が発生した場合でもデータベースの可用性と耐久性の目標を確実に満たすようにします。
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     ストレージの自動拡張を構成して、サーバーのストレージが不足して読み取り専用になるのを防ぎます。
   potentialBenefits: Scale storage automatically to meet increasing demand
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

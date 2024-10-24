@@ -9,7 +9,6 @@
     Azure Firewall では、デプロイに応じて異なる SLA が提供されます。単一の可用性ゾーンまたは複数の可用性ゾーンで、信頼性とパフォーマンスが向上する可能性があります。
   potentialBenefits: Enhanced SLA and reliability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     Azure Firewall の全体的な正常性、処理されたスループット、送信 SNAT ポートの使用状況を監視します。制限がサービスに影響を与える前にアラートを受け取ります。NAT ゲートウェイとゾーン展開の統合を検討してください。ゾーン冗長ファイアウォールとセキュリティで保護された仮想ハブ ネットワークに関する制限事項に注意してください。
   potentialBenefits: Improve health and performance monitoring
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -49,7 +47,6 @@
     DDoS 保護プランを Azure Firewall をホストする仮想ネットワークに関連付けて、DDoS 攻撃に対する軽減を強化します。Azure Firewall Manager は、ファイアウォール インフラストラクチャと DDoS 保護プランの作成を統合します。
   potentialBenefits: Enhanced DDoS attack defense
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -67,7 +64,6 @@
     Azure Firewall ポリシーは、子ポリシーよりも優先度の高い中央の基本ポリシーを使用して、コンプライアンスを適用するためのルール階層をサポートし、Azure カスタム ロールを使用して基本ポリシーを保護し、サブスクリプションやグループ内のアクセスを管理します。
   potentialBenefits: Enhanced compliance and rule hierarchy
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -85,7 +81,6 @@
     SNAT の枯渇を回避するために、Azure Firewall ごとに少なくとも 2 つから 4 つのパブリック IP アドレスを構成します。Azure Firewall では、パブリック IP へのすべての送信トラフィックに対して SNAT が提供され、追加のパブリック IP ごとに 2,496 個の SNAT ポートが提供されます。
   potentialBenefits: Avoids SNAT exhaustion.
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -103,7 +98,6 @@
     20 ミリ秒を超えるレイテンシ プローブを 30 ミリ秒を超える期間監視する指標を作成すると、ファイアウォール インスタンスの CPU にストレスがかかり、問題を示している可能性があるタイミングを特定できます。
   potentialBenefits: Improved CPU stress detection
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

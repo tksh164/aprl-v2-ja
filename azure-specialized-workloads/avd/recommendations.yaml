@@ -9,7 +9,6 @@
     サービスの問題、計画メンテナンス、または Azure Virtual Desktop リソースに影響を与える可能性のあるその他の変更を常に把握できるように、Service Health アラートを設定します。Resource Health を使用して、VM とストレージ ソリューションを監視します。
   potentialBenefits: Enhanced AVD error tracking and resolution
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     AVD insights ワークブック テンプレートを設定して、メトリック、ログ、イベントなどの AVD ワークロードを監視およびトラブルシューティングします。本番環境と DR ワークロードの両方で AVD Insights を有効にする必要があります。
   potentialBenefits: Enhanced AVD monitoring and troubleshooting
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     個別の Log Analytics を使用すると、DR 環境が完全に機能し、インシデントが発生した場合にワークロード チームが依存するメトリック、パフォーマンス、その他の監査ツールを可視化できます。
   potentialBenefits: Improved DR visibility and operation
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     AVD ランディング ゾーンのベスト プラクティスに沿って、リソース タイプと AVD ワークロードに関連付けられた共有リソースに基づく複数のリソース グループを使用します。
   potentialBenefits: Enhanced organization and scalability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -82,7 +78,6 @@
     多数のユーザーを処理するには、複数のホスト プールを作成して水平方向に拡張することを検討してください。
   potentialBenefits: Avoids limits, ensures smooth scaling
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -102,7 +97,6 @@
     Active Directory Domain Services (AD DS) 統合 DNS/その他は、マルチリージョン ゾーン間でセカンダリ/ターシャリ カスタマー DNS をターゲットにする必要があります。カスタム DNS を使用する場合は、単一障害点を回避するために、冗長な DNS サーバーがあることを確認します。
   potentialBenefits: Improves uptime & resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -120,7 +114,6 @@
     AVD にはマルチリージョン展開 (アクティブ/アクティブやアクティブ/パッシブ) を採用することを推奨します。各リージョンには、少なくとも ID、名前解決、AVD 管理リソース、プライマリ リージョンの停止に備えたセッション ホストが含まれている必要があります。
   potentialBenefits: Enhanced resilience and uptime
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -140,7 +133,6 @@
     容量とパフォーマンスのスケーリングを最大化するには、Azure Files ストレージ アカウントごとに 1 つのファイル共有のみを作成することをお勧めします。このアプローチでは、1 つのファイル共有をストレージ アカウントの最大容量まで拡張できます。
   potentialBenefits: Enhanced scaling and performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -158,7 +150,6 @@
     ファイル共有サービスの容量とパフォーマンスのスケーリングを最大化し、ユーザーのプロファイルの競合を回避するには、ホスト プールごとに 1 つのファイル共有ターゲットと FSLogix セットアップを作成することをお勧めします。
   potentialBenefits: Enhanced performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -176,7 +167,6 @@
     FSLogix ストレージ アカウントでバックアップを有効にすることをお勧めします。ユーザー プロファイルの回復性を確保することで、停止してもユーザー データとエクスペリエンスの一貫性を保つことができます。
   potentialBenefits: Ensures data resilience and consistency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -196,7 +186,6 @@
     RDP Shortpath は、クライアントとセッション ホストの間に直接 UDP ベースの接続を確立します。既定では、リモート デスクトップ プロトコル (RDP) は UDP を使用して接続を確立しようとし、フォールバック接続メカニズムとして TCP ベースの逆方向接続トランスポートを使用します。UDP ベースのトランスポートは、接続の信頼性が向上し、遅延が一貫しています。
   potentialBenefits: Better reliability and consistent latency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -214,7 +203,6 @@
     AVD セッション ホストが AVD コントロール プレーンと効果的に通信できること、および UDP を使用する場合は UDP ポートが開いていることを確認します。VM と AVD コントロール プレーンの接続を検証し、UDP TURN ポートにアクセスできることを確認します。グローバル URL をホワイトリストに登録し、UDP/TURN ポートが開いていてアクセス可能であることを確認して、スムーズなユーザー接続を促進します。
   potentialBenefits: Enhanced performance & user experience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -235,7 +223,6 @@
     プライマリ サーバーが停止した場合に備えて、Entra Connect 用のステージング モードのセカンダリ サーバーを設定します。
   potentialBenefits: Improved failover reliability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -253,7 +240,6 @@
     オンプレミスのデータセンターに戻る高可用性接続を実現するには、利用されているリージョン間のバックアップ パスを考慮する必要があります。セカンダリ リージョンにセカンダリ ルート テーブルを配置することで、ルーティングの冗長性を確保します。
   potentialBenefits: Enhanced availability & routing
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -272,7 +258,6 @@
     Azure における IP アドレスを計画することは重要です。計画を立てることで、IP アドレス空間がオンプレミスのロケーションと Azure リージョンで重複しないようにします。オンプレミスと Azure リージョンで IP アドレス空間が重なると、大きな競合の問題が発生します。
   potentialBenefits: Enhances security and prevents IP conflicts
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -290,7 +275,6 @@
     ルート テーブルにスタティック ルートがあることを確認して、AVD コントロール プレーンをターゲットとするセッション ホスト トラフィックがサブネットから直接インターネット (次ホップ) に発信できるようにすることで、信頼できるトラフィックの通信でホップを検査したり追加したりする遅延を回避できます。
   potentialBenefits: Enhanced performance and Disaster Recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -310,7 +294,6 @@
     Azure Virtual Desktop 環境内でイメージの更新を処理するための体系的なプロセスを確立します。個々のセッション ホストを直接更新する代わりに、更新されたイメージの新しいバージョンを作成します。このプロセスには、必要な更新と構成を含むゴールデン イメージの作成と構成が含まれます。
   potentialBenefits: Ensures consistency; minimizes drift
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -328,7 +311,6 @@
     すべてのセッション ホストに標準の FSLogix 構成がデプロイされていることを確認します。設定の一貫性とベスト プラクティスとの整合性について、定期的に検証します。
   potentialBenefits: Optimized session reliability and performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -346,7 +328,6 @@
     SMB 共有にユーザー権限が正しく設定されていることを確認して、ユーザーが自分のプロファイルにのみ適切なアクセス権を持ち、他のユーザー プロファイルには適切なアクセス権を持たせ、管理者はルート ボリュームでフルアクセス権を持つようにします。また、DR イベントが発生した場合に備えて、セカンダリ ストレージ パスのアクセス許可が設定されていることを確認します。
   potentialBenefits: Enhanced security & disaster recovery
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags:
   learnMoreLink:
@@ -364,7 +345,6 @@
     FSLogix ストレージ リソースの診断設定と、そのメトリックとエラーの FSLogix ログを定期的に構成します。イベントは、セッション ホスト内でローカルに調べることで確認できますが、この情報を Log Analytics ワークスペースに統合するように AVD insights ワークブックを設定することをお勧めします。
   potentialBenefits: Enhanced AVD error tracking and resolution
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -384,7 +364,6 @@
     FSLogix エージェントのアップグレードを定期的に確認し、FSLogix を最新の状態に維持するプロセスが整っていることを確認します。お客様は、デプロイ プロセスが許す限り迅速に最新バージョンの FSLogix にアップグレードすることをお勧めします。FSLogix は、お客様のデプロイに影響を与える現在および潜在的なバグに対処する修正プログラム リリースを提供します。さらに、これはサポート ケースを開く際の最初の要件です。
   potentialBenefits: Enhanced reliability & support
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -403,7 +382,6 @@
     各ファイル共有に接続するユーザー数を確認し、SMB パスがファイル接続数を処理できることを確認します。現在、Azure Files はルート ディレクトリごとに最大 10k のハンドルをサポートしています。
   potentialBenefits: Enhanced stability & user limit checks
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -422,7 +400,6 @@
     ファイル共有は、セッション ホストと同じ Azure リージョンにある必要があります。
   potentialBenefits: Enhances performance and scalability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -440,7 +417,6 @@
     継続的な可用性とディザスター リカバリーの準備を確保するために、セカンダリ Key Vault をセカンダリ リージョンにプロビジョニングすることをお勧めします。プライマリ リージョンで障害が発生した場合、このセカンダリ Key Vault により、セカンダリ リージョンのデプロイで使用するために重要なシークレットにアクセスできるようになります。
   potentialBenefits: Ensures DR readiness and access
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -459,7 +435,6 @@
     この推奨は、Microsoft Entra ID または、Entra Domain Services に参加するセッション ホストを使用する場合には適用されません。
   potentialBenefits: Enhanced identity resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -477,7 +452,6 @@
     カスタム DNS サーバーを使用する場合は、セッション ホストと同じリージョン内の可用性ゾーンにまたがる Azure 仮想マシンに DNS サーバーをデプロイします。これにより、オンプレミス サービスへの依存関係がなくなることで環境の信頼性が向上し、名前解決のパスが短くなるためパフォーマンスが向上します。
   potentialBenefits: Enhanced reliability and performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

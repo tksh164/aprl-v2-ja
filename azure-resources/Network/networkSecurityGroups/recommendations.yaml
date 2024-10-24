@@ -9,7 +9,6 @@
     リソース ログは、診断設定を作成して 1 つ以上の場所にルーティングするまで収集および保存されません。
   potentialBenefits: Enhanced monitoring and security insights
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure Monitor を使用して、ネットワーク セキュリティ グループ ルールの作成や更新などの操作に対してアラートを作成し、リソースに対する承認されていない変更や望ましくない変更をキャッチし、ファイアウォールのバイパスや外部からのリソースへのアクセスの試行を特定します。
   potentialBenefits: Enhanced security and change monitoring
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     管理者は、Azure サブスクリプション、リソース グループ、またはリソースをロックして、誤って削除や変更されないように保護できます。ロックは、ユーザーのアクセス許可よりも優先されます。ロックは、削除または変更を防ぐことができ、ポータルでは "削除" と "読み取り専用" と呼ばれます。
   potentialBenefits: Prevents accidental edits/deletions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     ネットワークを監視、管理、および理解することは、保護と最適化に不可欠です。現在の状態、接続先と接続先、開いているインターネット ポート、予想される動作と不規則な動作、トラフィックの急増を把握することが不可欠です。
   potentialBenefits: Enhances security and optimizes network
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -81,7 +77,6 @@
     Azure ネットワーク セキュリティ グループは、セキュリティ規則を使用して、送信元、宛先、ポート、プロトコルに基づいて受信トラフィックまたは送信トラフィックを許可または拒否し、仮想ネットワーク内のリソース間のネットワーク トラフィックをフィルター処理します。
   potentialBenefits: Enhanced traffic control and security
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

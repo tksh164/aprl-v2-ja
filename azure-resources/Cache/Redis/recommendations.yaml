@@ -9,7 +9,6 @@
     Azure Cache for Redis では、Premium レベルと Enterprise レベルでゾーン冗長性が提供され、複数の可用性ゾーンにまたがる VM を使用して、回復性と可用性を向上できます。
   potentialBenefits: Higher resilience and availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -26,7 +25,6 @@
     Azure Cache for Redis では、メンテナンス期間を指定できます。メンテナンス ウィンドウを使用すると、キャッシュをホストしている VM を更新できる曜日と時刻を制御できます。
   potentialBenefits: Higher resilience and availability
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -44,7 +42,6 @@
     プライベート エンドポイントを使用して、プライベート リンク経由でキャッシュするための安全な接続を行い、パブリック インターネットを回避します。
   potentialBenefits: Secure, private VNet ingress, efficient data transfer
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:

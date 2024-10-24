@@ -9,7 +9,6 @@
     組み込みの「プライベート DNS ゾーンの共同作成者」ロールを特定の許可されたユーザー、グループ、およびエンティティに割り当て、プライベート DNS ゾーンとレコードへの不正または偶発的な変更から保護します。すべてのゾーンに「プライベート DNS ゾーンの共同作成者」権限を付与して、アクセスを制限します。
   potentialBenefits: Prevents DNS outages
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -27,7 +26,6 @@
     Azure Monitor を使用して、プライベート DNS ゾーンのクエリ量、レコード セット数、加えて、レコード セットや仮想ネットワーク リンク、自動登録付き仮想ネットワーク リンクのキャパシティ メトリックを監視します。これらのメトリックに対して Azure Monitor Baseline Alerts の特定のしきい値に基づいてアラートを作成します。
   potentialBenefits: Enhanced DNS reliability and alerting
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -45,7 +43,6 @@
     復旧時間目標 (RTO) が低い事業継続シナリオの場合、リージョンごとに本番環境と災害復旧環境 (DR) のプライベート DNS ゾーンを構成し、ワークロードとリソースの DNS エントリが同一であることを確認します。これにより、両方のゾーンで DNS 解決の一貫性が保たれます。
   potentialBenefits: Ensures seamless failover for DNS during a regional outage
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -63,7 +60,6 @@
     Azure プライベート DNS では、ゾーン内のレコード セットの TTL (Time-To-Live) を 1 ～ 2147483647 秒に設定できます。RPO 目標を達成するために、DNS ゾーンの DNS レコード セットの TTL が適切に設定されていることを確認する必要があります。
   potentialBenefits: Ensures that no cached DNS records exist past RPO targets
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

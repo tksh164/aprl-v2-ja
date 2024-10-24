@@ -9,7 +9,6 @@
     本番 VM ワークロードは、複数の VM にデプロイし、VMSS Flex インスタンスにグループ化して、プラットフォーム全体にインテリジェントに分散し、プラットフォームの障害や更新の影響を最小限に抑える必要があります。
   potentialBenefits: Enhanced fault/update resilience
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -29,7 +28,6 @@
     各 Azure リージョン内の可用性ゾーンは、ローカルの障害に対して耐性があり、物理的に分離することで、データセンターの予期しない障害からアプリケーションとデータを保護します。
   potentialBenefits: Enhanced VM resilience to failures
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -47,7 +45,6 @@
     可用性セットがすぐに廃止される予定はありませんが、将来的には廃止される予定です。VM から VMSS Flex にワークロードを移行し、ゾーンをまたがる展開や、同一ゾーン内の異なる障害ドメイン (FD) にまたがる展開を行うことで、信頼性の向上を図ります。
   potentialBenefits: Enhances reliability and future-proofs VMs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -65,7 +62,6 @@
     Site Recovery を使用して Azure VM をレプリケートするには、ターゲット リージョンへの継続的な非同期ディスク レプリケーションが必要です。復旧ポイントは数分ごとに生成され、数分単位の目標復旧ポイント (RPO) が確保されます。
   potentialBenefits: Minimize downtime in disasters
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -85,7 +81,6 @@
     Azure は、2025 年 9 月 30 日にアンマネージド ディスクを廃止します。ユーザーは、中断を回避し、サービスの信頼性を維持するために、移行を計画する必要があります。
   potentialBenefits: Avoid retirement disruption, enhance reliability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -107,7 +102,6 @@
     データ ディスクは、データベースやその他の重要なデータを格納するために仮想マシンに接続されたマネージド ディスクです。これらのディスクは、選択ごとにラベル付けされた SCSI ドライブです。
   potentialBenefits: Enhances performance, recovery, migration flexibility
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -127,7 +121,6 @@
     Azure Backup を使用して仮想マシンのバックアップを有効にし、データをセキュリティで保護し、迅速に復旧します。このサービスは、Microsoft Azure クラウドからデータをバックアップおよび回復するための、シンプルで安全かつ費用対効果の高いソリューションを提供します。
   potentialBenefits: Secure data recovery and backup
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -145,7 +138,6 @@
     Azure Virtual Machines (VM) インスタンスには、プロビジョニングや電源の状態など、さまざまな状態があります。実行されていない VM は、問題または不要であることを示している可能性があり、削除がコスト削減に役立つ可能性があることを示唆しています。
   potentialBenefits: Reduce costs by removing unused VMs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -163,7 +155,6 @@
     高速ネットワークにより、VM への SR-IOV が可能になり、データ パスからホストをバイパスすることでネットワーク パフォーマンスが大幅に向上し、サポートされている VM の種類で要求の厳しいネットワーク ワークロードの待機時間、ジッター、CPU 使用率が削減されます。
   potentialBenefits: Reduces latency, jitter and CPU use
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -181,7 +172,6 @@
     高速ネットワークを有効にすると、Guest OS の既定の Azure VNet インターフェイスが Mellanox に交換され、そのドライバーはサード パーティから提供されます。Marketplace イメージには最新の Mellanox ドライバーが含まれていますが、デプロイ後のドライバーの更新はユーザーの責任です。
   potentialBenefits: Enhanced VM network efficiency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -199,7 +189,6 @@
     仮想マシンの送信インターネット接続には、より高い可用性と SNAT ポート数によって、セキュリティとサービスの回復力を強化するために、NAT Gateway や Azure Firewall を使用することを推奨します。
   potentialBenefits: Enhanced security and service resiliency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -217,7 +206,6 @@
     特別な理由がない限り、ネットワーク セキュリティ グループをサブネットまたはネットワーク インターフェイスに関連付けることをお勧めしますが、2 つの関連付けの間の潜在的なルール競合による予期しない通信の問題やトラブルシューティングを避けるために、両方に関連付けることはお勧めしません。
   potentialBenefits: Reduces communication problems
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -235,7 +223,6 @@
     IP 転送は、仮想マシンのネットワーク インターフェイスが、割り当てられた IP アドレス以外のネットワーク トラフィックを送受信できるようにします。
   potentialBenefits: Enhances network appliance function
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -253,7 +240,6 @@
     環境全体での不整合を防ぐために、仮想ネットワーク レベルで DNS サーバーを構成します。
   potentialBenefits: Ensures DNS consistency
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -271,7 +257,6 @@
     Azure 共有ディスクを使用すると、クラスター化されたアプリケーションをデプロイまたは移行するために、ディスクを同時に複数の VM に接続できます (ディスクが VM クラスター メンバー間で共有されている場合にのみ適しています)。
   potentialBenefits: Enhances clustered server performance
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -291,7 +276,6 @@
     「パブリックアクセスを無効にし、プライベートアクセスを有効にする」に変更し、プライベート エンドポイントを作成して、直接パブリック アクセスを制限し、接続がプライベートに行われるようにすることでセキュリティを強化し、データ保護を強化し、潜在的な外部の脅威を最小限に抑えることをお勧めします。
   potentialBenefits: Enhances VM security and privacy
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -309,7 +293,6 @@
     仮想マシン (VM) をセキュリティで保護することは、実行するアプリケーションにとって非常に重要です。これには、さまざまな Azure サービスと機能を使用して、VM への安全なアクセスとデータの安全なストレージを確保し、VM とアプリケーションの全体的なセキュリティを確保することが含まれます。
   potentialBenefits: Secure VMs and applications
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -329,7 +312,6 @@
     DM-Crypt (Linux) や BitLocker (Windows) を使用して Azure VM ディスクを暗号化するには、Azure Disk Encryption (ADE) を有効にすることを検討してください。さらに、データセキュリティを強化するために、ホストでの暗号化と機密ディスクの暗号化を検討してください。
   potentialBenefits: Enhances data security and integrity
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -347,7 +329,6 @@
     VM Insights は、VM とスケール セットのパフォーマンス、正常性、実行中のプロセス、依存関係を監視します。パフォーマンスのボトルネックとネットワークの問題を特定することで、アプリケーションのパフォーマンスと可用性の予測可能性を高め、問題が他の依存関係に関連しているかどうかを明確にします。
   potentialBenefits: Improves VM performance and health
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -367,7 +348,6 @@
     Azure Monitor メトリックはプラットフォーム メトリックを自動的に受信しますが、リソースとその Azure プラットフォームの詳細な診断と監査を提供するプラットフォーム ログは、収集のために手動でルーティングする必要があります。
   potentialBenefits: Enhanced diagnostics and auditing capability
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -385,7 +365,6 @@
     メンテナンス構成設定を使用すると、ユーザーは更新をスケジュールや管理して、VM の更新や中断が計画された期間内に実行されるようにすることができます。
   potentialBenefits: Scheduled updates for VMs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -403,7 +382,6 @@
     A シリーズ VM は、開発およびテスト サーバー、低トラフィックの Web サーバー、小規模から中規模のデータベースなどのユース ケースを含む、開発やテストなどのエントリ レベルのワークロード向けに調整されています。
   potentialBenefits: Ensures full CPU usage for heavy tasks
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -421,7 +399,6 @@
     Standard HDD や SSD と比較して、Premium SSD、Premium SSD v2、Ultra Disk では、パフォーマンスと構成可能性が向上し、単一インスタンス仮想マシンのアップタイム SLA が向上します。仮想マシン上のすべてのディスクの中で最も低い SLA が適用されるため、最高のアップタイム SLA を得るには、Premium または Ultra Disk を使用することをお勧めします。
   potentialBenefits: Enhanced performance, cost efficiency, and uptime SLA
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -439,7 +416,6 @@
     ワークロードがメンテナンスに敏感な場合は、Azure Boost 互換 VM を検討してください。Azure Boost は、ホスト上で Azure のメンテナンス アクティビティが発生した場合に、お客様への影響を軽減するように設計されています。
   potentialBenefits: Less maintenance impact
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -459,7 +435,6 @@
     ワークロードがメンテナンスの影響を受けやすい場合は、スケジュールされたイベントを有効にします。この Azure Metadata Service を使用すると、再起動などの今後のイベントに関する情報を提供することで、アプリが仮想マシンのメンテナンスに備えることができ、中断が軽減されます。
   potentialBenefits: Minimize downtime for VMs
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -481,7 +456,6 @@
     Azure ディスクには、ゾーン全体のダウンに対する回復性が必要なワークロードに対して、ゾーン冗長ストレージ (ZRS) オプションが用意されています。クロスゾーン データ レプリケーションのため、ZRS ディスクはローカル冗長オプション (LRS) と比較して書き込み待機時間が長くなるため、ディスクのベンチマークを必ず行ってください。
   potentialBenefits: Enhanced Disk resilience to failures
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -499,7 +473,6 @@
     Azure 容量予約 は、特定のリージョンまたは可用性ゾーン内でコンピューティング容量を事前に予約することで、仮想マシンの高可用性を確保します。これにより、需要のピーク時やメンテナンス時に VM に必要なリソースが確保され、信頼性とアップタイムが向上します。
   potentialBenefits: Guaranteed capacity in constrained regions/zones
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -517,7 +490,6 @@
     Azure Linux エージェントをインストールしてある場合、または動作保証済みのディストリビューション イメージを使用している場合は、エージェントのバージョンが最新であることを確認してください。Linux ディストリビューションによっては、自動更新が無効になっていたり、古いバージョンのエージェントが使用されていたりすることがあります。
   potentialBenefits: Reduces complications with VM provisioning
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
@@ -535,7 +507,6 @@
     オンデマンド容量予約は、特定のリージョンやゾーン内のコンピューティング容量を事前に予約することで、自然災害発生時の仮想マシンの回復を保証します。これにより、ディザスター リカバリのフェールオーバー時に仮想マシンに必要なリソースが確保され、ダウンタイムが短縮されます。
   potentialBenefits: Guaranteed capacity in disaster recovery regions
   pgVerified: true
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:

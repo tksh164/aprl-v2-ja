@@ -9,7 +9,6 @@
     Azure DNS では、ゾーン内のレコード セットの TTL (Time-To-Live) を 1 ～ 2147483647 秒に設定できます。RPO 目標を達成するために、DNS ゾーンの DNS レコード セットの TTL が適切に設定されていることを確認する必要があります。
   potentialBenefits: Ensures that no cached DNS records exist past RPO targets
   pgVerified: false
-  publishedToLearn: false
   automationAvailable: false
   tags: null
   learnMoreLink:
