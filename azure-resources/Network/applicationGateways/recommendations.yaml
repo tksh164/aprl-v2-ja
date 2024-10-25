@@ -88,7 +88,7 @@
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    ストレージ アカウント、Log Analytics、および監査と分析情報の監視サービスでのログ記録を有効にします。NSG を使用している場合は、NSG フロー ログを格納できるようにして、Azure Cloud への詳細なトラフィック分析を提供します。
+    ストレージ アカウント、Log Analytics、および監査と分析情報の監視サービスでのログ記録を有効にします。
   potentialBenefits: Enhanced traffic insight and audit
   pgVerified: true
   automationAvailable: false

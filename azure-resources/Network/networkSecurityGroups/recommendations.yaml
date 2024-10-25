@@ -55,7 +55,7 @@
   recommendationControl: Monitoring and Alerting
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ネットワークを監視、管理、および理解することは、保護と最適化に不可欠です。現在の状態、接続先と接続先、開いているインターネット ポート、予想される動作と不規則な動作、トラフィックの急増を把握することが不可欠です。
   potentialBenefits: Enhances security and optimizes network
