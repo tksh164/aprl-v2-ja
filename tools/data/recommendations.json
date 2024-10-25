@@ -1331,7 +1331,7 @@
     "publishedToAdvisor": null,
     "aprlGuid": "da1a3c06-d1d5-a940-9a99-fcc05966fe7c",
     "recommendationTypeId": null,
-    "recommendationMetadataState": "Active",
+    "recommendationMetadataState": "Disabled",
     "learnMoreLink": [
       {
         "url": "https://learn.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview",
@@ -2015,7 +2015,7 @@
       }
     ],
     "recommendationControl": "Monitoring and Alerting",
-    "longDescription": "ストレージ アカウント、Log Analytics、および監査と分析情報の監視サービスでのログ記録を有効にします。NSG を使用している場合は、NSG フロー ログを格納できるようにして、Azure Cloud への詳細なトラフィック分析を提供します。\n",
+    "longDescription": "ストレージ アカウント、Log Analytics、および監査と分析情報の監視サービスでのログ記録を有効にします。\n",
     "pgVerified": true,
     "description": "トラフィックの監視とログ記録を設定する",
     "potentialBenefits": "Enhanced traffic insight and audit",
