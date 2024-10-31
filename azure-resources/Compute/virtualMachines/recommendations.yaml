@@ -161,7 +161,7 @@
     - name: 高速ネットワークの概要
       url: "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview"
 
-- description: 高速ネットワーク (AccelNet) が有効になっている場合は、Guest OS NIC ドライバーを手動で更新する必要がある
+- description: 高速ネットワーク (AccelNet) が有効になっている場合はゲスト OS の NIC ドライバーを手動で更新する必要がある
   aprlGuid: 73d1bb04-7d3e-0d47-bc0d-63afe773b5fe
   recommendationTypeId: null
   recommendationControl: Governance
@@ -169,7 +169,7 @@
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
-    高速ネットワークを有効にすると、Guest OS の既定の Azure VNet インターフェイスが Mellanox に交換され、そのドライバーはサード パーティから提供されます。Marketplace イメージには最新の Mellanox ドライバーが含まれていますが、デプロイ後のドライバーの更新はユーザーの責任です。
+    高速ネットワークを有効にすると、ゲスト OS の既定の Azure VNet インターフェイスが Mellanox に交換され、そのドライバーはサード パーティから提供されます。Marketplace イメージには最新の Mellanox ドライバーが含まれていますが、デプロイ後のドライバーの更新はユーザーの責任です。
   potentialBenefits: Enhanced VM network efficiency
   pgVerified: true
   automationAvailable: false
