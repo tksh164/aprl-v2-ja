@@ -39,7 +39,7 @@ Param(
   [string]$CustomRecommendationsYAMLPath,
 
   [ValidatePattern('^https:\/\/.+$')]
-  [string]$RepoUrl = 'https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2',
+  [string]$RepoUrl = 'https://github.com/tksh164/aprl-v2-ja',
 
   [Parameter(mandatory = $true)]
   [string] $JSONFile)
