@@ -95,9 +95,9 @@
   recommendationResourceType: Microsoft.Network/azureFirewalls
   recommendationMetadataState: Active
   longDescription: |
-    20 ミリ秒を超えるレイテンシ プローブを 30 ミリ秒を超える期間監視する指標を作成すると、ファイアウォール インスタンスの CPU にストレスがかかり、問題を示している可能性があるタイミングを特定できます。
+    Using the Azure Firewall latency probe metric to monitor sustained latency over 30ms (accounting for normal spikes) can help identify when firewall instance CPU utilization is under stress, potentially indicating performance issues
   potentialBenefits: Improved CPU stress detection
-  pgVerified: false
+  pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:

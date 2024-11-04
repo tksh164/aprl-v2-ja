@@ -15,24 +15,7 @@
     - name: Databricks ランタイムのサポート ライフサイクル
       url: "https://learn.microsoft.com/azure/databricks/release-notes/runtime/databricks-runtime-ver"
 
-- description: Databricks プールを使用する
-  aprlGuid: c166602e-0804-e34b-be8f-09b4d56e1fcd
-  recommendationTypeId: null
-  recommendationControl: Scalability
-  recommendationImpact: High
-  recommendationResourceType: Microsoft.Databricks/workspaces
-  recommendationMetadataState: Active
-  longDescription: |
-    Databricks プールは VM を事前にプロビジョニングすることで、クラスターの起動やスケーリング中のプロビジョニング エラーのリスクを軽減し、信頼性を高めます。
-  potentialBenefits: Reduces provisioning errors
-  pgVerified: true
-  automationAvailable: false
-  tags: null
-  learnMoreLink:
-    - name: 信頼性のためのベスト プラクティス
-      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
-
-- description: ワーカー VM の種類とドライバーの種類に SSD による VM を使用する
+- description: Use SSD backed VMs for Worker VM Type and Driver type
   aprlGuid: 5877a510-8444-7a4c-8412-a8dab8662f7e
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -153,24 +136,7 @@
     - name: 信頼性のためのベスト プラクティス
       url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: Photon アクセラレーションを使用する
-  aprlGuid: 892ca809-e2b5-9a47-924a-71132bf6f902
-  recommendationTypeId: null
-  recommendationControl: High Availability
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Databricks/workspaces
-  recommendationMetadataState: Active
-  longDescription: |
-    Databricks レイクハウスの Apache Spark は、失敗したタスクを自動的に再スケジュールすることで、回復力のある分散データ処理を保証し、ネットワークの問題や失効した VM などの外部の問題を克服するのに役立ちます。
-  potentialBenefits: Boosts speed and reliability for Spark tasks
-  pgVerified: true
-  automationAvailable: false
-  tags: null
-  learnMoreLink:
-    - name: 信頼性のためのベスト プラクティス
-      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#use-apache-spark-or-photon-for-distributed-compute"
-
-- description: Databricks Auto Loader や Delta Live Tables を使用して、無効なデータや不適合のデータを自動的に復旧する
+- description: Automatically rescue invalid or nonconforming data with Databricks Auto Loader or Delta Live Tables
   aprlGuid: 7e52d64d-8cc0-8548-a593-eb49ab45630d
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -516,3 +482,20 @@
       url: "https://learn.microsoft.com/azure/databricks/compute/cluster-config-best-practices"
     - name: GPU 対応コンピューティング
       url: "https://learn.microsoft.com/azure/databricks/compute/gpu"
+
+- description: Use managed services where possible
+  aprlGuid: e94da1f8-33e7-48a6-b301-72f19a53bc29
+  recommendationTypeId: null
+  recommendationControl: Scalability
+  recommendationImpact: High
+  recommendationResourceType: Microsoft.Databricks/workspaces
+  recommendationMetadataState: Active
+  longDescription: |
+    Where possible Leverage managed services (serverless compute) from the Databricks Data Intelligence Platform, such as:serverless SQL warehouses, model serving, serverless jobs, serverless compute for notebooks.
+  potentialBenefits: Improve resiliency and scalability at no additional cost
+  pgVerified: true
+  automationAvailable: false
+  tags: null
+  learnMoreLink:
+    - name: Best practices for reliability
+      url: "https://learn.microsoft.com/en-us/azure/databricks/lakehouse-architecture/reliability/best-practices#use-managed-services-where-possible"
