@@ -35,9 +35,9 @@
       }
     ],
     "recommendationControl": "Disaster Recovery",
-    "longDescription": "デバイス ID は、フェールオーバーが発生した場合の接続を確保するために、すべての IoT デバイスのフェールオーバー リージョン IoT Hub にコピーする必要があります。別のリージョンへの手動フェールオーバーはミッション クリティカルなワークロードに適しており、より高速 (RTO) です。\n",
+    "longDescription": "Device Identities should be copied to the failover region IoT Hub for all IoT devices to ensure connectivity in case of a failover. Manual Failover to another region is quicker (RTO), suitable for mission critical workloads.\n",
     "pgVerified": false,
-    "description": "デバイス ID はセカンダリ リージョンにエクスポートする",
+    "description": "Device Identities are exported to a secondary region",
     "potentialBenefits": "Faster failover; Ensures device connectivity",
     "tags": null,
     "recommendationResourceType": "Microsoft.Devices/IotHubs",
@@ -56,9 +56,9 @@
       }
     ],
     "recommendationControl": "High Availability",
-    "longDescription": "運用環境のシナリオでは、Free レベルでは必要なサービス レベル アグリーメントが提供されないため、IoT Hub レベルを Free にしないでください。\n",
+    "longDescription": "In a production scenario, the IoT Hub tier should not be Free because the Free tier does not provide the necessary Service Level Agreement.\n",
     "pgVerified": false,
-    "description": "Free レベルを使用しない",
+    "description": "Do not use free tier",
     "potentialBenefits": "Ensures SLA for production",
     "tags": null,
     "recommendationResourceType": "Microsoft.Devices/IotHubs",
@@ -77,9 +77,9 @@
       }
     ],
     "recommendationControl": "High Availability",
-    "longDescription": "IoT Hub の可用性ゾーンをサポートするリージョンでは、これらのゾーンを使用すると可用性が向上します。これらは、サポートされているリージョンの新しい IoT Hub に対して自動的にアクティブ化されます。\n",
+    "longDescription": "In regions supporting Availability Zones for IoT Hub, using these zones boosts availability. They're automatically activated for new IoT Hubs in supported areas.\n",
     "pgVerified": false,
-    "description": "可用性ゾーンを使用する",
+    "description": "Use Availability Zones",
     "potentialBenefits": "Boosts IoT Hub availability",
     "tags": null,
     "recommendationResourceType": "Microsoft.Devices/IotHubs",
@@ -106,9 +106,9 @@
       }
     ],
     "recommendationControl": "Scalability",
-    "longDescription": "Device Provisioning Service (DPS) を使用すると、スケーリングと可用性のために IoT デバイスを簡単に再配布できるため、デバイスを再割り当てし、特定の IoT Hub インスタンスにバインドしないようにすることができます。DPS を使用する IoT Hub 内のデバイスは、DPS 使用率を確認する必要があります。\n",
+    "longDescription": "Device Provisioning Service (DPS) enables easy redistribution of IoT devices for scaling and availability, allowing devices to be reassigned and not bound to specific IoT Hub instances. Devices in IoT Hubs using DPS should be verified for DPS utilization.\n",
     "pgVerified": false,
-    "description": "Device Provisioning Service を使用する",
+    "description": "Use Device Provisioning Service",
     "potentialBenefits": "Enhances scalability and availability",
     "tags": null,
     "recommendationResourceType": "Microsoft.Devices/IotHubs",
@@ -127,9 +127,9 @@
       }
     ],
     "recommendationControl": "High Availability",
-    "longDescription": "リージョンで障害が発生した場合、IoT Hub は自動または手動で 2 番目のリージョンにフェールオーバーして、アプリケーションが引き続き動作するようにすることができます。\n",
+    "longDescription": "In case of a regional failure, an IoT Hub can failover to a second region, automatically or manually, to ensure your application continues working.\n",
     "pgVerified": false,
-    "description": "フェールオーバーのガイドラインを定義する",
+    "description": "Define Failover Guidelines",
     "potentialBenefits": "Ensures business continuity",
     "tags": null,
     "recommendationResourceType": "Microsoft.Devices/IotHubs",
@@ -148,9 +148,9 @@
       }
     ],
     "recommendationControl": "Monitoring and Alerting",
-    "longDescription": "IoT Hub のカスタム エンドポイントにメッセージ ルーティングを使用すると、特定の条件が満たされていない場合、メッセージがこれらの宛先に到達しない可能性があります。既定のルートでは、すべてのメッセージが確実に受信されますが、このセーフティ ネットを無効にすると、一部のメッセージが配信されないままになるリスクがあります。\n",
+    "longDescription": "Using message routing for custom endpoints in IoT Hub, messages might not reach these destinations if specific conditions are unmet. A default route ensures all messages are received, but disabling this safety net risks leaving some messages undelivered.\n",
     "pgVerified": false,
-    "description": "フォールバック ルートを無効にする",
+    "description": "Disabled Fallback Route",
     "potentialBenefits": "Prevents undelivered messages",
     "tags": null,
     "recommendationResourceType": "Microsoft.Devices/IotHubs",
@@ -7177,7 +7177,9 @@
       }
     ],
     "recommendationControl": "High Availability",
+    "longDescription": "Enable HA with zone redundancy on flexible server instances to deploy a standby replica in a different zone, offering automatic failover capability for improved reliability and disaster recovery.\n",
     "pgVerified": true,
+    "description": "Enable HA with zone redundancy",
     "potentialBenefits": "Enhanced uptime and data protection",
     "tags": null,
     "recommendationResourceType": "Microsoft.DBforMySQL/flexibleServers",
@@ -7191,14 +7193,14 @@
     "recommendationMetadataState": "Active",
     "learnMoreLink": [
       {
-    "longDescription": "フレキシブル サーバー インスタンスでゾーン冗長を使用した HA を有効にして、スタンバイ レプリカを別のゾーンにデプロイし、信頼性とディザスター リカバリーを向上させるための自動フェールオーバー機能を提供します。\n",
-    "description": "ゾーン冗長で HA を有効にする",
         "name": "Scheduled maintenance in Azure Database for MySQL - Flexible Server",
         "url": "https://learn.microsoft.com/azure/mysql/flexible-server/concepts-maintenance"
       }
     ],
     "recommendationControl": "Scalability",
+    "longDescription": "Use custom maintenance schedule on flexible server instances to select a preferred time for service updates to be applied.\n",
     "pgVerified": true,
+    "description": "Enable custom maintenance schedule",
     "potentialBenefits": "Control update timings",
     "tags": null,
     "recommendationResourceType": "Microsoft.DBforMySQL/flexibleServers",
@@ -7212,14 +7214,14 @@
     "recommendationMetadataState": "Active",
     "learnMoreLink": [
       {
-    "longDescription": "フレキシブル サーバー インスタンスでカスタム メンテナンス スケジュールを使用して、サービス更新プログラムを適用する優先時間を選択します。\n",
-    "description": "カスタム メンテナンス スケジュールを有効にする",
         "name": "Backup and restore in Azure Database for MySQL - Flexible Server",
         "url": "https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-backup-restore"
       }
     ],
     "recommendationControl": "Disaster Recovery",
+    "longDescription": "Configure GRS to ensure that your database meets its availability and durability targets even in the face of failures or disasters.\n",
     "pgVerified": true,
+    "description": "Configure geo redundant backup storage",
     "potentialBenefits": "Recover from regional failure and/or disaster",
     "tags": null,
     "recommendationResourceType": "Microsoft.DBforMySQL/flexibleServers",
@@ -7233,14 +7235,14 @@
     "recommendationMetadataState": "Active",
     "learnMoreLink": [
       {
-    "longDescription": "障害や災害が発生した場合でも、データベースの可用性と耐久性の目標を確実に満たすように GRS を構成します。\n",
-    "description": "geo 冗長バックアップ ストレージを構成する",
         "name": "Read replicas in Azure Database for MySQL - Flexible Server",
         "url": "https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-read-replicas"
       }
     ],
     "recommendationControl": "Disaster Recovery",
+    "longDescription": "Configure one or more read replicas to ensure that your database meets its availability and durability targets even in the face of failures or disasters.\n",
     "pgVerified": true,
+    "description": "Configure one or more read replicas",
     "potentialBenefits": "Recover from regional failure and/or disaster",
     "tags": null,
     "recommendationResourceType": "Microsoft.DBforMySQL/flexibleServers",
@@ -7254,14 +7256,14 @@
     "recommendationMetadataState": "Active",
     "learnMoreLink": [
       {
-    "longDescription": "1 つ以上の読み取りレプリカを構成して、障害や障害が発生した場合でもデータベースの可用性と耐久性の目標を確実に満たすようにします。\n",
-    "description": "1 つ以上の読み取りレプリカを構成する",
         "name": "Azure Database for MySQL - Flexible Server service tiers - Storage auto grow",
         "url": "https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-service-tiers-storage#storage-auto-grow"
       }
     ],
     "recommendationControl": "Scalability",
+    "longDescription": "Configure storage auto-grow to prevent the server from running out of storage and becoming read-only.\n",
     "pgVerified": true,
+    "description": "Configure storage auto-grow",
     "potentialBenefits": "Scale storage automatically to meet increasing demand",
     "tags": null,
     "recommendationResourceType": "Microsoft.DBforMySQL/flexibleServers",
@@ -9712,7 +9714,5 @@
     "recommendationImpact": "Medium",
     "automationAvailable": false,
     "query": null
-    "longDescription": "ストレージの自動拡張を構成して、サーバーのストレージが不足して読み取り専用になるのを防ぎます。\n",
-    "description": "ストレージの自動拡張を構成する",
   }
 ]
