@@ -15,7 +15,7 @@
     - name: Databricks ランタイムのサポート ライフサイクル
       url: "https://learn.microsoft.com/azure/databricks/release-notes/runtime/databricks-runtime-ver"
 
-- description: Use SSD backed VMs for Worker VM Type and Driver type
+- description: ワーカー VM の種類とドライバーの種類に SSD による VM を使用する
   aprlGuid: 5877a510-8444-7a4c-8412-a8dab8662f7e
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -136,7 +136,7 @@
     - name: 信頼性のためのベスト プラクティス
       url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
 
-- description: Automatically rescue invalid or nonconforming data with Databricks Auto Loader or Delta Live Tables
+- description: Databricks Auto Loader や Delta Live Tables を使用して、無効なデータや不適合のデータを自動的に復旧する
   aprlGuid: 7e52d64d-8cc0-8548-a593-eb49ab45630d
   recommendationTypeId: null
   recommendationControl: Business Continuity
