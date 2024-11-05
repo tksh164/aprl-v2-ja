@@ -43,7 +43,7 @@
     Azure や ハイブリッド接続の監視を改善します。
   potentialBenefits: Improves monitoring for Azure and Hybrid connectivity
   pgVerified: true
-  automationAvailable: true
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: 接続の監視の概要

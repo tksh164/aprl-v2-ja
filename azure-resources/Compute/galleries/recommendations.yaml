@@ -66,7 +66,7 @@
     マルチリージョン展開では、ディザスタ リカバリ機能を確保するために、イメージ バージョンをセカンダリ リージョンに複製します。これにより、プライマリ リージョンで災害が発生した場合でも、セカンダリ リージョンでイメージ バージョンを利用できるようになります。
   potentialBenefits: Enhances disaster recovery capability
   pgVerified: true
-  automationAvailable: true
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Compute Gallery Replication
@@ -83,7 +83,7 @@
     各ターゲット リージョンでは、そのリージョンのスケールの必要性に基づいて、異なるレプリカ数を設定できます。同時に作成する VM 20 台ごとに、1 つのレプリカを保持することをお勧めします。
   potentialBenefits: Enhances disaster recovery capability
   pgVerified: true
-  automationAvailable: true
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Compute Gallery Scaling
