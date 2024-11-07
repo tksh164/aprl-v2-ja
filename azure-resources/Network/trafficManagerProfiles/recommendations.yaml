@@ -47,7 +47,7 @@
     プロファイルには、エンドポイントに障害が発生した場合の可用性を確保するために、複数のエンドポイントが必要です。また、信頼性を高めるために、これらのエンドポイントを異なるリージョンに分散することもお勧めします。
   potentialBenefits: Enhances availability across regions
   pgVerified: true
-  automationAvailable: false
+  automationAvailable: true
   tags: null
   learnMoreLink:
     - name: Reliability recommendations
