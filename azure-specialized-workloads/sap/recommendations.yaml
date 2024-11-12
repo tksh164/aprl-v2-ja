@@ -6,7 +6,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    Azure 可用性ゾーンは、各 Azure リージョン内の物理的に分離された場所であり、ローカルの障害に対して耐性があります。可用性ゾーンを使用して、予期しないデータ センターの障害からアプリケーションとデータを保護します。各 SAP 運用システムの各単一障害点が、複数の可用性ゾーンを使用して高可用性で保護されていることを確認します。リージョン内の異なるゾーンにデプロイできない場合は、SAP ワークロードの高可用性デプロイ オプションに関する Microsoft のガイダンスを参照してください。
+    Use Azure Availability Zones to protect SAP systems against data center failures. Ensure high availability by deploying across multiple zones. If deployment across zones isn't possible, refer to Microsoft's guidance for high availability options for SAP workloads.
   potentialBenefits: High availability for SAP systems
   pgVerified: true
   automationAvailable: false
@@ -31,7 +31,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    柔軟なオーケストレーションで仮想マシン スケール セット (VMSS) を使用して、指定したゾーン間および各ゾーン内で仮想マシンを分散し、ゾーン内の異なる障害ドメイン間で VM をベスト エフォート ベースで分散します。SAP ワークロードに関する Microsoft の推奨事項に従って、適切なモードと正しい設定を使用して VMSS Flex を構成します。現在、SAP アプリケーション サーバーに VMSS Flex を使用しておらず、障害ドメインと更新ドメインの分散で可用性セットも使用していない場合は、VMSS Flex アーキテクチャへの移行を検討して、SAP デプロイの回復性体制を向上させることを検討する必要があります。以下のリンクにある次のブログ記事では、可用性セットまたは可用性ゾーンにデプロイされている既存の SAP ワークロードを FD=1 デプロイ オプションを持つ柔軟なスケール セットに移行するプロセスの詳細について概説しています。
+    Use VMSS Flex to distribute VMs across zones and fault domains. Follow Microsoft's SAP workload recommendations for settings. If not using VMSS Flex or Availability Sets, consider migrating to VMSS Flex for improved resiliency. Refer to the provided blog post for migration details.
   potentialBenefits: Enhanced resiliency for SAP on Azure
   pgVerified: true
   automationAvailable: false
@@ -116,8 +116,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    すべての高可用性ソリューションを徹底的にテストします (Linux VM のカーネル パニックやフェールバックなど)。テストにゾーン障害シナリオを含め、データベース、セントラル サービス、アプリケーション サーバー、共有ファイル システムなどの SAP ソリューションの各レイヤーがゾーン冗長性に対して正しく構成されていること、ソリューションが RPO = 0 を満たしていること、アプリケーションが RTO を満たしていること、およびアプリケーションが自動的にフェールオーバーして RTO を満たしていることをテストで確認する必要があります。
-    フェールバックは自動または手動でできるようにします。
+    Test high availability solutions thoroughly, including kernel panic in Linux VMs and fail-back. Ensure zonal failure scenarios for each SAP layer (database, central services, application servers, shared file systems) are zone redundant, meet RPO = 0, and fail over automatically within your RTO.
   potentialBenefits: Ensures SAP Azure's failover reliability
   pgVerified: true
   automationAvailable: false
@@ -134,10 +133,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    Linux Pacemaker クラスターで移行コマンドを実行すると、システムは一時的な "優先" 場所制約を生成し、リソースを指定されたノードに移動することを目的としています。この制約は、クラスターの構成を永続的に変更することなく、リソースのターゲット ノードを一時的に優先します。
-    計画的なメインテナンスやフェールオーバーのテストでは、migrate コマンドを活用して、メインテナンス中や管理作業中にリソースを一時的に再配置し、中断を最小限に抑えることができます。この制約は永続的ではなく、再起動やクラスターのリセットには耐えられません。短期的な調整用に設計されています。
-    リソースの移行が必要な計画タスクが完了したら、一時的な制約を手動で削除してクラスターの元のリソース管理ポリシーに戻します。
-    このアプローチでは、クラスター内のリソースの移動を制御できるため、クラスター構成の整合性と効率性を維持しながらメンテナンスを容易に行うことができます。
+    Use the migrate command in a Linux Pacemaker cluster to create a temporary "prefer" location constraint, moving a resource to a specified node for maintenance or testing. This constraint is temporary and should be removed after the task to revert to the original cluster configuration.
   potentialBenefits: Enhanced maintenance and failover handling
   pgVerified: true
   automationAvailable: false
@@ -154,8 +150,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    DR リージョン内の重要な VM ロールのコンピューティング リソースの可用性を確保するには、ウォーム スタンバイ アプローチを使用するか、Azure のオンデマンド容量予約を利用して容量をセキュリティで保護することを検討してください。
-    ウォーム スタンバイでは、DR リージョンの VM を稼動させておきます。一方、オンデマンド容量予約では、VM を稼働させることなくコンピュート容量を予約するため、必要なときに VM を起動することができます。DR の VM が不要な場合、予約された容量は、他の顧客に容量を奪われるリスクなしに、他のワークロードを実行するために安全に使用することができます。この戦略により、災害発生時に重要なワークロードのリソースの可用性が保証され、コストと即応性のバランスが取れます。
+    Ensure compute resource availability for critical VM roles in a DR region using a warm standby approach or Azure's On-demand Capacity Reservation. Warm standby keeps VMs running in the DR region, while On-demand Capacity Reservation reserves compute capacity without running VMs.
   potentialBenefits: Guarantees DR region availability
   pgVerified: true
   automationAvailable: false
@@ -208,7 +203,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    SAP on Azure の DR の堅牢な監視とアラートを実装することで、その複雑なマルチレイヤー アーキテクチャ全体のカバレッジが保証されます。この戦略は、データベース、サービス、アプリケーション、および共有システムにとって非常に重要です。
+    Implement robust monitoring and alerting for DR in SAP on Azure to cover its complex, multi-layer architecture. This is crucial for databases, services, applications, and shared systems.
   potentialBenefits: Enhances SAP DR oversight
   pgVerified: true
   automationAvailable: false
@@ -242,8 +237,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    SAP アーキテクチャ データベース、セントラル サービス、アプリケーション サーバー、共有ファイル システムの各レイヤーの DR 手順の詳細なドキュメントを作成します。このドキュメントには、構成の詳細、フェールオーバー メカニズム、および段階的な回復手順が含まれている必要があります。
-    リージョンの停電を含む幅広い障害シナリオをテストします。テストでは、DR 戦略が堅牢であること、RPO と RTO の目標値を満たしていること、SAP アーキテクチャのすべてのレイヤーでシームレスなフェールオーバーが可能であることを確認する必要があります。これにより、リージョンの障害に耐え、事業継続性を確保できる包括的で弾力性のある DR 戦略が実現します。
+    Document DR procedures for each SAP layer: database, central services, application servers, and shared file systems. Include configuration, failover mechanisms, and recovery steps. Test various failure scenarios to ensure the DR strategy meets RPO/RTO targets and provides seamless failover.
   potentialBenefits: Ensures robust DR, meets RPO/RTO
   pgVerified: true
   automationAvailable: false
@@ -260,7 +254,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    Azure でホストされている SAP ソリューションの場合、SAP アーキテクチャの各レイヤーの DR を包括的にカバーする堅牢な監視およびアラート ソリューションを実装することが不可欠です。SAP システムは、さまざまなテクノロジと Azure リソースを使用して複数のレイヤーにまたがり、それぞれが異なる DR レプリケーション メカニズムを持つ可能性がある複雑さを考えると、適切な監視戦略が不可欠です。さまざまなレイヤーには、データベース、中央サービス、アプリケーション、および共有ファイル システムが含まれます。
+    Implement robust monitoring and alerting for SAP on Azure, covering DR for databases, central services, applications, and shared file systems. Given SAP's complexity, a comprehensive monitoring strategy is crucial for effective DR replication and rapid issue response.
   potentialBenefits: Improved DR oversight and rapid issue response
   pgVerified: true
   automationAvailable: false
@@ -277,10 +271,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    スケジュールされたイベントは、アプリケーションがそれらに備え、中断を制限できるように、今後のメンテナンス イベント (再起動など) に関するプロアクティブな通知を提供する Azure Metadata Services です。スケジュールされたイベントは、すべての重要な Azure VM に対して構成する必要があります。
-    リソース エージェント azure-events-az は Pacemaker クラスターとも統合できます。
-    Azure VM の高可用性とサービス継続性を確保するために、Pacemaker クラスター内に azure-events-az リソース エージェントを設定する必要があります。このエージェントは、スケジュールされた Azure メンテナンス イベントを監視し、グレースフル ノードシャットダウンのためにリソースをプロアクティブに再配置することができます。Reboot や Redeploy などの特定のイベント タイプを監視するようにエージェントを構成し、詳細な診断のために詳細なロギングを有効にします。
-    さらに、予定されたイベントにどのように対応するかの手順を定義することも重要です。
+    Scheduled events notify about upcoming maintenance (e.g., reboot) to limit disruption. Configure for all critical Azure VMs. Use the azure-events-az resource agent in Pacemaker clusters to monitor and react to events like Reboot and Redeploy, ensuring high availability.
   potentialBenefits: Proactive maintenance awareness
   pgVerified: true
   automationAvailable: false
@@ -383,7 +374,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    Azure NetApp Files を使用する SAP の高可用性は、アプリケーションの中断を防ぐための適切なタイムアウト値の設定に依存します。ドキュメントを確認して、構成がドキュメントに記載されているタイムアウト値を満たしていることを確認します。
+    Ensure high availability of SAP with Azure NetApp Files by setting proper timeout values to prevent disruptions. Review the documentation to confirm your configuration meets the recommended timeout values.
   potentialBenefits: Improve resiliency and performance of SAP on Azure
   pgVerified: true
   automationAvailable: false
@@ -400,9 +391,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    データ ボリュームとログ ボリュームのプロビジョニングに適切な種類と数のディスクが使用されていることを確認するため、データベース ストレージの構成を見直すことを強く推奨します。これは、データベース VM が、指定されたデータベースの IOPS とスループットのパフォーマンス要件を満たしていることを確認するためです。
-    また、すべてのデータベース VM に対して、ディスク キャッシング、WriteAccelerator、ストライプ サイズ、Linux I/O Scheduler モードなど、Microsoft が推奨する設定を使用する必要があります。
-    SAP on Azure QualityCheck ツールは、Microsoft の推奨設定からの逸脱を迅速かつ大規模に特定するのに役立ちます。
+    Ensure optimal disk types and configurations for data and log volumes, meeting IOPS and throughput requirements. Follow Microsoft's recommendations for disk caching, WriteAccelerator, stripe size, and Linux I/O Scheduler. Use SAP on Azure QualityCheck tool to identify deviations.
   potentialBenefits: Improve reliability, performance and optimize costs
   pgVerified: true
   automationAvailable: false

@@ -472,7 +472,7 @@
   longDescription: |
     Azure 容量予約 は、特定のリージョンまたは可用性ゾーン内でコンピューティング容量を事前に予約することで、仮想マシンの高可用性を確保します。これにより、需要のピーク時やメンテナンス時に VM に必要なリソースが確保され、信頼性とアップタイムが向上します。
   potentialBenefits: Guaranteed capacity in constrained regions/zones
-  pgVerified: false
+  pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -483,13 +483,13 @@
   aprlGuid: 5f7e8a12-3c4f-456b-919c-2e9adff98c38
   recommendationTypeId: null
   recommendationControl: High Availability
-  recommendationImpact: Low
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
     Azure Linux エージェントをインストールしてある場合、または動作保証済みのディストリビューション イメージを使用している場合は、エージェントのバージョンが最新であることを確認してください。Linux ディストリビューションによっては、自動更新が無効になっていたり、古いバージョンのエージェントが使用されていたりすることがあります。
   potentialBenefits: Reduces complications with VM provisioning
-  pgVerified: false
+  pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:

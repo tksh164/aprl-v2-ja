@@ -183,7 +183,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    RDP Shortpath は、クライアントとセッション ホストの間に直接 UDP ベースの接続を確立します。既定では、リモート デスクトップ プロトコル (RDP) は UDP を使用して接続を確立しようとし、フォールバック接続メカニズムとして TCP ベースの逆方向接続トランスポートを使用します。UDP ベースのトランスポートは、接続の信頼性が向上し、遅延が一貫しています。
+    RDP Shortpath establishes a direct UDP-based connection between a client and the session host. By default, RDP tries to use UDP and falls back to TCP if needed. UDP transport offers better connection reliability and consistent latency.
   potentialBenefits: Better reliability and consistent latency
   pgVerified: true
   automationAvailable: false
@@ -200,7 +200,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    AVD セッション ホストが AVD コントロール プレーンと効果的に通信できること、および UDP を使用する場合は UDP ポートが開いていることを確認します。VM と AVD コントロール プレーンの接続を検証し、UDP TURN ポートにアクセスできることを確認します。グローバル URL をホワイトリストに登録し、UDP/TURN ポートが開いていてアクセス可能であることを確認して、スムーズなユーザー接続を促進します。
+    Ensure AVD session hosts can communicate with the AVD control plane and that UDP ports are open if used. Validate VM connectivity to the AVD Control Plane and confirm UDP TURN port accessibility. Whitelist global URLs and ensure UDP/TURN ports are open for smooth user connections.
   potentialBenefits: Enhanced performance & user experience
   pgVerified: true
   automationAvailable: false
@@ -254,8 +254,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    AVD ペルソナごとの NSG と ASG、および本番/DR リージョンごとの IP 空間を確保します。
-    Azure における IP アドレスを計画することは重要です。計画を立てることで、IP アドレス空間がオンプレミスのロケーションと Azure リージョンで重複しないようにします。オンプレミスと Azure リージョンで IP アドレス空間が重なると、大きな競合の問題が発生します。
+    NSG and ASG per AVD persona and IP space per Prod/DR regions. Plan IP addressing to avoid overlaps between on-premises and Azure regions, preventing major contention challenges.
   potentialBenefits: Enhances security and prevents IP conflicts
   pgVerified: true
   automationAvailable: false
@@ -272,7 +271,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    ルート テーブルにスタティック ルートがあることを確認して、AVD コントロール プレーンをターゲットとするセッション ホスト トラフィックがサブネットから直接インターネット (次ホップ) に発信できるようにすることで、信頼できるトラフィックの通信でホップを検査したり追加したりする遅延を回避できます。
+    Ensure Route Tables have static routes for session host traffic targeting the AVD control plane to go directly to the internet (next hop). This avoids delays from additional hops or inspections in trusted traffic communication.
   potentialBenefits: Enhanced performance and Disaster Recovery
   pgVerified: true
   automationAvailable: false
@@ -291,7 +290,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    Azure Virtual Desktop 環境内でイメージの更新を処理するための体系的なプロセスを確立します。個々のセッション ホストを直接更新する代わりに、更新されたイメージの新しいバージョンを作成します。このプロセスには、必要な更新と構成を含むゴールデン イメージの作成と構成が含まれます。
+    Establish a process for handling image updates in your AVD environment. Instead of updating session hosts directly, create a new version of the updated image. This involves creating and configuring a golden image with the necessary updates and configurations.
   potentialBenefits: Ensures consistency; minimizes drift
   pgVerified: true
   automationAvailable: false
@@ -342,7 +341,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    FSLogix ストレージ リソースの診断設定と、そのメトリックとエラーの FSLogix ログを定期的に構成します。イベントは、セッション ホスト内でローカルに調べることで確認できますが、この情報を Log Analytics ワークスペースに統合するように AVD insights ワークブックを設定することをお勧めします。
+    Configure diagnostic settings on FSLogix storage and regularly monitor its metrics and logs for errors. While events can be reviewed locally on the Session Host, it is recommended to use AVD insights workbook to consolidate this information into a Log Analytics workspace.
   potentialBenefits: Enhanced AVD error tracking and resolution
   pgVerified: true
   automationAvailable: false
@@ -361,7 +360,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    FSLogix エージェントのアップグレードを定期的に確認し、FSLogix を最新の状態に維持するプロセスが整っていることを確認します。お客様は、デプロイ プロセスが許す限り迅速に最新バージョンの FSLogix にアップグレードすることをお勧めします。FSLogix は、お客様のデプロイに影響を与える現在および潜在的なバグに対処する修正プログラム リリースを提供します。さらに、これはサポート ケースを開く際の最初の要件です。
+    Ensure a process to regularly check and update FSLogix agent. Upgrade to the latest version promptly to address bugs and meet support requirements. FSLogix releases hotfixes to resolve issues impacting deployments. Keeping FSLogix updated is crucial for support and reliability.
   potentialBenefits: Enhanced reliability & support
   pgVerified: true
   automationAvailable: false
@@ -396,8 +395,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    アプリ アタッチ パッケージは、プロファイルとは別の共有に配置する必要があります。また、アプリ アタッチ ファイルはバックアップする必要があります。要件は、イメージに格納されているパッケージ アプリケーションの数によって大きく異なる場合があり、要件を理解するにはアプリケーションをテストする必要があります。
-    ファイル共有は、セッション ホストと同じ Azure リージョンにある必要があります。
+    App Attach packages should be on a separate share from profiles and backed up. Requirements vary based on the number of packaged applications. Test your applications to understand your needs. Ensure the file share is in the same Azure region as your session hosts.
   potentialBenefits: Enhances performance and scalability
   pgVerified: true
   automationAvailable: false
@@ -414,7 +412,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    継続的な可用性とディザスター リカバリーの準備を確保するために、セカンダリ Key Vault をセカンダリ リージョンにプロビジョニングすることをお勧めします。プライマリ リージョンで障害が発生した場合、このセカンダリ Key Vault により、セカンダリ リージョンのデプロイで使用するために重要なシークレットにアクセスできるようになります。
+    To ensure continuous availability and disaster recovery readiness, provision a secondary Key Vault in a secondary region. In case of a primary region failure, the secondary Key Vault will ensure critical secrets remain accessible for deployments in the secondary region.
   potentialBenefits: Ensures DR readiness and access
   pgVerified: true
   automationAvailable: false
@@ -431,8 +429,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    AVD で AD DS ID ソリューションを使用する場合は、可用性ゾーンをまたいで Azure 仮想マシンに 2 つ以上のドメイン コントローラーをデプロイすることをお勧めします。これにより、オンプレミス サービスへの依存関係がなくなることで環境の信頼性が向上し、ユーザー認証のパスが短くなるためパフォーマンスが向上します。
-    この推奨は、Microsoft Entra ID または、Entra Domain Services に参加するセッション ホストを使用する場合には適用されません。
+    Deploy multiple domain controllers on Azure VMs across availability zones with AVD session hosts. This removes on-premises dependencies and improves performance with a shorter authentication path. This doesn't apply to Microsoft Entra ID or Entra Domain Services joined session hosts.
   potentialBenefits: Enhanced identity resilience
   pgVerified: true
   automationAvailable: false
@@ -449,7 +446,7 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    カスタム DNS サーバーを使用する場合は、セッション ホストと同じリージョン内の可用性ゾーンにまたがる Azure 仮想マシンに DNS サーバーをデプロイします。これにより、オンプレミス サービスへの依存関係がなくなることで環境の信頼性が向上し、名前解決のパスが短くなるためパフォーマンスが向上します。
+    Deploy custom DNS servers on Azure VMs across availability zones in the same region as session hosts. This removes on-premises dependencies and improves performance by shortening the name resolution path.
   potentialBenefits: Enhanced reliability and performance
   pgVerified: true
   automationAvailable: false
