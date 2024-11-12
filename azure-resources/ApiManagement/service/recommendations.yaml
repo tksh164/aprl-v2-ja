@@ -44,7 +44,7 @@
   recommendationResourceType: Microsoft.ApiManagement/service
   recommendationMetadataState: Active
   longDescription: |
-    stv1 instances were deprecated on August 31, 2024. If not migrated to stv2 by then, auto-migration will occur. In some cases, due to technical limitations, services may be shut down in March 2025.
+    stv1インスタンスは 2024 年 8 月 31 日に非推奨となりました。この日までに stv2 への移行が行われていない場合、自動移行が行われます。技術的な制限により、2025 年 3 月にサービスが停止する可能性があります。
   potentialBenefits: Ensures service continuity
   pgVerified: true
   automationAvailable: true
