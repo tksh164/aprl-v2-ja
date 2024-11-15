@@ -72,7 +72,7 @@
     - name: Traffic Manager profile - GeographicProfile (Add an endpoint configured to ""All (World)"").
       url: "https://aka.ms/Rf7vc5"
 
-- description: Avoid combining Traffic Manager and Front Door
+- description: Traffic Manager と Front Door の組み合わせを避ける
   aprlGuid: 9437634c-d69e-2747-b13e-631c13182150
   recommendationTypeId: null
   recommendationControl: Business Continuity
@@ -80,17 +80,17 @@
   recommendationResourceType: Microsoft.Network/trafficManagerProfiles
   recommendationMetadataState: Active
   longDescription: |
-    For most solutions, choose either Azure Front Door for content caching, CDN, TLS termination, and WAF, or Traffic Manager for simple global load balancing.
+    ほとんどのソリューションでは、コンテンツ キャッシュ、CDN、TLS 終端、WAF には Azure Front Door を選択します。単純なグローバル負荷分散には Traffic Manager を選択します。
   potentialBenefits: Optimized network routing and security
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Azure Load Balancing Options
+    - name: 負荷分散のオプション
       url: "https://learn.microsoft.com/azure/architecture/guide/technology-choices/load-balancing-overview"
     - name: Azure Traffic Manager
       url: "https://learn.microsoft.com/azure/traffic-manager/traffic-manager-overview"
     - name: Azure Front Door
       url: "https://learn.microsoft.com/azure/frontdoor/front-door-overview"
-    - name: Mission-critical global content delivery
-      url: "https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-content-delivery"
+    - name: ミッション クリティカルなグローバル コンテンツ配信
+      url: "https://learn.microsoft.com/azure/architecture/guide/networking/global-web-applications/mission-critical-content-delivery"
