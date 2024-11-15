@@ -6,7 +6,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    Azure 可用性ゾーンを使用して、データセンターの障害から SAP システムを保護します。複数のゾーンにまたがってデプロイすることで、高可用性を確保します。ゾーン間で展開できない場合は、SAP ワークロードの高可用性オプションに関する Microsoft のガイダンスを参照してください。
+    Azure 可用性ゾーンを使用して、データセンターの障害から SAP システムを保護します。複数のゾーンにまたがってデプロイすることで、高可用性を確保します。ゾーン間で展開できない場合は、SAP ワークロードの高可用性オプションに関する Microsoft のガイダンスを参照します。
   potentialBenefits: High availability for SAP systems
   pgVerified: true
   automationAvailable: false
@@ -31,7 +31,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    VMSS Flex を使用して、VM をゾーンと障害ドメインに分散します。設定については、Microsoft の SAP ワークロードに関する推奨事項に従ってください。VMSS Flex や可用性セットを使用していない場合は、耐障害性を向上させるために VMSS Flex への移行を検討してください。移行の詳細については、提供されている Blog ポストを参照してください。
+    VMSS Flex を使用して、VM をゾーンと障害ドメインに分散します。設定については、Microsoft の SAP ワークロードに関する推奨事項に従います。VMSS Flex や可用性セットを使用していない場合は、耐障害性を向上させるために VMSS Flex への移行を検討します。移行の詳細については、提供されている Blog ポストを参照します。
   potentialBenefits: Enhanced resiliency for SAP on Azure
   pgVerified: true
   automationAvailable: false
@@ -374,7 +374,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    中断を防ぐために適切なタイムアウト値を設定して、Azure NetApp Files を使用した SAP の高可用性を確保します。ドキュメントを確認して、構成が推奨されるタイムアウト値を満たしていることを確認してください。
+    中断を防ぐために適切なタイムアウト値を設定して、Azure NetApp Files を使用した SAP の高可用性を確保します。ドキュメントを確認して、構成が推奨されるタイムアウト値を満たしていることを確認します。
   potentialBenefits: Improve resiliency and performance of SAP on Azure
   pgVerified: true
   automationAvailable: false
@@ -391,7 +391,7 @@
   recommendationResourceType: Specialized.Workload/SAP
   recommendationMetadataState: Active
   longDescription: |
-    データ ボリュームとログ ボリュームに最適なディスク タイプと構成を確保し、IOPS とスループットの要件を満たします。ディスク キャッシング、WriteAccelerator、ストライプ サイズ、Linux I/O スケジューラーに関する Microsoft の推奨事項に従ってください。SAP on Azure QualityCheck ツールを使用して乖離を特定します。
+    データ ボリュームとログ ボリュームに最適なディスク タイプと構成を確保し、IOPS とスループットの要件を満たします。ディスク キャッシング、WriteAccelerator、ストライプ サイズ、Linux I/O スケジューラーに関する Microsoft の推奨事項に従います。SAP on Azure QualityCheck ツールを使用して乖離を特定します。
   potentialBenefits: Improve reliability, performance and optimize costs
   pgVerified: true
   automationAvailable: false
