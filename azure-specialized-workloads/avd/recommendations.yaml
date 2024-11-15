@@ -12,7 +12,7 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: リソース正常性
       url: "https://learn.microsoft.com/azure/well-architected/azure-virtual-desktop/monitoring#resource-health"
 
 - description: AVD Insights ワークブックを設定する
@@ -29,8 +29,8 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/azure/virtual-desktop/insights?tabs=monitor"
+    - name: Azure Virtual Desktop を監視する Insights を有効にする
+      url: "https://learn.microsoft.com/azure/virtual-desktop/insights"
 
 - description: 本番と DR の Log Analytics ワークスペースを分ける
   aprlGuid: 89b4d8f6-6345-4d66-9012-c3fc2aef94e8
@@ -46,7 +46,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Azure Virtual Desktop の Log Analytics に診断データを送信する
       url: "https://learn.microsoft.com/azure/virtual-desktop/diagnostics-log-analytics"
 
 - description: AVD ランディング ゾーン手法で説明されている AVD スケール ユニット モデルを使用して AVD リソースを整理する
@@ -63,7 +63,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Microsoft Azure Virtual Desktop のエンタープライズ規模のサポート
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/enterprise-scale-landing-zone"
 
 - description: AVD リソースのキャパシティを監視して計画する
@@ -83,7 +83,7 @@
   learnMoreLink:
     - name: Capacity Planning
       url: "https://learn.microsoft.com/azure/well-architected/azure-virtual-desktop/business-continuity#capacity-planning"
-    - name: Learn More
+    - name: Azure Virtual Desktop の制限事項
       url: "https://learn.microsoft.com/azure/architecture/example-scenario/wvd/windows-virtual-desktop#azure-virtual-desktop-limitations"
 
 - description: DNS リージョンがレプリケートされていることを確認して、単一障害点を回避する
@@ -100,7 +100,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Azure Virtual Desktop のマルチリージョン事業継続とディザスター リカバリー (BCDR)
       url: "https://learn.microsoft.com/azure/architecture/example-scenario/azure-virtual-desktop/azure-virtual-desktop-multi-region-bcdr"
 
 - description: マルチリージョン BCDR プランを実装する
@@ -117,9 +117,9 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Multi-region BCDR
+    - name: Azure Virtual Desktop のマルチリージョン事業継続とディザスター リカバリー (BCDR)
       url: "https://learn.microsoft.com/azure/architecture/example-scenario/wvd/azure-virtual-desktop-multi-region-bcdr"
-    - name: Learn More
+    - name: アクティブ/アクティブなシナリオ
       url: "https://learn.microsoft.com/azure/well-architected/azure-virtual-desktop/business-continuity#active-active-scenarios"
 
 - description: ストレージ アカウントごとに FSLogix ファイル共有を 1 つだけ作成する
@@ -136,7 +136,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Azure Files と Azure File Sync のスケーラビリティとパフォーマンスのターゲット
       url: "https://learn.microsoft.com/azure/storage/files/storage-files-scale-targets"
 
 - description: 専用の FSLogix ファイル共有を作成し、ホスト プールごとにセットアップする
@@ -153,7 +153,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: ファイル共有を使用してホスト プール用のプロファイル コンテナーを作成する
       url: "https://learn.microsoft.com/azure/virtual-desktop/create-host-pools-user-profile"
 
 - description: FSLogix ストレージ アカウント ファイル共有の Azure バックアップを有効にする
@@ -172,8 +172,8 @@
   learnMoreLink:
     - name: FSLogix
       url: "https://learn.microsoft.com/fslogix/overview-what-is-fslogix"
-    - name: Backup Storage Account
-      url: https://learn.microsoft.com/azure/backup/blob-backup-configure-manage?tabs=operational-backup
+    - name: Azure Backup を使用して Azure BLOB のバックアップを構成および管理する
+      url: "https://learn.microsoft.com/azure/backup/blob-backup-configure-manage?tabs=operational-backup"
 
 - description: パブリック ネットワークやマネージド ネットワーク用の RDP Shortpath を実装する
   aprlGuid: 3835b4b3-0479-4be8-9ffd-34ae29fa33b9
@@ -226,7 +226,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Microsoft Entra ID とのフェデレーションに使用するマルチ ドメイン サポート
       url: "https://learn.microsoft.com/entra/identity/hybrid/connect/how-to-connect-install-multiple-domains"
 
 - description: 仮想ネットワークに、すべてのリージョンに対して構成されたルート テーブル/ルート サーバーがあることを確認する
@@ -243,7 +243,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: 冗長接続ソリューションの必要性
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-disaster-recovery-with-expressroute-privatepeering#need-for-redundant-connectivity-solution"
 
 - description: 本番と DR で個別の IP 空間と NSG を使用して仮想ネットワークの分離を確保する
@@ -313,7 +313,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: 構成設定のリファレンス
       url: "https://learn.microsoft.com/fslogix/reference-configuration-settings?tabs=profiles"
 
 - description: FSLogix SMB 共有でユーザーのアクセス許可が正しく設定されていることを確認する
@@ -330,7 +330,7 @@
   automationAvailable: false
   tags:
   learnMoreLink:
-    - name: Learn More
+    - name: SMB ストレージのアクセス許可の構成
       url: "https://learn.microsoft.com/fslogix/how-to-configure-storage-permissions"
 
 - description: FSLogix ストレージの診断設定を構成し、セッション ホストの FSLogix イベントをキャプチャする
@@ -384,7 +384,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Azure Virtual Desktop のアプリ アタッチと MSIX アプリ アタッチ
       url: "https://learn.microsoft.com/azure/virtual-desktop/app-attach-overview?pivots=msix-app-attach"
 
 - description: アプリ アタッチに専用のファイル共有を使用し、ディザスター リカバリー計画にストレージを含める
