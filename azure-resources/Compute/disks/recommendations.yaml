@@ -1,4 +1,4 @@
-- description: Shared disks should only be enabled in clustered servers
+- description: 共有ディスクは、クラスター化されたサーバーでのみ有効にする必要がある
   aprlGuid: 3263a64a-c256-de48-9818-afd3cbc55c2a
   recommendationTypeId: null
   recommendationControl: Other Best Practices
@@ -6,18 +6,18 @@
   recommendationResourceType: Microsoft.Compute/disks
   recommendationMetadataState: Active
   longDescription: |
-    Azure shared disks let you attach a disk to multiple VMs at once for deploying or migrating clustered applications, suitable only when a disk is shared among VM cluster members.
+    Azure 共有ディスクを使用すると、クラスター化されたアプリケーションをデプロイまたは移行するために、ディスクを同時に複数の VM に接続できます。ディスクが VM クラスター メンバー間で共有されている場合にのみ適しています。
   potentialBenefits: Enhances clustered server performance
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Azure Shared Disk Introduction
+    - name: Azure 共有ディスクの概要
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared"
-    - name: Enable Shared Disks
+    - name: 共有ディスクを有効にする
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared-enable?tabs=azure-portal"
 
-- description: Use Azure Disks with Zone Redundant Storage for higher resiliency and availability
+- description: 回復性と可用性を高めるために Azure ディスクでゾーン冗長ストレージを使用する
   aprlGuid: fa0cf4f5-0b21-47b7-89a9-ee936f193ce1
   recommendationTypeId: d4102c0f-ebe3-4b22-8fe0-e488866a87af
   recommendationControl: High Availability
@@ -25,11 +25,11 @@
   recommendationResourceType: Microsoft.Compute/disks
   recommendationMetadataState: Active
   longDescription: |
-    Azure disks offers a zone-redundant storage (ZRS) option for workloads that need to be resilient to an entire zone being down. Due to the cross-zone data replication, ZRS disks have higher write latency when compared to the locally-redundant option (LRS), so make sure to benchmark your disks.
+    Azure ディスクは、ゾーン全体のダウンに対する回復性が必要なワークロードに対して、ゾーン冗長ストレージ (ZRS) オプションを用意しています。クロスゾーン データ レプリケーションにより、ZRS ディスクはローカル冗長オプション (LRS) と比較して書き込み待機時間が長くなるため、ディスクのベンチマークを必ず行います。
   potentialBenefits: Enhanced Disk resilience to failures
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Redundancy options for managed disks
+    - name: マネージド ディスクの冗長性オプション
       url: "https://aka.ms/zrsdisksdoc"
