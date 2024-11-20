@@ -3,7 +3,7 @@
   recommendationTypeId: null
   recommendationControl: Disaster Recovery
   recommendationImpact: High
-  recommendationResourceType: Microsoft.Resources/resourceGroups
+  recommendationResourceType: Microsoft.Resources/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     リソースの場所がリソース グループと一致していることを確認して、リージョンの停止中にリソースを管理します。ARM はリソース データを格納しますが、使用できないリージョンにある場合、更新が停止し、リソースが読み取り専用になる可能性があります。

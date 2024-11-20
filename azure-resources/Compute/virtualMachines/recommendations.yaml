@@ -246,25 +246,6 @@
     - name: Azure 仮想ネットワーク内のリソースの名前解決
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances"
 
-- description: 共有ディスクは、クラスター化されたサーバーでのみ有効にする必要がある
-  aprlGuid: 3263a64a-c256-de48-9818-afd3cbc55c2a
-  recommendationTypeId: null
-  recommendationControl: Other Best Practices
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
-  longDescription: |
-    Azure 共有ディスクを使用すると、クラスター化されたアプリケーションをデプロイまたは移行するために、ディスクを同時に複数の VM に接続できます (ディスクが VM クラスター メンバー間で共有されている場合にのみ適しています)。
-  potentialBenefits: Enhances clustered server performance
-  pgVerified: true
-  automationAvailable: true
-  tags: null
-  learnMoreLink:
-    - name: Azure 共有ディスクの概要
-      url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared"
-    - name: 共有ディスクを有効にする
-      url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared-enable?tabs=azure-portal"
-
 - description: VM ディスクへのネットワーク アクセスは、「パブリック アクセスを無効にし、プライベート アクセスを有効にする」に設定する必要がある
   aprlGuid: 70b1d2be-e6c4-b54e-9959-b1b690f9e485
   recommendationTypeId: null
@@ -444,23 +425,6 @@
       url: "https://learn.microsoft.com/azure/virtual-machines/linux/scheduled-events"
     - name: Azure Metadata Service - Windows VM のScheduled Events
       url: "https://learn.microsoft.com/azure/virtual-machines/windows/scheduled-events"
-
-- description: Azure ディスクとゾーン冗長ストレージを使用して、回復性と可用性を高める
-  aprlGuid: fa0cf4f5-0b21-47b7-89a9-ee936f193ce1
-  recommendationTypeId: d4102c0f-ebe3-4b22-8fe0-e488866a87af
-  recommendationControl: High Availability
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
-  longDescription: |
-    Azure ディスクには、ゾーン全体のダウンに対する回復性が必要なワークロードに対して、ゾーン冗長ストレージ (ZRS) オプションが用意されています。クロスゾーン データ レプリケーションのため、ZRS ディスクはローカル冗長オプション (LRS) と比較して書き込み待機時間が長くなるため、ディスクのベンチマークを必ず行ってください。
-  potentialBenefits: Enhanced Disk resilience to failures
-  pgVerified: true
-  automationAvailable: true
-  tags: null
-  learnMoreLink:
-    - name: マネージド ディスクの冗長性オプション
-      url: "https://learn.microsoft.com/azure/virtual-machines/disks-redundancy#zone-redundant-storage-for-managed-disks"
 
 - description: 重要なワークロードのためにコンピューティング容量を予約する
   aprlGuid: 302fda08-ee65-4fbe-a916-6dc0b33169c4
