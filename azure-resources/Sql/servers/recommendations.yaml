@@ -57,7 +57,7 @@
   recommendationControl: High Availability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Sql/servers
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     一時的な障害発生時には、アプリケーションは Azure SQL Database を使用して接続の再試行を効果的に処理する必要があります。データベース レイヤーの設定は必要ありません。代わりに、正常な再試行を行うようにアプリケーションを設定する必要があります。
   potentialBenefits: Enhanced connectivity stability

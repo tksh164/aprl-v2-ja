@@ -42,7 +42,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/azureFirewalls
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     DDoS 保護プランを Azure Firewall をホストする仮想ネットワークに関連付けて、DDoS 攻撃に対する軽減を強化します。Azure Firewall Manager は、ファイアウォール インフラストラクチャと DDoS 保護プランの作成を統合します。
   potentialBenefits: Enhanced DDoS attack defense
@@ -59,7 +59,7 @@
   recommendationControl: Governance
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/azureFirewalls
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Firewall ポリシーは、子ポリシーよりも優先度の高い中央の基本ポリシーを使用して、コンプライアンスを適用するためのルール階層をサポートし、Azure カスタム ロールを使用して基本ポリシーを保護し、サブスクリプションやグループ内のアクセスを管理します。
   potentialBenefits: Enhanced compliance and rule hierarchy

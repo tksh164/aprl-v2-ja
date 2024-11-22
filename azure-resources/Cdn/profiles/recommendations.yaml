@@ -63,7 +63,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Front Door は、クライアントからの TCP 接続と TLS 接続を終了し、各 PoP から配信元への新しい接続を確立します。これらの接続を TLS でセキュリティ保護すると、Azure でホストされている配信元であっても、転送中にデータが常に暗号化されます。
   potentialBenefits: Ensures data encryption in transit
@@ -80,7 +80,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     HTTPS の使用は、安全な接続に最適です。ただし、古いクライアントとの互換性のために、HTTP 要求が必要になる場合があります。Azure Front Door を使用すると、HTTP から HTTPS への自動リダイレクトが可能になり、アクセシビリティを犠牲にすることなくセキュリティが強化されます。
   potentialBenefits: Enhances security and compliance
@@ -97,7 +97,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Front Door で TLS 証明書を管理すると、運用コストが削減され、証明書の更新を忘れることによるコストのかかる停止を回避できます。Front Door は、マネージド TLS 証明書を自動的に発行し、ローテーションします。
   potentialBenefits: Lowers costs, avoids outages
@@ -114,7 +114,7 @@
   recommendationControl: High Availability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     独自の TLS 証明書を使用する場合は、Key Vault 証明書のバージョンを "最新" に設定して、新しい証明書バージョン用に Azure Front Door を再構成し、Front Door の環境全体でのデプロイを待機しないようにします。
   potentialBenefits: Saves time and automates TLS updates
@@ -131,7 +131,7 @@
   recommendationControl: Governance
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Front Door では、1 つの配信元にルーティングするカスタム ドメイン名のホスト ヘッダーを書き換えることができるため、Front Door と配信元の両方でカスタム ドメイン構成を回避するのに役立ちます。
   potentialBenefits: Improves session/auth handling
@@ -148,7 +148,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     インターネットに接続するアプリケーションの場合、Microsoft マネージド ルールを使用してさまざまな攻撃から保護するために、Front Door Web アプリケーション ファイアウォール (WAF) を有効にし、マネージド ルールを使用するように構成することをお勧めします。
   potentialBenefits: Enhances web app security
@@ -216,7 +216,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     WAF を介した Azure Front Door の geo フィルタリングを使用すると、国/地域ごとにカスタム アクセス規則を定義して、Web アプリへのアクセスを制限または許可できます。
   potentialBenefits: Enhanced regional access control
@@ -233,7 +233,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Private Link を使用すると、仮想ネットワーク内のプライベート エンドポイント経由で Azure PaaS とサービスに安全にアクセスでき、トラフィックがパブリック インターネットではなく Microsoft のバックボーン ネットワークを経由します。
   potentialBenefits: Enhanced security and private connectivity

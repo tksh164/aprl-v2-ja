@@ -4,7 +4,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/privateDnsZones
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     組み込みの「プライベート DNS ゾーンの共同作成者」ロールを特定の許可されたユーザー、グループ、およびエンティティに割り当て、プライベート DNS ゾーンとレコードへの不正または偶発的な変更から保護します。すべてのゾーンに「プライベート DNS ゾーンの共同作成者」権限を付与して、アクセスを制限します。
   potentialBenefits: Prevents DNS outages

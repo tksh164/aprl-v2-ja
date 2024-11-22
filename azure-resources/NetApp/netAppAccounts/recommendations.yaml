@@ -4,7 +4,7 @@
   recommendationControl: Scalability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     容量プール属性の一部であるサービス レベルによって、Azure NetApp Files のボリューム クォータあたりの最大スループットが決まります。読み取り速度と書き込み速度を兼ね備えており、Standard (1TiB あたり 16MiB/秒)、Premium (1TiB あたり 64MiB/秒)、Ultra (1TiB あたり 128MiB/秒) の 3 つのレベルを提供します。
   potentialBenefits: Optimized performance and cost efficiency
@@ -157,7 +157,7 @@
   recommendationControl: Governance
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure NetApp Files では、組み込みのポリシー定義を使用するか、組織の標準とコンプライアンスを維持するためのカスタム ポリシー定義を作成することで、Azure ポリシーの統合がサポートされています。
   potentialBenefits: Enforce standards and assess compliance
@@ -176,7 +176,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.NetApp/netAppAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     委任されたサブネットへのアクセスは、特定の Azure Virtual Network に制限する必要があります。SMB 対応ボリュームの共有アクセス許可は、"すべてのユーザー/フル コントロール" から移動する必要があります。NFS 対応ボリュームのアクセスは、エクスポートポリシーや NFSv4.1 ACL を使用して制御する必要があります。
   potentialBenefits: Enhanced security, Reduced data breach risk

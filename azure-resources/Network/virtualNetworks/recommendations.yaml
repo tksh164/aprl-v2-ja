@@ -27,7 +27,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/virtualNetworks
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure DDoS Protection は、DDoS 攻撃に対する強化された軽減機能を提供し、アプリケーション設計のベスト プラクティスと組み合わせて、仮想ネットワーク内の特定のリソースを保護するように自動調整されます。
   potentialBenefits: Enhanced DDoS attack mitigation

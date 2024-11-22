@@ -129,7 +129,7 @@
   recommendationControl: Other Best Practices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachineScaleSets
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     VM ゲストの自動更新プログラムの適用を有効にすると、VM の影響範囲を制限しながら、セキュリティ コンプライアンスを維持するために仮想マシンに安全に自動的に更新プログラムを適用することで、更新管理が容易になります。
   potentialBenefits: Eases patch management, enhances security
