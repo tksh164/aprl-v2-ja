@@ -97,7 +97,7 @@
   recommendationControl: Scalability
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     データ ディスクは、データベースやその他の重要なデータを格納するために仮想マシンに接続されたマネージド ディスクです。これらのディスクは、選択ごとにラベル付けされた SCSI ドライブです。
   potentialBenefits: Enhances performance, recovery, migration flexibility
@@ -133,7 +133,7 @@
   recommendationControl: Governance
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Virtual Machines (VM) インスタンスには、プロビジョニングや電源の状態など、さまざまな状態があります。実行されていない VM は、問題または不要であることを示している可能性があり、削除がコスト削減に役立つ可能性があることを示唆しています。
   potentialBenefits: Reduce costs by removing unused VMs
@@ -184,7 +184,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     仮想マシンの送信インターネット接続には、より高い可用性と SNAT ポート数によって、セキュリティとサービスの回復力を強化するために、NAT Gateway や Azure Firewall を使用することを推奨します。
   potentialBenefits: Enhanced security and service resiliency
@@ -201,7 +201,7 @@
   recommendationControl: Security
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     特別な理由がない限り、ネットワーク セキュリティ グループをサブネットまたはネットワーク インターフェイスに関連付けることをお勧めしますが、2 つの関連付けの間の潜在的なルール競合による予期しない通信の問題やトラブルシューティングを避けるために、両方に関連付けることはお勧めしません。
   potentialBenefits: Reduces communication problems
@@ -235,7 +235,7 @@
   recommendationControl: Other Best Practices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     環境全体での不整合を防ぐために、仮想ネットワーク レベルで DNS サーバーを構成します。
   potentialBenefits: Ensures DNS consistency
@@ -252,7 +252,7 @@
   recommendationControl: Security
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     「パブリックアクセスを無効にし、プライベートアクセスを有効にする」に変更し、プライベート エンドポイントを作成して、直接パブリック アクセスを制限し、接続がプライベートに行われるようにすることでセキュリティを強化し、データ保護を強化し、潜在的な外部の脅威を最小限に抑えることをお勧めします。
   potentialBenefits: Enhances VM security and privacy
@@ -269,7 +269,7 @@
   recommendationControl: Governance
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     仮想マシン (VM) をセキュリティで保護することは、実行するアプリケーションにとって非常に重要です。これには、さまざまな Azure サービスと機能を使用して、VM への安全なアクセスとデータの安全なストレージを確保し、VM とアプリケーションの全体的なセキュリティを確保することが含まれます。
   potentialBenefits: Secure VMs and applications
@@ -288,7 +288,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     DM-Crypt (Linux) や BitLocker (Windows) を使用して Azure VM ディスクを暗号化するには、Azure Disk Encryption (ADE) を有効にすることを検討してください。さらに、データセキュリティを強化するために、ホストでの暗号化と機密ディスクの暗号化を検討してください。
   potentialBenefits: Enhances data security and integrity
@@ -449,7 +449,7 @@
   recommendationControl: High Availability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Linux エージェントをインストールしてある場合、または動作保証済みのディストリビューション イメージを使用している場合は、エージェントのバージョンが最新であることを確認してください。Linux ディストリビューションによっては、自動更新が無効になっていたり、古いバージョンのエージェントが使用されていたりすることがあります。
   potentialBenefits: Reduces complications with VM provisioning

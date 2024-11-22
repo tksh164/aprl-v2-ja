@@ -40,7 +40,7 @@
   recommendationControl: High Availability
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/galleries
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     セキュア ブート、vTPM、トラステッド起動 VM、大容量ブート ボリュームなどのメリットを得るために、トラステッド起動対応イメージを作成することをお勧めします。これらは既定で Gen 2 イメージであり、作成後に VM の世代を変更することはできないため、最初に考慮事項を確認してください。
   potentialBenefits: Enhances VM security and features

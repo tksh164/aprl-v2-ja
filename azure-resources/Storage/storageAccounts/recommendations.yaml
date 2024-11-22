@@ -42,7 +42,7 @@
   recommendationControl: Scalability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Storage/storageAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     高速なストレージ応答時間や高いトランザクション レートを必要とするワークロードには、Standard パフォーマンス ストレージではなく Premium パフォーマンス ブロック BLOB ストレージを使用します。
   potentialBenefits: Optimized cost and performance
@@ -158,7 +158,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Storage/storageAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Private Link サービスを利用して、VNet 内のプライベート エンドポイント経由で Azure Storage とサービスに安全にアクセスできます。パブリック IP の必要性を排除し、データのプライバシーを確保します。きめ細かなアクセス制御により、セキュリティを強化できます。
   potentialBenefits: Secure, private access to storage with no public IPs

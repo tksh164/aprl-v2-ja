@@ -21,7 +21,7 @@
   recommendationControl: Governance
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Subscription/Subscriptions
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure のルート管理グループは、組織階層用に設計されているため、すべての管理グループとサブスクリプションをそこに折りたたむことができます。
   potentialBenefits: Enhanced security, compliance, and management

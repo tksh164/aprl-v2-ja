@@ -38,7 +38,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.KeyVault/vaults
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Private Link サービスを使用すると、プライベート IP を使用して VNet 内のプライベート エンドポイントを介して Azure Key Vault に安全かつプライベートに接続し、パブリック インターネットへの露出を排除できます。
   potentialBenefits: Secure Key Vault with Private Link
@@ -55,7 +55,7 @@
   recommendationControl: Governance
   recommendationImpact: High
   recommendationResourceType: Microsoft.KeyVault/vaults
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Key Vault は、シークレット ストレージのセキュリティ境界です。シークレットをグループ化すると、攻撃者が複数のシークレットにアクセスする可能性があるため、セキュリティ イベント中のリスクが高まります。
   potentialBenefits: Enhanced security, Reduced risk

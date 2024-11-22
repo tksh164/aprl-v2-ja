@@ -93,7 +93,7 @@
   recommendationControl: Scalability
   recommendationImpact: High
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Cosmos DB には 4 MB の応答制限があり、大規模なクエリやパーティションにまたがるクエリでは、結果がページ分割されます。各ページには空き状況が表示され、次のページのための継続トークンが提供されます。すべてのページを完了までたどるには、コード内に while ループが必要です。
   potentialBenefits: Maximizes data retrieval efficiency
@@ -110,7 +110,7 @@
   recommendationControl: Scalability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     接続はクライアントに関連付けられているため、アカウントとアプリケーションごとに SDK クライアントの 1 つのインスタンスを使用することが重要です。コンピューティング環境では、開いている接続に制限があり、超過すると接続に影響します。
   potentialBenefits: Optimizes connections and efficiency
@@ -127,7 +127,7 @@
   recommendationControl: High Availability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Cosmos DB SDK では、再試行によって多くの一時的なエラーが自動的に管理されます。それでも、SDK が一般的に対処できない特定のケースを対象とする追加の再試行ポリシーをアプリケーションで実装し、より堅牢なエラー処理を確保することが重要です。
   potentialBenefits: Enhances error handling resilience

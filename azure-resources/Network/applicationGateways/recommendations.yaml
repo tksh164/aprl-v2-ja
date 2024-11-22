@@ -21,7 +21,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/applicationGateways
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Application Gateway でのエンドツーエンドの SSL/TLS または SSL/TLS 終端により、運用サービスに HTTPS を使用してすべての着信接続をセキュリティで保護し、攻撃から保護し、Web サーバーとブラウザー間でデータのプライバシーと暗号化が維持されるようにします。
   potentialBenefits: Enhanced security and privacy
@@ -46,7 +46,7 @@
   recommendationControl: Security
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Network/applicationGateways
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     アプリケーション仮想ネットワークで Application Gateway と Web アプリケーション ファイアウォール (WAF) を使用して、受信 HTTP/S インターネット トラフィックを保護します。WAF は、OWASP コア ルールセット ベースのルールを通じて、潜在的なエクスプロイトに対する一元的な防御を提供します。
   potentialBenefits: Enhanced security for HTTP/S traffic

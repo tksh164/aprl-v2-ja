@@ -91,7 +91,7 @@
   recommendationControl: Monitoring and Alerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/expressRouteCircuits
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ExpressRoute は、計画メンテナンスと計画外メンテナンスの両方の通知にサービス正常性を活用し、ExpressRoute 回線への変更についてユーザーに確実に通知します。
   potentialBenefits: Stay informed on circuit updates
