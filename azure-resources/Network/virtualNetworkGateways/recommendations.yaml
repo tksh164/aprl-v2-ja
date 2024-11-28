@@ -1,4 +1,4 @@
-- description: Connect ExpressRoute gateway with circuits from diverse peering locations
+- description: ExpressRoute ゲートウェイを多様なピアリングの場所の回線と接続する
   aprlGuid: d37db635-157f-584d-9bce-4f6fc8c65ce5
   recommendationTypeId: 8d61a7d4-5405-4f43-81e3-8c6239b844a6
   recommendationControl: HighAvailability
@@ -6,13 +6,13 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    For improved reliability, each ExpressRoute gateway should connect to at least two circuits, with each circuit sourced from a different peering location. This setup ensures diverse connectivity paths, enhancing resilience and minimizing service disruption risks.
+    信頼性向上のため、各 ExpressRoute ゲートウェイは少なくとも 2 つの回線に接続する必要があり、各回線は異なるピアリングの場所から提供されます。この設定により、多様な接続経路が確保され、耐障害性が強化され、サービス中断のリスクを最小限に抑えられます。
   potentialBenefits: Enhanced resilience through diverse connectivity paths
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Designing for disaster recovery with ExpressRoute private peering
+    - name: ExpressRoute プライベート ピアリングを使用したディザスター リカバリーの設計
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-disaster-recovery-with-expressroute-privatepeering"
 
 - description: ゾーン冗長 ExpressRoute ゲートウェイ SKU を使用する
@@ -51,9 +51,9 @@
   tags: null
   learnMoreLink:
     - name: Protect your Azure resources with a lock - Azure Resource Manager | Microsoft Learn
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json"
+      url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?tabs=json"
 
-- description: Monitor health for ExpressRoute gateway
+- description: ExpressRoute ゲートウェイの正常性を監視する
   aprlGuid: 1c34faa8-8b99-974c-adbf-71922eae943c
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
@@ -67,10 +67,10 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: ExpressRoute monitoring, metrics, and alerts | ExpressRoute gateways
+    - name: ExpressRoute の監視、メトリック、アラート | ExpressRoute ゲートウェイ
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts#expressroute-gateways"
-    - name: Azure ExpressRoute Insights using Network Insights
-      url: "https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-network-insights"
+    - name: ネットワークの分析情報を使用した Azure ExpressRoute の分析情報
+      url: "https://learn.microsoft.com/azure/expressroute/expressroute-network-insights"
 
 - description: VNet 間通信に ExpressRoute 回線を使用しないようにする
   aprlGuid: 194c14ac-0d7a-5a48-ae32-75fa450ee564
@@ -86,7 +86,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: About ExpressRoute virtual network gateways - VNet-to-VNet connectivity
+    - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - VNet 間接続
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#vnet-to-vnet-connectivity"
 
 - description: 顧客制御の ExpressRoute ゲートウェイのメンテナンスを構成する
@@ -104,7 +104,7 @@
   tags: null
   learnMoreLink:
     - name: Configure customer-controlled maintenance for your virtual network gateway - ExpressRoute | Microsoft Learn
-      url: "https://learn.microsoft.com/ja-jp/azure/expressroute/customer-controlled-gateway-maintenance#azure-portal-steps"
+      url: "https://learn.microsoft.com/azure/expressroute/customer-controlled-gateway-maintenance#azure-portal-steps"
 
 - description: ゾーン冗長 VPN ゲートウェイを選択する
   aprlGuid: 5b1933a6-90e4-f642-a01f-e58594e5aab2
