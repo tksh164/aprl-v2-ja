@@ -20,7 +20,7 @@
 - description: Log Analytics ワークスペースの正常性状態アラート ルールを作成する
   aprlGuid: 4b77191c-cc3c-8c4e-844b-0f56d0927890
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Low
   recommendationResourceType: Microsoft.OperationalInsights/workspaces
   recommendationMetadataState: Active

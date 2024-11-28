@@ -52,7 +52,7 @@
 - description: Azure Site Recovery を使用してステートフル セッション ホストを保護する
   aprlGuid: 38721758-2cc2-4d6b-b7b7-8b47dadbf7df
   recommendationTypeId: null
-  recommendationControl: Disaster Recovery
+  recommendationControl: DisasterRecovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active

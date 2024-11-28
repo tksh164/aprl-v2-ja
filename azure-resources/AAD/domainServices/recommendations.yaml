@@ -1,7 +1,7 @@
 - description: 少なくとも Enterprise SKU を使用する
   aprlGuid: bb6deb9d-24fa-4ee8-bc23-ac3ebc7fdf8e
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.AAD/domainServices
   recommendationMetadataState: Active
@@ -18,7 +18,7 @@
 - description: レプリカ セットを使用して、Microsoft Entra Domain Services の回復性または位置情報を取得する
   aprlGuid: a3058909-fcf8-4450-88b5-499f57449178
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.AAD/domainServices
   recommendationMetadataState: Active

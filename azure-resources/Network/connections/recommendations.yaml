@@ -18,7 +18,7 @@
 - description: 接続に Azure リソース ロックを構成して、誤って削除されないようにする
   aprlGuid: a5f3a4bd-4cf1-4196-a3cb-f5a0876198b2
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/connections
   recommendationMetadataState: Active

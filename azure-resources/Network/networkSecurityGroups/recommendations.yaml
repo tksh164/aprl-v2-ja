@@ -1,7 +1,7 @@
 - description: すべてのネットワーク セキュリティ グループの診断設定を構成する
   aprlGuid: d2976d3e-294b-4b49-a1f0-c42566a3758f
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active
@@ -18,7 +18,7 @@
 - description: Azure Monitor を使用してネットワーク セキュリティ グループの変更を監視する
   aprlGuid: 8bb4a57b-55e4-d24e-9c19-2679d8bc779f
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
   recommendationMetadataState: Active

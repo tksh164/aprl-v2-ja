@@ -1,7 +1,7 @@
 - description: VMSS Flex を使用して 2 つ以上の VM で運用ワークロードを実行する
   aprlGuid: 273f6b30-68e0-4241-85ea-acf15ffb60bf
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -20,7 +20,7 @@
 - description: 可用性ゾーン間での VM のデプロイ
   aprlGuid: 2bd0be95-a825-6f47-a8c6-3db1fb5eb387
   recommendationTypeId: 066a047a-9ace-45f4-ac50-6325840a6b00
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -37,7 +37,7 @@
 - description: 可用性セットを使用している VM を VMSS Flex に移行する
   aprlGuid: a8d25876-7951-b646-b4e8-880c9031596b
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -54,7 +54,7 @@
 - description: Azure Site Recovery を使用して VM をレプリケートする
   aprlGuid: cfe22a65-b1db-fd41-9e8e-d573922709ae
   recommendationTypeId: ed651749-cd37-4fd5-9897-01b416926745
-  recommendationControl: Disaster Recovery
+  recommendationControl: DisasterRecovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -73,7 +73,7 @@
 - description: VM ディスクにマネージド ディスクを使用する
   aprlGuid: 122d11d7-b91f-8747-a562-f56b79bcfbdc
   recommendationTypeId: 57ecb3cd-f2b4-4cad-8b3a-232cca527a0b
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -113,7 +113,7 @@
 - description: Azure Backup サービスを使用して VM をバックアップする
   aprlGuid: 1981f704-97b9-b645-9c57-33f8ded9261a
   recommendationTypeId: 651c7925-17a3-42e5-85cd-73bd095cf27f
-  recommendationControl: Disaster Recovery
+  recommendationControl: DisasterRecovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -232,7 +232,7 @@
 - description: 顧客 DNS サーバーは、仮想ネットワーク レベルで構成する必要がある
   aprlGuid: 1cf8fe21-9593-1e4e-966b-779a294c0d30
   recommendationTypeId: null
-  recommendationControl: Other Best Practices
+  recommendationControl: OtherBestPractices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Disabled
@@ -302,7 +302,7 @@
 - description: VM Insights を有効にする
   aprlGuid: b72214bb-e879-5f4b-b9cd-642db84f36f4
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -321,7 +321,7 @@
 - description: すべての Azure Virtual Machines の監視を構成する
   aprlGuid: 4a9d8973-6dba-0042-b3aa-07924877ebd5
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -338,7 +338,7 @@
 - description: VM のメンテナンス構成を使用する
   aprlGuid: 52ab9e5c-eec0-3148-8bd7-b6dd9e1be870
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -389,7 +389,7 @@
 - description: メンテナンスの影響を受けやすいワークロードに Azure Boost VM を使用する
   aprlGuid: 9ab499d8-8844-424d-a2d4-8f53690eb8f8
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -408,7 +408,7 @@
 - description: メンテナンスに敏感なワークロード VM のスケジュールされたイベントを有効にする
   aprlGuid: 2de8fa5e-14f4-4c4c-857f-1520f87a629f
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -429,7 +429,7 @@
 - description: 重要なワークロードのためにコンピューティング容量を予約する
   aprlGuid: 302fda08-ee65-4fbe-a916-6dc0b33169c4
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -446,7 +446,7 @@
 - description: Azure Linux VM エージェントを更新する
   aprlGuid: 5f7e8a12-3c4f-456b-919c-2e9adff98c38
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Disabled
@@ -463,7 +463,7 @@
 - description: ディザスター リカバリー リージョンでコンピューティング容量を予約する
   aprlGuid: 587ca3e4-113b-4c4f-b4e0-92cd8d2065b6
   recommendationTypeId: null
-  recommendationControl: Disaster Recovery
+  recommendationControl: DisasterRecovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active

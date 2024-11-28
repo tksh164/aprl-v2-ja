@@ -1,7 +1,7 @@
 - description: Azure VMware Solution の Azure Service Health 通知とアラートを構成する
   aprlGuid: 74fcb9f2-9a25-49a6-8c42-d32851c4afb7
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -18,7 +18,7 @@
 - description: Azure VMware Solution プライベート クラウドが容量制限に達しているタイミングを監視する
   aprlGuid: 29d7a115-dfb6-4df1-9205-04824109548f
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -35,7 +35,7 @@
 - description: Azure VMware Solution クラスター サイズがホストの制限に近づいているタイミングを監視する
   aprlGuid: f86355e3-de7c-4dad-8080-1b0b411e66c8
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -52,7 +52,7 @@
 - description: ストレッチ クラスターを有効にして、vSAN データストアのマルチ AZ 可用性を実現する
   aprlGuid: 9ec5b4c8-3dd8-473a-86ee-3273290331b9
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Low
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -71,7 +71,7 @@
 - description: vSAN データストア使用率の Azure Monitor アラートで警告しきい値を構成する
   aprlGuid: 4232eb32-3241-4049-9e14-9b8005817b56
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -88,7 +88,7 @@
 - description: Azure VMware Solution の診断設定で Syslog を構成する
   aprlGuid: fa4ab927-bced-429a-971a-53350de7f14b
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -105,7 +105,7 @@
 - description: CPU 使用率を監視して、ワークロードに十分なリソースを確保する
   aprlGuid: 4ee5d535-c47b-470a-9557-4a3dd297d62f
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -122,7 +122,7 @@
 - description: メモリ使用率を監視して、ワークロードに十分なリソースを確保する
   aprlGuid: 029208c8-5186-4a76-8ee8-6e3445fef4dd
   recommendationTypeId: null
-  recommendationControl: Monitoring and Alerting
+  recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
@@ -173,7 +173,7 @@
 - description: プライベート FQDN ゾーンごとに複数の DNS サーバーを使用する
   aprlGuid: fcc2e257-23af-4c68-aac8-9cc03033c939
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
   recommendationMetadataState: Active
