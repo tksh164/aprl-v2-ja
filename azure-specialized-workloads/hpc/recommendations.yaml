@@ -1,7 +1,7 @@
 - description: ジョブのメタデータを格納するファイル共有が、すべてのヘッド ノードからアクセス可能であることを確認する
   aprlGuid: 4c78fab4-845a-495d-ab14-3ad51de53a2a
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Specialized.Workload/HPC
   recommendationMetadataState: Active
@@ -35,7 +35,7 @@
 - description: HPC Pack に複数のヘッド ノードを使用する
   aprlGuid: a48b1be6-77a3-4e3c-8205-dda2ba010a99
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Specialized.Workload/HPC
   recommendationMetadataState: Active
@@ -52,7 +52,7 @@
 - description: HPC Pack Azure AD 統合またはその他の高可用性 AD 構成を使用する
   aprlGuid: 37eec891-7880-4759-b597-7cd925512fe3
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Specialized.Workload/HPC
   recommendationMetadataState: Active

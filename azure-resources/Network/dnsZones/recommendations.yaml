@@ -1,7 +1,7 @@
 - description: TTL (Time-To-Live) が適切に設定され、RPO を確実に達成できるようにする
   aprlGuid: 7d09523b-b3c0-403e-b104-d5d46240d683
   recommendationTypeId: null
-  recommendationControl: Disaster Recovery
+  recommendationControl: DisasterRecovery
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/dnsZones
   recommendationMetadataState: Active

@@ -1,7 +1,7 @@
 - description: 成功していない接続状態のプライベート エンドポイントに関する問題を解決する
   aprlGuid: b89c9acc-0aba-fb44-9ff2-3dbfcf97dce7
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/privateEndpoints
   recommendationMetadataState: Active

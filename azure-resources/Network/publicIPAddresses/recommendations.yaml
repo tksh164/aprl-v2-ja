@@ -1,7 +1,7 @@
 - description: 該当する場合は Standard SKU とゾーン冗長 IP を使用する
   aprlGuid: c63b81fb-7afc-894c-a840-91bb8a8dcfaf
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/publicIPAddresses
   recommendationMetadataState: Active
@@ -20,7 +20,7 @@
 - description: 送信接続に NAT Gateway を使用して SNAT の枯渇を回避する
   aprlGuid: 1adba190-5c4c-e646-8527-dd1b2a6d8b15
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/publicIPAddresses
   recommendationMetadataState: Active
@@ -39,7 +39,7 @@
 - description: Basic SKU のパブリック IP アドレスを Standard SKU にアップグレードする
   aprlGuid: 5cea1501-6fe4-4ec4-ac8f-f72320eb18d3
   recommendationTypeId: null
-  recommendationControl: High Availability
+  recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/publicIPAddresses
   recommendationMetadataState: Active
