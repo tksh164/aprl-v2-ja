@@ -38,7 +38,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.EventGrid/topics
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     プライベート エンドポイントを使用して、プライベート リンク経由でカスタム トピック/ドメインへの安全なイベント イングレスを行い、パブリック インターネットを回避します。トピック/ドメインの VNet 空間の IP が使用されます。
   potentialBenefits: Secure, private VNet ingress

@@ -40,7 +40,7 @@
   recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     AKS のローカル Kubernetes アカウントは、監査不可能でレガシーであるため、推奨されません。Microsoft Entra の統合により、一元管理、多要素認証、詳細なアクセスのための RBAC、Azure および外部 ID プロバイダーと互換性のある安全でスケーラブルな認証システムが提供されます。
   potentialBenefits: Enhanced security and access control
@@ -55,7 +55,7 @@
     - name: AKS マネージド Microsoft Entra 統合を使用してローカル アカウントを管理する
       url: "https://learn.microsoft.com/azure/aks/manage-local-accounts-managed-azure-ad"
 
-- description: IP の動的割り当てのために Azure CNI ネットワークを構成する
+- description: Configure Azure CNI networking for dynamic allocation of IPs or use CNI overlay
   aprlGuid: c22db132-399b-4e7c-995d-577a60881be8
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -166,7 +166,7 @@
   recommendationControl: Scalability
   recommendationImpact: Low
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ResourceQuota オブジェクトは、名前空間ごとのリソース使用の制限を設定し、作成されるオブジェクトの数と種類、および使用可能なコンピューティング リソースの合計を制御します。
   potentialBenefits: Limits AKS resource usage per namespace
@@ -183,7 +183,7 @@
   recommendationControl: Scalability
   recommendationImpact: Low
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     AKS ワークロードを迅速にスケーリングするには、Kubernetes オートスケーラーとは異なり、ポッドのプロビジョニングを迅速に行うために仮想ノードを利用します。可用性ゾーンを持つクラスターの場合は、永続ボリュームが可用性ゾーン間で機能しないため、可用性ゾーンごとに 1 つのノード プールを確保し、アクセス権がない場合にオートスケーラー ポッドの作成に失敗するのを防ぎます。
   potentialBenefits: Faster scaling with virtual nodes
@@ -278,7 +278,7 @@
   recommendationControl: OtherBestPractices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     クラウド ネイティブ アプリの運用モデルである GitOps は、継続的デリバリーの信頼できる情報源として、アプリケーションとインフラストラクチャ コードを格納するために Git を使用します。
   potentialBenefits: Ensures AKS config consistency
@@ -416,7 +416,7 @@
     - name: Azure CNI での動的 IP 割り当て
       url: "https://learn.microsoft.com/azure/aks/configure-azure-cni-dynamic-ip-allocation"
 
-- description: ノード プールの自動スケール設定は、サブスクリプションのコア数クォータを超えないようにする必要がある
+- description: Subscription core quota should be increased if Node pool auto-scale settings exceed the quota
   aprlGuid: a01afc4c-7439-4919-b2da-3565992ea2a7
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -456,7 +456,7 @@
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     アプリケーションのレプリカを少なくとも 2 つデプロイすると、アプリケーションの可用性が高くなり、ノードの障害を許容できるようになります。
   potentialBenefits: Ensures high app availability

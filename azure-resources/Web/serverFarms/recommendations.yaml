@@ -40,7 +40,7 @@
   recommendationControl: Scalability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Web/serverFarms
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     サービスの中断を防ぐために、Azure App Service インスタンスの頻繁なスケールアップ/スケールダウンを回避します。ワークロードに適したレベルとサイズを選択し、スケーリングの調整によってアプリケーションの再起動がトリガーされる可能性があるため、トラフィックの変化に合わせてスケールアウトします。
   potentialBenefits: Minimizes restarts, enhances stability

@@ -43,7 +43,7 @@
     Azure Backup の Recovery Services コンテナーのクラシック アラートは、2026 年 3 月 31 日に廃止されます。
   potentialBenefits: Enhanced, scalable, and consistent alerting.
   pgVerified: true
-  automationAvailable: true
+  automationAvailable: false
   tags: null
   learnMoreLink:
     - name: Move to Azure monitor Alerts
