@@ -55,7 +55,7 @@
     - name: AKS マネージド Microsoft Entra 統合を使用してローカル アカウントを管理する
       url: "https://learn.microsoft.com/azure/aks/manage-local-accounts-managed-azure-ad"
 
-- description: Configure Azure CNI networking for dynamic allocation of IPs or use CNI overlay
+- description: IP の動的割り当てのために Azure CNI ネットワークを構成するか、CNI オーバーレイを使用する
   aprlGuid: c22db132-399b-4e7c-995d-577a60881be8
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -416,7 +416,7 @@
     - name: Azure CNI での動的 IP 割り当て
       url: "https://learn.microsoft.com/azure/aks/configure-azure-cni-dynamic-ip-allocation"
 
-- description: Subscription core quota should be increased if Node pool auto-scale settings exceed the quota
+- description: ノード プールのオートスケール設定がクォータを超える場合は、サブスクリプションのコア クォータを増やす必要がある
   aprlGuid: a01afc4c-7439-4919-b2da-3565992ea2a7
   recommendationTypeId: null
   recommendationControl: HighAvailability

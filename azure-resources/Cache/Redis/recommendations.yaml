@@ -15,7 +15,7 @@
     - name: Azure Cache for Redis のゾーン冗長性を有効にする
       url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-how-to-zone-redundancy"
 
-- description: Schedule updates by setting a maintenance window
+- description: メンテナンス期間を設定して更新をスケジュールする
   aprlGuid: cabc1f98-c8a7-44f7-ab24-977982ef3f70
   recommendationTypeId: null
   recommendationControl: HighAvailability
