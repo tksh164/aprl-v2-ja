@@ -19,7 +19,7 @@
   aprlGuid: 63491f70-22e4-3b4a-8b0c-845450e46fac
   recommendationTypeId: null
   recommendationControl: HighAvailability
-  recommendationImpact: High
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.ContainerRegistry/registries
   recommendationMetadataState: Active
   longDescription: |
@@ -32,7 +32,7 @@
     - name: Azure Container Registry のベスト プラクティス - ゾーン冗長を有効にする
       url: "https://learn.microsoft.com/azure/container-registry/zone-redundancy?toc=%2Fazure%2Freliability%2Ftoc.json&bc=%2Fazure%2Freliability%2Fbreadcrumb%2Ftoc.json"
 
-- description: geo レプリケーションを有効にする
+- description: Create container registries with geo-replication enabled
   aprlGuid: 36ea6c09-ef6e-d743-9cfb-bd0c928a430b
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -55,7 +55,7 @@
   aprlGuid: a5a0101a-a240-8742-90ba-81dbde9a0c0c
   recommendationTypeId: null
   recommendationControl: Security
-  recommendationImpact: Low
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.ContainerRegistry/registries
   recommendationMetadataState: Active
   longDescription: |
@@ -74,7 +74,7 @@
   recommendationControl: Governance
   recommendationImpact: Low
   recommendationResourceType: Microsoft.ContainerRegistry/registries
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     複数のホストで使用されるコンテナー レジストリは、コンテナー インスタンスが削除されたときにイメージが誤って削除されるのを防ぎ、ホストで実験している間もイメージ コレクションを保持するために、独自のリソース グループに配置する必要があります。
   potentialBenefits: Safeguards image collection
@@ -91,7 +91,7 @@
   recommendationControl: Scalability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.ContainerRegistry/registries
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Container Registry のサービス レベルのストレージの制約は、使用シナリオ (初心者向けの Basic、運用環境向けの Standard、大規模なパフォーマンスと geo レプリケーション向けの Premium) に合わせて調整されます。
   potentialBenefits: Reduce costs, optimize storage
@@ -163,11 +163,11 @@
   aprlGuid: e7f0fd54-fba0-054e-9ab8-e676f2851f88
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
-  recommendationImpact: Medium
+  recommendationImpact: Low
   recommendationResourceType: Microsoft.ContainerRegistry/registries
   recommendationMetadataState: Active
   longDescription: |
-    Azure Container Registry (ACR) で論理的な削除を有効にすると、削除された成果物を指定した保持期間で管理できます。ユーザーは、保持後に自動的に消去されるまで、これらの成果物を一覧表示、フィルタリング、復元できます。
+    Enabling soft delete preview feature in Azure Container Registry (ACR) allows for the management of deleted artifacts with a specified retention period. Users can list, filter, and restore these artifacts until automatically purged post-retention.
   potentialBenefits: Recovery of deleted artifacts
   pgVerified: false
   automationAvailable: true

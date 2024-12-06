@@ -125,7 +125,7 @@
   recommendationControl: Governance
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Web/sites
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ネットワーク アクセス制限を使用して、アプリへのネットワーク アクセスを制御する優先順位の高い許可/拒否リストを定義します。Application Gateway で使用できるような Web アプリケーション ファイアウォールは、一般向けの Web アプリケーションの保護に推奨されます。
   potentialBenefits: Enhanced security
