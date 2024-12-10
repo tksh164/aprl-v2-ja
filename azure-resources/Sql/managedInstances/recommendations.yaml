@@ -71,7 +71,7 @@
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Sql/servers
+  recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
     監視とアラートは、データベース運用の重要な要素です。Azure SQL Managed Instance を使用するときは、Azure Monitor と Database Watcher を活用して、関連するデータベース メトリクスを確実に取得します。
@@ -88,7 +88,7 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Sql/servers
+  recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
     Always Encrypted 構成に関連する暗号化キーを格納するために、Azure Key Vault (AKV) を使用することを強く推奨しますが、必須ではありません。AKV を使用しない場合は、キーが適切にバックアップされ、安全な方法で格納されていることを確認します。
