@@ -4,7 +4,7 @@
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Service Health 通知が、使用されているすべてのリージョンとサブスクリプションで Azure VMware Solution に設定されていることを確認します。これにより、サービス/セキュリティの問題と、ホストの交換やアップグレードなどのメンテナンス アクティビティが伝達され、サービス リクエストの送信が削減されます。
   potentialBenefits: Prompt mitigation of issues.
@@ -142,7 +142,7 @@
   recommendationControl: Governance
   recommendationImpact: High
   recommendationResourceType: Microsoft.AVS/privateClouds
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure VMware Solution プライベート クラウド リソース グループにリソース削除ロックを適用すると、共同作成者アクセス権を持つユーザーによる承認されていない削除や偶発的な削除が防止され、Azure VMware Solution プライベート クラウドの保護と信頼性が確保されます。
   potentialBenefits: Prevents accidental deletion

@@ -42,7 +42,7 @@
   recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ExpressRoute ゲートウェイの Azure リソース ロックを構成すると、管理者が Azure サブスクリプション、リソース グループ、またはリソースをロックできるようにすることで、誤って削除されるのを防ぎ、意図しないユーザーの削除や変更から保護し、すべてのユーザーのアクセス許可をロックします。
   potentialBenefits: Prevents accidental deletions

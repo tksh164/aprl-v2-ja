@@ -21,7 +21,7 @@
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/connections
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ゲートウェイ接続リソースの Azure リソース ロックを構成して、誤って削除されないようにし、オンプレミス ネットワークと Azure ワークロード間の接続を維持します。
   potentialBenefits: Prevents accidental deletion of connections

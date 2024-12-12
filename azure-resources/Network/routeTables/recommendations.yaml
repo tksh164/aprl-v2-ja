@@ -21,7 +21,7 @@
   recommendationControl: Governance
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Network/routeTables
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     管理者は、ロックを設定することで、Azure サブスクリプション、リソース グループ、またはリソースを偶発的な削除や変更から保護できます。
   potentialBenefits: Prevents accidental edits/deletions
