@@ -38,7 +38,7 @@
   recommendationControl: Governance
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     管理者は、Azure サブスクリプション、リソース グループ、またはリソースをロックして、誤って削除や変更されないように保護できます。ロックは、ユーザーのアクセス許可よりも優先されます。ロックは、削除または変更を防ぐことができ、ポータルでは "削除" と "読み取り専用" と呼ばれます。
   potentialBenefits: Prevents accidental edits/deletions
@@ -55,7 +55,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/networkSecurityGroups
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure ネットワーク セキュリティ グループは、セキュリティ規則を使用して、送信元、宛先、ポート、プロトコルに基づいて受信トラフィックまたは送信トラフィックを許可または拒否し、仮想ネットワーク内のリソース間のネットワーク トラフィックをフィルター処理します。
   potentialBenefits: Enhanced traffic control and security

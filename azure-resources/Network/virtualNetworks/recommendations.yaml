@@ -4,7 +4,7 @@
   recommendationControl: Security
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Network/virtualNetworks
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     ネットワーク セキュリティ グループとアプリケーション セキュリティ グループを使用すると、IP、ポート、プロトコルで受信トラフィックと送信トラフィックをフィルター処理し、サブネット レベルでセキュリティ レイヤーを追加できます。
   potentialBenefits: Enhanced subnet security and traffic control
@@ -44,7 +44,7 @@
   recommendationControl: Security
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/virtualNetworks
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     VNet サービス エンドポイントは、Private Link が使用できず、データ移動の問題がない場合にのみ使用します。この機能は、Azure サービスへのアクセスを指定された VNet とサブネットに制限し、ネットワーク セキュリティを強化し、サービス トラフィックを分離します。
   potentialBenefits: Enhanced security and data isolation
