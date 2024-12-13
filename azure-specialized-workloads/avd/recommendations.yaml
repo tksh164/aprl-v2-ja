@@ -4,7 +4,7 @@
   recommendationControl: Governance
   recommendationImpact: High
   recommendationResourceType: Specialized.Workload/AVD
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     サービスの問題、計画メンテナンス、または Azure Virtual Desktop リソースに影響を与える可能性のあるその他の変更を常に把握できるように、Service Health アラートを設定します。Resource Health を使用して、VM とストレージ ソリューションを監視します。
   potentialBenefits: Enhanced AVD error tracking and resolution
@@ -369,7 +369,7 @@
     - name: FSLogix アプリケーションのインストール
       url: "https://learn.microsoft.com/fslogix/how-to-install-fslogix"
 
-- description: ANF をアプリのアタッチに使用するときに、ANF の継続的な可用性を有効にする
+- description: Turn on continuous availability for ANF
   aprlGuid: 9b2301af-9cac-4f1a-871a-f17475d01812
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -377,8 +377,8 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    Azure NetApp Files を使用している場合は、継続的な可用性を有効にします。
-    各ファイル共有に接続するユーザー数を確認し、SMB パスがファイル接続数を処理できることを確認します。現在、Azure Files はルート ディレクトリごとに最大 10k のハンドルをサポートしています。
+    Turn on Continuous Availability if using Azure Netapp Files.
+    Verify the number of users connecting to each file share to make sure the SMB path can handle the number of file connections.
   potentialBenefits: Enhanced stability & user limit checks
   pgVerified: true
   automationAvailable: false

@@ -55,7 +55,7 @@
   recommendationControl: DisasterRecovery
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Site Recovery (ASR) を実装して、ステートフルなセッション ホストをレプリケート、またはバックアップします。これは、VM をセカンダリ Azure リージョンや可用性ゾーンにレプリケートし、障害発生時に既知の VM 状態からのリカバリを保証します。
   potentialBenefits: Ensures VM recovery & failover
