@@ -1,4 +1,4 @@
-- description: Deploy a PAYG instance of the model with provisioned throughput to manage overflow effectively
+- description: オーバーフローを効率的に管理するために、モデルの従量課金制インスタンスをプロビジョニングされたスループットで展開する
   aprlGuid: 0c193899-da60-4a52-b4a0-77d75ac8c5c5
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -6,16 +6,16 @@
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
   longDescription: |
-    Provisioned Throughput offers pre-allocated capacity for consistent workloads, while Pay-as-You-Go charges for actual usage, ideal for variable workloads. During overflow, the Pay-as-You-Go instance manages excess load, ensuring service efficiency
+    プロビジョニングされたスループットは、一貫したワークロードに対して事前割り当てされた容量を提供する一方、従量課金制は実際の使用量に対して課金されるため、変動するワークロードに最適です。オーバーフロー時には、従量課金制インスタンスが超過した負荷を管理し、サービスを効率的に確保します。
   potentialBenefits: PAYG model balances cost and performance and helps scale
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/provisioned-throughput"
+    - name: プロビジョニングされたスループットとは
+      url: "https://learn.microsoft.com/azure/ai-services/openai/concepts/provisioned-throughput"
 
-- description: Ensure that models are deployed using Global batch for large scale processing
+- description: 大規模処理のために Global Batch を使用してモデルが展開されるようにする
   aprlGuid: 8aa9744b-f302-4b05-9776-51d6dd3d0c3a
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -23,16 +23,16 @@
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
   longDescription: |
-    Global batch efficiently handles large-scale tasks within 24 hours. Submit requests in a single file, with a separate quota to protect online workloads. Key uses: data processing, content generation, document review, customer support automation, data extraction, NLP tasks, and marketing
+    Global Batch は、大規模なタスクを 24 時間以内に効率的に処理します。1 つのファイルでリクエストを送信し、オンライン ワークロードを保護するためにクォータを分けます。主な用途: データ処理、コンテンツ生成、ドキュメント レビュー、カスタマー サポートの自動化、データ抽出、NLP タスク、マーケティング。
   potentialBenefits: Cost effective faster turnaround for large-scale processing.
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#global-batch"
+    - name: Global Batch
+      url: "https://learn.microsoft.com/azure/ai-services/openai/how-to/deployment-types#global-batch"
 
-- description: Ensure AOAI models are deployed using Data Zone Standard for data residency requirements
+- description: AOAI モデルは、データ ゾーン標準を使用して、データ所在地要件を満たすようにデプロイする
   aprlGuid: ac3add17-013e-41a5-af91-9fefce794a00
   recommendationTypeId: null
   recommendationControl: Governance
@@ -40,12 +40,12 @@
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
   longDescription: |
-    Data zone deployments route customer traffic to the highest availability data center within the defined data zone, ensuring data at rest remains within the Azure OpenAI resource geography. This approach offers increased quota limits and ensures data processing occurs within the specified data zone
+    データ ゾーン デプロイでは、顧客のトラフィックを定義されたデータ ゾーン内で最も可用性の高いデータセンターにルーティングします。格納されたデータは Azure OpenAI リソースの地域内に留まります。このアプローチでは、クォータ制限が増加し、データ処理が指定されたデータ ゾーン内で行われることが保証されます。
   potentialBenefits: Enforce data residency and compliance standards
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#data-zone-standard"
+    - name: データ ゾーン標準
+      url: "https://learn.microsoft.com/azure/ai-services/openai/how-to/deployment-types#data-zone-standard"
 

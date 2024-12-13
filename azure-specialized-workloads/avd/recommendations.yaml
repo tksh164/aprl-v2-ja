@@ -369,7 +369,7 @@
     - name: FSLogix アプリケーションのインストール
       url: "https://learn.microsoft.com/fslogix/how-to-install-fslogix"
 
-- description: Turn on continuous availability for ANF
+- description: ANF の継続的可用性を有効にする
   aprlGuid: 9b2301af-9cac-4f1a-871a-f17475d01812
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -377,8 +377,8 @@
   recommendationResourceType: Specialized.Workload/AVD
   recommendationMetadataState: Active
   longDescription: |
-    Turn on Continuous Availability if using Azure Netapp Files.
-    Verify the number of users connecting to each file share to make sure the SMB path can handle the number of file connections.
+    Azure Netapp Files を使用している場合は、継続的可用性を有効にします。
+    各ファイル共有に接続するユーザー数を確認し、SMB パスがファイル接続数を処理できることを確認します。
   potentialBenefits: Enhanced stability & user limit checks
   pgVerified: true
   automationAvailable: false
