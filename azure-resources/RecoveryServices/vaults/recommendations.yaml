@@ -34,7 +34,7 @@
 
 - description: クラシック アラートから Azure Recovery Services コンテナーの組み込みの Azure Monitor アラートに移行する
   aprlGuid: 2912472d-0198-4bdc-aa90-37f145790edc
-  recommendationTypeId: 06578866-1877-41e6-9d22-3ea5122e8048
+  recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.RecoveryServices/vaults
