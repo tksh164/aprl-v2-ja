@@ -1,4 +1,4 @@
-- description: Create the Azure machine learning registry in multiple regions
+- description: 複数のリージョンで Azure Machine Learning レジストリを作成する
   aprlGuid: 611c7c96-ac55-4ddf-909e-9eb70fd048b7
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -6,11 +6,11 @@
   recommendationResourceType: Microsoft.MachineLearningServices/registries
   recommendationMetadataState: Active
   longDescription: |
-    Azure Machine Learning registries enables to create and use assets (models, env, components, and datasets) in different workspaces. Registries support multi-region replication for low latency access to assets, allowing to use them in workspaces located in different Azure regions.
+    Azure Machine Learning レジストリを使用すると、異なるワークスペースで資産 (モデル、環境、コンポーネント、データセット) を作成および使用できます。レジストリは、短い待機時間での資産へのアクセスのためのマルチリージョン レプリケーションをサポートし、異なる Azure リージョンにあるワークスペースでの使用を可能にします。
   potentialBenefits: Improves performance and reliability
   pgVerified: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Manage Azure Machine Learning registries
-      url: "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-registries?view=azureml-api-2&tabs=cli"
+    - name: Azure Machine Learning レジストリを管理する
+      url: "https://learn.microsoft.com/azure/machine-learning/how-to-manage-registries?view=azureml-api-2&tabs=cli"
