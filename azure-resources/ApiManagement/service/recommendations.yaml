@@ -72,7 +72,7 @@
     - name: Azure API Management の自動スケールを設定する
       url: "https://learn.microsoft.com/azure/api-management/api-management-howto-autoscale"
 
-- description: Configure API management service in multiple Azure regions
+- description: 複数の Azure リージョンで Azure API Management サービスを構成する
   aprlGuid: af4f88cb-35e8-4371-b29e-3a32b1d2f40a
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -80,15 +80,15 @@
   recommendationResourceType: Microsoft.ApiManagement/service
   recommendationMetadataState: Active
   longDescription: |
-    API Management multi-region deployment will help to reduce request latency perceived by geographically distributed API consumers and improves service availability if one region goes offline.
+    API Management のマルチリージョン展開は、地理的に分散した API コンシューマーが認識する要求待ち時間を削減し、1 つのリージョンがオフラインになった場合のサービスの可用性を向上させるのに役立ちます。
   potentialBenefits: Improve latency and provides business continuity
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Deploy API Management instance to multiple Azure regions
-      url: "https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-deploy-multi-region"
-- description: Enable caching to improve performance in Azure API Management
+    - name: 複数の Azure リージョンに Azure API Management サービス インスタンスをデプロイする方法
+      url: "https://learn.microsoft.com/azure/api-management/api-management-howto-deploy-multi-region"
+- description: Azure API Management でキャッシュを有効にしてパフォーマンスを向上させる
   aprlGuid: badd9a1f-222a-498d-ab84-1f14892b1c1b
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -96,13 +96,13 @@
   recommendationResourceType: Microsoft.ApiManagement/service
   recommendationMetadataState: Active
   longDescription: |
-    Response caching can significantly reduce latency for API callers and backend load for API providers.
+    レスポンス キャッシングは、API 呼び出し側の待ち時間と API プロバイダーのバックエンド負荷を大幅に削減することができます。
   potentialBenefits: Ensures service continuity and high availability
   pgVerified: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Add caching to improve performance in Azure API Management
-      url: "https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-cache"
-    - name: Use an external cache in Azure API Management
-      url: "https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-cache-external"
+    - name: キャッシュを追加して Azure API Management のパフォーマンスを向上させる
+      url: "https://learn.microsoft.com/azure/api-management/api-management-howto-cache"
+    - name: Azure API Management で外部キャッシュを使用する
+      url: "https://learn.microsoft.com/azure/api-management/api-management-howto-cache-external"
