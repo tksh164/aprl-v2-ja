@@ -3,14 +3,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/HPC
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     現在、すべての HPC Pack ARM テンプレートでは、可用性が高くないヘッド ノードの 1 つにクラスター共有が作成されます。
   potentialBenefits: Enhances job metadata availability
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: HPC
   learnMoreLink:
     - name: Learn More
       url: "https://learn.microsoft.com/ja-jp/powershell/high-performance-computing/hpcpack-ha-cloud?view=hpc19-ps#hpc-pack-cluster-shares"
@@ -20,14 +20,14 @@
   recommendationTypeId: null
   recommendationControl: Scalability
   recommendationImpact: Medium
-  recommendationResourceType: Specialized.Workload/HPC
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     HPC Pack クラスターに Azure の "バースト" ノード (Windows と Linux の両方) をデプロイするか、Azure で HPC Pack クラスターを作成することで、クラスターのワークロードに応じて、ノードやコアなどのクラスターのリソースを自動的に拡大または縮小できます。
   potentialBenefits: Efficient, uninterrupted execution
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: HPC
   learnMoreLink:
     - name: Learn More
       url: "https://learn.microsoft.com/ja-jp/powershell/high-performance-computing/hpcpack-auto-grow-shrink?view=hpc19-ps"
@@ -37,14 +37,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: Medium
-  recommendationResourceType: Specialized.Workload/HPC
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     少なくとも 2 つのヘッド ノードを持つクラスターを確立します。ヘッド ノードに障害が発生した場合、アクティブな HPC サービスは、影響を受けるヘッド ノードから別の機能しているヘッド ノードに自動的に転送されます。
   potentialBenefits: Enhanced reliability for HPC
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: HPC
   learnMoreLink:
     - name: Learn More
       url: "https://learn.microsoft.com/ja-jp/powershell/high-performance-computing/hpcpack-ha-cloud?view=hpc19-ps#dealing-with-head-node-failure"
@@ -54,14 +54,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/HPC
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     HPC がドメイン コントローラーへの接続に失敗した場合、管理者とユーザーは HPC サービスに接続できないため、クラスターにジョブを管理して送信することはできません。
   potentialBenefits: Enhanced reliability and job management
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: HPC
   learnMoreLink:
     - name: Learn More
       url: "https://learn.microsoft.com/ja-jp/powershell/high-performance-computing/hpcpack-ha-cloud?view=hpc19-ps#dealing-with-ad-failure"

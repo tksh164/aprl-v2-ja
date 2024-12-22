@@ -36,7 +36,7 @@
   aprlGuid: 1e28bbc1-1eb7-486f-8d7f-93943f40219c
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
-  recommendationImpact: High
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |
@@ -49,30 +49,11 @@
     - name: 接続の監視の概要
       url: "https://learn.microsoft.com/ja-jp/azure/network-watcher/connection-monitor-overview"
 
-- description: ネットワーク セキュリティ グループと仮想ネットワーク フロー ログを有効にする
-  aprlGuid: a1317a0b-402d-4604-be40-a25a004ba171
-  recommendationTypeId: null
-  recommendationControl: MonitoringAndAlerting
-  recommendationImpact: High
-  recommendationResourceType: Microsoft.Network/networkWatchers
-  recommendationMetadataState: Active
-  longDescription: |
-    Azure や ハイブリッド接続の監視を改善します。
-  potentialBenefits: Improves monitoring and security for Azure connectivity
-  pgVerified: true
-  automationAvailable: false
-  tags: null
-  learnMoreLink:
-    - name: ネットワーク セキュリティ グループのフロー ログ
-      url: "https://learn.microsoft.com/azure/network-watcher/nsg-flow-logs-overview"
-    - name: 仮想ネットワーク フロー ログ
-      url: "https://learn.microsoft.com/azure/network-watcher/vnet-flow-logs-overview"
-
 - description: ネットワーク セキュリティ グループと仮想ネットワーク フロー ログの設定でトラフィック解析を有効にする
   aprlGuid: bf0b7dbd-016d-458c-af99-70fcb03ad451
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
-  recommendationImpact: High
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/networkWatchers
   recommendationMetadataState: Active
   longDescription: |

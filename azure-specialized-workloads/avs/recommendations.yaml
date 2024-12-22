@@ -3,14 +3,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Interconnect 機能を使用して、異なる可用性ゾーンのプライベート クラウド間で直接通信し、プライベート クラウド管理ネットワークとワークロード ネットワーク間の接続を有効にします。
   potentialBenefits: Enhanced private cloud connectivity
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: Connect Private Clouds in the same region
       url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/connect-multiple-private-clouds-same-region"
@@ -20,14 +20,14 @@
   recommendationTypeId: null
   recommendationControl: Security
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     NSX と vCenter Server の 2 つの外部 ID ソースが構成されていることを確認します。VMware vCenter Server と NSX Manager は、外部 ID による認証にこれらを使用します。
   potentialBenefits: Continuous login access during maintenances
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: Set an external identity source for vCenter
       url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-identity-source-vcenter"
@@ -39,14 +39,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     HCX サービスでアプライアンスの障害耐性のためにネットワーク拡張高可用性を有効にします。選択したアプライアンスをアクティブ スタンバイ構成用にペアリングし、高可用性と迅速なリカバリを確保し、障害が発生しても構成をインサービスに保ちます。
   potentialBenefits: Improves HCX service continuity
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: HCX Network extension high availability
       url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/configure-hcx-network-extension-high-availability"
@@ -58,14 +58,14 @@
   recommendationTypeId: null
   recommendationControl: OtherBestPractices
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     ネットワークのセキュリティと安定性を確保するために、HCX 管理デバイスで使用されるネットワークを拡張しないでください。
   potentialBenefits: Enhanced network safety and performance
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: Requirements for Network Extension
       url: "https://docs.vmware.com/en/VMware-HCX/4.8/hcx-user-guide/GUID-0C746416-850E-46F7-85DD-4D4326A23785.html"
@@ -75,14 +75,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Azure VMware Solution のサービス SLA は、クラスター サイズに基づいて変化する vSAN ストレージ ポリシーの影響を受けます。ホストが 6 台を超えるクラスターの場合は、FTT-2 ポリシー (RAID-1 または RAID-6) をお勧めします。FTT は、フォールトトレランス機能を指します。
   potentialBenefits: Enhanced cluster reliability
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: Use fault domains
       url: "https://learn.microsoft.com/ja-jp/azure/well-architected/azure-vmware/application-platform#use-fault-domains"
@@ -94,14 +94,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Microsoft では、重要なワークロードに対して、異なるピアリングの場所で 2 つ以上の ExpressRoute 回線を使用することをお勧めします。Global Reach を使用して、これらの回線と Azure VMware Solutions プライベート クラウドを接続します。
   potentialBenefits: Enhanced circuit resilience for Azure VMware
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: APRL guidance for ExpressRoute circuits
       url: "https://azure.github.io/Azure-Proactive-Resiliency-Library/services/networking/expressroute-circuits"
@@ -113,14 +113,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Azure VMware Solution vSAN ストレッチ クラスターは、2 つの可用性ゾーンと 3 つ目の監視ゾーンをカバーします。ExpressRoute を使用して、2 つの回線を異なる場所にデプロイすることで回復性を強化します。Global Reach では、オンプレミスの回線を Azure のマネージド回線に接続してメッシュ トポロジを作成します。
   potentialBenefits: Enhanced resilience and connectivity
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: Deploy vSAN streched cluster
       url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/deploy-vsan-stretched-clusters#deploy-a-stretched-cluster-private-cloud"
@@ -130,14 +130,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/AVS
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     2 つの Azure VMware Solution プライベート クラウドをビジネス継続性のために異なるリージョンにデプロイし、ExpressRoute ゲートウェイ接続と Global Reach 接続に基づくメッシュ ネットワーク トポロジを実装できます。
   potentialBenefits: Enhanced disaster recovery
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: AVS
   learnMoreLink:
     - name: Private Clouds in two regions
       url: "https://learn.microsoft.com/ja-jp/azure/azure-vmware/move-azure-vmware-solution-across-regions"

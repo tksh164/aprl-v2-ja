@@ -3,14 +3,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Azure 可用性ゾーンを使用して、データセンターの障害から SAP システムを保護します。複数のゾーンにまたがってデプロイすることで、高可用性を確保します。ゾーン間で展開できない場合は、SAP ワークロードの高可用性オプションに関する Microsoft のガイダンスを参照します。
   potentialBenefits: High availability for SAP systems
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Quality Insights
       url: "https://learn.microsoft.com/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -28,14 +28,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     VMSS Flex を使用して、VM をゾーンと障害ドメインに分散します。設定については、Microsoft の SAP ワークロードに関する推奨事項に従います。VMSS Flex や可用性セットを使用していない場合は、耐障害性を向上させるために VMSS Flex への移行を検討します。移行の詳細については、提供されている Blog ポストを参照します。
   potentialBenefits: Enhanced resiliency for SAP on Azure
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: OpenSource Inventory Checks
       url: "https://aka.ms/ACESInventoryCheckSAP"
@@ -51,14 +51,14 @@
   recommendationTypeId: 58d6648d-32e8-4346-827c-4f288dd8ca24
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     単一インスタンス VM の場合、99.9% の可用性という単一インスタンス SLA を実現するには、OS ディスクとデータ ディスクの両方が Premium SSD または Ultra Disk である必要があります。
   potentialBenefits: Higher SLA of 99.9% with SSDs
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -76,14 +76,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     データベースの高可用性は、データベース ネイティブ レプリケーション テクノロジーを使用して実装し、データはプライマリ データベースからスタンバイ ノードに同期的に、つまり SYNC モードでレプリケートする必要があります。
   potentialBenefits: Ensures high availability for SAP data
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -95,7 +95,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     /sapmnt、/usr/trans、インターフェースなどの SAP 共有ファイルシステムは、高可用性にする必要があります。
@@ -103,7 +103,7 @@
   potentialBenefits: Enhanced data availability for SAP
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: OpenSource Inventory Checks
       url: "https://aka.ms/ACESInventoryCheckSAP"
@@ -113,14 +113,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Linux VM のカーネル パニックやフェールバックなど、高可用性ソリューションを徹底的にテストします。各 SAP レイヤー (データベース、セントラル サービス、アプリケーション サーバー、共有ファイル システム) のゾーン障害シナリオがゾーン冗長化され、RPO = 0 を満たし、RTO 内で自動的にフェールオーバーすることを確認します。
   potentialBenefits: Ensures SAP Azure's failover reliability
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: テスト ケース
       url: "https://learn.microsoft.com/azure/sap/workloads/sap-hana-high-availability?tabs=lb-portal#test-the-cluster-setup"
@@ -130,14 +130,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     Linux Pacemaker クラスターで migrate コマンドを使用して、一時的な "prefer " ロケーション制約を作成し、メンテナンスやテストのためにリソースを指定したノードに移動します。この制約は一時的なもので、タスク終了後に元のクラスター構成に戻すために削除する必要があります。
   potentialBenefits: Enhanced maintenance and failover handling
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: OpenSource Inventory Checks
       url: "https://aka.ms/ACESInventoryCheckSAP"
@@ -147,14 +147,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: Medium
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     ウォーム スタンバイ方式や Azure のオンデマンド容量予約を使用して、DR リージョンでの重要な VM ロールのコンピューティング リソースの利用可能性を確保します。ウォーム スタンバイは DR リージョンで VM を実行し続け、オンデマンド容量予約は VM を実行せずにコンピューティング容量を確保します。
   potentialBenefits: Guarantees DR region availability
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: オンデマンド容量予約
       url: "https://learn.microsoft.com/azure/virtual-machines/capacity-reservation-overview"
@@ -164,14 +164,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     データベース ベンダーのレプリケーション テクノロジーを使用して、本番データベースを DR ロケーションにレプリケート (ASYNC) します。
   potentialBenefits: Enhanced DR resilience
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP アプリケーションに関するディザスター リカバリーのガイドライン
       url: "https://learn.microsoft.com/azure/sap/workloads/disaster-recovery-sap-guide"
@@ -181,14 +181,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     (A) SCS、アプリケーション サーバー、WebDispatcher などの SAP コンポーネントは、適切なバックアップ ツールや ASR を使用して DR ロケーションにバックアップします。
   potentialBenefits: Ensures SAP data safety and recovery
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -200,14 +200,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     SAP on Azure の複雑なマルチレイヤー アーキテクチャをカバーするために、DR のための堅牢な監視アラートを SAP on Azure で実装します。これは、データベース、サービス、アプリケーション、共有システムにとって非常に重要です。
   potentialBenefits: Enhances SAP DR oversight
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP アプリケーションに関するディザスター リカバリーのガイドライン
       url: "https://learn.microsoft.com/azure/sap/workloads/disaster-recovery-sap-guide"
@@ -217,14 +217,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: Medium
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     ディザスター リカバリー (DR) インフラストラクチャの構築 (または DR リソースの事前デプロイ) を自動化し、SAP サービスの復元を可能な限り効率化します。
   potentialBenefits: Faster SAP recovery, reduced downtime
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP アプリケーションに関するディザスター リカバリーのガイドライン
       url: "https://learn.microsoft.com/azure/sap/workloads/disaster-recovery-sap-guide"
@@ -234,14 +234,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: Medium
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     各 SAP レイヤー (データベース、セントラル サービス、アプリケーション サーバー、共有ファイル システム）の DR 手順を文書化します。構成、フェールオーバー メカニズム、および復旧手順を含めます。さまざまな障害シナリオをテストし、DR 戦略が RPO/RTO 目標を満たし、シームレスなフェールオーバーを提供することを確認します。
   potentialBenefits: Ensures robust DR, meets RPO/RTO
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP アプリケーションに関するディザスター リカバリーのガイドライン
       url: "https://learn.microsoft.com/azure/sap/workloads/disaster-recovery-sap-guide"
@@ -251,14 +251,14 @@
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
   recommendationImpact: Medium
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     データベース、セントラル サービス、アプリケーション、共有ファイル システムの DR をカバーする、Azure 上の SAP に対する堅牢な監視とアラートを実装します。SAP の複雑性を考慮すると、効果的な DR レプリケーションと迅速な問題対応には、包括的な監視戦略が不可欠です。
   potentialBenefits: Improved DR oversight and rapid issue response
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP アプリケーションに関するディザスター リカバリーのガイドライン
       url: "https://learn.microsoft.com/azure/sap/workloads/disaster-recovery-sap-guide"
@@ -268,14 +268,14 @@
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     スケジュールされたイベントによる今後のメンテナンス (再起動など) 通知により、中断を制限します。すべての重要な Azure VM に対して構成します。Pacemaker クラスターで azure-events-az リソース エージェントを使用して、Reboot や Redeploy のようなイベントを監視して対応し、高可用性を確保します。
   potentialBenefits: Proactive maintenance awareness
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: VM の Scheduled Events
       url: "https://learn.microsoft.com/azure/virtual-machines/linux/scheduled-events"
@@ -287,14 +287,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     ASCS-Pacemaker (セントラル サーバー インスタンス) の場合は、Pacemaker クラスター構成パラメーターが SAP ASCS 高可用性用に正しく設定されていることを確認します。
   potentialBenefits: Enhances SAP ASCS uptime
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -308,14 +308,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     ASCS-LB (Central Server Instance) の場合は、ロード バランサーが SAP ASCS の高可用性用に正しく設定されていることを確認します。
   potentialBenefits: Enhanced HA for SAP ASCS
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -329,14 +329,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     DBHANA-Pacemaker (データベース インスタンス) の場合は、Pacemaker クラスター構成パラメーターが SAP HANA データベースの高可用性用に正しく設定されていることを確認します。
   potentialBenefits: Enhances SAP HANA DB uptime
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -350,14 +350,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     DBHANA-LB (データベース インスタンス) の場合は、ロード バランサーが SAP HANA データベースの高可用性用に正しく構成されていることを確認します。
   potentialBenefits: Enhanced DB availability
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP ACSS Insights
       url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
@@ -371,14 +371,14 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     中断を防ぐために適切なタイムアウト値を設定して、Azure NetApp Files を使用した SAP の高可用性を確保します。ドキュメントを確認して、構成が推奨されるタイムアウト値を満たしていることを確認します。
   potentialBenefits: Improve resiliency and performance of SAP on Azure
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SAP on Azure NetApp 計画ガイド
       url: "https://learn.microsoft.com/azure/sap/workloads/planning-guide-storage#azure-netapp-files"
@@ -388,14 +388,14 @@
   recommendationTypeId: null
   recommendationControl: Scalability
   recommendationImpact: High
-  recommendationResourceType: Specialized.Workload/SAP
+  recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
     データ ボリュームとログ ボリュームに最適なディスク タイプと構成を確保し、IOPS とスループットの要件を満たします。ディスク キャッシング、WriteAccelerator、ストライプ サイズ、Linux I/O スケジューラーに関する Microsoft の推奨事項に従います。SAP on Azure QualityCheck ツールを使用して乖離を特定します。
   potentialBenefits: Improve reliability, performance and optimize costs
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: SAP
   learnMoreLink:
     - name: SLES for SAP Applications VM 上でのシンプルなマウントと NFS を使用した高可用性 SAP NetWeaver
       url: "https://learn.microsoft.com/azure/sap/workloads/high-availability-guide-suse-nfs-simple-mount?tabs=lb-portal%2Censa1"

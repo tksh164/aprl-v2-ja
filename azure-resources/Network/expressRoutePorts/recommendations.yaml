@@ -15,17 +15,17 @@
     - name: How to configure ExpressRoute Direct Change Admin State of links
       url: "https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-howto-erdirect#state"
 
-- description: ExpressRoute Direct をオーバー サブスクライブしないようにする
+- description: Ensure ExpressRoute Direct is not over-subscribed
   aprlGuid: 0bee356b-7348-4799-8cab-0c71ffe13018
   recommendationTypeId: null
   recommendationControl: Scalability
-  recommendationImpact: High
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/ExpressRoutePorts
   recommendationMetadataState: Active
   longDescription: |
     10 Gbps または 100 Gbps の ExpressRoute Direct リソースで ExpressRoute 回線を最大 20 Gbps または 200 Gbps までプロビジョニングすることは可能ですが、回復性のためには推奨されません。ExpressRoute Direct ポートに障害が発生し、回線がフル キャパシティを使用している場合、残りのポートは余分な負荷を処理しません。
   potentialBenefits: Improves resilience during port failures
-  pgVerified: true
+  pgVerified: false
   automationAvailable: true
   tags: null
   learnMoreLink:
@@ -36,7 +36,7 @@
   aprlGuid: 55815823-d588-4cb7-a5b8-ae581837356e
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
-  recommendationImpact: High
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/expressRoutePorts
   recommendationMetadataState: Active
   longDescription: |
