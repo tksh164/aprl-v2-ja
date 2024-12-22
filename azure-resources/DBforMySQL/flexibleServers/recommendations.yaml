@@ -21,7 +21,7 @@
   recommendationControl: Scalability
   recommendationImpact: High
   recommendationResourceType: Microsoft.DBforMySQL/flexibleServers
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     フレキシブル サーバー インスタンスでカスタム メンテナンス スケジュールを使用して、サービス更新プログラムを適用する優先時間を選択します。
   potentialBenefits: Control update timings

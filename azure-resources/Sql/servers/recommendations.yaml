@@ -4,7 +4,7 @@
   recommendationControl: DisasterRecovery
   recommendationImpact: High
   recommendationResourceType: Microsoft.Sql/servers
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     アクティブ geo レプリケーションは、読み取り可能なセカンダリ データベース レプリカを利用することで、ビジネス継続性を確保します。プライマリ データベースに障害が発生した場合は、セカンダリ データベースに手動でフェールオーバーします。セカンダリ (最大 4 つ) は、読み取り専用アクセスに使用される同じリージョンまたは異なるリージョンに配置できます。
   potentialBenefits: Enhanced disaster recovery and read scalability
@@ -17,11 +17,11 @@
 
 - description: 自動フェールオーバー グループには、通常同じアプリで使用される 1 つまたは複数のデータベースを含めることができる
   aprlGuid: 943c168a-2ec2-a94c-8015-85732a1b4859
-  recommendationTypeId: null
+  recommendationTypeId: 2ea11bcb-dfd0-48dc-96f0-beba578b989a
   recommendationControl: DisasterRecovery
   recommendationImpact: High
   recommendationResourceType: Microsoft.Sql/servers
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     フェールオーバー グループは、ある論理サーバー上のデータベースが別のリージョンの論理サーバーにレプリケートされるように構成することで、障害復旧を容易にします。これにより、geo レプリケートされたデータベース管理が合理化され、プライマリ サーバーに障害が発生した場合にレプリケートされたデータベースへの接続ルーティングのための単一のエンドポイントが提供されます。
   potentialBenefits: Improves load balancing and disaster recovery
@@ -38,7 +38,7 @@
   aprlGuid: c0085c32-84c0-c247-bfa9-e70977cbf108
   recommendationTypeId: 807e58d0-e385-41ad-987b-4a4b3e3fb563
   recommendationControl: HighAvailability
-  recommendationImpact: Medium
+  recommendationImpact: High
   recommendationResourceType: Microsoft.Sql/servers
   recommendationMetadataState: Active
   longDescription: |
