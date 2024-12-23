@@ -12,10 +12,10 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: How to configure ExpressRoute Direct Change Admin State of links
-      url: "https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-howto-erdirect#state"
+    - name: ExpressRoute Direct を構成する方法 - リンクの管理状態を変更する
+      url: "https://learn.microsoft.com/azure/expressroute/expressroute-howto-erdirect#state"
 
-- description: Ensure ExpressRoute Direct is not over-subscribed
+- description: ExpressRoute Direct が過剰サブスクライブになっていないことを確認する
   aprlGuid: 0bee356b-7348-4799-8cab-0c71ffe13018
   recommendationTypeId: null
   recommendationControl: Scalability
@@ -29,8 +29,8 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: About ExpressRoute Direct Circuit Sizes
-      url: "https://learn.microsoft.com/ja-jp/azure/expressroute/expressroute-erdirect-about?source=recommendations#circuit-sizes"
+    - name: ExpressRoute Direct について - 回線のサイズ
+      url: "https://learn.microsoft.com/azure/expressroute/expressroute-erdirect-about?source=recommendations#circuit-sizes"
 
 - description: ExpressRoute ポートの監視とアラートを構成する
   aprlGuid: 55815823-d588-4cb7-a5b8-ae581837356e
