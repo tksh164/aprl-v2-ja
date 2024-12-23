@@ -29,11 +29,11 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: About ExpressRoute virtual network gateways - Zone-redundant gateway SKUs
+    - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - ゾーン冗長ゲートウェイ SKU
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#zrgw"
-    - name: About zone-redundant virtual network gateway in Azure availability zones
+    - name: Azure Availability Zones でのゾーン冗長仮想ネットワーク ゲートウェイについて
       url: "https://learn.microsoft.com/azure/vpn-gateway/about-zone-redundant-vnet-gateways"
-    - name: Create a zone-redundant virtual network gateway in Azure Availability Zones
+    - name: 可用性ゾーンにゾーン冗長仮想ネットワーク ゲートウェイを作成する
       url: "https://learn.microsoft.com/azure/vpn-gateway/create-zone-redundant-vnet-gateway"
 
 - description: ExpressRoute ゲートウェイの Azure リソース ロックを構成して、誤って削除されないようにする
@@ -50,7 +50,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Protect your Azure resources with a lock - Azure Resource Manager | Microsoft Learn
+    - name: リソースをロックしてインフラストラクチャを保護する
       url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?tabs=json"
 
 - description: ExpressRoute ゲートウェイの正常性を監視する
@@ -103,7 +103,7 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Configure customer-controlled maintenance for your virtual network gateway - ExpressRoute | Microsoft Learn
+    - name: ExpressRoute にお客様が管理するゲートウェイ メンテナンスを構成する
       url: "https://learn.microsoft.com/azure/expressroute/customer-controlled-gateway-maintenance#azure-portal-steps"
 
 - description: ゾーン冗長 VPN ゲートウェイを選択する
@@ -114,18 +114,18 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    Deploying zone-redundant virtual network gateways across availability zones ensures zone-resiliency, improving access to mission-critical, scalable services on Azure. Mission Critical workloads should use dual ExpressRoutes instead of VPN.
+    ゾーンを冗長化した仮想ネットワーク ゲートウェイを可用性ゾーンを横断してデプロイすることで、ゾーン耐障害性が確保され、Azure 上のミッション クリティカルでスケーラブルなサービスへのアクセスが向上します。ミッション クリティカルなワークロードは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Enhanced reliability and scalability
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Zone redundant Virtual network gateway in availability zone
+    - name: Azure Availability Zones でのゾーン冗長仮想ネットワーク ゲートウェイについて
       url: "https://learn.microsoft.com/azure/vpn-gateway/about-zone-redundant-vnet-gateways"
-    - name: Gateway SKU
+    - name: ゲートウェイ SKU
       url: "https://learn.microsoft.com/azure/vpn-gateway/about-zone-redundant-vnet-gateways#gwskus"
     - name: SLA summary for Azure services
-      url: "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1"
+      url: "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services"
 
 - description: 冗長性のためのアクティブ/アクティブ VPN ゲートウェイを有効化する
   aprlGuid: 281a2713-c0e0-3c48-b596-19f590c46671
@@ -135,18 +135,18 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    The active-active mode is available for all SKUs except Basic, allowing for two Gateway IP configurations and two public IP addresses, enhancing redundancy and traffic handling. Mission Critical workloads should use dual ExpressRoutes instead of VPN.
+    アクティブ/アクティブ モードは、Basic を除くすべての SKU で利用可能で、2 つのゲートウェイ IP 構成と 2 つのパブリック IP アドレスを使用できるため、冗長性とトラフィック処理が強化されます。ミッション クリティカルなワークロードは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Enhanced reliability and network capacity
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Active-active VPN gateway
+    - name: アクティブ/アクティブ VPN ゲートウェイ
       url: "https://learn.microsoft.com/azure/vpn-gateway/active-active-portal#gateway"
-    - name: Gateway SKU
+    - name: ゲートウェイ SKU
       url: "https://learn.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsku"
 
-- description: Deploy active-active VPN concentrators on your premises
+- description: オンプレミスにアクティブ/アクティブ VPN 集線装置を配置する
   aprlGuid: af11fc4c-c06c-4f4c-b98d-6eee6d5c4c70
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -154,13 +154,13 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    Deploying active-active VPN concentrators and Azure VPN Gateways maximizes resilience and availability using a fully-meshed topology with four IPSec tunnels. Mission Critical workloads should use dual ExpressRoutes instead of VPN.
+    アクティブ/アクティブ VPN 集線装置と Azure VPN ゲートウェイを導入することで、4 つの IPSec トンネルを持つ完全にメッシュ化されたトポロジーを使用して、回復力と可用性を最大限に高めることができます。ミッション クリティカルなワークロードでは VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Maximizes resilience and availability
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Dual-redundancy active-active VPN gateways for both Azure and on-premises networks
+    - name: デュアル冗長性 Azure とオンプレミスの両方のネットワークのアクティブ/アクティブ VPN Gateway
       url: "https://learn.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable#dual-redundancy-active-active-vpn-gateways-for-both-azure-and-on-premises-networks"
 
 - description: VPN ゲートウェイの接続と正常性を監視する
@@ -171,13 +171,13 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    Set up monitoring and alerts for Virtual Network Gateway health to utilize a variety of metrics for ensuring operational efficiency and prompt response to any disruptions. Mission Critical workloads should use dual ExpressRoutes instead of VPN.
+    仮想ネットワーク ゲートウェイの正常性の監視とアラートを設定し、運用効率と障害への迅速な対応を確保するためのさまざまなメトリックを活用します。ミッション クリティカルなワークロードでは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Improved uptime and issue awareness
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: VPN gateway data reference
+    - name: Azure VPN Gateway 監視データ リファレンス
       url: "https://learn.microsoft.com/azure/vpn-gateway/monitor-vpn-gateway-reference"
 
 - description: VPN ゲートウェイ サービスの正常性を有効にする
@@ -188,18 +188,18 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    VPN gateway leverages service health to inform users about both planned and unplanned maintenance, ensuring they are notified about modifications to their VPN connectivity. Mission Critical workloads should use dual ExpressRoutes instead of VPN.
+    VPN ゲートウェイは、サービス正常性を活用して、計画的と計画外のメンテナンスについてユーザーに通知し、VPN 接続の変更について確実に通知します。ミッション クリティカルなワークロードでは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Improves VPN maintenance alerts
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Getting started with Azure Metrics Explorer
+    - name: Azure Monitor メトリックス エクスプローラーを使用してメトリックを分析する
       url: "https://learn.microsoft.com/azure/azure-monitor/essentials/metrics-getting-started"
-    - name: Monitor VPN gateway
+    - name: VPN ゲートウェイの監視
       url: "https://learn.microsoft.com/azure/vpn-gateway/monitor-vpn-gateway-reference#metrics"
 
-- description: Deploy VPN gateways with zone-redundant Public IPs
+- description: ゾーン冗長化されたパブリック IP を持つ VPN ゲートウェイをデプロイする
   aprlGuid: 4bae5a28-5cf4-40d9-bcf1-623d28f6d917
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -207,11 +207,11 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    For zone-redundant VPN gateways, always use zone-redundant Standard SKU public IPs to avoid deploying all instances in one zone. This ensures the gateway's reliability. Mission Critical workloads should use dual ExpressRoutes instead of VPN.
+    ゾーン冗長化された VPN ゲートウェイでは、常にゾーン冗長化された Standard SKU のパブリック IP を使用し、すべてのインスタンスが 1 つのゾーンに配置されることを避けてください。これによりゲートウェイの信頼性が確保されます。ミッション クリティカルなワークロードでは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Enhanced reliability and disaster recovery
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: About zone-redundant virtual network gateway in Azure availability zones
+    - name: Azure Availability Zones でのゾーン冗長仮想ネットワーク ゲートウェイについて
       url: "https://learn.microsoft.com/azure/vpn-gateway/about-zone-redundant-vnet-gateways"

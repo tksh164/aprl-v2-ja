@@ -14,8 +14,8 @@
   learnMoreLink:
     - name: Public IP addresses - Availability Zones
       url: "https://learn.microsoft.com/azure/virtual-network/ip-services/public-ip-addresses#availability-zone"
-    - name: Upgrading a basic public IP address to Standard SKU
-      url: "https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/public-ip-basic-upgrade-guidance#steps-to-complete-the-upgrade"
+    - name: Basic パブリック IP アドレスから Standard SKU へのアップグレード
+      url: "https://learn.microsoft.com/azure/virtual-network/ip-services/public-ip-basic-upgrade-guidance#steps-to-complete-the-upgrade"
 
 - description: 送信接続に NAT Gateway を使用して SNAT の枯渇を回避する
   aprlGuid: 1adba190-5c4c-e646-8527-dd1b2a6d8b15
@@ -50,12 +50,12 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Upgrading a basic public IP address to Standard SKU - Guidance
-      url: "https://learn.microsoft.com/ja-jp/azure/virtual-network/ip-services/public-ip-basic-upgrade-guidance"
+    - name: Basic パブリック IP アドレスの Standard SKU へのアップグレード - ガイダンス
+      url: "https://learn.microsoft.com/azure/virtual-network/ip-services/public-ip-basic-upgrade-guidance"
     - name: Upgrade to Standard SKU public IP addresses in Azure by 30 September 2025 as Basic SKU will be retired
-      url: "https://azure.microsoft.com/ja-jp/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/"
+      url: "https://azure.microsoft.com/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/"
 
-- description: Public IP addresses should have DDoS protection enabled
+- description: パブリック IP アドレスは DDoS プロテクションを有効にする必要がある
   aprlGuid: c4254c66-b8a5-47aa-82f6-e7d7fb418f47
   recommendationTypeId: null
   recommendationControl: Security
@@ -69,5 +69,5 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Azure DDoS Protection
-      url: "https://learn.microsoft.com/ja-jp/azure/ddos-protection/ddos-protection-overview"
+    - name: Azure DDoS Protection とは何か?
+      url: "https://learn.microsoft.com/azure/ddos-protection/ddos-protection-overview"

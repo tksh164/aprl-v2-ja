@@ -49,7 +49,7 @@
     - name: Private Link と DNS の大規模な統合
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/private-link-and-dns-integration-at-scale"
 
-- description: Ensure Time-To-Live (TTL) is set appropriately to ensure RTOs can be met
+- description: TTL (Time-To-Live) が適切に設定され、RTO を確実に達成できるようにする
   aprlGuid: 3538aa48-c40b-455b-a93b-269fe6e65be2
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -57,7 +57,7 @@
   recommendationResourceType: Microsoft.Network/privateDnsZones
   recommendationMetadataState: Active
   longDescription: |
-    Azure Private DNS allows the Time-To-Live (TTL) for record sets in the zone to be set to a value between 1 and 2147483647 seconds. You should ensure that the TTL for the DNS record sets in your DNS Zones are set appropriately to meet your RTO targets.
+    Azure プライベート DNS では、ゾーン内のレコード セットの TTL (Time-To-Live) を 1 ～ 2147483647 秒の間で設定できます。RTO 目標を達成するために、DNS ゾーン内の DNS レコード セットの TTL が適切に設定されていることを確認する必要があります。
   potentialBenefits: Ensures that no cached DNS records exist past RTO targets
   pgVerified: false
   automationAvailable: false
