@@ -1,4 +1,4 @@
-- description: Setup DNS cross-region failover using Azure DNS private resolvers
+- description: Azure DNS Private Resolver を使用して DNS のリージョン間フェールオーバーをセットアップする
   aprlGuid: bdd38c02-96bf-4d4e-a636-293729463f3d
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -6,11 +6,11 @@
   recommendationResourceType: Microsoft.Network/dnsResolvers
   recommendationMetadataState: Active
   longDescription: |
-    Deploy Private DNS Resolvers across multiple regions to establish cross-region failover.
+    複数のリージョンに Azure DNS Private Resolver をデプロイし、リージョンを横断したフェールオーバーを確立する。
   potentialBenefits: Ensures BCDR during regional outages.
   pgVerified: false
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Resiliency in Azure DNS Private Resolver
-      url: "https://learn.microsoft.com/en-us/azure/dns/private-resolver-reliability"
+    - name: Azure DNS Private Resolver の回復性
+      url: "https://learn.microsoft.com/azure/dns/private-resolver-reliability"
