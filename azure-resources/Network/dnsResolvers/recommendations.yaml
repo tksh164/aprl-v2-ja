@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.Network/dnsResolvers
   recommendationMetadataState: Active
   longDescription: |
-    複数のリージョンに Azure DNS Private Resolver をデプロイし、リージョンを横断したフェールオーバーを確立する。
+    複数のリージョンに Azure DNS Private Resolver をデプロイし、リージョンを横断したフェールオーバーを確立します。
   potentialBenefits: Ensures BCDR during regional outages.
   pgVerified: false
   automationAvailable: true
