@@ -1,34 +1,34 @@
-- description: Leverage Global provisioned deployment to ensure high and predictable throughput
+- description: グローバル プロビジョニング済みデプロイメントを活用し、予測可能な高いスループットを確保する
   aprlGuid: 042c034e-2b85-4c1d-bf9a-65c75a6b43e9
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
-  longDescription: Global provisioned deployments provide reserved model processing capacity for high and predictable throughput using Azure global infrastructure. Suitable for applications requiring lower latency variance at large workload usage. Provides cost savings
+  longDescription: グローバル プロビジョニング済みデプロイメントでは、Azure グローバル インフラストラクチャを使用して、予測可能な高スループットの予約されたモデル処理能力を提供します。ワークロードの使用量が多く、遅延の分散が小さい必要があるアプリケーションに適しています。コスト削減を実現します。
   potentialBenefits: Low latency variance, high throughputs, business continuity
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#global-provisioned"
+    - name: グローバル プロビジョニング済み
+      url: "https://learn.microsoft.com/azure/ai-services/openai/how-to/deployment-types#global-provisioned"
 
-- description: Ensure PAYG AOAI models leverage Global Standard deployment
+- description: PAYG AOAI モデルがグローバル標準デプロイメントを活用するようにする
   aprlGuid: 081fc8a4-b2d9-405b-b351-334e621016f5
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
-  longDescription: Global Standard leverages Azure's global infrastructure to route traffic to the best available data center for customer's real-time inference requests. It provides the highest default quota and eliminates the need to load balance across multiple resources. Optimized for low to medium volume usage
+  longDescription: グローバル標準は、Azure のグローバル インフラストラクチャを活用し、お客様のリアルタイム推論リクエストに最適なデータセンターへトラフィックをルーティングします。最も高い既定クォータを提供し、複数のリソース間で負荷分散する必要性を排除します。低～中ボリュームでの利用に最適化されています。
   potentialBenefits: Best model availability, business continuity
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
-      url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#global-standard"
+    - name: グローバル標準
+      url: "https://learn.microsoft.com/azure/ai-services/openai/how-to/deployment-types#global-standard"
 
 - description: オーバーフローを効率的に管理するために、モデルの従量課金制インスタンスをプロビジョニングされたスループットで展開する
   aprlGuid: 0c193899-da60-4a52-b4a0-77d75ac8c5c5
@@ -81,7 +81,7 @@
     - name: データ ゾーン標準
       url: "https://learn.microsoft.com/azure/ai-services/openai/how-to/deployment-types#data-zone-standard"
 
-- description: Use comprehensive monitoring solution for AOAI service
+- description: AOAI サービスのための包括的な監視ソリューションを使用する
   aprlGuid: 72b1b4ad-a14b-4430-9799-91bda782973d
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
@@ -89,16 +89,16 @@
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
   longDescription: |
-    Implementing a comprehensive monitoring solution for AOAI involves using Azure Monitor to track API usage, performance metrics, and security events. This setup helps optimize performance, manage costs, and ensure compliance by providing detailed insights into model usage and potential issues.
+    API の使用状況、パフォーマンス メトリック、およびセキュリティ イベントを追跡するために、Azure Monitorを使用して AOAI の包括的な監視ソリューションを実装します。このセットアップは、モデルの使用状況と潜在的な問題に対する詳細なインサイトを提供することで、パフォーマンスの最適化、コスト管理、コンプライアンスの確保に役立ちます。
   potentialBenefits: Optimize performance and compliance with detailed insights
   pgVerified: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn more
-      url: "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai"
+    - name: Azure OpenAI モデルのログと監視を実装する
+      url: "https://learn.microsoft.com/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai"
 
-- description: Deploy AOAI Service in multiple regions using Standard and/or Provisioned deployments
+- description: 標準および/またはプロビジョニング済みデプロイメントを使用して、複数のリージョンに AOAI サービスをデプロイします。
   aprlGuid: 61187af4-7d36-4b48-b16e-de78bef143a0
   recommendationTypeId: null
   recommendationControl: HighAvailability
