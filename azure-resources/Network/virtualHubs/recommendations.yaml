@@ -5,7 +5,8 @@
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/virtualHubs
   recommendationMetadataState: Active
-  longDescription: 仮想ハブの監視とアラートを設定します。仮想ハブの BGP ステータスや処理されるデータの変更に迅速に対応するためのアラート ルールを作成します。
+  longDescription: |
+    仮想ハブの監視とアラートを設定します。仮想ハブの BGP ステータスや処理されるデータの変更に迅速に対応するためのアラート ルールを作成します。
   potentialBenefits: Detection and mitigation to avoid disruptions.
   pgVerified: false
   automationAvailable: false
