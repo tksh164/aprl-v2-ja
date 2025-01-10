@@ -5,7 +5,8 @@
   recommendationImpact: High
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
-  longDescription: グローバル プロビジョニング済みデプロイメントでは、Azure グローバル インフラストラクチャを使用して、予測可能な高スループットの予約されたモデル処理能力を提供します。ワークロードの使用量が多く、遅延の分散が小さい必要があるアプリケーションに適しています。コスト削減を実現します。
+  longDescription: |
+    グローバル プロビジョニング済みデプロイメントでは、Azure グローバル インフラストラクチャを使用して、予測可能な高スループットの予約されたモデル処理能力を提供します。ワークロードの使用量が多く、遅延の分散が小さい必要があるアプリケーションに適しています。コスト削減を実現します。
   potentialBenefits: Low latency variance, high throughputs, business continuity
   pgVerified: true
   automationAvailable: false
@@ -21,7 +22,8 @@
   recommendationImpact: High
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active
-  longDescription: グローバル標準は、Azure のグローバル インフラストラクチャを活用し、お客様のリアルタイム推論リクエストに最適なデータセンターへトラフィックをルーティングします。最も高い既定クォータを提供し、複数のリソース間で負荷分散する必要性を排除します。低～中ボリュームでの利用に最適化されています。
+  longDescription: |
+    グローバル標準は、Azure のグローバル インフラストラクチャを活用し、お客様のリアルタイム推論リクエストに最適なデータセンターへトラフィックをルーティングします。最も高い既定クォータを提供し、複数のリソース間で負荷分散する必要性を排除します。低～中ボリュームでの利用に最適化されています。
   potentialBenefits: Best model availability, business continuity
   pgVerified: true
   automationAvailable: false

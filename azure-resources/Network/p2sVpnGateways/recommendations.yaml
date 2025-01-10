@@ -5,7 +5,8 @@
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/p2sVpnGateways
   recommendationMetadataState: Active
-  longDescription: ポイント対サイト VPN ゲートウェイの監視とアラートを設定します。ゲートウェイの使用率超過、接続数制限の超過、ユーザー VPN ルート制限の超過などの重要なイベントに迅速に対応するためのアラート ルールを作成します。ミッション クリティカルなワークロードでは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
+  longDescription: |
+    ポイント対サイト VPN ゲートウェイの監視とアラートを設定します。ゲートウェイの使用率超過、接続数制限の超過、ユーザー VPN ルート制限の超過などの重要なイベントに迅速に対応するためのアラート ルールを作成します。ミッション クリティカルなワークロードでは、VPN の代わりに二重の ExpressRoute を使用する必要があります。
   potentialBenefits: Detection and mitigation to avoid disruptions.
   pgVerified: false
   automationAvailable: false
