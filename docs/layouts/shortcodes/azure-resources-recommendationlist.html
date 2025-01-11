@@ -11,14 +11,14 @@ Azure Resources Recommendation List
 {{ with (index (index $.Site.Data $category) $type) }}
 <!-- Create a table of all recommendations under category/type -->
 <div>
-  <h2>Summary</h2>
+  <h2>サマリー</h2>
   <table style="margin-top: 5px; overflow: hidden;">
     <tr>
-      <th>Recommendation</th>
-      <th>Impact</th>
-      <th>Category</th>
-      <th>Automation Available</th>
-      <th>In Azure Advisor</th>
+      <th>推奨事項</th>
+      <th>インパクト</th>
+      <th>カテゴリ</th>
+      <th>オートメーションの有無</th>
+      <th>Azure Advisor に含まれるか</th>
     </tr>
     <!-- Loop through recommendations under category/type -->
     {{ range sort .recommendations "recommendation" "asc" }}
@@ -28,9 +28,9 @@ Azure Resources Recommendation List
         <a href="#{{ anchorize .description }}">{{ .description }}</a>
       </td>
       <td>{{ .recommendationImpact }}</td>
-      <td>{{ replace (replace (replace (replace (replace (replace (replace (replace (replace (replace .recommendationControl "HighAvailability" "High Availability") "BusinessContinuity" "Business Continuity") "DisasterRecovery" "Disaster Recovery") "Scalability" "Scalability") "MonitoringAndAlerting" "Monitoring and Alerting") "ServiceUpgradeAndRetirement" "Service Upgrade and Retirement") "OtherBestPractices" "Other Best Practices") "Personalized" "Personalized") "Governance" "Governance") "Security" "Security" }}</td>
-      <td>{{ if eq .automationAvailable true }}Yes{{ else }}No{{ end }}</td>
-      <td>{{ if .recommendationTypeId }}Yes{{ else }}No{{ end }}</td>
+      <td>{{ replace (replace (replace (replace (replace (replace (replace (replace (replace (replace .recommendationControl "HighAvailability" "高可用性") "BusinessContinuity" "ビジネス継続性") "DisasterRecovery" "ディザスター リカバリー") "Scalability" "スケーラビリティ") "MonitoringAndAlerting" "監視とアラート") "ServiceUpgradeAndRetirement" "サービス アップグレードとリタイア") "OtherBestPractices" "その他のベストプラクティス") "Personalized" "Personalized") "Governance" "ガバナンス") "Security" "セキュリティ" }}</td>
+      <td>{{ if eq .automationAvailable true }}有り{{ else }}無し{{ end }}</td>
+      <td>{{ if .recommendationTypeId }}含まれる{{ else }}含まれない{{ end }}</td>
     </tr>
     {{ end }}
     {{ end }}
@@ -39,7 +39,7 @@ Azure Resources Recommendation List
 
 <div>
   <br>
-  <h2>Details</h2>
+  <h2>詳細</h2>
 </div>
 
 <!-- Create a detail entry for each recommendation under category/type -->
@@ -60,10 +60,10 @@ Azure Resources Recommendation List
 
   <div style="padding-left: 25px;">
     <h4>
-      <span style="font-weight: bold">Impact:</span>&nbsp;
+      <span style="font-weight: bold">インパクト:</span>&nbsp;
       <span style="font-weight: normal">{{ .recommendationImpact }}</span>
       <span style="margin-right: 40px"></span>
-      <span style="font-weight: bold">Category:</span>&nbsp;
+      <span style="font-weight: bold">カテゴリ:</span>&nbsp;
       <span style="font-weight: normal">{{ replace (replace (replace (replace (replace (replace (replace (replace (replace (replace .recommendationControl "HighAvailability" "High Availability") "BusinessContinuity" "Business Continuity") "DisasterRecovery" "Disaster Recovery") "Scalability" "Scalability") "MonitoringAndAlerting" "Monitoring and Alerting") "ServiceUpgradeAndRetirement" "Service Upgrade and Retirement") "OtherBestPractices" "Other Best Practices") "Personalized" "Personalized") "Governance" "Governance") "Security" "Security" }}</span>
       <span style="margin-right: 40px"></span>
     </h4>
@@ -74,16 +74,16 @@ Azure Resources Recommendation List
       </h4>
     </div>
     <div style="max-width: 100%; word-wrap: break-word; overflow-wrap: break-word;">
-      <h4>Description:</h4>
+      <h4>説明:</h4>
       <pre
         style="white-space: pre-wrap; padding: 5px; border-radius: 5px; font-family: sans-serif;">{{ .longDescription }}</pre>
     </div>
     <div style="max-width: 100%; word-wrap: break-word; overflow-wrap: break-word;">
-      <h4>Potential Benefits:</h4>
+      <h4>潜在的な利点:</h4>
       <pre
         style="white-space: pre-wrap; padding: 5px; border-radius: 5px; font-family: sans-serif;">{{ .potentialBenefits }}</pre>
     </div>
-    <h5 style="margin-bottom: 5px;">Learn More:</h5>
+    <h5 style="margin-bottom: 5px;">詳細情報:</h5>
     <table style="margin-top: 5px; overflow: hidden;">
       {{ range .learnMoreLink }}
       <tr>
@@ -91,7 +91,7 @@ Azure Resources Recommendation List
       </tr>
       {{ end }}
     </table>
-    <h4>ARG Query:</h4>
+    <h4>ARG クエリ:</h4>
     {{ partial "queries-scripts/azure-resources-queries-scripts-tabs" (dict "category" $category
     "type" $type "recommendation" . "aprlGuid" .aprlGuid)
     }}
