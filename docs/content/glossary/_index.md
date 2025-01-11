@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: 用語
 weight: 50
 ---
 

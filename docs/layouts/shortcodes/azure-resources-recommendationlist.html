@@ -18,7 +18,7 @@ Azure Resources Recommendation List
       <th>インパクト</th>
       <th>カテゴリ</th>
       <th>オートメーションの有無</th>
-      <th>Azure Advisor に含まれるか</th>
+      <th>Azure Advisor でカバーされているか</th>
     </tr>
     <!-- Loop through recommendations under category/type -->
     {{ range sort .recommendations "recommendation" "asc" }}
@@ -64,7 +64,7 @@ Azure Resources Recommendation List
       <span style="font-weight: normal">{{ .recommendationImpact }}</span>
       <span style="margin-right: 40px"></span>
       <span style="font-weight: bold">カテゴリ:</span>&nbsp;
-      <span style="font-weight: normal">{{ replace (replace (replace (replace (replace (replace (replace (replace (replace (replace .recommendationControl "HighAvailability" "High Availability") "BusinessContinuity" "Business Continuity") "DisasterRecovery" "Disaster Recovery") "Scalability" "Scalability") "MonitoringAndAlerting" "Monitoring and Alerting") "ServiceUpgradeAndRetirement" "Service Upgrade and Retirement") "OtherBestPractices" "Other Best Practices") "Personalized" "Personalized") "Governance" "Governance") "Security" "Security" }}</span>
+      <span style="font-weight: normal">{{ replace (replace (replace (replace (replace (replace (replace (replace (replace (replace .recommendationControl "HighAvailability" "高可用性") "BusinessContinuity" "ビジネス継続性") "DisasterRecovery" "ディザスター リカバリー") "Scalability" "スケーラビリティ") "MonitoringAndAlerting" "監視とアラート") "ServiceUpgradeAndRetirement" "サービス アップグレードとリタイア") "OtherBestPractices" "その他のベストプラクティス") "Personalized" "Personalized") "Governance" "ガバナンス") "Security" "セキュリティ" }}</span>
       <span style="margin-right: 40px"></span>
     </h4>
     <div style="margin-top: 10px;">
@@ -79,11 +79,11 @@ Azure Resources Recommendation List
         style="white-space: pre-wrap; padding: 5px; border-radius: 5px; font-family: sans-serif;">{{ .longDescription }}</pre>
     </div>
     <div style="max-width: 100%; word-wrap: break-word; overflow-wrap: break-word;">
-      <h4>潜在的な利点:</h4>
+      <h4>期待できる利点:</h4>
       <pre
         style="white-space: pre-wrap; padding: 5px; border-radius: 5px; font-family: sans-serif;">{{ .potentialBenefits }}</pre>
     </div>
-    <h5 style="margin-bottom: 5px;">詳細情報:</h5>
+    <h5 style="margin-bottom: 5px;">詳しい情報:</h5>
     <table style="margin-top: 5px; overflow: hidden;">
       {{ range .learnMoreLink }}
       <tr>
