@@ -1,4 +1,4 @@
-- description: Deploy Azure Bastion across Availability Zones
+- description: 可用性ゾーンを横断して Azure Bastion をデプロイする
   aprlGuid: c9b0c6f6-1f64-4b4b-8165-00770b295dd7
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -6,18 +6,18 @@
   recommendationResourceType: Microsoft.Network/bastionHosts
   recommendationMetadataState: Active
   longDescription: |
-    Azure Bastion provides secure operational access to workload components. By distributing your Bastion resource across multiple availability zones, you can enhance the resiliency and reliability of your production workloads.
+    Azure Bastion は、ワークロード コンポーネントへのセキュアな運用アクセスを提供します。Bastion リソースを複数の可用性ゾーンに分散することで、本番ワークロードの回復力と信頼性を高めることができます。
   potentialBenefits: Provide high availability and resilience to failures
   pgVerified: true
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Reliability in Azure Bastion
-      url: "https://learn.microsoft.com/en-us/azure/reliability/reliability-bastion"
-    - name: Deploy Azure Bastion by using specified settings
-      url: "https://learn.microsoft.com/en-us/azure/bastion/tutorial-create-host-portal"
+    - name: Azure Bastion での信頼性
+      url: "https://learn.microsoft.com/azure/reliability/reliability-bastion"
+    - name: 指定した設定を使用して Azure Bastion をデプロイする
+      url: "https://learn.microsoft.com/azure/bastion/tutorial-create-host-portal"
 
-- description: Deploy Azure Bastion into the virtual network in secondary Azure region
+- description: セカンダリ Azure リージョンの仮想ネットワークに Azure Bastion をデプロイする
   aprlGuid: 0e57956d-71d9-4a35-bdcf-d7cfd7cd71f4
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -25,11 +25,11 @@
   recommendationResourceType: Microsoft.Network/bastionHosts
   recommendationMetadataState: Active
   longDescription: |
-    Azure Bastion is a single-region service, if the primary region becomes unavailable, the Bastion resource will also be unavailable. To ensure disaster recovery, it is recommended to deploy Azure Bastion into separate virtual networks across different regions.
+    Azure Bastion は単一リージョンのサービスであり、プライマリ リージョンが利用できなくなると、Bastion リソースも利用できなくなります。ディザスター リカバリーを確実にするために、Azure Bastion を異なるリージョンの別の仮想ネットワークに展開することを推奨します。
   potentialBenefits: Provides disaster recovery from regional outages
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Multi-region support in Azure bastion
-      url: "https://learn.microsoft.com/en-us/azure/reliability/reliability-bastion#multi-region-support"
+    - name: Azure bastion でのマルチリージョン サポート
+      url: "https://learn.microsoft.com/azure/reliability/reliability-bastion#multi-region-support"
