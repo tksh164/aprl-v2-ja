@@ -61,7 +61,7 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    Network Insights を使用して、可用性、パフォーマンス、スケーラビリティなど、ExpressRoute Gateway の正常性を監視します。
+    Network Insights を使用して、可用性、パフォーマンス、スケーラビリティなど、ExpressRoute ゲートウェイの正常性を監視します。
   potentialBenefits: Enhanced monitoring and alerting
   pgVerified: true
   automationAvailable: false
