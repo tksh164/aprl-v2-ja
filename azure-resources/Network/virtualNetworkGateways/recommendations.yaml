@@ -89,7 +89,7 @@
     - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - VNet 間接続
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#vnet-to-vnet-connectivity"
 
-- description: 顧客制御の ExpressRoute ゲートウェイのメンテナンスを構成する
+- description: お客様が管理する ExpressRoute ゲートウェイ メンテナンスを構成する
   aprlGuid: 3e115044-a3aa-433e-be01-ce17d67e50da
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -97,7 +97,7 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    ExpressRoute ゲートウェイは、機能、信頼性、パフォーマンス、セキュリティを向上させるために更新されています。顧客制御のメンテナンス構成とスケジューリングにより、更新の影響を最小限に抑え、メンテナンス ウィンドウに合わせて調整します。
+    ExpressRoute ゲートウェイは、機能、信頼性、パフォーマンス、セキュリティを向上させるために更新されています。お客様管理のメンテナンス構成とスケジューリングにより、更新の影響を最小限に抑え、メンテナンス ウィンドウに合わせて調整します。
   potentialBenefits: Minimizes update impact
   pgVerified: true
   automationAvailable: true
