@@ -14,5 +14,3 @@
   learnMoreLink:
     - name: Azure Automation のディザスター リカバリー
       url: "https://learn.microsoft.com/azure/automation/automation-disaster-recovery?tabs=win-hrw%2Cps-script%2Coption-one"
-    - name: クラウドやハイブリッド ジョブのディザスター リカバリー シナリオ
-      url: "https://learn.microsoft.com/azure/automation/automation-disaster-recovery?tabs=win-hrw%2Cps-script%2Coption-one#scenarios-for-cloud-and-hybrid-jobs"

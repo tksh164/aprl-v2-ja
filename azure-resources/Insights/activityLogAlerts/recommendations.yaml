@@ -14,8 +14,3 @@
   learnMoreLink:
     - name: Resource Health の概要
       url: "https://learn.microsoft.com/azure/service-health/resource-health-overview"
-    - name: Azure portal で Resource Health アラート ルールを作成する
-      url: "https://learn.microsoft.com/azure/service-health/resource-health-alert-monitor-guide#create-a-resource-health-alert-rule-in-the-azure-portal"
-    - name: 正常性アラート
-      url: "https://learn.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal"
-

@@ -14,12 +14,6 @@
   learnMoreLink:
     - name: Azure Virtual Network の概念とベスト プラクティス
       url: "https://learn.microsoft.com/azure/virtual-network/concepts-and-best-practices"
-    - name: ゲートウェイ サブネット
-      url: "https://learn.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsub"
-    - name: ネットワーク セキュリティ グループ (NSG) を RouteServerSubnet に関連付けることはできますか?
-      url: "https://learn.microsoft.com/azure/route-server/route-server-faq#can-i-associate-a-network-security-group-nsg-to-the-routeserversubnet"
-    - name: AzureFirewallSubnet でネットワーク セキュリティ グループ (NSG) はサポートされていますか?
-      url: "https://learn.microsoft.com/azure/firewall/firewall-faq#are-network-security-groups--nsgs--supported-on-the-azurefirewallsubnet"
 
 - description: Azure DDoS Standard Protection プランを使用して Azure VNet のパブリック エンドポイントを保護する
   aprlGuid: 69ea1185-19b7-de40-9da1-9e8493547a5c
@@ -54,10 +48,6 @@
   learnMoreLink:
     - name: Azure Virtual Network についてよく寄せられる質問 (FAQ)
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-faq"
-    - name: 信頼性とネットワーク接続
-      url: "https://learn.microsoft.com/azure/architecture/framework/services/networking/network-connectivity/reliability"
-    - name: Azure Private Link の可用性
-      url: "https://learn.microsoft.com/azure/private-link/availability"
 
 - description: 仮想ネットワーク フロー ログを有効にする
   aprlGuid: 06b77be9-56a3-4d41-b362-8b295c5a283d

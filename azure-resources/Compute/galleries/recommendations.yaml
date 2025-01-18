@@ -31,8 +31,6 @@
   learnMoreLink:
     - name: Compute Gallery のベスト プラクティス
       url: "https://learn.microsoft.com/azure/virtual-machines/azure-compute-gallery#best-practices"
-    - name: ゾーン冗長ストレージ
-      url: "https://learn.microsoft.com/azure/storage/common/storage-redundancy#zone-redundant-storage"
 
 - description: 可能な場合は、トラステッド起動対応イメージの作成を検討する
   aprlGuid: 1c5e1e58-4e56-491c-8529-10f37af9d4ed
@@ -50,10 +48,6 @@
   learnMoreLink:
     - name: Compute Gallery のベスト プラクティス
       url: "https://learn.microsoft.com/azure/virtual-machines/azure-compute-gallery#best-practices"
-    - name: Hyper-V での第 1 世代 vs 第 2 世代
-      url: "https://learn.microsoft.com/windows-server/virtualization/hyper-v/plan/should-i-create-a-generation-1-or-2-virtual-machine-in-hyper-v"
-    - name: Azure Compute Gallery におけるイメージ
-      url: "https://learn.microsoft.com/azure/virtual-machines/shared-image-galleries?tabs=azure-cli"
 
 - description: セカンダリ リージョンにイメージ バージョンのレプリカを作成する
   aprlGuid: b14ee8ed-7d27-447b-b6fb-6472cb5f4b75

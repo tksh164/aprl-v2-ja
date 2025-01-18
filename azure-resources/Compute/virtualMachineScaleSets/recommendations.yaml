@@ -14,8 +14,6 @@
   learnMoreLink:
     - name: 仮想マシンではなくスケール セットを使用するケース
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview#when-to-use-scale-sets-instead-of-virtual-machines"
-    - name: Virtual Machines とスケール セットに関する Azure Well-Architected Framework の観点
-      url: "https://learn.microsoft.com/azure/well-architected/services/compute/virtual-machines/virtual-machines-review"
 
 - description: Azure 仮想マシン スケール セットのアプリケーション正常性監視を有効にする
   aprlGuid: 94794d2a-eff0-2345-9b67-6f9349d0a627
@@ -67,8 +65,6 @@
   learnMoreLink:
     - name: Azure での自動スケールの使用
       url: "https://learn.microsoft.com/azure/azure-monitor/autoscale/autoscale-get-started"
-    - name: Azure での自動スケーリングの概要
-      url: "https://learn.microsoft.com/azure/azure-monitor/autoscale/autoscale-overview"
 
 - description: 予測自動スケーリングを有効にし、少なくとも「予測のみ」を構成する
   aprlGuid: 3f85a51c-e286-9f44-b4dc-51d00768696c
@@ -120,8 +116,6 @@
   learnMoreLink:
     - name: 可用性ゾーンを使用する仮想マシン スケール セットを作成する
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones"
-    - name: 可用性ゾーンを追加するようにスケール セットを更新する
-      url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones?tabs=cli-1%2Cportal-2#update-scale-set-to-add-availability-zones"
 
 - description: パッチ オーケストレーション オプションを Azure-orchestrated に設定する
   aprlGuid: e4ffd7b0-ba24-c84e-9352-ba4819f908c0
@@ -139,8 +133,6 @@
   learnMoreLink:
     - name: Azure Virtual Machines とスケール セットのゲストの自動パッチ適用
       url: "https://learn.microsoft.com/azure/virtual-machines/automatic-vm-guest-patching"
-    - name: Azure 仮想マシン スケール セットによる自動的な OS イメージのアップグレード
-      url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade"
 
 - description: 非推奨になる予定やすでに非推奨になっている VMSS イメージ バージョンをアップグレードする
   aprlGuid: 83d61669-7bd6-9642-a305-175db8adcdf4
