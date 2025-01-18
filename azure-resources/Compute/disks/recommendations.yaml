@@ -14,8 +14,6 @@
   learnMoreLink:
     - name: Azure 共有ディスクの概要
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared"
-    - name: 共有ディスクを有効にする
-      url: "https://learn.microsoft.com/azure/virtual-machines/disks-shared-enable?tabs=azure-portal"
 
 - description: 回復性と可用性を高めるために Azure ディスクでゾーン冗長ストレージを使用する
   aprlGuid: fa0cf4f5-0b21-47b7-89a9-ee936f193ce1

@@ -29,10 +29,8 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Designing for high availability with ExpressRoute
+    - name: Azure ExpressRoute を使用した高可用性のための設計
       url: "https://learn.microsoft.com/ja-jp/azure/expressroute/designing-for-high-availability-with-expressroute"
-    - name: Azure Well-Architected Framework review - Azure ExpressRoute - Design Checklist
-      url: "https://learn.microsoft.com/azure/well-architected/services/networking/azure-expressroute#recommendations"
 
 - description: ExpressRoute の両方の接続がアクティブ/アクティブ モードで構成されていることを確認する
   aprlGuid: f06a2bbe-5839-d447-9f39-fc3d20562d88

@@ -14,8 +14,6 @@
   learnMoreLink:
     - name: API Management サービス レベルを変更する
       url: "https://learn.microsoft.com/azure/api-management/upgrade-and-scale#change-your-api-management-service-tier"
-    - name: Azure API Management を可用性ゾーンに移行する
-      url: "https://learn.microsoft.com/azure/reliability/migrate-api-mgt"
 
 - description: Premium API Management インスタンスで可用性ゾーンを有効にする
   aprlGuid: 740f2c1c-8857-4648-80eb-47d2c56d5a50
@@ -33,8 +31,6 @@
   learnMoreLink:
     - name: API Management の可用性と信頼性を確保する
       url: "https://learn.microsoft.com/azure/api-management/high-availability#availability-zones"
-    - name: Azure API Management を可用性ゾーンに移行する
-      url: "https://learn.microsoft.com/azure/reliability/migrate-api-mgt"
 
 - description: Azure API Management プラットフォームのバージョンは stv2 である必要がある
   aprlGuid: e35cf148-8eee-49d1-a1c9-956160f99e0b
@@ -52,8 +48,6 @@
   learnMoreLink:
     - name: Azure API Management - stv1 プラットフォームの廃止 (2024 年 8 月)
       url: "https://learn.microsoft.com/azure/api-management/breaking-changes/stv1-platform-retirement-august-2024"
-    - name: Azure API Management のコンピューティング プラットフォーム
-      url: "https://learn.microsoft.com/azure/api-management/compute-infrastructure"
 
 - description: API Management サービスで運用ワークロードの自動スケーリングを有効にする
   aprlGuid: c79680ea-de85-44fa-a596-f31fa17a952f
@@ -104,5 +98,3 @@
   learnMoreLink:
     - name: キャッシュを追加して Azure API Management のパフォーマンスを向上させる
       url: "https://learn.microsoft.com/azure/api-management/api-management-howto-cache"
-    - name: Azure API Management で外部キャッシュを使用する
-      url: "https://learn.microsoft.com/azure/api-management/api-management-howto-cache-external"

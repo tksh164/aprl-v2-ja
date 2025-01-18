@@ -14,8 +14,6 @@
   learnMoreLink:
     - name: Azure Cosmos DB を使用してデータをグローバルに分散させる
       url: "https://learn.microsoft.com/azure/cosmos-db/distribute-data-globally"
-    - name: Azure Cosmos DB for NoSQL の高可用性 (信頼性)
-      url: "https://learn.microsoft.com/azure/cosmos-db/high-availability#tips-for-building-highly-available-applications"
 
 - description: 単一の書き込みリージョンを持つマルチリージョン アカウントのサービス マネージド フェイルオーバーを有効にする
   aprlGuid: 9cabded7-a1fc-6e4a-944b-d7dd98ea31a2
@@ -67,8 +65,6 @@
   learnMoreLink:
     - name: Azure Cosmos DB を使用してデータをグローバルに分散させる
       url: "https://learn.microsoft.com/azure/cosmos-db/distribute-data-globally"
-    - name: 複数の書き込みリージョンを使用する場合の競合の種類と解決ポリシー
-      url: "https://learn.microsoft.com/azure/cosmos-db/conflict-resolution-policies"
 
 - description: 継続的バックアップ モードを構成する
   aprlGuid: e544520b-8505-7841-9e77-1f1974ee86ec

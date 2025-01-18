@@ -83,8 +83,6 @@
   learnMoreLink:
     - name: Capacity Planning
       url: "https://learn.microsoft.com/azure/well-architected/azure-virtual-desktop/business-continuity#capacity-planning"
-    - name: Azure Virtual Desktop の制限事項
-      url: "https://learn.microsoft.com/azure/architecture/example-scenario/wvd/windows-virtual-desktop#azure-virtual-desktop-limitations"
 
 - description: DNS リージョンがレプリケートされていることを確認して、単一障害点を回避する
   aprlGuid: e1a34ac6-8761-4020-b537-d60c0be7514e
@@ -119,8 +117,6 @@
   learnMoreLink:
     - name: Azure Virtual Desktop のマルチリージョン事業継続とディザスター リカバリー (BCDR)
       url: "https://learn.microsoft.com/azure/architecture/example-scenario/wvd/azure-virtual-desktop-multi-region-bcdr"
-    - name: アクティブ/アクティブなシナリオ
-      url: "https://learn.microsoft.com/azure/well-architected/azure-virtual-desktop/business-continuity#active-active-scenarios"
 
 - description: ストレージ アカウントごとに FSLogix ファイル共有を 1 つだけ作成する
   aprlGuid: ed1f0327-0914-49e8-9518-16acb0d6b8d6
@@ -172,8 +168,6 @@
   learnMoreLink:
     - name: FSLogix
       url: "https://learn.microsoft.com/fslogix/overview-what-is-fslogix"
-    - name: Azure Backup を使用して Azure BLOB のバックアップを構成および管理する
-      url: "https://learn.microsoft.com/azure/backup/blob-backup-configure-manage?tabs=operational-backup"
 
 - description: パブリック ネットワークやマネージド ネットワーク用の RDP Shortpath を実装する
   aprlGuid: 3835b4b3-0479-4be8-9ffd-34ae29fa33b9
@@ -208,8 +202,6 @@
   learnMoreLink:
     - name: パブリック ネットワーク用 RDP Shortpath のトラブルシューティング
       url: "https://learn.microsoft.com/azure/virtual-desktop/troubleshoot-rdp-shortpath"
-    - name: Azure Virtual Desktop に必要な FQDN とエンドポイントへのアクセスを確認する
-      url: "https://learn.microsoft.com/azure/virtual-desktop/check-access-validate-required-fqdn-endpoint"
 
 - description: セカンダリ Entra ID 接続同期サーバーを確認する
   aprlGuid: d984eaf9-0fa1-4f8d-a326-bda751993c6f
@@ -279,8 +271,6 @@
   learnMoreLink:
     - name: 仮想ネットワーク サービス タグ
       url: "https://learn.microsoft.com/azure/virtual-network/service-tags-overview"
-    - name: 仮想ネットワーク トラフィックのルーティング
-      url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-udr-overview"
 
 - description: ホストを直接更新するのではなく、更新されたイメージ バージョンを作成し、セッション ホストを置き換える
   aprlGuid: 2831dab9-6a43-44a1-8aec-90a8e84894bc
@@ -328,7 +318,7 @@
   potentialBenefits: Enhanced security & disaster recovery
   pgVerified: true
   automationAvailable: false
-  tags:
+  tags: AVD
   learnMoreLink:
     - name: SMB ストレージのアクセス許可の構成
       url: "https://learn.microsoft.com/fslogix/how-to-configure-storage-permissions"
@@ -349,8 +339,6 @@
   learnMoreLink:
     - name: ログ記録と診断に関するトラブルシューティング
       url: "https://learn.microsoft.com/fslogix/troubleshooting-events-logs-diagnostics"
-    - name: Azure Files の監視
-      url: "https://learn.microsoft.com/azure/storage/files/storage-files-monitoring"
 
 - description: FSLogix 更新プログラムを手動でインストールする
   aprlGuid: d51e0a70-8b50-4be3-af8a-7c9065e47360

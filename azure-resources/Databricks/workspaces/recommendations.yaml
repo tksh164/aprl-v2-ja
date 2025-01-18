@@ -80,8 +80,6 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: 信頼性のためのベスト プラクティス
-      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices"
     - name: Databricks 拡張自動スケーリング
       url: "https://learn.microsoft.com/azure/databricks/delta-live-tables/settings#use-autoscaling-to-increase-efficiency-and-reduce-resource-usage"
 
@@ -459,10 +457,6 @@
   learnMoreLink:
     - name: Azure Databricks コントロール プレーン アドレス
       url: "https://learn.microsoft.com/azure/databricks/resources/supported-regions#--azure-databricks-control-plane-addresses"
-    - name: Migrate - Databricks Inc. によって保守されている
-      url: "https://github.com/databrickslabs/migrate"
-    - name: Databricks Terraform Exporter - Databricks Inc. によって保守されている (実験的)
-      url: "https://registry.terraform.io/providers/databricks/databricks/latest/docs/guides/experimental-exporter"
 
 - description: 代替 VM SKU を定義する
   aprlGuid: 028593be-956e-4736-bccf-074cb10b92f4
@@ -480,8 +474,6 @@
   learnMoreLink:
     - name: コンピューティング構成のベスト プラクティス
       url: "https://learn.microsoft.com/azure/databricks/compute/cluster-config-best-practices"
-    - name: GPU 対応コンピューティング
-      url: "https://learn.microsoft.com/azure/databricks/compute/gpu"
 
 - description: Use managed services where possible
   aprlGuid: e94da1f8-33e7-48a6-b301-72f19a53bc29

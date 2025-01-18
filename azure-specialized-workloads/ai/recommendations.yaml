@@ -31,5 +31,3 @@
   learnMoreLink:
     - name: Application Insights のデータ コレクション、保持期間、ストレージ
       url: "https://learn.microsoft.com/azure/azure-monitor/logs/data-retention-configure?tabs=portal-3%2Cportal-1%2Cportal-2"
-    - name: 事業継続とディザスター リカバリーのためのフェールオーバー
-      url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"

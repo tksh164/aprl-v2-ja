@@ -12,7 +12,5 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Azure Managed Grafana サービスの信頼性
-      url: "https://learn.microsoft.com/azure/managed-grafana/high-availability"
     - name: Azure Managed Grafana でゾーン冗長を有効にする
       url: "https://learn.microsoft.com/azure/managed-grafana/how-to-enable-zone-redundancy"

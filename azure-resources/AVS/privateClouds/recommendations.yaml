@@ -63,8 +63,6 @@
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: 高可用性を実装する
-      url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/infrastructure#implement-high-availability"
     - name: ストレッチ クラスター
       url: "https://learn.microsoft.com/azure/azure-vmware/deploy-vsan-stretched-clusters"
 

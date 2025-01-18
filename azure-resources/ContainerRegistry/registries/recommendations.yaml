@@ -48,8 +48,6 @@
   learnMoreLink:
     - name: Azure Container Registry のベスト プラクティス - Geo レプリケーション転送を有効にする
       url: "https://learn.microsoft.com/azure/container-registry/container-registry-best-practices#geo-replicate-multi-region-deployments"
-    - name: Azure Container Registry の geo レプリケーション
-      url: "https://learn.microsoft.com/azure/container-registry/container-registry-geo-replication"
 
 - description: リポジトリの名前空間を使用する
   aprlGuid: a5a0101a-a240-8742-90ba-81dbde9a0c0c
@@ -101,8 +99,6 @@
   learnMoreLink:
     - name: Azure Container Registry のベスト プラクティス - レジストリ サイズを管理する
       url: "https://learn.microsoft.com/azure/container-registry/container-registry-best-practices#manage-registry-size"
-    - name: アイテム保持ポリシー
-      url: "https://learn.microsoft.com/azure/container-registry/container-registry-retention-policy#about-the-retention-policy"
 
 - description: 匿名プル アクセスを無効にする
   aprlGuid: 03f4a7d8-c5b4-7842-8e6e-14997a34842b
@@ -135,8 +131,6 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Azure Container Registry データ監視のリファレンス - リソース ログ
-      url: "https://learn.microsoft.com/azure/container-registry/monitor-service-reference#resource-logs"
     - name: Azure Container Registry の監視 - 診断ログを有効にする
       url: "https://learn.microsoft.com/azure/container-registry/monitor-service#collection-and-routing"
 
@@ -154,8 +148,6 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Azure Container Registry データ監視のリファレンス
-      url: "https://learn.microsoft.com/azure/container-registry/monitor-service-reference#metrics"
     - name: Azure Container Registry の監視
       url: "https://learn.microsoft.com/azure/container-registry/monitor-service"
 
