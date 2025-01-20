@@ -14,8 +14,6 @@
   learnMoreLink:
     - name: Azure Bastion での信頼性
       url: "https://learn.microsoft.com/azure/reliability/reliability-bastion"
-    - name: 指定した設定を使用して Azure Bastion をデプロイする
-      url: "https://learn.microsoft.com/azure/bastion/tutorial-create-host-portal"
 
 - description: セカンダリ Azure リージョンの仮想ネットワークに Azure Bastion をデプロイする
   aprlGuid: 0e57956d-71d9-4a35-bdcf-d7cfd7cd71f4
