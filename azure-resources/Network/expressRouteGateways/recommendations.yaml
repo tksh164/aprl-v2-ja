@@ -32,21 +32,21 @@
     - name: Azure Virtual WAN の監視 - ベスト プラクティス
       url: "https://learn.microsoft.com/azure/virtual-wan/monitoring-best-practices#expressroute-gateway"
 
-- description: Avoid using ExpressRoute circuits for VNet to VNet communication
+- description: VNet 間の通信に ExpressRoute 回線を使用することを避ける
   aprlGuid: 560a76a7-8f64-4ce3-ad27-d174468861a1
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/expressRouteGateways
   recommendationMetadataState: Active
-  longDescription: Avoid using ExpressRoute circuits for VNet to VNet communication. Use Virtual WAN to connect VNets in different regions. This feature is enabled at the ExpressRoute circuit level but reflected in the Virtual Wan resource.
+  longDescription: VNet 間の通信に ExpressRoute 回線を使用することは避けてください。Virtual WAN を使用して、異なるリージョンの VNet 間を接続します。この機能は ExpressRoute 回線レベルで有効化されますが、Virtual WAN リソースに反映されます。
   potentialBenefits: Shortest path between VNETs. Disables hairpinning at MSEE
   pgVerified: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Enable or disable VNet to Virtual WAN traffic over ExpressRoute
-      url: "https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-expressroute-portal#enable-or-disable-vnet-to-virtual-wan-traffic-over-expressroute"
+    - name: ExpressRoute 経由で VNet から Virtual WAN へのトラフィックを有効または無効にする
+      url: "https://learn.microsoft.com/azure/virtual-wan/virtual-wan-expressroute-portal#enable-or-disable-vnet-to-virtual-wan-traffic-over-expressroute"
 
     - name: Customization controls for connectivity between Virtual Networks over ExpressRoute
       url: "https://techcommunity.microsoft.com/t5/azure-networking-blog/customisation-controls-for-connectivity-between-virtual-networks/ba-p/4147722"
