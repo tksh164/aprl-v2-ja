@@ -185,7 +185,7 @@
     - name: RE:07 Self-preservation
       url: "https://learn.microsoft.com/azure/well-architected/reliability/self-preservation"
 
-- description: RE:07 過渡的な障害を処理する
+- description: RE:07 一過性の障害に対処する
   aprlGuid: 66ae4a5c-7f58-4293-bed8-5caa4f9f34e2
   recommendationTypeId: null
   recommendationControl: HighAvailability
