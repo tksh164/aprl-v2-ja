@@ -12,7 +12,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:01 Simplicity and efficiency
+    - name: RE:01 シンプルさと効率性
       url: "https://learn.microsoft.com/azure/well-architected/reliability/simplify"
 
 - description: RE:02 ユーザーとシステムのフローを特定して評価する
@@ -29,10 +29,10 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:02 Critical flows
+    - name: RE:02 クリティカル フロー
       url: "https://learn.microsoft.com/azure/well-architected/reliability/identify-flows"
 
-- description: RE:03 故障モード分析を使用して、潜在的な故障を特定し、優先順位を付ける
+- description: RE:03 障害モード分析を使用して、潜在的な障害を特定し、優先順位を付ける
   aprlGuid: f5fbe3d4-7196-46b8-9b09-0e29e7cf43ac
   recommendationTypeId: null
   recommendationControl: OtherBestPractices
@@ -46,7 +46,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:03 Failure mode analysis
+    - name: RE:03 障害モード分析
       url: "https://learn.microsoft.com/azure/well-architected/reliability/failure-mode-analysis"
 
 - description: RE:04 信頼性と回復の目標を定義する
@@ -63,7 +63,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:04 Target metrics
+    - name: RE:04 ターゲット メトリック
       url: "https://learn.microsoft.com/azure/well-architected/reliability/metrics"
 
 - description: RE:05 冗長性のための設計をする
@@ -80,7 +80,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:05 Redundancy
+    - name: RE:05 冗長性
       url: "https://learn.microsoft.com/azure/well-architected/reliability/redundancy"
 
 - description: RE:05 マルチリージョンの高可用性のための設計をする
@@ -97,7 +97,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:05 High-availability multi-region design
+    - name: RE:05 高可用性マルチリージョン設計
       url: "https://learn.microsoft.com/ja-jp/azure/well-architected/reliability/highly-available-multi-region-design"
 
 - description: RE:05 可用性ゾーンによる高可用性の設計をする
@@ -114,7 +114,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Regions and availability zones
+    - name: リージョンと可用性ゾーン
       url: "https://learn.microsoft.com/azure/well-architected/reliability/regions-availability-zones"
 
 - description: RE:06 データ パーティショニングの設計をする
@@ -131,7 +131,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:06 Data partitioning
+    - name: RE:06 データ パーティショニング
       url: "https://learn.microsoft.com/azure/well-architected/reliability/partition-data"
 
 - description: RE:06 信頼性の高いスケーリングのための設計をする
@@ -148,7 +148,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:06 Scaling
+    - name: RE:06 スケーリング
       url: "https://learn.microsoft.com/azure/well-architected/reliability/scaling"
 
 - description: RE:07 バックグラウンド ジョブを使用する
@@ -165,7 +165,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:07 Background jobs
+    - name: RE:07 バックグラウンド ジョブ
       url: "https://learn.microsoft.com/azure/well-architected/reliability/background-jobs"
 
 - description: RE:07 自己保存と自己回復の手段を実装する
@@ -182,7 +182,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:07 Self-preservation
+    - name: RE:07 自己保存
       url: "https://learn.microsoft.com/azure/well-architected/reliability/self-preservation"
 
 - description: RE:07 一過性の障害に対処する
@@ -193,13 +193,13 @@
   recommendationResourceType: Microsoft.Subscription/Subscriptions
   recommendationMetadataState: Active
   longDescription: |
-    インフラストラクチャベースの信頼性パターンとソフトウェアベースの設計パターンを使用して、コンポーネントの障害と一時的なエラーを処理することで、ソリューションに機能を組み込みます。
+    インフラストラクチャベースの信頼性パターンとソフトウェアベースの設計パターンを使用して、コンポーネントの障害と一過性のエラーを処理することで、ソリューションに機能を組み込みます。
   potentialBenefits: Reduce the likelihood of outages
   pgVerified: true
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:07 Transient faults
+    - name: RE:07 一過性の障害
       url: "https://learn.microsoft.com/azure/well-architected/reliability/handle-transient-faults"
 
 - description: RE:08 信頼性試験の戦略を設計する
@@ -216,7 +216,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:08 Testing
+    - name: RE:08 テスト
       url: "https://learn.microsoft.com/azure/well-architected/reliability/testing-strategy"
 
 - description: RE:09 事業継続とディザスター リカバリーの計画を実装する
@@ -233,7 +233,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:09 Disaster recovery
+    - name: RE:09 ディザスター リカバリー
       url: "https://learn.microsoft.com/azure/well-architected/reliability/disaster-recovery"
 
 - description: RE:10 信頼性の高い監視とアラートの戦略を設計する
@@ -250,5 +250,5 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: RE:10 Monitoring and alerting
+    - name: RE:10 監視とアラート
       url: "https://learn.microsoft.com/azure/well-architected/reliability/monitoring-alerting-strategy"
