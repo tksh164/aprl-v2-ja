@@ -5,7 +5,8 @@
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Network/vpnSites
   recommendationMetadataState: Active
-  longDescription: アクティブ/アクティブ VPN コンセントレータの配置は、4 つの IPSec トンネルを持つ完全にメッシュ化されたトポロジーを使用して、仮想ハブ上の VPN ゲートウェイの高可用性機能を活用します。
+  longDescription: |
+    アクティブ/アクティブ VPN コンセントレータの配置は、4 つの IPSec トンネルを持つ完全にメッシュ化されたトポロジーを使用して、仮想ハブ上の VPN ゲートウェイの高可用性機能を活用します。
   potentialBenefits: Fault tolerance and high availability.
   pgVerified: false
   automationAvailable: false

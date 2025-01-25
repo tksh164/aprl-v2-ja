@@ -5,7 +5,8 @@
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/virtualHubs
   recommendationMetadataState: Active
-  longDescription: Basic SKU は、クリティカルなワークロードには推奨されません。Standard SKU は、仮想ハブを経由したハブ間、および VNet 間トランジット、ExpressRoute、VPN (S2S)、ポイント対サイト (P2S) ゲートウェイ、Azure Firewall、NVA のデプロイなど、重要な機能を提供します。
+  longDescription: |
+    Basic SKU は、クリティカルなワークロードには推奨されません。Standard SKU は、仮想ハブを経由したハブ間、および VNet 間トランジット、ExpressRoute、VPN (S2S)、ポイント対サイト (P2S) ゲートウェイ、Azure Firewall、NVA のデプロイなど、重要な機能を提供します。
   potentialBenefits: Full Mesh communication and resiliency
   pgVerified: false
   automationAvailable: false
