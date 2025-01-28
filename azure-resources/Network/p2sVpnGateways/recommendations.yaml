@@ -10,7 +10,7 @@
   potentialBenefits: Detection and mitigation to avoid disruptions.
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Virtual WAN の監視 - ベスト プラクティス
       url: "https://learn.microsoft.com/azure/virtual-wan/monitoring-best-practices#point-to-site-vpn-gateway"

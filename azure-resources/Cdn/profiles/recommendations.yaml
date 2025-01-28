@@ -10,7 +10,7 @@
   potentialBenefits: Enhances security and performance
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Front Door の配信元へのトラフィックをセキュリティで保護する
       url: "https://learn.microsoft.com/azure/frontdoor/origin-security?tabs=app-service-functions&pivots=front-door-standard-premium"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhanced security and features
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: REST API Reference
       url: "https://learn.microsoft.com/rest/api/frontdoor/"
@@ -44,7 +44,7 @@
   potentialBenefits: Enhanced insights and solution monitoring
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Front Door でのメトリックとログの監視
       url: "https://learn.microsoft.com/azure/frontdoor/front-door-diagnostics?pivots=front-door-standard-premium"
@@ -61,7 +61,7 @@
   potentialBenefits: Ensures data encryption in transit
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Front Door を使用したエンド ツー エンド TLS
       url: "https://learn.microsoft.com/azure/frontdoor/end-to-end-tls?pivots=front-door-standard-premium"
@@ -78,7 +78,7 @@
   potentialBenefits: Enhances security and compliance
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: HTTP から HTTPS へのリダイレクト ルールの作成
       url: "https://learn.microsoft.com/azure/frontdoor/front-door-how-to-redirect-https#create-http-to-https-redirect-rule"
@@ -95,7 +95,7 @@
   potentialBenefits: Lowers costs, avoids outages
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure portal を使用して Azure Front Door カスタム ドメインで HTTPS を構成する
       url: "https://learn.microsoft.com/azure/frontdoor/standard-premium/how-to-configure-https-custom-domain?tabs=powershell"
@@ -112,7 +112,7 @@
   potentialBenefits: Saves time and automates TLS updates
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: デプロイする Azure Front Door の証明書を選択する
       url: "https://learn.microsoft.com/azure/frontdoor/standard-premium/how-to-configure-https-custom-domain?tabs=powershell#select-the-certificate-for-azure-front-door-to-deploy"
@@ -129,7 +129,7 @@
   potentialBenefits: Improves session/auth handling
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: リバース プロキシとそのバックエンド Web アプリケーションの間で、元の HTTP ホスト名を維持する
       url: "https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation"
@@ -146,7 +146,7 @@
   potentialBenefits: Enhances web app security
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Front Door 上の Web アプリケーション ファイアウォール (WAF)
       url: "https://learn.microsoft.com/azure/frontdoor/web-application-firewall"
@@ -163,7 +163,7 @@
   potentialBenefits: Reduces unnecessary origin traffic
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 正常性プローブ
       url: "https://learn.microsoft.com/azure/frontdoor/health-probes"
@@ -180,7 +180,7 @@
   potentialBenefits: Improves traffic routing and uptime
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 正常性エンドポイントの監視パターン
       url: "https://learn.microsoft.com/azure/architecture/patterns/health-endpoint-monitoring"
@@ -197,7 +197,7 @@
   potentialBenefits: Reduces traffic load on origins
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 正常性プローブでサポートされている HTTP メソッド
       url: "https://learn.microsoft.com/azure/frontdoor/health-probes#supported-http-methods-for-health-probes"
@@ -214,7 +214,7 @@
   potentialBenefits: Enhanced regional access control
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Geo フィルター WAF ポリシー - GeoMatch
       url: "https://learn.microsoft.com/azure/web-application-firewall/afds/waf-front-door-geo-filtering"
@@ -231,7 +231,7 @@
   potentialBenefits: Enhanced security and private connectivity
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Front Door の Private link
       url: "https://learn.microsoft.com/azure/frontdoor/private-link"
@@ -248,7 +248,7 @@
   potentialBenefits: Costs savings and additional supported features
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Front Door レベル間の価格を比較する
       url: "https://learn.microsoft.com/azure/frontdoor/understanding-pricing"

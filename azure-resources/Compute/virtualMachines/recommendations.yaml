@@ -10,7 +10,7 @@
   potentialBenefits: Enhanced fault/update resilience
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: フレキシブル オーケストレーション モードの変更点
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-orchestration-modes#what-has-changed-with-flexible-orchestration-mode"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhanced VM resilience to failures
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure portal を使用して可用性ゾーン内に仮想マシンを作成する
       url: "https://learn.microsoft.com/azure/virtual-machines/create-portal-availability-zone?tabs=standard"
@@ -44,7 +44,7 @@
   potentialBenefits: Enhances reliability and future-proofs VMs
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: フレキシブル オーケストレーションでデプロイとリソースを Virtual Machine Scale Sets に移行する
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/flexible-virtual-machine-scale-sets-migration-resources"
@@ -61,7 +61,7 @@
   potentialBenefits: Minimize downtime in disasters
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Virtual Machines の回復性のチェックリスト
       url: "https://learn.microsoft.com/azure/architecture/checklist/resiliency-per-service#virtual-machines"
@@ -78,7 +78,7 @@
   potentialBenefits: Avoid retirement disruption, enhance reliability
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 2025 年 9 月 30 日までに Azure アンマネージド ディスクを移行してください
       url: "https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
@@ -95,7 +95,7 @@
   potentialBenefits: Enhances performance, recovery, migration flexibility
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure マネージド ディスクの概要 - データ ディスク
       url: "https://learn.microsoft.com/azure/virtual-machines/managed-disks-overview#data-disk"
@@ -112,7 +112,7 @@
   potentialBenefits: Secure data recovery and backup
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Backup サービスとは
       url: "https://learn.microsoft.com/azure/backup/backup-overview"
@@ -129,7 +129,7 @@
   potentialBenefits: Reduce costs by removing unused VMs
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure 仮想マシンの電源の状態と課金
       url: "https://learn.microsoft.com/azure/virtual-machines/states-billing?context=%2Ftroubleshoot%2Fazure%2Fvirtual-machines%2Fcontext%2Fcontext#power-states-and-billing"
@@ -146,7 +146,7 @@
   potentialBenefits: Reduces latency, jitter and CPU use
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 高速ネットワークの概要
       url: "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview"
@@ -163,7 +163,7 @@
   potentialBenefits: Enhanced VM network efficiency
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 高速ネットワークの概要
       url: "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview"
@@ -180,7 +180,7 @@
   potentialBenefits: Enhanced security and service resiliency
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 送信接続での送信元ネットワーク アドレス変換 (SNAT)を使用する
       url: "https://learn.microsoft.com/azure/load-balancer/load-balancer-outbound-connections"
@@ -197,7 +197,7 @@
   potentialBenefits: Reduces communication problems
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ネットワーク セキュリティ グループによってネットワーク トラフィックをフィルター処理する方法
       url: "https://learn.microsoft.com/azure/virtual-network/network-security-group-how-it-works#intra-subnet-traffic"
@@ -214,7 +214,7 @@
   potentialBenefits: Enhances network appliance function
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: IP 転送の有効化と無効化
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-network-network-interface?tabs=network-interface-portal#enable-or-disable-ip-forwarding"
@@ -231,7 +231,7 @@
   potentialBenefits: Ensures DNS consistency
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure 仮想ネットワーク内のリソースの名前解決
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances"
@@ -248,7 +248,7 @@
   potentialBenefits: Enhances VM security and privacy
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Private Link を使用してマネージド ディスクに対するインポートおよびエクスポートのアクセスを制限する
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-enable-private-links-for-import-export-portal"
@@ -265,7 +265,7 @@
   potentialBenefits: Secure VMs and applications
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ポリシー主導のガバナンス
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-principles#policy-driven-governance"
@@ -282,7 +282,7 @@
   potentialBenefits: Enhances data security and integrity
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: マネージド ディスク暗号化オプションの概要
       url: "https://learn.microsoft.com/azure/virtual-machines/disk-encryption-overview"
@@ -299,7 +299,7 @@
   potentialBenefits: Improves VM performance and health
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: VM insights の概要
       url: "https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-overview"
@@ -316,7 +316,7 @@
   potentialBenefits: Enhanced diagnostics and auditing capability
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Monitor エージェントの概要
       url: "https://learn.microsoft.com/azure/azure-monitor/agents/agents-overview"
@@ -333,7 +333,7 @@
   potentialBenefits: Scheduled updates for VMs
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: メンテナンス構成による VM の更新の管理
       url: "https://learn.microsoft.com/azure/virtual-machines/maintenance-configurations"
@@ -350,7 +350,7 @@
   potentialBenefits: Ensures full CPU usage for heavy tasks
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: B シリーズのバースト可能なマシンのサイズ
       url: "https://learn.microsoft.com/azure/virtual-machines/sizes-b-series-burstable"
@@ -367,7 +367,7 @@
   potentialBenefits: Enhanced performance, cost efficiency, and uptime SLA
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ディスクの種類の比較とデシジョン ツリー
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-types#disk-type-comparison"
@@ -384,7 +384,7 @@
   potentialBenefits: Less maintenance impact
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Microsoft Azure Boost
       url: "https://learn.microsoft.com/azure/azure-boost/overview"
@@ -401,7 +401,7 @@
   potentialBenefits: Minimize downtime for VMs
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure VM のスケジュールされたイベントを監視する
       url: "https://learn.microsoft.com/azure/virtual-machines/windows/scheduled-event-service"
@@ -418,7 +418,7 @@
   potentialBenefits: Guaranteed capacity in constrained regions/zones
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: オンデマンド容量予約
       url: "https://learn.microsoft.com/azure/virtual-machines/capacity-reservation-overview"
@@ -435,7 +435,7 @@
   potentialBenefits: Reduces complications with VM provisioning
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: VM で Azure Linux エージェントを更新する方法
       url: "https://learn.microsoft.com/azure/virtual-machines/extensions/update-linux-agent?tabs=ubuntu"
@@ -452,7 +452,7 @@
   potentialBenefits: Guaranteed capacity in disaster recovery regions
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: オンデマンド容量予約
       url: "https://learn.microsoft.com/azure/virtual-machines/capacity-reservation-overview"
