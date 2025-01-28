@@ -10,7 +10,7 @@
   potentialBenefits: Provides multi-region disaster recovery strategy
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: マルチリージョン デプロイメントの計画
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
@@ -27,7 +27,7 @@
   potentialBenefits: Provides recovery from regional outages
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 事業継続とディザスター リカバリーのためのフェールオーバー
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
@@ -44,7 +44,7 @@
   potentialBenefits: High availability and disaster recovery
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 事業継続とディザスター リカバリーのためのフェールオーバー
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
@@ -61,7 +61,7 @@
   potentialBenefits: Reduces costs, training time and increases reliability.
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: チェックポイント最適化の重要性
       url: "https://learn.microsoft.com/azure/machine-learning/reference-checkpoint-performance-for-large-models?view=azureml-api-2&tabs=PYTORCH#why-checkpoint-optimization-for-large-model-training-matters"
@@ -78,7 +78,7 @@
   potentialBenefits: Provide enough compute resources to the secondary region
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: リソースのクォータの管理
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-manage-quotas?view=azureml-api-2"
@@ -95,7 +95,7 @@
   potentialBenefits: supportability, longer term support
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Machine Learning でのコンピューティング ターゲットとは
       url: "https://learn.microsoft.com/azure/machine-learning/concept-compute-target?view=azureml-api-2#supported-vm-series-and-sizes"
@@ -112,7 +112,7 @@
   potentialBenefits: Avoid service disruption, longer term support
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure での GPU コンピューティング ワークロードの移行ガイド
       url: "https://learn.microsoft.com/azure/virtual-machines/n-series-migration"
@@ -129,7 +129,7 @@
   potentialBenefits: Scalability,capacity planning
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Machine Learning を使用するリソースのクォータと制限の管理と引き上げ
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-manage-quotas?view=azureml-api-2"

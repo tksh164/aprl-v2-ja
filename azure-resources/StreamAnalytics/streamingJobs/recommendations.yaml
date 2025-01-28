@@ -10,7 +10,7 @@
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Stream Analytics クラスターの概要
       url: "https://learn.microsoft.com/azure/stream-analytics/cluster-overview"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhanced reliability and security
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Stream Analytics ストリーミング ユニットの理解と調整
       url: "https://learn.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption"

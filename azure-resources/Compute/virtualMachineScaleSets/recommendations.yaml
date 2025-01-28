@@ -10,7 +10,7 @@
   potentialBenefits: Higher scalability and availability
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 仮想マシンではなくスケール セットを使用するケース
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview#when-to-use-scale-sets-instead-of-virtual-machines"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhances deployment management and upgrades
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Virtual Machine Scale Sets でアプリケーションの正常性拡張機能を使用する
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-health-extension?tabs=rest-api"
@@ -44,7 +44,7 @@
   potentialBenefits: Boosts app availability by auto-repair
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Virtual Machine Scale Sets の自動インスタンス修復
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-instance-repairs#requirements-for-using-automatic-instance-repairs"
@@ -61,7 +61,7 @@
   potentialBenefits: Enhances performance and cost-efficiency
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure での自動スケールの使用
       url: "https://learn.microsoft.com/azure/azure-monitor/autoscale/autoscale-get-started"
@@ -78,7 +78,7 @@
   potentialBenefits: Optimizes scaling with ML predictions
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Virtual Machine Scale Sets で予測自動スケーリングを使用して負荷が発生する前にスケールアウトする
       url: "https://learn.microsoft.com/azure/azure-monitor/autoscale/autoscale-predictive"
@@ -95,7 +95,7 @@
   potentialBenefits: Improves scaling, reduces fail attempts
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure 仮想マシン スケール セットでカスタム スケールイン ポリシーを使用する
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-scale-in-policy"
@@ -112,7 +112,7 @@
   potentialBenefits: Enhances disaster resilience
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 可用性ゾーンを使用する仮想マシン スケール セットを作成する
       url: "https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-availability-zones"
@@ -129,7 +129,7 @@
   potentialBenefits: Eases patch management, enhances security
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Virtual Machines とスケール セットのゲストの自動パッチ適用
       url: "https://learn.microsoft.com/azure/virtual-machines/automatic-vm-guest-patching"
@@ -146,7 +146,7 @@
   potentialBenefits: Avoid disruptions by updating VMSS images.
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 非推奨の Azure Marketplace イメージ
       url: "https://learn.microsoft.com/azure/virtual-machines/deprecated-images"

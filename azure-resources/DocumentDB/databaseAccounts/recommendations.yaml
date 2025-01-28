@@ -10,7 +10,7 @@
   potentialBenefits: Enhances SLA and resilience
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB を使用してデータをグローバルに分散させる
       url: "https://learn.microsoft.com/azure/cosmos-db/distribute-data-globally"
@@ -27,7 +27,7 @@
   potentialBenefits: Auto failover for high uptime
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure portal を使用して Azure Cosmos DB アカウントを管理する
       url: "https://learn.microsoft.com/azure/cosmos-db/how-to-manage-database-account#automatic-failover"
@@ -44,7 +44,7 @@
   potentialBenefits: Enhances high availability
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB の高可用性
       url: "https://learn.microsoft.com/azure/reliability/reliability-cosmos-db-nosql"
@@ -61,7 +61,7 @@
   potentialBenefits: Enhances high availability
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB を使用してデータをグローバルに分散させる
       url: "https://learn.microsoft.com/azure/cosmos-db/distribute-data-globally"
@@ -78,7 +78,7 @@
   potentialBenefits: Faster self-serve data restore
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB のポイントインタイム リストアを使用した継続的バックアップ
       url: "https://learn.microsoft.com/azure/cosmos-db/continuous-backup-restore-introduction"
@@ -95,7 +95,7 @@
   potentialBenefits: Maximizes data retrieval efficiency
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB for NoSQL での改ページ
       url: "https://learn.microsoft.com/azure/cosmos-db/nosql/query/pagination#handling-multiple-pages-of-results"
@@ -112,7 +112,7 @@
   potentialBenefits: Optimizes connections and efficiency
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB SDK を使用した回復性があるアプリケーションの設計
       url: "https://learn.microsoft.com/azure/cosmos-db/nosql/conceptual-resilient-sdk-applications"
@@ -129,7 +129,7 @@
   potentialBenefits: Enhances error handling resilience
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cosmos DB SDK を使用した回復性があるアプリケーションの設計
       url: "https://learn.microsoft.com/azure/cosmos-db/nosql/conceptual-resilient-sdk-applications"
@@ -146,7 +146,7 @@
   potentialBenefits: Proactive issue management
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Monitor を使用して Azure Cosmos DB のアラートを作成する
       url: "https://learn.microsoft.com/azure/cosmos-db/create-alerts"

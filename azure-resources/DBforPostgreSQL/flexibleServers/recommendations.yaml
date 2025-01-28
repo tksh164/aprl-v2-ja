@@ -10,7 +10,7 @@
   potentialBenefits: Enhanced uptime and data protection
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーでの高可用性 (信頼性)
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-high-availability"
@@ -27,7 +27,7 @@
   potentialBenefits: Control update timings
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーでの予定メンテナンス
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-maintenance"
@@ -44,7 +44,7 @@
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Database for PostgreSQL (フレキシブル サーバー) でのバックアップと復元
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore"
@@ -61,7 +61,7 @@
   potentialBenefits: Recover from regional failure and/or disaster
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーの読み取りレプリカ
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/concepts-read-replicas"
@@ -78,7 +78,7 @@
   potentialBenefits: Scale storage automatically to meet increasing demand
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Database for PostgreSQL - フレキシブル サーバーでの Azure portal を使用したストレージの自動拡張
       url: "https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-auto-grow-storage-portal"

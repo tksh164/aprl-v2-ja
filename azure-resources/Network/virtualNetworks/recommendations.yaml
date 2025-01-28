@@ -10,7 +10,7 @@
   potentialBenefits: Enhanced subnet security and traffic control
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Virtual Network の概念とベスト プラクティス
       url: "https://learn.microsoft.com/azure/virtual-network/concepts-and-best-practices"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhanced DDoS attack mitigation
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 信頼性と Azure Virtual Network
       url: "https://learn.microsoft.com/azure/architecture/framework/services/networking/azure-virtual-network/reliability"
@@ -44,7 +44,7 @@
   potentialBenefits: Enhanced security and data isolation
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Virtual Network についてよく寄せられる質問 (FAQ)
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-faq"
@@ -61,7 +61,7 @@
   potentialBenefits: Improves monitoring and security for Azure connectivity
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 仮想ネットワーク フロー ログ
       url: "https://learn.microsoft.com/azure/network-watcher/vnet-flow-logs-overview"

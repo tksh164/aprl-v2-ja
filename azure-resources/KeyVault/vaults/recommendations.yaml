@@ -10,7 +10,7 @@
   potentialBenefits: Enables recovery of deleted items
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Key Vault の論理的な削除の概要
       url: "https://learn.microsoft.com/azure/key-vault/general/soft-delete-overview"
@@ -27,7 +27,7 @@
   potentialBenefits: Protects from insider attacks, avoids data loss
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Key Vault 消去保護の概要
       url: "https://learn.microsoft.com/azure/key-vault/general/soft-delete-overview#purge-protection"
@@ -44,7 +44,7 @@
   potentialBenefits: Secure Key Vault with Private Link
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Key Vault Private Link サービスの概要
       url: "https://learn.microsoft.com/azure/key-vault/general/security-features#network-security"
@@ -61,7 +61,7 @@
   potentialBenefits: Enhanced security, Reduced risk
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Key Vault を使用するためのベスト プラクティス
       url: "https://learn.microsoft.com/azure/key-vault/general/best-practices#why-we-recommend-separate-key-vaults"
@@ -78,7 +78,7 @@
   potentialBenefits: Enhanced monitoring and security compliance
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Key Vault のログ記録
       url: "https://learn.microsoft.com/azure/key-vault/general/logging?tabs=Vault"

@@ -10,7 +10,7 @@
   potentialBenefits: Enhanced resilience through diverse connectivity paths
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute プライベート ピアリングを使用したディザスター リカバリーの設計
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-disaster-recovery-with-expressroute-privatepeering"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhanced SLA and resilience
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - ゾーン冗長ゲートウェイ SKU
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#zrgw"
@@ -44,7 +44,7 @@
   potentialBenefits: Prevents accidental deletions
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: リソースをロックしてインフラストラクチャを保護する
       url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?tabs=json"
@@ -61,7 +61,7 @@
   potentialBenefits: Enhanced monitoring and alerting
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute の監視、メトリック、アラート | ExpressRoute ゲートウェイ
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts#expressroute-gateways"
@@ -78,7 +78,7 @@
   potentialBenefits: Enhanced VNet integration efficiency
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - VNet 間接続
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#vnet-to-vnet-connectivity"
@@ -95,7 +95,7 @@
   potentialBenefits: Minimizes update impact
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute にお客様が管理するゲートウェイ メンテナンスを構成する
       url: "https://learn.microsoft.com/azure/expressroute/customer-controlled-gateway-maintenance#azure-portal-steps"
@@ -112,7 +112,7 @@
   potentialBenefits: Enhanced reliability and scalability
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: 可用性ゾーンでのゾーン冗長仮想ネットワーク ゲートウェイについて
       url: "https://learn.microsoft.com/azure/vpn-gateway/about-zone-redundant-vnet-gateways"
@@ -129,7 +129,7 @@
   potentialBenefits: Enhanced reliability and network capacity
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: アクティブ/アクティブ VPN ゲートウェイ
       url: "https://learn.microsoft.com/azure/vpn-gateway/active-active-portal#gateway"
@@ -146,7 +146,7 @@
   potentialBenefits: Maximizes resilience and availability
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: デュアル冗長性 Azure とオンプレミスの両方のネットワークのアクティブ/アクティブ VPN Gateway
       url: "https://learn.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable#dual-redundancy-active-active-vpn-gateways-for-both-azure-and-on-premises-networks"
@@ -163,7 +163,7 @@
   potentialBenefits: Improved uptime and issue awareness
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure VPN Gateway 監視データ リファレンス
       url: "https://learn.microsoft.com/azure/vpn-gateway/monitor-vpn-gateway-reference"
@@ -180,7 +180,7 @@
   potentialBenefits: Improves VPN maintenance alerts
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: VPN ゲートウェイの監視
       url: "https://learn.microsoft.com/azure/vpn-gateway/monitor-vpn-gateway-reference#metrics"
@@ -197,7 +197,7 @@
   potentialBenefits: Enhanced reliability and disaster recovery
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Availability Zones でのゾーン冗長仮想ネットワーク ゲートウェイについて
       url: "https://learn.microsoft.com/azure/vpn-gateway/about-zone-redundant-vnet-gateways"

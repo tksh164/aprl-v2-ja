@@ -10,7 +10,7 @@
   potentialBenefits: Enhanced Managed Grafana resilience to failures
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Managed Grafana でゾーン冗長を有効にする
       url: "https://learn.microsoft.com/azure/managed-grafana/how-to-enable-zone-redundancy"

@@ -10,7 +10,7 @@
   potentialBenefits: Ensures optimal connectivity.
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute Direct を構成する方法 - リンクの管理状態を変更する
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-howto-erdirect#state"
@@ -27,7 +27,7 @@
   potentialBenefits: Improves resilience during port failures
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute Direct について - 回線のサイズ
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-erdirect-about?source=recommendations#circuit-sizes"
@@ -44,7 +44,7 @@
   potentialBenefits: Enhanced network performance and health
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Monitor Baseline Alerts - expressRoutePorts
       url: "https://azure.github.io/azure-monitor-baseline-alerts/services/Network/expressRoutePorts/"
@@ -61,7 +61,7 @@
   potentialBenefits: Enhanced reliability and redundancy
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute プライベート ピアリングを使用したディザスター リカバリーの設計
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-disaster-recovery-with-expressroute-privatepeering"
@@ -78,7 +78,7 @@
   potentialBenefits: Enhanced reliability and fault tolerance
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute を使用した高可用性のための設計
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-high-availability-with-expressroute"
@@ -95,7 +95,7 @@
   potentialBenefits: Improved high availability and load balancing
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ExpressRoute を使用した高可用性のための設計 - アクティブ/アクティブ接続
       url: "https://learn.microsoft.com/azure/expressroute/designing-for-high-availability-with-expressroute#active-active-connections"

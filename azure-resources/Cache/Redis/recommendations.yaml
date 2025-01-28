@@ -10,7 +10,7 @@
   potentialBenefits: Higher resilience and availability
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cache for Redis のゾーン冗長性を有効にする
       url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-how-to-zone-redundancy"
@@ -27,7 +27,7 @@
   potentialBenefits: Higher resilience and availability
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Cache for Redis の更新のスケジュール
       url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-administration#update-channel-and-schedule-updates"
@@ -44,7 +44,7 @@
   potentialBenefits: Secure, private VNet ingress, efficient data transfer
   pgVerified: false
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Redis Cache でプライベート エンドポイントを構成する
       url: "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-network-isolation"

@@ -10,7 +10,7 @@
   potentialBenefits: Prompt mitigation of issues.
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Service Health アラートを構成する
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-management-and-monitoring#design-recommendations"
@@ -27,7 +27,7 @@
   potentialBenefits: Proactive capacity planning
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: アラートの構成と合理化
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
@@ -44,7 +44,7 @@
   potentialBenefits: Proactive resource management
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: アラートの構成と合理化
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
@@ -61,7 +61,7 @@
   potentialBenefits: 99.99% SLA, 0 RPO, Multi-AZ
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ストレッチ クラスター
       url: "https://learn.microsoft.com/azure/azure-vmware/deploy-vsan-stretched-clusters"
@@ -78,7 +78,7 @@
   potentialBenefits: Optimized capacity planning for vSAN
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: サポートされているメトリックとアクティビティ
       url: "https://learn.microsoft.com/azure/azure-vmware/configure-alerts-for-azure-vmware-solution#supported-metrics-and-activities"
@@ -95,7 +95,7 @@
   potentialBenefits: Faster issue resolution, early detection
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: ログとアーカイブを管理する
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#manage-logs-and-archives"
@@ -112,7 +112,7 @@
   potentialBenefits: Avoids resource exhaustion, optimizes performance
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: アラートの構成と合理化
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
@@ -129,7 +129,7 @@
   potentialBenefits: Avoids host exhaustion and swapping
   pgVerified: true
   automationAvailable: true
-  tags: null
+  tags: []
   learnMoreLink:
     - name: アラートの構成と合理化
       url: "https://learn.microsoft.com/azure/well-architected/azure-vmware/monitoring#configure-and-streamline-alerts"
@@ -146,7 +146,7 @@
   potentialBenefits: Prevents accidental deletion
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: リソースをロックしてインフラストラクチャを保護する
       url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources"
@@ -163,7 +163,7 @@
   potentialBenefits: Avoid outages with key auto-rotation
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: カスタマー マネージド キーを構成する
       url: "https://learn.microsoft.com/azure/azure-vmware/configure-customer-managed-keys?tabs=azure-portal"
@@ -180,7 +180,7 @@
   potentialBenefits: Enhances reliability and avoids failure
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: DNS フォワーダーを構成する
       url: "https://learn.microsoft.com/azure/azure-vmware/configure-dns-azure-vmware-solution#configure-dns-forwarder"

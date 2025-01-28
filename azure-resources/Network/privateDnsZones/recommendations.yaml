@@ -10,7 +10,7 @@
   potentialBenefits: Prevents DNS outages
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: プライベート DNS ゾーンとレコードを保護する方法
       url: "https://learn.microsoft.com/azure/dns/dns-protect-private-zones-recordsets"
@@ -27,7 +27,7 @@
   potentialBenefits: Enhanced DNS reliability and alerting
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure Monitor Baseline Alerts - privateDnsZones
       url: "https://azure.github.io/azure-monitor-baseline-alerts/services/Network/privateDnsZones/"
@@ -44,7 +44,7 @@
   potentialBenefits: Ensures seamless failover for DNS during a regional outage
   pgVerified: true
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Private Link と DNS の大規模な統合
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/private-link-and-dns-integration-at-scale"
@@ -61,7 +61,7 @@
   potentialBenefits: Ensures that no cached DNS records exist past RTO targets
   pgVerified: false
   automationAvailable: false
-  tags: null
+  tags: []
   learnMoreLink:
     - name: Azure DNS での信頼性
       url: "https://learn.microsoft.com/azure/reliability/reliability-dns"
