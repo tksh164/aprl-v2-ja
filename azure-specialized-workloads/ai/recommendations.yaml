@@ -32,7 +32,7 @@
     - name: Application Insights のデータ コレクション、保持期間、ストレージ
       url: "https://learn.microsoft.com/azure/azure-monitor/logs/data-retention-configure?tabs=portal-3%2Cportal-1%2Cportal-2"
 
-- description: Use Azure Traffic Manager to route search requests via geo-located clients for failover redundancy.
+- description: Azure Traffic Manager を使用して、フェールオーバーの冗長性のために地理的に配置されたクライアントを経由して検索要求をルーティングする
   aprlGuid: a6c8f3f3-199a-4a13-aaf0-eb51eed5352e
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -40,11 +40,11 @@
   recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
-    Azure Traffic Manager enhances redundancy by routing search requests to geo-located clients. If a primary search client or region fails, Traffic Manager redirects requests to a backup client in another region. This setup ensures continuous availability and seamless failover for search services.
+    Azure Traffic Manager は、検索リクエストを地理的に配置されたクライアントにルーティングすることで冗長性を強化します。プライマリ検索クライアントやリージョンに障害が発生した場合、Traffic Manager は別のリージョンにあるバックアップ クライアントにリクエストをリダイレクトします。この設定により、検索サービスの継続的な可用性とシームレスなフェールオーバーが保証されます。
   potentialBenefits: High availability
   pgVerified: false
   automationAvailable: true
   tags: null
   learnMoreLink:
-    - name: Reliability in Azure AI Search
-      url: "https://learn.microsoft.com/en-us/azure/search/search-reliability#fail-over-or-redirect-query-requests"
+    - name: Azure AI Search の信頼性
+      url: "https://learn.microsoft.com/azure/search/search-reliability#fail-over-or-redirect-query-requests"
