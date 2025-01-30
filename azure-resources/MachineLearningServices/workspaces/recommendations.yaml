@@ -10,7 +10,7 @@
   potentialBenefits: Provides multi-region disaster recovery strategy
   pgVerified: false
   automationAvailable: false
-  tags: []
+  tags: [AI-GPT-RAG]
   learnMoreLink:
     - name: マルチリージョン デプロイメントの計画
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
@@ -27,7 +27,7 @@
   potentialBenefits: Provides recovery from regional outages
   pgVerified: false
   automationAvailable: false
-  tags: []
+  tags: [AI-GPT-RAG]
   learnMoreLink:
     - name: 事業継続とディザスター リカバリーのためのフェールオーバー
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
@@ -44,7 +44,7 @@
   potentialBenefits: High availability and disaster recovery
   pgVerified: false
   automationAvailable: false
-  tags: []
+  tags: [AI-GPT-RAG]
   learnMoreLink:
     - name: 事業継続とディザスター リカバリーのためのフェールオーバー
       url: "https://learn.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"

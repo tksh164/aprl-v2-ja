@@ -78,7 +78,7 @@
   potentialBenefits: Improve latency and provides business continuity
   pgVerified: true
   automationAvailable: false
-  tags: []
+  tags: [AI-GPT-RAG]
   learnMoreLink:
     - name: 複数の Azure リージョンに Azure API Management サービス インスタンスをデプロイする方法
       url: "https://learn.microsoft.com/azure/api-management/api-management-howto-deploy-multi-region"
