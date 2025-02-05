@@ -9,7 +9,7 @@
     Azure Bastion は、ワークロード コンポーネントへのセキュアな運用アクセスを提供します。Bastion リソースを複数の可用性ゾーンに分散することで、本番ワークロードの回復力と信頼性を高めることができます。
   potentialBenefits: Provide high availability and resilience to failures
   pgVerified: true
-  automationAvailable: true
+  automationAvailable: false
   tags: [AI-GPT-RAG]
   learnMoreLink:
     - name: Azure Bastion での信頼性

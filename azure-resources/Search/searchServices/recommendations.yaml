@@ -26,7 +26,7 @@
     Azure AI Search に自動フェールオーバー機能はありません。継続性とグローバル リーチを確保するには、異なるリージョンに複数のサービスをデプロイします。インデクサーや REST API を介してデータを同期し、Azure Traffic Manager でルーティングを管理します。
   potentialBenefits: High availability
   pgVerified: false
-  automationAvailable: true
+  automationAvailable: false
   tags: []
   learnMoreLink:
     - name: Azure AI Search の信頼性

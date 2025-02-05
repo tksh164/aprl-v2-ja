@@ -9,7 +9,7 @@
     複数のリージョンに Azure DNS Private Resolver をデプロイし、リージョンを横断したフェールオーバーを確立します。
   potentialBenefits: Ensures BCDR during regional outages.
   pgVerified: false
-  automationAvailable: true
+  automationAvailable: false
   tags: []
   learnMoreLink:
     - name: Azure DNS Private Resolver の回復性
