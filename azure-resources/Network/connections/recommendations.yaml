@@ -14,20 +14,3 @@
   learnMoreLink:
     - name: About ExpressRoute FastPath
       url: "https://learn.microsoft.com/ja-jp/azure/expressroute/about-fastpath"
-
-- description: 接続に Azure リソース ロックを構成して、誤って削除されないようにする
-  aprlGuid: a5f3a4bd-4cf1-4196-a3cb-f5a0876198b2
-  recommendationTypeId: null
-  recommendationControl: HighAvailability
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Network/connections
-  recommendationMetadataState: Disabled
-  longDescription: |
-    ゲートウェイ接続リソースの Azure リソース ロックを構成して、誤って削除されないようにし、オンプレミス ネットワークと Azure ワークロード間の接続を維持します。
-  potentialBenefits: Prevents accidental deletion of connections
-  pgVerified: true
-  automationAvailable: false
-  tags: []
-  learnMoreLink:
-    - name: Protect your Azure resources with a lock - Azure Resource Manager | Microsoft Learn
-      url: "https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/lock-resources?tabs=json"

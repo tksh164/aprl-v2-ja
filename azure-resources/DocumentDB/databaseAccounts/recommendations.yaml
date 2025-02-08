@@ -57,7 +57,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    複数リージョンの書き込み機能を使用すると、複数のリージョン間で可用性の高いアプリケーションを設計できますが、一貫性の要件と競合の解決には細心の注意を払う必要があります。不適切な設定を行うと、可用性が低下し、未処理の競合によりデータが破損する可能性があります。
+    Multi-region writes enable high availability but require careful consistency and conflict resolution. Using Bounded Staleness is an anti-pattern, as replication lag increases latency and coordination overhead. This setup undermines scalability, impacting performance and availability.
   potentialBenefits: Enhances high availability
   pgVerified: true
   automationAvailable: true
@@ -150,3 +150,4 @@
   learnMoreLink:
     - name: Azure Monitor を使用して Azure Cosmos DB のアラートを作成する
       url: "https://learn.microsoft.com/azure/cosmos-db/create-alerts"
+

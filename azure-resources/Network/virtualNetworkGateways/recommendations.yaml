@@ -32,24 +32,7 @@
     - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - ゾーン冗長ゲートウェイ SKU
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#zrgw"
 
-- description: ExpressRoute ゲートウェイの Azure リソース ロックを構成して、誤って削除されないようにする
-  aprlGuid: c0f23a92-d322-4d4d-97e9-a238b5e3bbb8
-  recommendationTypeId: null
-  recommendationControl: HighAvailability
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Network/virtualNetworkGateways
-  recommendationMetadataState: Disabled
-  longDescription: |
-    ExpressRoute ゲートウェイの Azure リソース ロックを構成すると、管理者が Azure サブスクリプション、リソース グループ、またはリソースをロックできるようにすることで、誤って削除されるのを防ぎ、意図しないユーザーの削除や変更から保護し、すべてのユーザーのアクセス許可をロックします。
-  potentialBenefits: Prevents accidental deletions
-  pgVerified: true
-  automationAvailable: false
-  tags: []
-  learnMoreLink:
-    - name: リソースをロックしてインフラストラクチャを保護する
-      url: "https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources?tabs=json"
-
-- description: ExpressRoute ゲートウェイの正常性を監視する
+- description:ExpressRoute ゲートウェイの正常性を監視する
   aprlGuid: 1c34faa8-8b99-974c-adbf-71922eae943c
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
@@ -99,6 +82,23 @@
   learnMoreLink:
     - name: ExpressRoute にお客様が管理するゲートウェイ メンテナンスを構成する
       url: "https://learn.microsoft.com/azure/expressroute/customer-controlled-gateway-maintenance#azure-portal-steps"
+
+- description: Configure customer-controlled VPN gateway maintenance
+  aprlGuid: f8c2e6d9-4b3a-45d6-b9e2-8e7f3a1c2d04
+  recommendationTypeId: null
+  recommendationControl: HighAvailability
+  recommendationImpact: Medium
+  recommendationResourceType: Microsoft.Network/virtualNetworkGateways
+  recommendationMetadataState: Active
+  longDescription: |
+    VPN gateways are updated for improved functionality, reliability, performance, and security. Customer-controlled maintenance configuration and scheduling minimize update impact and align with your maintenance windows.
+  potentialBenefits: Minimizes update impact
+  pgVerified: false
+  automationAvailable: true
+  tags: []
+  learnMoreLink:
+    - name: Configure customer-controlled gateway maintenance for VPN Gateway
+      url: "https://learn.microsoft.com/azure/vpn-gateway/customer-controlled-gateway-maintenance"
 
 - description: ゾーン冗長 VPN ゲートウェイを選択する
   aprlGuid: 5b1933a6-90e4-f642-a01f-e58594e5aab2
