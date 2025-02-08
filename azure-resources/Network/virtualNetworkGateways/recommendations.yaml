@@ -32,7 +32,7 @@
     - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - ゾーン冗長ゲートウェイ SKU
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#zrgw"
 
-- description:ExpressRoute ゲートウェイの正常性を監視する
+- description: ExpressRoute ゲートウェイの正常性を監視する
   aprlGuid: 1c34faa8-8b99-974c-adbf-71922eae943c
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
