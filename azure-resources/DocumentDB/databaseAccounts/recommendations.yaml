@@ -57,7 +57,7 @@
   recommendationResourceType: Microsoft.DocumentDB/databaseAccounts
   recommendationMetadataState: Active
   longDescription: |
-    Multi-region writes enable high availability but require careful consistency and conflict resolution. Using Bounded Staleness is an anti-pattern, as replication lag increases latency and coordination overhead. This setup undermines scalability, impacting performance and availability.
+    マルチリージョン書き込みは高可用性を実現しますが、慎重な一貫性と競合解決が必要です。Bounded Staleness の使用はアンチパターンであり、レプリケーションの遅れがレイテンシーとコーディネーション オーバーヘッドを増加させます。この設定はスケーラビリティを損ない、パフォーマンスと可用性に影響を与えます。
   potentialBenefits: Enhances high availability
   pgVerified: true
   automationAvailable: true
