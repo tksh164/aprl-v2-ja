@@ -66,7 +66,7 @@
     - name: ExpressRoute の仮想ネットワーク ゲートウェイについて - VNet 間接続
       url: "https://learn.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#vnet-to-vnet-connectivity"
 
-- description: お客様が管理する ExpressRoute ゲートウェイ メンテナンスを構成する
+- description: ExpressRoute ゲートウェイにお客様が管理するメンテナンスを構成する
   aprlGuid: 3e115044-a3aa-433e-be01-ce17d67e50da
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -80,10 +80,10 @@
   automationAvailable: true
   tags: []
   learnMoreLink:
-    - name: ExpressRoute にお客様が管理するゲートウェイ メンテナンスを構成する
+    - name: ExpressRoute ゲートウェイにお客様が管理するメンテナンスを構成する
       url: "https://learn.microsoft.com/azure/expressroute/customer-controlled-gateway-maintenance#azure-portal-steps"
 
-- description: Configure customer-controlled VPN gateway maintenance
+- description: VPN ゲートウェイにお客様が管理するメンテナンスを構成する
   aprlGuid: f8c2e6d9-4b3a-45d6-b9e2-8e7f3a1c2d04
   recommendationTypeId: null
   recommendationControl: HighAvailability
@@ -91,13 +91,13 @@
   recommendationResourceType: Microsoft.Network/virtualNetworkGateways
   recommendationMetadataState: Active
   longDescription: |
-    VPN gateways are updated for improved functionality, reliability, performance, and security. Customer-controlled maintenance configuration and scheduling minimize update impact and align with your maintenance windows.
+    VPN ゲートウェイは、機能、信頼性、パフォーマンス、セキュリティを向上させるために更新されています。お客様管理のメンテナンス構成とスケジューリングにより、更新の影響を最小限に抑え、メンテナンス ウィンドウに合わせて調整します。
   potentialBenefits: Minimizes update impact
   pgVerified: false
   automationAvailable: true
   tags: []
   learnMoreLink:
-    - name: Configure customer-controlled gateway maintenance for VPN Gateway
+    - name: VPN Gateway にお客様が管理するゲートウェイ メンテナンスを構成する
       url: "https://learn.microsoft.com/azure/vpn-gateway/customer-controlled-gateway-maintenance"
 
 - description: ゾーン冗長 VPN ゲートウェイを選択する
