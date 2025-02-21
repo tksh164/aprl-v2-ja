@@ -98,7 +98,7 @@
   tags: [WAF]
   learnMoreLink:
     - name: RE:05 高可用性マルチリージョン設計
-      url: "https://learn.microsoft.com/ja-jp/azure/well-architected/reliability/highly-available-multi-region-design"
+      url: "https://learn.microsoft.com/azure/well-architected/reliability/highly-available-multi-region-design"
 
 - description: RE:05 可用性ゾーンによる高可用性の設計をする
   aprlGuid: 3d6adb0a-042f-47f7-a7ea-db2e360903d5

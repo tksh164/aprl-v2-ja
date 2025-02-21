@@ -30,7 +30,7 @@
   tags: []
   learnMoreLink:
     - name: Management group recommendations
-      url: "https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-management-groups#management-group-recommendations"
+      url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-management-groups#management-group-recommendations"
 
 - description: サービス正常性アラートを構成する
   aprlGuid: 9729c89d-8118-41b4-a39b-e12468fa872b

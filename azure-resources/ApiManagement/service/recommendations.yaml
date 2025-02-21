@@ -82,6 +82,7 @@
   learnMoreLink:
     - name: 複数の Azure リージョンに Azure API Management サービス インスタンスをデプロイする方法
       url: "https://learn.microsoft.com/azure/api-management/api-management-howto-deploy-multi-region"
+
 - description: Azure API Management でキャッシュを有効にしてパフォーマンスを向上させる
   aprlGuid: badd9a1f-222a-498d-ab84-1f14892b1c1b
   recommendationTypeId: null

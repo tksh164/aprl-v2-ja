@@ -361,7 +361,7 @@
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     最大自動スケール設定用にサイズ設定されたノード プール サブネットを使用すると、AKS はノードを効率的にスケールアウトし、リソースの制約と潜在的なサービスの中断を減らしながら、需要の増加に対応できます。
   potentialBenefits: Efficient scaling, reduced disruptions
@@ -395,7 +395,7 @@
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.ContainerService/managedClusters
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Linux on AKS では、検証済みのソース ビルド コンポーネントを使用して、ネイティブ イメージで回復性が向上します。軽量で、攻撃対象領域とメンテナンスを削減します。Azure 用に最適化された Microsoft で強化されたカーネルにより、コンテナー ワークロードの安定性とセキュリティが強化されます。
   potentialBenefits: Reduced disruptions
