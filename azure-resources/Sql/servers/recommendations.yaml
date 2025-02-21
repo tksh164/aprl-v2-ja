@@ -117,7 +117,7 @@
     - name: フェールオーバー グループのエンドポイント リダイレクト
       url: "https://learn.microsoft.com/azure/azure-sql/database/failover-group-sql-db?view=azuresql#endpoint-redirection"
 
-- description: Use failover group customer managed policy
+- description: フェールオーバー グループのカスタマー マネージド ポリシーを使用する
   aprlGuid: 0f838324-ffe3-4b8a-b7a2-d983be8f9fa9
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -125,11 +125,11 @@
   recommendationResourceType: Microsoft.Sql/servers
   recommendationMetadataState: Active
   longDescription: |
-    When using failover groups, setting your failover policy to customer managed is highly recommended as it keeps you in control of when to initiate a failover.
+    フェールオーバー グループを使用する場合、フェールオーバー ポリシーをカスタマー マネージドに設定することを強くお勧めします。これにより、フェールオーバーを開始するタイミングを制御できます。
   potentialBenefits: Enhanced disaster recovery
   pgVerified: false
   automationAvailable: false
   tags: []
   learnMoreLink:
-    - name: Learn More
-      url: "https://aka.ms/SQLDBFGPolicy"
+    - name: フェールオーバー ポリシー
+      url: "https://learn.microsoft.com/azure/azure-sql/database/failover-group-sql-db#failover-policy"
