@@ -47,7 +47,7 @@
   tags: []
   learnMoreLink:
     - name: 接続の監視の概要
-      url: "https://learn.microsoft.com/ja-jp/azure/network-watcher/connection-monitor-overview"
+      url: "https://learn.microsoft.com/azure/network-watcher/connection-monitor-overview"
 
 - description: ネットワーク セキュリティ グループと仮想ネットワーク フロー ログの設定でトラフィック解析を有効にする
   aprlGuid: bf0b7dbd-016d-458c-af99-70fcb03ad451

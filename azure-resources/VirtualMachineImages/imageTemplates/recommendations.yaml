@@ -13,7 +13,7 @@
   tags: []
   learnMoreLink:
     - name: Generation 1 vs generation 2 virtual machines
-      url: "https://learn.microsoft.com/ja-jp/azure/virtual-machines/generation-2#features-and-capabilities"
+      url: "https://learn.microsoft.com/azure/virtual-machines/generation-2#features-and-capabilities"
 
 - description: イメージ テンプレートをセカンダリ リージョンにレプリケートする
   aprlGuid: 21fb841b-ba70-1f4e-a460-1f72fb41aa51

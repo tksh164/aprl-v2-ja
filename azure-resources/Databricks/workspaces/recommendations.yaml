@@ -490,4 +490,4 @@
   tags: []
   learnMoreLink:
     - name: Best practices for reliability
-      url: "https://learn.microsoft.com/en-us/azure/databricks/lakehouse-architecture/reliability/best-practices#use-managed-services-where-possible"
+      url: "https://learn.microsoft.com/azure/databricks/lakehouse-architecture/reliability/best-practices#use-managed-services-where-possible"

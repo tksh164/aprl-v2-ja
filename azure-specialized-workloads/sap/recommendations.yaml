@@ -47,7 +47,7 @@
   tags: [SAP]
   learnMoreLink:
     - name: SAP Storage Planning Guide
-      url: "https://learn.microsoft.com/ja-jp/azure/sap/workloads/planning-guide-storage"
+      url: "https://learn.microsoft.com/azure/sap/workloads/planning-guide-storage"
 
 - description: プライマリ VM ノードとセカンダリ VM ノード間の同期データ レプリケーション (SYNC モード) を確保する
   aprlGuid: 094400a5-f112-408d-a334-afd68873ff0f
@@ -167,7 +167,7 @@
   tags: [SAP]
   learnMoreLink:
     - name: SAP ACSS Insights
-      url: "https://learn.microsoft.com/ja-jp/azure/sap/center-sap-solutions/get-quality-checks-insights"
+      url: "https://learn.microsoft.com/azure/sap/center-sap-solutions/get-quality-checks-insights"
 
 - description: SAP 共有ファイル システムを DR ロケーションにレプリケートやバックアップする
   aprlGuid: ee4dc309-00a1-49fe-92fa-1724baf5f103
