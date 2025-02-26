@@ -269,7 +269,7 @@
   tags: [SAP]
   learnMoreLink:
     - name: ASCS-Pacemaker - Central Server Instance
-      url: "https://docs.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations"
+      url: "https://learn.microsoft.com/azure/advisor/advisor-reference-reliability-recommendations"
 
 - description: ロード バランサーが SAP ASCS 高可用性用に正しく構成されていることを確認する
   aprlGuid: 5c2e52d0-25be-4b1c-833c-b98b5ef1a26b
@@ -286,7 +286,7 @@
   tags: [SAP]
   learnMoreLink:
     - name: ASCS-LB - Central Server Instance
-      url: "https://docs.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations"
+      url: "https://learn.microsoft.com/azure/advisor/advisor-reference-reliability-recommendations"
 
 - description: Pacemaker クラスターが SAP HANA DB の高可用性のために設定されていることを確認する
   aprlGuid: 6648fe61-880d-4a96-8d2d-190a23d5580b
@@ -303,7 +303,7 @@
   tags: [SAP]
   learnMoreLink:
     - name: DBHANA-Pacemaker - Database Instance
-      url: "https://docs.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations"
+      url: "https://learn.microsoft.com/azure/advisor/advisor-reference-reliability-recommendations"
 
 - description: ロード バランサーが SAP HANA DB 高可用性用に正しく構成されていることを確認する
   aprlGuid: 2e4c2171-a83f-4238-a8e3-b51c90d86a99
@@ -320,7 +320,7 @@
   tags: [SAP]
   learnMoreLink:
     - name: DBHANA-LB- Database Instance
-      url: "https://docs.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations"
+      url: "https://learn.microsoft.com/azure/advisor/advisor-reference-reliability-recommendations"
 
 - description: Azure NetApp Files で使用されるタイムアウト値について、SAP の設定を確認する
   aprlGuid: 4884cada-b9c7-42d5-8153-3853e4a6f6c4
