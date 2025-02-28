@@ -44,7 +44,7 @@
   potentialBenefits: High availability
   pgVerified: false
   automationAvailable: false
-  tags: []
+  tags: [AI-GPT-RAG]
   learnMoreLink:
     - name: Azure AI Search の信頼性
       url: "https://learn.microsoft.com/azure/search/search-reliability#fail-over-or-redirect-query-requests"
