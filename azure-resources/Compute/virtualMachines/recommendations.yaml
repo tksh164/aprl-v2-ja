@@ -310,7 +310,7 @@
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     Azure Monitor メトリックはプラットフォーム メトリックを自動的に受信しますが、リソースとその Azure プラットフォームの詳細な診断と監査を提供するプラットフォーム ログは、収集のために手動でルーティングする必要があります。
   potentialBenefits: Enhanced diagnostics and auditing capability
