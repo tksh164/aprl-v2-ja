@@ -157,7 +157,7 @@
   recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Subscription/Subscriptions
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     バックグラウンド ジョブは、アプリケーション UI の負荷を最小限に抑えるのに役立ち、可用性が向上し、対話型の応答時間が短縮されます。
   potentialBenefits: Minimize application load
@@ -191,7 +191,7 @@
   recommendationControl: HighAvailability
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Subscription/Subscriptions
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     インフラストラクチャベースの信頼性パターンとソフトウェアベースの設計パターンを使用して、コンポーネントの障害と一過性のエラーを処理することで、ソリューションに機能を組み込みます。
   potentialBenefits: Reduce the likelihood of outages
