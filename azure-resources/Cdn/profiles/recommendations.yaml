@@ -162,7 +162,7 @@
     Front Door 正常性プローブは、使用できない配信元や異常な配信元を検出し、必要に応じてトラフィックを代替配信元に転送するのに役立ちます。
   potentialBenefits: Reduces unnecessary origin traffic
   pgVerified: true
-  automationAvailable: true
+  automationAvailable: false
   tags: []
   learnMoreLink:
     - name: 正常性プローブ
