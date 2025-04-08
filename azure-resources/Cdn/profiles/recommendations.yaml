@@ -253,7 +253,7 @@
     - name: Azure Front Door レベル間の価格を比較する
       url: "https://learn.microsoft.com/azure/frontdoor/understanding-pricing"
 
-- description: Monitor Web Application Firewall
+- description: Web アプリケーション ファイアウォールを監視する
   aprlGuid: 5357ae22-0f52-1a49-9fd4-1f00ace6add0
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
@@ -261,7 +261,7 @@
   recommendationResourceType: Microsoft.Cdn/profiles
   recommendationMetadataState: Active
   longDescription: |
-    Monitoring the health of your Web Application Firewall and the applications it protects is crucial. This can be achieved through integration with Microsoft Defender for Cloud, Azure Monitor, and Azure Monitor logs, ensuring optimal performance and security.
+    Web Application Firewall とそれが保護するアプリケーションの正常性を監視することは非常に重要です。これは、Microsoft Defender for Cloud、Azure Monitor、Azure Monitor ログとの統合によって実現され、最適なパフォーマンスとセキュリティが確保されます。
   potentialBenefits: Enhanced security and health insight
   pgVerified: false
   automationAvailable: false
