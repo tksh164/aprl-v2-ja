@@ -69,7 +69,7 @@
 - description: AOAI モデルは、データ ゾーン標準を使用して、データ所在地要件を満たすようにデプロイする
   aprlGuid: ac3add17-013e-41a5-af91-9fefce794a00
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: High
   recommendationResourceType: Microsoft.CognitiveServices/Accounts
   recommendationMetadataState: Active

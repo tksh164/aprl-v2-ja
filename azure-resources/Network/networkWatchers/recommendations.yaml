@@ -20,7 +20,7 @@
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: Low
-  recommendationResourceType: Microsoft.Network/networkWatchers
+  recommendationResourceType: Microsoft.Network/networkWatchers/flowlogs
   recommendationMetadataState: Active
   longDescription: |
     ネットワーク セキュリティ グループ フロー ログは、ネットワーク セキュリティ グループを介して IP トラフィック情報をログに記録する Azure Network Watcher の機能です。失敗状態の場合、関連するリソースからの監視データは収集されません。
@@ -54,7 +54,7 @@
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Network/networkWatchers
+  recommendationResourceType: Microsoft.Network/networkWatchers/flowlogs
   recommendationMetadataState: Active
   longDescription: |
     Azure や ハイブリッド接続の監視、セキュリティ、トラブルシューティングを改善します。

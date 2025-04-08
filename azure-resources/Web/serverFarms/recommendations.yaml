@@ -52,7 +52,7 @@
 - description: 本番用とテスト用に個別の App Service プランを作成する
   aprlGuid: dbe3fd66-fb2a-9d46-b162-1791e21da236
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: High
   recommendationResourceType: Microsoft.Web/serverFarms
   recommendationMetadataState: Active

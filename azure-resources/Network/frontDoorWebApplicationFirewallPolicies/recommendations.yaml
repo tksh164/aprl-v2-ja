@@ -31,20 +31,3 @@
   learnMoreLink:
     - name: Azure Web Application Firewall Monitoring and Logging
       url: "https://learn.microsoft.com/azure/web-application-firewall/ag/application-gateway-waf-metrics#logs-and-diagnostics"
-
-- description: Web アプリケーション ファイアウォールを監視する
-  aprlGuid: 5357ae22-0f52-1a49-9fd4-1f00ace6add0
-  recommendationTypeId: null
-  recommendationControl: MonitoringAndAlerting
-  recommendationImpact: High
-  recommendationResourceType: Microsoft.Network/frontdoorWebApplicationFirewallPolicies
-  recommendationMetadataState: Active
-  longDescription: |
-    Web Application Firewall とそれが保護するアプリケーションの正常性を監視することは非常に重要です。これは、Microsoft Defender for Cloud、Azure Monitor、Azure Monitor ログとの統合によって実現され、最適なパフォーマンスとセキュリティが確保されます。
-  potentialBenefits: Enhanced security and health insight
-  pgVerified: false
-  automationAvailable: false
-  tags: []
-  learnMoreLink:
-    - name: WAF monitoring
-      url: "https://learn.microsoft.com/azure/web-application-firewall/ag/ag-overview#waf-monitoring"

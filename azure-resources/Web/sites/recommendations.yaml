@@ -69,7 +69,7 @@
 - description: ステージング スロットにデプロイする
   aprlGuid: a1d91661-32d4-430b-b3b6-5adeb0975df7
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
@@ -83,12 +83,29 @@
     - name: Set up staging environments in Azure App Service
       url: "https://learn.microsoft.com/azure/app-service-web/web-sites-staged-publishing"
 
-- description: アプリを設定として保存する
+- description: Web サイト用にアプリを設定として保存する
   aprlGuid: 0b80b67c-afbe-4988-ad58-a85a146b681e
   recommendationTypeId: null
   recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Web/sites
+  recommendationMetadataState: Active
+  longDescription: |
+    構成にアプリ設定を使用し、Resource Manager テンプレートや PowerShell を使用して定義することで、自動デプロイ/更新プロセスの一部を容易にし、信頼性を向上させることができます。
+  potentialBenefits: Enhanced reliability via automation
+  pgVerified: true
+  automationAvailable: true
+  tags: []
+  learnMoreLink:
+    - name: Configure web apps in Azure App Service
+      url: "https://learn.microsoft.com/azure/app-service-web/web-sites-configure"
+
+- description: Web サイト スロット用にアプリを設定として保存する
+  aprlGuid: 0a535241-8dc4-4058-af03-f2fff0abad2a
+  recommendationTypeId: null
+  recommendationControl: OtherBestPractices
+  recommendationImpact: Medium
+  recommendationResourceType: Microsoft.Web/sites/slots
   recommendationMetadataState: Active
   longDescription: |
     構成にアプリ設定を使用し、Resource Manager テンプレートや PowerShell を使用して定義することで、自動デプロイ/更新プロセスの一部を容易にし、信頼性を向上させることができます。
@@ -171,7 +188,7 @@
 - description: Function App に一意のホスト ID が設定されていることを確認する
   aprlGuid: 0b06a688-0dd6-4d73-9f72-6666ff853ca9
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
@@ -188,7 +205,7 @@
 - description: Function App でサポートされているバージョンが実行されていることを確認する
   aprlGuid: c9a278b7-024b-454b-bd54-41587c512b74
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active
@@ -205,7 +222,7 @@
 - description: FUNCTIONS_WORKER_RUNTIME が正しく設定されていることを確認する
   aprlGuid: 7c608f46-46b2-4cc0-bbd6-1d457c16671c
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Web/sites
   recommendationMetadataState: Active

@@ -154,7 +154,7 @@
 - description: 高速ネットワーク (AccelNet) が有効になっている場合はゲスト OS の NIC ドライバーを手動で更新する必要がある
   aprlGuid: 73d1bb04-7d3e-0d47-bc0d-63afe773b5fe
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Low
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
@@ -205,7 +205,7 @@
 - description: IP 転送は、ネットワーク仮想アプライアンスに対してのみ有効にする必要がある
   aprlGuid: 41a22a5e-5e08-9647-92d0-2ffe9ef1bdad
   recommendationTypeId: null
-  recommendationControl: Security
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active

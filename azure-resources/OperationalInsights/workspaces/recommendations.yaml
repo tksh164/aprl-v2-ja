@@ -1,7 +1,7 @@
 - description: GRS や GZRS への Log Analytics データのエクスポートを有効にする
   aprlGuid: b36fd2ac-dd83-664a-ab48-ff7b8d3b189d
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.OperationalInsights/workspaces
   recommendationMetadataState: Active

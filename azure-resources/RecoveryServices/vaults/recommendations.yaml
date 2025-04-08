@@ -17,10 +17,10 @@
 
 - description: Site Recovery テスト フェールオーバーを使用して VM の機能を検証し、ターゲットでのパフォーマンスを確認する
   aprlGuid: 17e877f7-3a89-4205-8a24-0670de54ddcd
-  recommendationTypeId: null
+  recommendationTypeId: 01c715f6-426a-47d3-87be-9f26e2ab2d8e
   recommendationControl: DisasterRecovery
   recommendationImpact: High
-  recommendationResourceType: Microsoft.RecoveryServices/vaults
+  recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
     テスト フェールオーバーを実行して BCDR 戦略を検証し、運用環境に影響を与えることなく、アプリケーションがターゲット リージョンで正しく機能していることを確認します。テスト フェールオーバーを使用して、データの損失やダウンタイムなしでディザスター リカバリー計画を定期的にテストします。

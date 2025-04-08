@@ -1,7 +1,7 @@
 - description: 検証ホスト プールを作成する
   aprlGuid: 013ac34e-7c4b-425f-9e0c-216f0cc06181
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
@@ -18,7 +18,7 @@
 - description: ホスト プールのスケジュールされたエージェントの更新を構成する
   aprlGuid: 979ff8be-5f3a-4d8e-9aa3-407ecdd6d6f7
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
@@ -35,7 +35,7 @@
 - description: ドメインに参加しているセッション ホストを含むホスト プールを展開するときに一意の OU が使用されていることを確認する
   aprlGuid: 939cb85c-102a-4e0a-ab82-5c92116d3778
   recommendationTypeId: null
-  recommendationControl: Governance
+  recommendationControl: OtherBestPractices
   recommendationImpact: Medium
   recommendationResourceType: Microsoft.DesktopVirtualization/hostPools
   recommendationMetadataState: Active
