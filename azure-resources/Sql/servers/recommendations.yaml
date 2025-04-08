@@ -37,7 +37,7 @@
   recommendationTypeId: 807e58d0-e385-41ad-987b-4a4b3e3fb563
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Microsoft.Sql/servers
+  recommendationResourceType: Microsoft.Sql/servers/databases
   recommendationMetadataState: Active
   longDescription: |
     既定では、Azure SQL Database Premium レベルでは、同じリージョン内に複数のコピーがプロビジョニングされます。geo 冗長性の場合、データベースをゾーン冗長として設定し、Azure 可用性ゾーン間でコピーを分散して、リージョンの停止中の可用性を維持できます。
@@ -54,7 +54,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Microsoft.Sql/servers
+  recommendationResourceType: Microsoft.Sql/servers/databases
   recommendationMetadataState: Disabled
   longDescription: |
     一時的な障害発生時には、アプリケーションは Azure SQL Database を使用して接続の再試行を効果的に処理する必要があります。データベース レイヤーの設定は必要ありません。代わりに、正常な再試行を行うようにアプリケーションを設定する必要があります。
@@ -71,7 +71,7 @@
   recommendationTypeId: null
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
-  recommendationResourceType: Microsoft.Sql/servers
+  recommendationResourceType: Microsoft.Sql/servers/databases
   recommendationMetadataState: Active
   longDescription: |
     監視とアラートは、データベース操作の重要な部分です。Azure SQL Database を使用する場合は、Azure Monitor と SQL Insights を使用して、関連するデータベース メトリックを確実にキャプチャします。

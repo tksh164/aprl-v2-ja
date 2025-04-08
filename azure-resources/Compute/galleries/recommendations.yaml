@@ -3,7 +3,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Compute/galleries
+  recommendationResourceType: Microsoft.Compute/galleries/images/versions
   recommendationMetadataState: Active
   longDescription: |
     Azure Compute Gallery に運用イメージ用に少なくとも 3 つのレプリカを保持すると、スケーラビリティが確保され、VM デプロイを異なるレプリカに分散することで、マルチ VM デプロイでの調整が防止されます。これにより、1 つのレプリカが過負荷になるリスクが軽減されます。
@@ -20,7 +20,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Compute/galleries
+  recommendationResourceType: Microsoft.Compute/galleries/images/versions
   recommendationMetadataState: Active
   longDescription: |
     Azure Compute Gallery でイメージ/VM バージョンを作成するときは、高可用性のために ZRS を使用し、可用性ゾーンの障害に対する回復性を提供します。ZRS アカウントは、可用性ゾーンのあるリージョンで推奨され、これらのリージョンでは Standard_LRS よりも推奨される Standard_ZRS を選択できます。
