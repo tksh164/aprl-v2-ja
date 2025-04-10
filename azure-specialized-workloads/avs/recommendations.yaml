@@ -18,7 +18,7 @@
 - description: LDAPS Identity をデュアル ソースと統合して NSX と vCenter のセキュリティを強化する
   aprlGuid: c2794660-ffd7-4da3-96ba-5d546b70b1c6
   recommendationTypeId: null
-  recommendationControl: Security
+  recommendationControl: BusinessContinuity
   recommendationImpact: High
   recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
