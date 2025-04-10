@@ -203,24 +203,6 @@
     - name: パブリック ネットワーク用 RDP Shortpath のトラブルシューティング
       url: "https://learn.microsoft.com/azure/virtual-desktop/troubleshoot-rdp-shortpath"
 
-- description: セカンダリ Entra ID 接続同期サーバーを確認する
-  aprlGuid: d984eaf9-0fa1-4f8d-a326-bda751993c6f
-  recommendationTypeId: null
-  recommendationControl: Security
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Subscription/subscriptions
-  recommendationMetadataState: Active
-  longDescription: |
-    ハイブリッド - Entra ID Connect は Azure で実行するのに最適ですが、オンプレミスでホストすることもできます。セカンダリ以上の VM は、フェールオーバーが発生した場合に備えてステージング モードでセットアップする必要があります。
-    プライマリ サーバーが停止した場合に備えて、Entra Connect 用のステージング モードのセカンダリ サーバーを設定します。
-  potentialBenefits: Improved failover reliability
-  pgVerified: true
-  automationAvailable: false
-  tags: [AVD]
-  learnMoreLink:
-    - name: Microsoft Entra ID とのフェデレーションに使用するマルチ ドメイン サポート
-      url: "https://learn.microsoft.com/entra/identity/hybrid/connect/how-to-connect-install-multiple-domains"
-
 - description: 仮想ネットワークに、すべてのリージョンに対して構成されたルート テーブル/ルート サーバーがあることを確認する
   aprlGuid: db1727d1-5c8e-4a01-a31e-f0d58cfd95b1
   recommendationTypeId: null
@@ -305,23 +287,6 @@
   learnMoreLink:
     - name: 構成設定のリファレンス
       url: "https://learn.microsoft.com/fslogix/reference-configuration-settings?tabs=profiles"
-
-- description: FSLogix SMB 共有でユーザーのアクセス許可が正しく設定されていることを確認する
-  aprlGuid: 7b170ddd-5770-4945-9bc3-cd1ccf5f8672
-  recommendationTypeId: null
-  recommendationControl: Security
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Subscription/subscriptions
-  recommendationMetadataState: Active
-  longDescription: |
-    SMB 共有にユーザー権限が正しく設定されていることを確認して、ユーザーが自分のプロファイルにのみ適切なアクセス権を持ち、他のユーザー プロファイルには適切なアクセス権を持たせ、管理者はルート ボリュームでフルアクセス権を持つようにします。また、DR イベントが発生した場合に備えて、セカンダリ ストレージ パスのアクセス許可が設定されていることを確認します。
-  potentialBenefits: Enhanced security & disaster recovery
-  pgVerified: true
-  automationAvailable: false
-  tags: [AVD]
-  learnMoreLink:
-    - name: SMB ストレージのアクセス許可の構成
-      url: "https://learn.microsoft.com/fslogix/how-to-configure-storage-permissions"
 
 - description: FSLogix ストレージの診断設定を構成し、セッション ホストの FSLogix イベントをキャプチャする
   aprlGuid: 483f5a00-84a0-49f7-903b-ef6f1fc0c389
