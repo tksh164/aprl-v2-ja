@@ -1,20 +1,3 @@
-- description: 配信元へのトラフィックを制限する
-  aprlGuid: 6c40b7ae-2bea-5748-be1a-9e9e3b834649
-  recommendationTypeId: null
-  recommendationControl: Security
-  recommendationImpact: High
-  recommendationResourceType: Microsoft.Cdn/profiles
-  recommendationMetadataState: Active
-  longDescription: |
-    Front Door の機能は、トラフィックが Front Door のみを通過する場合に最適に実行されます。Front Door をバイパスするトラフィックへのアクセスを拒否するように配信元を設定することをお勧めします。
-  potentialBenefits: Enhances security and performance
-  pgVerified: true
-  automationAvailable: false
-  tags: []
-  learnMoreLink:
-    - name: Azure Front Door の配信元へのトラフィックをセキュリティで保護する
-      url: "https://learn.microsoft.com/azure/frontdoor/origin-security?tabs=app-service-functions&pivots=front-door-standard-premium"
-
 - description: 最新の API バージョンと SDK バージョンを使用する
   aprlGuid: 52bc9a7b-23c8-bc4c-9d2a-7bc43b50104a
   recommendationTypeId: null
