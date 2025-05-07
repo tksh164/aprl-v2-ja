@@ -43,7 +43,7 @@
   recommendationMetadataState: Active
   longDescription: |
     データ保護のために、Azure で Autonomous Recovery Service への OCI 管理バックアップを有効にします。
-    ARS は自動化されたポリシーベースのバックアップを提供し、継続的な検証を行います。
+    Autonomous Recovery Service は自動化されたポリシーベースのバックアップを提供し、継続的な検証を行います。
   potentialBenefits: Provide workload data protection.
   pgVerified: false
   automationAvailable: no
@@ -114,7 +114,7 @@
   recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
-    OKV として使用される VM に冗長性を持たせます。これは、顧客が独自キーを使用し、OCI vault を使用しない場合にのみ関連することに注意します。BCDR アーキテクチャに合わせ、2 つの可用性ゾーンまたはリージョンに、最低 4 ノードの OKV クラスターをデプロイすることを推奨します。
+    Oracle Key Vault として使用される VM に冗長性を持たせます。これは、顧客が独自キーを使用し、OCI vault を使用しない場合にのみ関連することに注意します。BCDR アーキテクチャに合わせ、2 つの可用性ゾーンまたはリージョンに、最低 4 ノードの Oracle Key Vault クラスターをデプロイすることを推奨します。
   potentialBenefits: Protect access to keys in case of VM or AZ/region failure.
   pgVerified: false
   automationAvailable: no
