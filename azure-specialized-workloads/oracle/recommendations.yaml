@@ -114,7 +114,6 @@
   recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
-    Provide redundancy for VMs used as OKV, note that this is only relevant if customer is using own keys and only if OCI vault is not used. A minimum 4-node OKV cluster deployment is recommended across two AZs or regions, aligned with the BCDR architecture.
     OKV として使用される VM に冗長性を持たせます。これは、顧客が独自キーを使用し、OCI vault を使用しない場合にのみ関連することに注意します。BCDR アーキテクチャに合わせ、2 つの可用性ゾーンまたはリージョンに、最低 4 ノードの OKV クラスターをデプロイすることを推奨します。
   potentialBenefits: Protect access to keys in case of VM or AZ/region failure.
   pgVerified: false
