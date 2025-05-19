@@ -49,7 +49,7 @@
     - name: 接続の種類
       url: "https://learn.microsoft.com/azure/azure-sql/managed-instance/connection-types-overview?view=azuresql#connection-types"
 
-- description: Enable cross region disaster recovery for SQL Managed Instance
+- description: SQL Managed Instance のリージョン間ディザスタ リカバリーを有効化する
   aprlGuid: 257cd903-700f-4a79-bd37-7dce2b511df4
   recommendationTypeId: null
   recommendationControl: DisasterRecovery
@@ -57,13 +57,13 @@
   recommendationResourceType: Microsoft.Sql/managedInstances
   recommendationMetadataState: Active
   longDescription: |
-    Consider deploying a failover group for your SQL Managed Instance to enable business continuity in a different Azure region in case of regional outage.
+    SQL Managed Instance にフェールオーバー グループを導入して、リージョンで障害が発生した場合に別の Azure リージョンでビジネスを継続できるようにすることを検討します。
   potentialBenefits: Ensure business continuity through regional redundancy.
   pgVerified: false
   automationAvailable: false
   tags: []
   learnMoreLink:
-    - name: Learn more
+    - name: フェールオーバー グループの概要とベスト プラクティス (Azure SQL Managed Instance)
       url: "https://aka.ms/instanceFailoverGroups"
 
 - description: Azure SQL MI Managed Instance をほぼリアルタイムで監視し、信頼性インシデントを検出する
