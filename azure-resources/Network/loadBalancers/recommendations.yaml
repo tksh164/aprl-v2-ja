@@ -20,7 +20,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Microsoft.Network/loadBalancers
+  recommendationResourceType: Microsoft.Network/loadBalancers/backendAddressPools
   recommendationMetadataState: Active
   longDescription: |
     バックエンドに少なくとも 2 つのインスタンスを使用して Azure Load Balancer をデプロイすると、単一障害点が防止され、スケーラビリティがサポートされます。最適なスケール構築のために、仮想マシン スケール セットとペアリングすることをお勧めします。
@@ -66,19 +66,3 @@
     - name: Load Balancer and Availability Zones
       url: "https://learn.microsoft.com/azure/load-balancer/load-balancer-standard-availability-zones#zone-redundant"
 
-- description: 正常性プローブを使用してバックエンド インスタンスの可用性を検出する
-  aprlGuid: e5f5fcea-f925-4578-8599-9a391e888a60
-  recommendationTypeId: null
-  recommendationControl: MonitoringAndAlerting
-  recommendationImpact: High
-  recommendationResourceType: Microsoft.Network/loadBalancers
-  recommendationMetadataState: Active
-  longDescription: |
-    正常性プローブは、バックエンド エンドポイントの状態を判断するために Azure Load Balancer によって使用されます。ベンダーの推奨事項に沿ったカスタム正常性プローブを使用すると、バックエンドの可用性の理解が深まり、バックエンド サービスの影響の監視が容易になります。
-  potentialBenefits: Ensures backend uptime monitoring.
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: Load Balancer Health Probe Overview
-      url: "https://learn.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview"
