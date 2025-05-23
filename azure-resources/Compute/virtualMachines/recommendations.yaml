@@ -17,7 +17,7 @@
 
 - description: 可用性ゾーン間での VM のデプロイ
   aprlGuid: 2bd0be95-a825-6f47-a8c6-3db1fb5eb387
-  recommendationTypeId: null
+  recommendationTypeId: 066a047a-9ace-45f4-ac50-6325840a6b00
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Compute/virtualMachines
@@ -117,23 +117,6 @@
     - name: Azure Backup サービスとは
       url: "https://learn.microsoft.com/azure/backup/backup-overview"
 
-- description: 停止状態の VM を確認する
-  aprlGuid: 98b334c0-8578-6046-9e43-b6e8fce6318e
-  recommendationTypeId: null
-  recommendationControl: Governance
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    Azure Virtual Machines (VM) インスタンスには、プロビジョニングや電源の状態など、さまざまな状態があります。実行されていない VM は、問題または不要であることを示している可能性があり、削除がコスト削減に役立つ可能性があることを示唆しています。
-  potentialBenefits: Reduce costs by removing unused VMs
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: Azure 仮想マシンの電源の状態と課金
-      url: "https://learn.microsoft.com/azure/virtual-machines/states-billing?context=%2Ftroubleshoot%2Fazure%2Fvirtual-machines%2Fcontext%2Fcontext#power-states-and-billing"
-
 - description: 高速ネットワーク (AccelNet) を有効化する
   aprlGuid: dfedbeb1-1519-fc47-86a5-52f96cf07105
   recommendationTypeId: null
@@ -162,45 +145,11 @@
     高速ネットワークを有効にすると、ゲスト OS の既定の Azure VNet インターフェイスが Mellanox に交換され、そのドライバーはサード パーティから提供されます。Marketplace イメージには最新の Mellanox ドライバーが含まれていますが、デプロイ後のドライバーの更新はユーザーの責任です。
   potentialBenefits: Enhanced VM network efficiency
   pgVerified: true
-  automationAvailable: false
+  automationAvailable: true
   tags: []
   learnMoreLink:
     - name: 高速ネットワークの概要
       url: "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview"
-
-- description: VM にパブリック IP を直接関連付けるべきではない
-  aprlGuid: 1f629a30-c9d0-d241-82ee-6f2eb9d42cb4
-  recommendationTypeId: null
-  recommendationControl: Security
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    仮想マシンの送信インターネット接続には、より高い可用性と SNAT ポート数によって、セキュリティとサービスの回復力を強化するために、NAT Gateway や Azure Firewall を使用することを推奨します。
-  potentialBenefits: Enhanced security and service resiliency
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: 送信接続での送信元ネットワーク アドレス変換 (SNAT)を使用する
-      url: "https://learn.microsoft.com/azure/load-balancer/load-balancer-outbound-connections"
-
-- description: VM ネットワーク インターフェイスと関連するサブネットの両方に、ネットワーク セキュリティ グループが関連付けられている
-  aprlGuid: 82b3cf6b-9ae2-2e44-b193-10793213f676
-  recommendationTypeId: null
-  recommendationControl: Security
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    特別な理由がない限り、ネットワーク セキュリティ グループをサブネットまたはネットワーク インターフェイスに関連付けることをお勧めしますが、2 つの関連付けの間の潜在的なルール競合による予期しない通信の問題やトラブルシューティングを避けるために、両方に関連付けることはお勧めしません。
-  potentialBenefits: Reduces communication problems
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: ネットワーク セキュリティ グループによってネットワーク トラフィックをフィルター処理する方法
-      url: "https://learn.microsoft.com/azure/virtual-network/network-security-group-how-it-works#intra-subnet-traffic"
 
 - description: IP 転送は、ネットワーク仮想アプライアンスに対してのみ有効にする必要がある
   aprlGuid: 41a22a5e-5e08-9647-92d0-2ffe9ef1bdad
@@ -219,23 +168,6 @@
     - name: IP 転送の有効化と無効化
       url: "https://learn.microsoft.com/azure/virtual-network/virtual-network-network-interface?tabs=network-interface-portal#enable-or-disable-ip-forwarding"
 
-- description: 顧客 DNS サーバーは、仮想ネットワーク レベルで構成する必要がある
-  aprlGuid: 1cf8fe21-9593-1e4e-966b-779a294c0d30
-  recommendationTypeId: null
-  recommendationControl: OtherBestPractices
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    環境全体での不整合を防ぐために、仮想ネットワーク レベルで DNS サーバーを構成します。
-  potentialBenefits: Ensures DNS consistency
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: Azure 仮想ネットワーク内のリソースの名前解決
-      url: "https://learn.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances"
-
 - description: VM ディスクへのネットワーク アクセスは、「パブリック アクセスを無効にし、プライベート アクセスを有効にする」に設定する必要がある
   aprlGuid: 70b1d2be-e6c4-b54e-9959-b1b690f9e485
   recommendationTypeId: null
@@ -252,40 +184,6 @@
   learnMoreLink:
     - name: Azure Private Link を使用してマネージド ディスクに対するインポートおよびエクスポートのアクセスを制限する
       url: "https://learn.microsoft.com/azure/virtual-machines/disks-enable-private-links-for-import-export-portal"
-
-- description: VM が Azure ポリシーに準拠していることを確認する
-  aprlGuid: c42343ae-2712-2843-a285-3437eb0b28a1
-  recommendationTypeId: null
-  recommendationControl: Governance
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    仮想マシン (VM) をセキュリティで保護することは、実行するアプリケーションにとって非常に重要です。これには、さまざまな Azure サービスと機能を使用して、VM への安全なアクセスとデータの安全なストレージを確保し、VM とアプリケーションの全体的なセキュリティを確保することが含まれます。
-  potentialBenefits: Secure VMs and applications
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: ポリシー主導のガバナンス
-      url: "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-principles#policy-driven-governance"
-
-- description: Virtual Machines では Azure Disk Encryption や「ホストでの暗号化」が有効になっている必要がある
-  aprlGuid: f0a97179-133a-6e4f-8a49-8a44da73ffce
-  recommendationTypeId: a40cc620-e72c-fdf4-c554-c6ca2cd705c0
-  recommendationControl: Security
-  recommendationImpact: High
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    DM-Crypt (Linux) や BitLocker (Windows) を使用して Azure VM ディスクを暗号化するには、Azure Disk Encryption (ADE) を有効にすることを検討してください。さらに、データセキュリティを強化するために、ホストでの暗号化と機密ディスクの暗号化を検討してください。
-  potentialBenefits: Enhances data security and integrity
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: マネージド ディスク暗号化オプションの概要
-      url: "https://learn.microsoft.com/azure/virtual-machines/disk-encryption-overview"
 
 - description: VM Insights を有効にする
   aprlGuid: b72214bb-e879-5f4b-b9cd-642db84f36f4
@@ -304,28 +202,11 @@
     - name: VM insights の概要
       url: "https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-overview"
 
-- description: すべての Azure Virtual Machines の監視を構成する
-  aprlGuid: 4a9d8973-6dba-0042-b3aa-07924877ebd5
-  recommendationTypeId: null
-  recommendationControl: MonitoringAndAlerting
-  recommendationImpact: Low
-  recommendationResourceType: Microsoft.Compute/virtualMachines
-  recommendationMetadataState: Disabled
-  longDescription: |
-    Azure Monitor メトリックはプラットフォーム メトリックを自動的に受信しますが、リソースとその Azure プラットフォームの詳細な診断と監査を提供するプラットフォーム ログは、収集のために手動でルーティングする必要があります。
-  potentialBenefits: Enhanced diagnostics and auditing capability
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: Azure Monitor エージェントの概要
-      url: "https://learn.microsoft.com/azure/azure-monitor/agents/agents-overview"
-
 - description: VM のメンテナンス構成を使用する
   aprlGuid: 52ab9e5c-eec0-3148-8bd7-b6dd9e1be870
   recommendationTypeId: null
   recommendationControl: HighAvailability
-  recommendationImpact: High
+  recommendationImpact: Medium
   recommendationResourceType: Microsoft.Compute/virtualMachines
   recommendationMetadataState: Active
   longDescription: |
