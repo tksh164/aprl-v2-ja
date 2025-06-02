@@ -3,7 +3,7 @@
   recommendationTypeId: 9f3263db-b9c0-43bb-8523-6800f9f50793
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Microsoft.ContainerService/managedClusters/agentPools
+  recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
     可用性ゾーンは、アプリケーションとデータをデータセンター レベルの障害から確実に保護するために、独自の電源、冷却手段、ネットワークを備えたリージョン内の独立した場所を提供することで、高可用性を確保します。
@@ -202,23 +202,6 @@
     - name: AKS を監視する
       url: "https://learn.microsoft.com/azure/aks/monitor-aks"
 
-- description: AKS クラスターでエフェメラル OS ディスクを使用する
-  aprlGuid: a7bfcc18-b0d8-4d37-81f3-8131ed8bead5
-  recommendationTypeId: null
-  recommendationControl: Scalability
-  recommendationImpact: Medium
-  recommendationResourceType: Microsoft.ContainerService/managedClusters/agentPools
-  recommendationMetadataState: Active
-  longDescription: |
-    AKS 上のエフェメラル OS ディスクでは、ローカル接続による読み取り/書き込みの待機時間が短くなり、マネージド ディスクで見られるレプリケーションが不要になります。これにより、パフォーマンスが向上し、再イメージ化と起動時間が短縮されるため、スケーリングやアップグレードなどのクラスター操作が高速化されます。
-  potentialBenefits: Lower latency, faster re-imaging and booting
-  pgVerified: true
-  automationAvailable: true
-  tags: []
-  learnMoreLink:
-    - name: エフェメラル OS ディスク
-      url: "https://learn.microsoft.com/azure/aks/concepts-storage#ephemeral-os-disk"
-
 - description: AKS 用に構成された Azure ポリシーを有効にして修復する
   aprlGuid: 26ebaf1f-c70d-4ebd-8641-4b60a0ce0094
   recommendationTypeId: null
@@ -326,7 +309,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Microsoft.ContainerService/managedClusters/agentPools
+  recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
     少なくとも 2 つのノードでユーザー ノード プールを構成することは、高可用性を必要とするアプリケーションにとって不可欠であり、中断することなく運用とアクセスを維持できます。
@@ -394,7 +377,7 @@
   recommendationTypeId: null
   recommendationControl: HighAvailability
   recommendationImpact: High
-  recommendationResourceType: Microsoft.ContainerService/managedClusters/agentPools
+  recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Disabled
   longDescription: |
     Azure Linux on AKS では、検証済みのソース ビルド コンポーネントを使用して、ネイティブ イメージで回復性が向上します。軽量で、攻撃対象領域とメンテナンスを削減します。Azure 用に最適化された Microsoft で強化されたカーネルにより、コンテナー ワークロードの安定性とセキュリティが強化されます。
