@@ -72,7 +72,7 @@
   recommendationControl: MonitoringAndAlerting
   recommendationImpact: High
   recommendationResourceType: Microsoft.Sql/servers/databases
-  recommendationMetadataState: Active
+  recommendationMetadataState: Disabled
   longDescription: |
     監視とアラートは、データベース操作の重要な部分です。Azure SQL Database を使用する場合は、Azure Monitor と SQL Insights を使用して、関連するデータベース メトリックを確実にキャプチャします。
   potentialBenefits: Quick incident detection and response
