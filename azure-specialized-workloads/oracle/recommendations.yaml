@@ -11,7 +11,7 @@
     データ損失ゼロには SYNC を使用し、パフォーマンスが制約される場合は ASYNC を使用します。
   potentialBenefits: Ensure business continuity in case of zonal failure.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
@@ -28,7 +28,7 @@
     Oracle Database@Azure では Gold-level リファレンス アーキテクチャを推奨します。つまり、データベースの変更は、Data Guard (ASYNC レプリケーション) を介して、別のリージョンにあるセカンダリの Oracle Database@Azure インスタンスにレプリケートされます。
   potentialBenefits: The cloud MAA architecture achieves data protection and DR.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
@@ -46,7 +46,7 @@
     Autonomous Recovery Service は自動化されたポリシーベースのバックアップを提供し、継続的な検証を行います。
   potentialBenefits: Provide workload data protection.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
@@ -65,7 +65,7 @@
     必要に応じて、Exa インフラストラクチャの容量が許すなら、VM クラスター上の OCPU をスケーリングします。
   potentialBenefits: Meet workload scalability requirements.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Learn about Manage and monitor Oracle Database@Azure
@@ -83,7 +83,7 @@
     プライマリ、スタンバイ、クライアント、およびバックアップの各サブネットは、信頼性の高い接続のために重複しない CIDR 範囲を持つ必要があります。
   potentialBenefits: Avoid conflicts in IP addressing.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Capacity planning for Oracle Database@Azure
@@ -100,7 +100,7 @@
     異なる可用性ゾーンに Data Guard オブザーバー ノードを配置し、本番環境に何かあった場合でもオブザーバー ノードが利用可能であることを確認します。
   potentialBenefits: Data Guard observer automates database failover.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
@@ -117,7 +117,7 @@
     Oracle Key Vault として使用される VM に冗長性を持たせます。これは、顧客が独自キーを使用し、OCI vault を使用しない場合にのみ関連することに注意します。BCDR アーキテクチャに合わせ、2 つの可用性ゾーンまたはリージョンに、最低 4 ノードの Oracle Key Vault クラスターをデプロイすることを推奨します。
   potentialBenefits: Protect access to keys in case of VM or AZ/region failure.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Security guidelines for Oracle Database@Azure
@@ -135,7 +135,7 @@
     インフラストラクチャの自動メンテナンスは四半期ごとに行われ、Oracle はその日時を数週間前に通知します。メンテナンスが開始される前に、スケジュールされた日時を変更することができます。
   potentialBenefits: Keep Oracle workloads up-to-date.
   pgVerified: false
-  automationAvailable: no
+  automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
     - name: Oracle 管理インフラストラクチャ メンテナンスの構成
