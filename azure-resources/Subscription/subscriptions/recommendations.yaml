@@ -1,4 +1,4 @@
-- description: サブスクリプションごとに 2,000 を超える Citrix VDA サーバーを作成しない
+- description: サブスクリプションごとに 4,000 を超える Citrix VDA サーバーを作成しない
   aprlGuid: c041d596-6c97-4c5f-b4b3-9cd37628f2e2
   recommendationTypeId: null
   recommendationControl: OtherBestPractices

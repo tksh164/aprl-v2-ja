@@ -128,7 +128,7 @@
     Kubernetes 1.26 以降、Azure Disk と Azure File のツリー内ドライバーは非推奨となり、CSI ドライバーが優先されます。既存の展開は引き続き運用可能ですが、テストは行われていません。ユーザーは、新機能と SKU のために CSI ドライバーに切り替える必要があります。
   potentialBenefits: Ensures future compatibility
   pgVerified: true
-  automationAvailable: false
+  automationAvailable: true
   tags: []
   learnMoreLink:
     - name: CSI ストレージ ドライバー
@@ -295,7 +295,7 @@
   recommendationResourceType: Microsoft.ContainerService/managedClusters
   recommendationMetadataState: Active
   longDescription: |
-    システム ノード プールは、重要なシステム ポッドがノードの停止に対して回復力を持つように、最小ノード数を 2 に設定する必要があります。
+    システム ノード プールは、重要なシステム ポッドがノードの停止に対して回復力を持つように、最小ノード数を 3 に設定する必要があります。
   potentialBenefits: Ensures pod resilience
   pgVerified: true
   automationAvailable: true

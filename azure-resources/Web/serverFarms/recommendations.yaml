@@ -17,7 +17,7 @@
 
 - description: Standard または Premium レベルを使用する
   aprlGuid: b2113023-a553-2e41-9789-597e2fb54c31
-  recommendationTypeId: null
+  recommendationTypeId: dc298556-8232-4aa8-bfe0-5204c5017be0
   recommendationControl: HighAvailability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Web/serverFarms
@@ -85,7 +85,7 @@
 
 - description: App Service の最小インスタンス数を 2 に設定する
   aprlGuid: 855ca19a-6518-4f2e-9e5a-01796fbca9f8
-  recommendationTypeId: null
+  recommendationTypeId: e987dcce-fd2c-4683-8abf-f1a34bbad737
   recommendationControl: Scalability
   recommendationImpact: High
   recommendationResourceType: Microsoft.Web/serverFarms

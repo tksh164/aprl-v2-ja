@@ -134,15 +134,15 @@
     - name: Application Gateway Connection Draining
       url: "https://learn.microsoft.com/azure/application-gateway/features#connection-draining"
 
-- description: Application Gateway サブネットが /24 サブネット マスクを使用していることを確認する
+- description: Application Gateway v2 のサブネットに /24 のサブネット マスクを使用していることを確認する
   aprlGuid: 8364fd0a-7c0e-e240-9d95-4bf965aec243
-  recommendationTypeId: null
+  recommendationTypeId: ef4da732-f541-4109-bc0e-465c68b6c7eb
   recommendationControl: OtherBestPractices
   recommendationImpact: High
   recommendationResourceType: Microsoft.Network/applicationGateways
   recommendationMetadataState: Active
   longDescription: |
-    Application Gateway v2 (Standard_v2 または WAF_v2 SKU) では、最大 125 個のインスタンスをサポートできます。/24 サブネットはデプロイに必須ではありませんが、自動スケーリングとメンテナンスのアップグレードに十分な領域を提供することをお勧めします。
+    Application Gateway v2 (Standard_v2 または WAF_v2 SKU) では、最大 125 個のインスタンスをサポートできます (125 インスタンス IP アドレス + 1 プライベート フロントエンド IP 構成 + 5 Azure 予約)。/24 サブネットはデプロイに必須ではありませんが、自動スケーリングとメンテナンスのアップグレードに十分な領域を提供することをお勧めします。
   potentialBenefits: Allows autoscaling and maintenance
   pgVerified: true
   automationAvailable: true
