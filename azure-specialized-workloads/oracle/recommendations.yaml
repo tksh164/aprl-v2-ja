@@ -106,22 +106,22 @@
     - name: Business continuity and disaster recovery considerations for Oracle Database@Azure
       url: "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-database-azure"
 
-- description: 顧客管理暗号キー用に可用性の高いクラスターに Oracle Key Vault をセットアップする
+- description: Exadata ワークロード用暗号化キーを Azure Key Vault に保存する
   aprlGuid: bbe4014f-c49d-475d-9c48-76cb3c190483
   recommendationTypeId: null
-  recommendationControl: HighAvailability
+  recommendationControl: Security
   recommendationImpact: High
   recommendationResourceType: Microsoft.Subscription/subscriptions
   recommendationMetadataState: Active
   longDescription: |
-    Oracle Key Vault として使用される VM に冗長性を持たせます。これは、顧客が独自キーを使用し、OCI vault を使用しない場合にのみ関連することに注意します。BCDR アーキテクチャに合わせ、2 つの可用性ゾーンまたはリージョンに、最低 4 ノードの Oracle Key Vault クラスターをデプロイすることを推奨します。
-  potentialBenefits: Protect access to keys in case of VM or AZ/region failure.
+    Exadata ワークロード用の Oracle TDE マスター暗号化キーを Azure Key Vault に保存し、キー管理を一元化、セキュリティを強化、エンタープライズグレードの制御によるコンプライアンス対応を実現します。
+  potentialBenefits: Storing keys in AKV improves security and reliability.
   pgVerified: false
   automationAvailable: false
   tags: [ORACLE]
   learnMoreLink:
-    - name: Security guidelines for Oracle Database@Azure
-      url: "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-security-overview-odaa"
+    - name: Integrate Oracle Exadata Database@Azure with Azure Key Vault
+      url: "https://learn.microsoft.com/azure/oracle/oracle-db/manage-oracle-transparent-data-encryption-azure-key-vault"
 
 - description: Oracle Database@Azure インフラストラクチャがローリング方式で更新されるようにする
   aprlGuid: 02bfe908-d958-451a-a603-bef8277ae56a
